@@ -1,0 +1,9 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1pre1.SVN5310:5321M]SZ[9]
+KM[7.5]DT[2008-03-26]
+AB[ah][bg][di]AW[ai][ag][bi][ci]PL[B];B[ch]
+C[Should generate D2 (patterns move).
+
+Atari heuristic should not generate B2, because it does not escape the atari.
+
+Capture heuristic has lower priority than pattern heuristic.]
+)

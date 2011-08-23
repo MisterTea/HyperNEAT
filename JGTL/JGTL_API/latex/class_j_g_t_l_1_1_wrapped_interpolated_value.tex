@@ -1,0 +1,147 @@
+\hypertarget{class_j_g_t_l_1_1_wrapped_interpolated_value}{
+\section{JGTL::Wrapped\-Interpolated\-Value$<$ T $>$ Class Template Reference}
+\label{class_j_g_t_l_1_1_wrapped_interpolated_value}\index{JGTL::WrappedInterpolatedValue@{JGTL::WrappedInterpolatedValue}}
+}
+The \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{Wrapped\-Interpolated\-Value} Class handles values which approach a limit using the formula New\-Value = actual\-Value + (potential\-Value-actual\-Value)$\ast$interpolation\-Coeff; This special instance of an \hyperlink{class_j_g_t_l_1_1_interpolated_value}{Interpolated\-Value} is for values which wrap (angles, for example, which wrap around 2$\ast$PI).  
+
+
+{\tt \#include $<$JGTL\_\-Wrapped\-Interpolated\-Value.h$>$}
+
+Inheritance diagram for JGTL::Wrapped\-Interpolated\-Value$<$ T $>$::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{class_j_g_t_l_1_1_wrapped_interpolated_value}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_ee757c96b36d3c8f65accff6005e5c11}{Wrapped\-Interpolated\-Value} (const T \&\_\-min\-Value, const T \&\_\-max\-Value)
+\item 
+\hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_689683a55642976810f0f244f644f814}{Wrapped\-Interpolated\-Value} (float \_\-interpolation\-Coeff, const T \&\_\-min\-Value, const T \&\_\-max\-Value)
+\item 
+\hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_a5c969b821b5c9b1bd4342688264c82c}{Wrapped\-Interpolated\-Value} (const T \&\_\-value, float \_\-interpolation\-Coeff, const T \&\_\-min\-Value, const T \&\_\-max\-Value)
+\item 
+const \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{Wrapped\-Interpolated\-Value}$<$ T $>$ \& \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_0608de450007ab26e20cd9a680da7e84}{operator=} (T \_\-potential\-Value)
+\item 
+virtual void \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_1cc76107e67afe602b384a1ecc9e2840}{set\-Value} (const T \&\_\-value)
+\item 
+virtual void \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_2bdc736eda165b27af022bae1f352aae}{update} (int times=1)
+\end{CompactItemize}
+\subsection*{Protected Member Functions}
+\begin{CompactItemize}
+\item 
+void \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_eb23a3589cb6fb75cdcea67e12286ea4}{clamp\-Values} ()
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+T \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_7d460dd7979c409f93fc0c2d65c58a93}{min\-Value}
+\item 
+T \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_9781648d382fb2c4cbb90a6385189992}{max\-Value}
+\item 
+T \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_6b4723237650b21c40b191477207c953}{spread}
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$ class JGTL::Wrapped\-Interpolated\-Value$<$ T $>$}
+
+The \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{Wrapped\-Interpolated\-Value} Class handles values which approach a limit using the formula New\-Value = actual\-Value + (potential\-Value-actual\-Value)$\ast$interpolation\-Coeff; This special instance of an \hyperlink{class_j_g_t_l_1_1_interpolated_value}{Interpolated\-Value} is for values which wrap (angles, for example, which wrap around 2$\ast$PI). 
+
+\begin{Desc}
+\item[Author:]Jason Gauci \end{Desc}
+\begin{Desc}
+\item[Date:]2008 \end{Desc}
+
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_wrapped_interpolated_value_ee757c96b36d3c8f65accff6005e5c11}{
+\index{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}!WrappedInterpolatedValue@{WrappedInterpolatedValue}}
+\index{WrappedInterpolatedValue@{WrappedInterpolatedValue}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}}
+\subsubsection[WrappedInterpolatedValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{JGTL::Wrapped\-Interpolated\-Value}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{Wrapped\-Interpolated\-Value} (const T \& {\em \_\-min\-Value}, const T \& {\em \_\-max\-Value})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_wrapped_interpolated_value_ee757c96b36d3c8f65accff6005e5c11}
+
+
+\hypertarget{class_j_g_t_l_1_1_wrapped_interpolated_value_689683a55642976810f0f244f644f814}{
+\index{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}!WrappedInterpolatedValue@{WrappedInterpolatedValue}}
+\index{WrappedInterpolatedValue@{WrappedInterpolatedValue}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}}
+\subsubsection[WrappedInterpolatedValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{JGTL::Wrapped\-Interpolated\-Value}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{Wrapped\-Interpolated\-Value} (float {\em \_\-interpolation\-Coeff}, const T \& {\em \_\-min\-Value}, const T \& {\em \_\-max\-Value})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_wrapped_interpolated_value_689683a55642976810f0f244f644f814}
+
+
+\hypertarget{class_j_g_t_l_1_1_wrapped_interpolated_value_a5c969b821b5c9b1bd4342688264c82c}{
+\index{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}!WrappedInterpolatedValue@{WrappedInterpolatedValue}}
+\index{WrappedInterpolatedValue@{WrappedInterpolatedValue}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}}
+\subsubsection[WrappedInterpolatedValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{JGTL::Wrapped\-Interpolated\-Value}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{Wrapped\-Interpolated\-Value} (const T \& {\em \_\-value}, float {\em \_\-interpolation\-Coeff}, const T \& {\em \_\-min\-Value}, const T \& {\em \_\-max\-Value})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_wrapped_interpolated_value_a5c969b821b5c9b1bd4342688264c82c}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_wrapped_interpolated_value_0608de450007ab26e20cd9a680da7e84}{
+\index{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}!operator=@{operator=}}
+\index{operator=@{operator=}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}}
+\subsubsection[operator=]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ const \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{Wrapped\-Interpolated\-Value}$<$T$>$\& \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{JGTL::Wrapped\-Interpolated\-Value}$<$ T $>$::operator= (T {\em \_\-potential\-Value})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_wrapped_interpolated_value_0608de450007ab26e20cd9a680da7e84}
+
+
+
+
+Reimplemented from \hyperlink{class_j_g_t_l_1_1_interpolated_value_30b679bad94ef7adf003bf99e5756a53}{JGTL::Interpolated\-Value$<$ T $>$}.\hypertarget{class_j_g_t_l_1_1_wrapped_interpolated_value_1cc76107e67afe602b384a1ecc9e2840}{
+\index{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}!setValue@{setValue}}
+\index{setValue@{setValue}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}}
+\subsubsection[setValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ virtual void \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{JGTL::Wrapped\-Interpolated\-Value}$<$ T $>$::set\-Value (const T \& {\em \_\-value})\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_wrapped_interpolated_value_1cc76107e67afe602b384a1ecc9e2840}
+
+
+
+
+Reimplemented from \hyperlink{class_j_g_t_l_1_1_interpolated_value_eaeff236b97efbf0c616333e1b94b210}{JGTL::Interpolated\-Value$<$ T $>$}.\hypertarget{class_j_g_t_l_1_1_wrapped_interpolated_value_2bdc736eda165b27af022bae1f352aae}{
+\index{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}!update@{update}}
+\index{update@{update}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}}
+\subsubsection[update]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ virtual void \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{JGTL::Wrapped\-Interpolated\-Value}$<$ T $>$::update (int {\em times} = {\tt 1})\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_wrapped_interpolated_value_2bdc736eda165b27af022bae1f352aae}
+
+
+
+
+Reimplemented from \hyperlink{class_j_g_t_l_1_1_interpolated_value_bc1a6a8d484921bc309289c400bf0fbe}{JGTL::Interpolated\-Value$<$ T $>$}.\hypertarget{class_j_g_t_l_1_1_wrapped_interpolated_value_eb23a3589cb6fb75cdcea67e12286ea4}{
+\index{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}!clampValues@{clampValues}}
+\index{clampValues@{clampValues}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}}
+\subsubsection[clampValues]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{JGTL::Wrapped\-Interpolated\-Value}$<$ T $>$::clamp\-Values ()\hspace{0.3cm}{\tt  \mbox{[}inline, protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_wrapped_interpolated_value_eb23a3589cb6fb75cdcea67e12286ea4}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_wrapped_interpolated_value_7d460dd7979c409f93fc0c2d65c58a93}{
+\index{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}!minValue@{minValue}}
+\index{minValue@{minValue}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}}
+\subsubsection[minValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{JGTL::Wrapped\-Interpolated\-Value}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_7d460dd7979c409f93fc0c2d65c58a93}{min\-Value}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_wrapped_interpolated_value_7d460dd7979c409f93fc0c2d65c58a93}
+
+
+\hypertarget{class_j_g_t_l_1_1_wrapped_interpolated_value_9781648d382fb2c4cbb90a6385189992}{
+\index{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}!maxValue@{maxValue}}
+\index{maxValue@{maxValue}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}}
+\subsubsection[maxValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{JGTL::Wrapped\-Interpolated\-Value}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_9781648d382fb2c4cbb90a6385189992}{max\-Value}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_wrapped_interpolated_value_9781648d382fb2c4cbb90a6385189992}
+
+
+\hypertarget{class_j_g_t_l_1_1_wrapped_interpolated_value_6b4723237650b21c40b191477207c953}{
+\index{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}!spread@{spread}}
+\index{spread@{spread}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\-Interpolated\-Value}}
+\subsubsection[spread]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{JGTL::Wrapped\-Interpolated\-Value}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_6b4723237650b21c40b191477207c953}{spread}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_wrapped_interpolated_value_6b4723237650b21c40b191477207c953}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___wrapped_interpolated_value_8h}{JGTL\_\-Wrapped\-Interpolated\-Value.h}\end{CompactItemize}

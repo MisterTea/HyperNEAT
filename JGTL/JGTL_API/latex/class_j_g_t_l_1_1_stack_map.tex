@@ -1,0 +1,116 @@
+\hypertarget{class_j_g_t_l_1_1_stack_map}{
+\section{JGTL::Stack\-Map$<$ Key, Data, MAX\_\-ELEMENTS $>$ Class Template Reference}
+\label{class_j_g_t_l_1_1_stack_map}\index{JGTL::StackMap@{JGTL::StackMap}}
+}
+The \hyperlink{class_j_g_t_l_1_1_stack_map}{Stack\-Map} Class is a fixed, array-based, sorted key structure.  
+
+
+{\tt \#include $<$JGTL\_\-Stack\-Map.h$>$}
+
+Inheritance diagram for JGTL::Stack\-Map$<$ Key, Data, MAX\_\-ELEMENTS $>$::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{class_j_g_t_l_1_1_stack_map}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_stack_map_e6cb52e89d332a1438fa0b807081c46a}{Stack\-Map} ()
+\item 
+\hyperlink{class_j_g_t_l_1_1_stack_map_a51a9f733e87c5da70660b73e8cf9651}{Stack\-Map} (const \hyperlink{class_j_g_t_l_1_1_stack_map}{Stack\-Map} \&other)
+\item 
+const \hyperlink{class_j_g_t_l_1_1_stack_map}{Stack\-Map} \& \hyperlink{class_j_g_t_l_1_1_stack_map_5e2b185fcda84ac8a692bd57159d97e9}{operator=} (const \hyperlink{class_j_g_t_l_1_1_stack_map}{Stack\-Map} \&other)
+\item 
+virtual \hyperlink{class_j_g_t_l_1_1_stack_map_e1648b2a04c3b9d57cb2377bcc8f94a8}{$\sim$Stack\-Map} ()
+\item 
+virtual bool \hyperlink{class_j_g_t_l_1_1_stack_map_cd9363efffeb00f6b48b21ed2685ac7c}{resize} (int new\-Size)
+\end{CompactItemize}
+\subsection*{Protected Member Functions}
+\begin{CompactItemize}
+\item 
+virtual void \hyperlink{class_j_g_t_l_1_1_stack_map_3475bde07f081d0c7bbf821703c6f099}{copy\-From} (const \hyperlink{class_j_g_t_l_1_1_stack_map}{Stack\-Map} \&other)
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+unsigned char \hyperlink{class_j_g_t_l_1_1_stack_map_9a3cc307f2892b669714253d75792e2e}{data} \mbox{[}MAX\_\-ELEMENTS $\ast$sizeof(std::pair$<$ Key, Data $>$)\mbox{]}
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class Key, class Data, int MAX\_\-ELEMENTS = 8$>$ class JGTL::Stack\-Map$<$ Key, Data, MAX\_\-ELEMENTS $>$}
+
+The \hyperlink{class_j_g_t_l_1_1_stack_map}{Stack\-Map} Class is a fixed, array-based, sorted key structure. 
+
+\begin{Desc}
+\item[Author:]Jason Gauci \end{Desc}
+\begin{Desc}
+\item[Date:]2008 \end{Desc}
+
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_stack_map_e6cb52e89d332a1438fa0b807081c46a}{
+\index{JGTL::StackMap@{JGTL::Stack\-Map}!StackMap@{StackMap}}
+\index{StackMap@{StackMap}!JGTL::StackMap@{JGTL::Stack\-Map}}
+\subsubsection[StackMap]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data, int MAX\_\-ELEMENTS = 8$>$ \hyperlink{class_j_g_t_l_1_1_stack_map}{JGTL::Stack\-Map}$<$ Key, Data, MAX\_\-ELEMENTS $>$::\hyperlink{class_j_g_t_l_1_1_stack_map}{Stack\-Map} ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_stack_map_e6cb52e89d332a1438fa0b807081c46a}
+
+
+\hypertarget{class_j_g_t_l_1_1_stack_map_a51a9f733e87c5da70660b73e8cf9651}{
+\index{JGTL::StackMap@{JGTL::Stack\-Map}!StackMap@{StackMap}}
+\index{StackMap@{StackMap}!JGTL::StackMap@{JGTL::Stack\-Map}}
+\subsubsection[StackMap]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data, int MAX\_\-ELEMENTS = 8$>$ \hyperlink{class_j_g_t_l_1_1_stack_map}{JGTL::Stack\-Map}$<$ Key, Data, MAX\_\-ELEMENTS $>$::\hyperlink{class_j_g_t_l_1_1_stack_map}{Stack\-Map} (const \hyperlink{class_j_g_t_l_1_1_stack_map}{Stack\-Map}$<$ Key, Data, MAX\_\-ELEMENTS $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_stack_map_a51a9f733e87c5da70660b73e8cf9651}
+
+
+\hypertarget{class_j_g_t_l_1_1_stack_map_e1648b2a04c3b9d57cb2377bcc8f94a8}{
+\index{JGTL::StackMap@{JGTL::Stack\-Map}!~StackMap@{$\sim$StackMap}}
+\index{~StackMap@{$\sim$StackMap}!JGTL::StackMap@{JGTL::Stack\-Map}}
+\subsubsection[$\sim$StackMap]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data, int MAX\_\-ELEMENTS = 8$>$ virtual \hyperlink{class_j_g_t_l_1_1_stack_map}{JGTL::Stack\-Map}$<$ Key, Data, MAX\_\-ELEMENTS $>$::$\sim$\hyperlink{class_j_g_t_l_1_1_stack_map}{Stack\-Map} ()\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_stack_map_e1648b2a04c3b9d57cb2377bcc8f94a8}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_stack_map_5e2b185fcda84ac8a692bd57159d97e9}{
+\index{JGTL::StackMap@{JGTL::Stack\-Map}!operator=@{operator=}}
+\index{operator=@{operator=}!JGTL::StackMap@{JGTL::Stack\-Map}}
+\subsubsection[operator=]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data, int MAX\_\-ELEMENTS = 8$>$ const \hyperlink{class_j_g_t_l_1_1_stack_map}{Stack\-Map}\& \hyperlink{class_j_g_t_l_1_1_stack_map}{JGTL::Stack\-Map}$<$ Key, Data, MAX\_\-ELEMENTS $>$::operator= (const \hyperlink{class_j_g_t_l_1_1_stack_map}{Stack\-Map}$<$ Key, Data, MAX\_\-ELEMENTS $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_stack_map_5e2b185fcda84ac8a692bd57159d97e9}
+
+
+\hypertarget{class_j_g_t_l_1_1_stack_map_cd9363efffeb00f6b48b21ed2685ac7c}{
+\index{JGTL::StackMap@{JGTL::Stack\-Map}!resize@{resize}}
+\index{resize@{resize}!JGTL::StackMap@{JGTL::Stack\-Map}}
+\subsubsection[resize]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data, int MAX\_\-ELEMENTS = 8$>$ virtual bool \hyperlink{class_j_g_t_l_1_1_stack_map}{JGTL::Stack\-Map}$<$ Key, Data, MAX\_\-ELEMENTS $>$::resize (int {\em new\-Size})\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_stack_map_cd9363efffeb00f6b48b21ed2685ac7c}
+
+
+
+
+Implements \hyperlink{class_j_g_t_l_1_1_map_interface_177b75de36104c54e53080db65b777a2}{JGTL::Map\-Interface$<$ Key, Data $>$}.\hypertarget{class_j_g_t_l_1_1_stack_map_3475bde07f081d0c7bbf821703c6f099}{
+\index{JGTL::StackMap@{JGTL::Stack\-Map}!copyFrom@{copyFrom}}
+\index{copyFrom@{copyFrom}!JGTL::StackMap@{JGTL::Stack\-Map}}
+\subsubsection[copyFrom]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data, int MAX\_\-ELEMENTS = 8$>$ virtual void \hyperlink{class_j_g_t_l_1_1_stack_map}{JGTL::Stack\-Map}$<$ Key, Data, MAX\_\-ELEMENTS $>$::copy\-From (const \hyperlink{class_j_g_t_l_1_1_stack_map}{Stack\-Map}$<$ Key, Data, MAX\_\-ELEMENTS $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline, protected, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_stack_map_3475bde07f081d0c7bbf821703c6f099}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_stack_map_9a3cc307f2892b669714253d75792e2e}{
+\index{JGTL::StackMap@{JGTL::Stack\-Map}!data@{data}}
+\index{data@{data}!JGTL::StackMap@{JGTL::Stack\-Map}}
+\subsubsection[data]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data, int MAX\_\-ELEMENTS = 8$>$ unsigned char \hyperlink{class_j_g_t_l_1_1_stack_map}{JGTL::Stack\-Map}$<$ Key, Data, MAX\_\-ELEMENTS $>$::\hyperlink{class_j_g_t_l_1_1_stack_map_9a3cc307f2892b669714253d75792e2e}{data}\mbox{[}MAX\_\-ELEMENTS $\ast$sizeof(std::pair$<$ Key, Data $>$)\mbox{]}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_stack_map_9a3cc307f2892b669714253d75792e2e}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___stack_map_8h}{JGTL\_\-Stack\-Map.h}\end{CompactItemize}

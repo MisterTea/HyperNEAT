@@ -1,0 +1,18 @@
+Fuego authors
+=============
+
+Martin Mueller
+Markus Enzenberger
+
+Previous authors
+================
+
+Anders Kierulf (original Smart Game Board code)
+
+Contributors
+============
+
+David Silver (SpDumbTactic player, improvements to SgHash)
+Xiaozhen Niu (parts of GoRegionUtil, GoSafetyUtil)
+Broderick Arneson
+

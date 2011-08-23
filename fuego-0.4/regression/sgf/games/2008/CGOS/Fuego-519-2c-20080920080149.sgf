@@ -1,0 +1,510 @@
+(;GM[1]FF[4]SZ[9]
+PW[Fuego-519-2c(2396)]
+PB[MonteGNU(2064)]
+RE[B+Resign]
+DT[2008-09-20]BL[300.0]WL[300.0]TM[300.0]OM[0]OP[0.0]
+;B[ee]BL[272.6];W[dg]WL[299.9]
+C[GoGtpEngine: Using move from opening book
+];B[fg]BL[271.8];W[ce]WL[299.9]
+C[GoGtpEngine: Using move from opening book
+];B[cd]BL[271.3];W[dd]WL[291.4]
+C[SgDefaultTimeControl: timeLeft=300 remainingMoves=20 timeForMove=15
+GoUctPlayer: Reusing 828 nodes (0%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          126364
+Nodes          7683979
+Time           8.5
+GameLen        92.4 dev=9.4 min=52.0 max=142.0
+InTree         11.0 dev=3.5 min=2.0 max=26.0
+Aborted        0%
+Games/s        14891.5
+Value          0.52
+Sequence       D6 D5 C7 B6 C4 B7 D7 B8 F7 C8 D8 B5 B4 A5 B2 A4 A3 D9 E9 C9 E8 
+E6 A6 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[de]BL[269.7];W[cc]WL[289.5]
+C[SgDefaultTimeControl: timeLeft=292 remainingMoves=20 timeForMove=14.6
+GoUctPlayer: Reusing 6384543 nodes (89%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          128589
+Nodes          7676850
+Time           2.1
+GameLen        89.4 dev=9.4 min=52.0 max=140.0
+InTree         13.0 dev=3.3 min=3.0 max=27.0
+Aborted        0%
+Games/s        9532.3
+Value          0.51
+Sequence       C7 B6 C4 D7 E6 C8 F5 E4 F6 G3 B7 B8 B5 A7 A5 E7 F7 F8 E8 E9 D9 
+D8 B7 
+TimeInitTree   0.33
+TimeRootFilter 0.00
+];B[bd]BL[268.1];W[cf]WL[284.4]
+C[SgDefaultTimeControl: timeLeft=290 remainingMoves=20 timeForMove=14.5
+GoUctPlayer: Reusing 4803833 nodes (60%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          158613
+Nodes          9084344
+Time           5.3
+GameLen        87.4 dev=9.6 min=46.0 max=144.0
+InTree         13.6 dev=3.6 min=2.0 max=30.0
+Aborted        0%
+Games/s        14598.5
+Value          0.51
+Sequence       C4 D7 E6 C8 F5 E4 F6 G3 E3 F4 H6 C2 B7 B8 A6 A7 A5 A4 B5 C7 B4 
+A3 B3 A2 B2 C1 B1 PASS 
+TimeInitTree   0.25
+TimeRootFilter 0.00
+];B[dc]BL[266.5];W[ed]WL[283.7]
+C[SgDefaultTimeControl: timeLeft=285 remainingMoves=20 timeForMove=14.25
+GoUctPlayer: Reusing 6994808 nodes (80%)
+[1\] SgUctSearch: best move cannot change anymore
+[0\] SgUctSearch: best move cannot change anymore
+Count          134820
+Nodes          7517011
+Time           0.9
+GameLen        85.4 dev=9.5 min=50.0 max=126.0
+InTree         13.0 dev=3.2 min=3.0 max=24.0
+Aborted        0%
+Games/s        9728.0
+Value          0.51
+Sequence       E6 C8 E7 B7 F5 E4 G5 G3 E3 F4 E2 G7 F6 E8 F8 E9 F9 D8 D9 
+TimeInitTree   0.37
+TimeRootFilter 0.00
+];B[cb]BL[263.4];W[ec]WL[277.4]
+C[SgDefaultTimeControl: timeLeft=284 remainingMoves=20 timeForMove=14.2
+GoUctPlayer: Reusing 8449115 nodes (92%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          259266
+Nodes          13909249
+Time           6.1
+GameLen        83.2 dev=9.5 min=44.0 max=135.0
+InTree         12.1 dev=3.3 min=2.0 max=27.0
+Aborted        0%
+Games/s        17128.4
+Value          0.51
+Sequence       E7 B7 F5 E4 G5 G3 E3 F4 H2 H5 H4 H3 G4 F6 G6 F7 E8 G7 H6 J5 J6 
+H7 J7 J8 J4 J3 
+TimeInitTree   0.44
+TimeRootFilter 0.00
+];B[bc]BL[261.2];W[fe]WL[277.4]
+C[SgDefaultTimeControl: timeLeft=278 remainingMoves=20 timeForMove=13.9
+GoUctPlayer: Reusing 10261122 nodes (96%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          198571
+Nodes          10271874
+Time           0.02
+GameLen        80.3 dev=9.3 min=56.0 max=106.0
+InTree         13.7 dev=2.8 min=3.0 max=21.0
+Aborted        0%
+Games/s        9783.1
+Value          0.52
+Sequence       F5 E4 G5 G3 E3 F4 H2 H5 H4 H3 G4 F6 G6 F7 E8 G7 H6 J5 J6 H7 J7 
+J8 J4 J3 
+TimeInitTree   0.53
+TimeRootFilter 0.00
+];B[ef]BL[259.8];W[gd]WL[271.1]
+C[SgDefaultTimeControl: timeLeft=278 remainingMoves=20 timeForMove=13.9
+GoUctPlayer: Reusing 8272160 nodes (95%)
+[1\] SgUctSearch: maximum tree size 14000000 reached
+[0\] SgUctSearch: maximum tree size 14000000 reached
+Count          275310
+Nodes          13999956
+Time           6.4
+GameLen        79.0 dev=9.6 min=9.0 max=142.0
+InTree         9.9 dev=2.6 min=2.0 max=23.0
+Aborted        0%
+Games/s        17561.4
+Value          0.52
+Sequence       G6 G3 C2 E8 H4 H3 H7 H5 G4 J4 G5 F7 F6 F8 B5 A6 A5 C3 
+TimeInitTree   0.42
+TimeRootFilter 0.00
+];B[gg]BL[258.5];W[bh]WL[260.3]
+C[SgDefaultTimeControl: timeLeft=272 remainingMoves=20 timeForMove=13.6
+GoUctPlayer: Reusing 4214164 nodes (63%)
+[0\] SgUctSearch: maximum tree size 14000000 reached
+[1\] SgUctSearch: maximum tree size 14000000 reached
+Count          286215
+Nodes          13999921
+Time           11
+GameLen        76.7 dev=9.7 min=7.0 max=133.0
+InTree         9.7 dev=2.5 min=2.0 max=23.0
+Aborted        0%
+Games/s        17456.2
+Value          0.52
+Sequence       B2 E8 H4 G7 H6 H3 H7 G4 G8 F7 F6 F8 G9 F9 H8 J4 H5 J5 
+TimeInitTree   0.22
+TimeRootFilter 0.00
+];B[eb]BL[249.1];W[gc]WL[254.5]
+C[SgDefaultTimeControl: timeLeft=261 remainingMoves=20 timeForMove=13.05
+GoUctPlayer: Reusing 9273201 nodes (81%)
+[1\] SgUctSearch: maximum tree size 14000000 reached
+[0\] SgUctSearch: maximum tree size 14000000 reached
+Count          302635
+Nodes          13999934
+Time           6
+GameLen        73.0 dev=9.0 min=10.0 max=122.0
+InTree         11.2 dev=2.9 min=2.0 max=24.0
+Aborted        0%
+Games/s        17063.9
+Value          0.50
+Sequence       G7 H5 E3 F4 G5 F7 H4 G8 F6 H8 H3 H2 J2 G2 H6 J5 J6 B1 C1 C2 D1 
+D2 E1 F1 
+TimeInitTree   0.49
+TimeRootFilter 0.00
+];B[he]BL[240.3];W[ge]WL[249.7]
+C[SgDefaultTimeControl: timeLeft=255 remainingMoves=20 timeForMove=12.75
+GoUctPlayer: Reusing 8574982 nodes (83%)
+[1\] SgUctSearch: best move cannot change anymore
+[0\] SgUctSearch: best move cannot change anymore
+Count          274708
+Nodes          12123885
+Time           4.8
+GameLen        71.0 dev=9.1 min=38.0 max=114.0
+InTree         12.6 dev=3.0 min=2.0 max=26.0
+Aborted        0%
+Games/s        16908.3
+Value          0.50
+Sequence       G5 F7 H4 H3 F6 F8 H6 H8 E3 F4 F2 J5 J4 J3 G4 C7 J6 E2 D2 E1 F1 
+G2 D1 
+TimeInitTree   0.42
+TimeRootFilter 0.00
+];B[hf]BL[231.7];W[fb]WL[243.1]
+C[SgDefaultTimeControl: timeLeft=251 remainingMoves=20 timeForMove=12.55
+GoUctPlayer: Reusing 807778 nodes (5%)
+[1\] SgUctSearch: best move cannot change anymore
+[0\] SgUctSearch: best move cannot change anymore
+Count          157860
+Nodes          6719302
+Time           7.8
+GameLen        68.6 dev=9.1 min=38.0 max=131.0
+InTree         11.3 dev=3.0 min=2.0 max=25.0
+Aborted        0%
+Games/s        17824.2
+Value          0.54
+Sequence       F8 F7 F6 H8 H7 J7 J6 J8 H6 G8 G9 D2 E2 E3 C3 F2 E1 D1 F1 
+TimeInitTree   0.04
+TimeRootFilter 0.00
+];B[eh]BL[223.9];W[ea]WL[236.0]
+C[SgDefaultTimeControl: timeLeft=243 remainingMoves=20 timeForMove=12.15
+GoUctPlayer: Reusing 206498 nodes (1%)
+[1\] SgUctSearch: best move cannot change anymore
+[0\] SgUctSearch: best move cannot change anymore
+Count          136451
+Nodes          5584481
+Time           7
+GameLen        67.9 dev=9.4 min=38.0 max=118.0
+InTree         10.3 dev=2.9 min=2.0 max=29.0
+Aborted        0%
+Games/s        18787.0
+Value          0.64
+Sequence       E9 D2 C2 A4 E3 F4 A5 B5 B4 A3 A2 E1 A7 D9 F9 D8 B3 A3 
+TimeInitTree   0.01
+TimeRootFilter 0.00
+];B[dh]BL[216.0];W[ch]WL[236.6]
+C[SgDefaultTimeControl: timeLeft=237 remainingMoves=20 timeForMove=11.85
+GoUctPlayer: Reusing 6171839 nodes (63%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          164099
+Nodes          6180673
+Time           0.019
+GameLen        68.4 dev=8.8 min=51.0 max=91.0
+InTree         12.6 dev=2.7 min=7.0 max=19.0
+Aborted        0%
+Games/s        11138.6
+Value          0.63
+Sequence       C2 A4 A3 B4 B5 A5 E3 F4 A6 A7 F2 G2 B3 A6 A8 B8 E1 F1 D8 C7 C9 
+B9 A9 H1 
+TimeInitTree   0.33
+TimeRootFilter 0.00
+];B[db]BL[208.3];W[eg]WL[230.4]
+C[SgDefaultTimeControl: timeLeft=237 remainingMoves=20 timeForMove=11.85
+GoUctPlayer: Reusing 39011 nodes (0%)
+[1\] SgUctSearch: best move cannot change anymore
+[0\] SgUctSearch: best move cannot change anymore
+Count          125645
+Nodes          4464461
+Time           6.6
+GameLen        62.0 dev=9.1 min=34.0 max=129.0
+InTree         13.1 dev=5.1 min=2.0 max=32.0
+Aborted        0%
+Games/s        18857.1
+Value          0.60
+Sequence       E3 F4 B5 F7 F6 H8 H7 J7 J6 J8 H6 C1 B1 G8 H9 A5 A4 A3 F2 G2 F1 
+G1 E1 G9 F9 D1 A6 A7 A5 J9 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[ff]BL[200.4];W[be]WL[230.5]
+C[SgDefaultTimeControl: timeLeft=231 remainingMoves=20 timeForMove=11.55
+GoUctPlayer: Reusing 5583205 nodes (63%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          166324
+Nodes          5660958
+Time           0.2
+GameLen        59.9 dev=9.3 min=40.0 max=95.0
+InTree         10.4 dev=2.5 min=3.0 max=22.0
+Aborted        0%
+Games/s        9596.2
+Value          0.60
+Sequence       B5 J6 H8 F6 F7 J8 B8 B9 A6 A7 D1 F2 E1 F1 C1 A5 A4 A6 J5 
+TimeInitTree   0.28
+TimeRootFilter 0.00
+];B[ib]BL[192.7];W[hc]WL[222.9]
+C[SgDefaultTimeControl: timeLeft=231 remainingMoves=20 timeForMove=11.55
+GoUctPlayer: Reusing 48135 nodes (0%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          191194
+Nodes          6362954
+Time           8.1
+GameLen        56.9 dev=8.8 min=30.0 max=116.0
+InTree         11.2 dev=3.1 min=2.0 max=27.0
+Aborted        0%
+Games/s        23475.4
+Value          0.64
+Sequence       H7 J7 H8 B3 A3 A2 A4 J6 F2 D9 F9 F6 F7 F1 D1 G2 C1 H9 G9 J9 H6 
+J5 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[ic]BL[185.7];W[hb]WL[220.9]
+C[SgDefaultTimeControl: timeLeft=224 remainingMoves=20 timeForMove=11.2
+GoUctPlayer: Reusing 2745467 nodes (32%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          128760
+Nodes          4173017
+Time           2.9
+GameLen        54.1 dev=8.8 min=31.0 max=103.0
+InTree         11.9 dev=3.0 min=2.0 max=27.0
+Aborted        0%
+Games/s        13809.0
+Value          0.67
+Sequence       H8 B3 A3 A2 A4 J6 F2 D9 F9 F6 F7 F1 D1 G2 C1 H9 G9 J9 H6 J5 
+TimeInitTree   0.14
+TimeRootFilter 0.00
+];B[hd]BL[179.1];W[ad]WL[212.1]
+C[SgDefaultTimeControl: timeLeft=221 remainingMoves=20 timeForMove=11.05
+GoUctPlayer: Reusing 288 nodes (0%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          196324
+Nodes          5743497
+Time           8.8
+GameLen        52.7 dev=8.6 min=25.0 max=105.0
+InTree         12.6 dev=4.3 min=2.0 max=37.0
+Aborted        0%
+Games/s        22229.0
+Value          0.61
+Sequence       A6 A5 F2 F7 F6 F1 G2 H2 A4 D9 J6 F9 A8 B8 G9 D4 A7 B9 C3 C1 B1 
+G1 H9 J5 E1 D1 E9 A9 A5 F9 J9 J6 E9 A1 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[ga]BL[172.5];W[bb]WL[207.2]
+C[SgDefaultTimeControl: timeLeft=213 remainingMoves=20 timeForMove=10.65
+GoUctPlayer: Reusing 6179 nodes (0%)
+[1\] SgUctSearch: best move cannot change anymore
+[0\] SgUctSearch: best move cannot change anymore
+Count          142429
+Nodes          3854429
+Time           5.7
+GameLen        52.3 dev=8.4 min=24.0 max=107.0
+InTree         13.0 dev=3.9 min=2.0 max=34.0
+Aborted        0%
+Games/s        24915.1
+Value          0.69
+Sequence       B8 A5 F9 A8 A4 C3 B3 C1 B1 H9 J6 J5 G8 J6 H3 G4 H2 J9 G2 D9 F2 
+C9 D4 B9 J4 D1 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[ab]BL[164.4];W[gb]WL[199.7]
+C[SgDefaultTimeControl: timeLeft=208 remainingMoves=20 timeForMove=10.4
+GoUctPlayer: Reusing 22948 nodes (98%)
+[1\] SgUctSearch: best move cannot change anymore
+[0\] SgUctSearch: best move cannot change anymore
+Count          210965
+Nodes          5571568
+Time           8.3
+GameLen        50.4 dev=8.8 min=24.0 max=110.0
+InTree         12.0 dev=3.4 min=2.0 max=29.0
+Aborted        0%
+Games/s        25438.8
+Value          0.56
+Sequence       G8 F9 C9 A5 H9 A4 A3 A7 B9 A9 B4 F2 J6 D4 A6 D9 F9 B3 C3 A4 A5 
+J5 J4 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[ha]BL[156.6];W[id]WL[194.8]
+C[SgDefaultTimeControl: timeLeft=200 remainingMoves=20 timeForMove=10
+GoUctPlayer: Reusing 23631 nodes (0%)
+[1\] SgUctSearch: best move cannot change anymore
+[0\] SgUctSearch: best move cannot change anymore
+Count          134384
+Nodes          3468960
+Time           5.2
+GameLen        47.3 dev=8.0 min=24.0 max=100.0
+InTree         11.4 dev=2.9 min=2.0 max=25.0
+Aborted        0%
+Games/s        25759.2
+Value          0.80
+Sequence       J6 A2 A3 F7 F6 B3 A4 C1 B1 C3 B4 C3 D4 J5 F9 C7 A1 B9 C9 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[ie]BL[149.2];W[fa]WL[187.7]
+C[SgDefaultTimeControl: timeLeft=196 remainingMoves=20 timeForMove=9.8
+GoUctPlayer: Reusing 577 nodes (0%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          204121
+Nodes          4888020
+Time           8.2
+GameLen        47.5 dev=9.5 min=16.0 max=243.0
+InTree         12.8 dev=3.8 min=2.0 max=34.0
+Aborted        0%
+Games/s        24762.3
+Value          0.50
+Sequence       F9 J6 H3 G4 B9 F6 F7 D9 J9 H9 A5 A7 F2 G2 D1 F1 C1 H2 J3 J2 E1 
+F2 G1 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[ba]BL[142.3];W[hg]WL[181.8]
+C[SgDefaultTimeControl: timeLeft=188 remainingMoves=20 timeForMove=9.4
+GoUctPlayer: Reusing 103 nodes (0%)
+[1\] SgUctSearch: best move cannot change anymore
+[0\] SgUctSearch: best move cannot change anymore
+Count          172379
+Nodes          3843074
+Time           6.2
+GameLen        42.9 dev=7.8 min=20.0 max=97.0
+InTree         11.1 dev=3.5 min=2.0 max=32.0
+Aborted        0%
+Games/s        27850.2
+Value          0.85
+Sequence       H3 A5 A4 D4 C3 J6 G4 H2 J3 F2 A3 F7 F6 B1 C1 D1 J9 G9 H9 A2 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[gf]BL[135.3];W[gh]WL[176.1]
+C[SgDefaultTimeControl: timeLeft=183 remainingMoves=20 timeForMove=9.15
+GoUctPlayer: Reusing 14939 nodes (0%)
+[1\] SgUctSearch: best move cannot change anymore
+[0\] SgUctSearch: best move cannot change anymore
+Count          193637
+Nodes          4214255
+Time           6.9
+GameLen        41.9 dev=8.2 min=14.0 max=243.0
+InTree         11.2 dev=3.5 min=2.0 max=30.0
+Aborted        0%
+Games/s        28025.2
+Value          0.46
+Sequence       G2 J6 F2 H2 J3 G1 D4 C1 D1 F1 J9 H9 J2 H1 B1 A7 A5 C3 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[hh]BL[128.3];W[fh]WL[169.7]
+C[SgDefaultTimeControl: timeLeft=176 remainingMoves=20 timeForMove=8.8
+GoUctPlayer: Reusing 14803 nodes (0%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          178438
+Nodes          3465499
+Time           6.2
+GameLen        39.7 dev=8.5 min=14.0 max=83.0
+InTree         12.5 dev=4.7 min=2.0 max=36.0
+Aborted        0%
+Games/s        28452.0
+Value          0.47
+Sequence       F2 J6 J3 D9 J9 G1 H9 C1 B1 F1 D1 A2 A4 D4 C3 F6 F7 A3 A1 C7 B3 
+A2 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[fd]BL[121.8];W[fc]WL[170.8]
+C[SgDefaultTimeControl: timeLeft=171 remainingMoves=20 timeForMove=8.55
+GoUctPlayer: Reusing 2346931 nodes (57%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          155318
+Nodes          2351009
+Time           0.017
+GameLen        49.4 dev=9.7 min=18.0 max=66.0
+InTree         19.7 dev=5.1 min=4.0 max=30.0
+Aborted        0%
+Games/s        14732.0
+Value          0.17
+Sequence       F7 J6 J3 J2 J9 H9 H1 D9 E1 J4 H3 A4 A5 F1 G1 C1 A1 C7 D1 J3 A2 
+B8 B4 A7 A3 D4 B1 C3 B3 E2 C3 J1 F1 J9 D2 PASS G9 F6 
+TimeInitTree   0.13
+TimeRootFilter 0.00
+];B[fi]BL[115.6];W[ai]WL[163.0]
+C[SgDefaultTimeControl: timeLeft=171 remainingMoves=20 timeForMove=8.55
+GoUctPlayer: Reusing 1167 nodes (0%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          254740
+Nodes          4471813
+Time           8
+GameLen        34.9 dev=8.5 min=10.0 max=84.0
+InTree         11.4 dev=3.2 min=2.0 max=32.0
+Aborted        0%
+Games/s        31816.9
+Value          0.32
+Sequence       A1 C1 D4 A5 H1 G1 A4 J6 D9 J9 J2 J1 B1 D1 H1 G2 J1 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[id]BL[109.2];W[ah]WL[156.8]
+C[SgDefaultTimeControl: timeLeft=163 remainingMoves=20 timeForMove=8.15
+GoUctPlayer: Reusing 5180 nodes (0%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          202502
+Nodes          3108824
+Time           6.1
+GameLen        33.4 dev=8.0 min=10.0 max=78.0
+InTree         12.1 dev=4.3 min=2.0 max=32.0
+Aborted        0%
+Games/s        32902.9
+Value          0.11
+Sequence       A2 D4 C3 C1 D1 E1 B1 A5 H1 G1 B3 A4 J2 J3 J9 G9 H9 J1 D1 A7 C1 
+A3 D9 B4 C5 C4 G2 F2 D1 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[gi]BL[102.9];W[ae]WL[150.4]
+C[SgDefaultTimeControl: timeLeft=158 remainingMoves=20 timeForMove=7.9
+GoUctPlayer: Reusing 892 nodes (0%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          258248
+Nodes          3930746
+Time           7.5
+GameLen        31.1 dev=7.3 min=8.0 max=72.0
+InTree         11.4 dev=3.2 min=2.0 max=29.0
+Aborted        0%
+Games/s        34220.2
+Value          0.06
+Sequence       A5 C1 D9 D4 C3 C9 A7 F6 E9 F8 G5 G6 F2 G2 D1 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[df]BL[97.8];
+C[White resigned
+
+SgDefaultTimeControl: timeLeft=151 remainingMoves=20 timeForMove=7.55
+GoUctPlayer: Reusing 15918 nodes (0%)
+[0\] SgUctSearch: best move cannot change anymore
+[1\] SgUctSearch: best move cannot change anymore
+Count          244615
+Nodes          3680775
+Time           7
+GameLen        28.6 dev=6.8 min=6.0 max=70.0
+InTree         11.7 dev=3.6 min=2.0 max=32.0
+Aborted        0%
+Games/s        34510.0
+Value          0.04
+Sequence       D9 C3 D3 B3 A3 E3 C1 A7 J2 H1 J3 J4 J9 G9 H9 J1 J3 B4 A4 D3 D1 
+PASS 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+])

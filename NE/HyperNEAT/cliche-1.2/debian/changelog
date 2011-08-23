@@ -1,0 +1,18 @@
+cliche (1.2-1) unstable; urgency=low
+
+  * WIN32 port bug fixed
+    tx to http://coding.at/tutorial_5.html
+
+ -- Peter Chiocchetti <pch12@myzel.net>  Mon,  8 Jul 2005 13:35:00 +0200
+
+cliche (1.1-1) unstable; urgency=low
+
+  * WIN32 port.
+
+ -- Peter Chiocchetti <pch12@myzel.net>  Son, 28 Mar 2004 20:50:00 +0100
+
+cliche (1.0-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Peter Chiocchetti <pch12@myzel.net>  Mon, 24 Nov 2003 14:34:34 +0100

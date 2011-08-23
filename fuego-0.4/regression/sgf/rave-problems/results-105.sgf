@@ -1,0 +1,20 @@
+(;FF[4]CA[UTF-8]AP[GoGuiTwoGtp:1.1pre1]SZ[9]
+KM[6.5]PB[MoGo]PW[GoUctGlobalSearchPlayer]DT[2008-06-05]RE[B+R]
+C[Black command: /opt/go/mogo/mogo.bin --9  --useOpeningDatabase 0 --time 3.5 --nbThreads 2 --playsAgainstHuman 0 --minNumberOfSimulationsOfResign 99999
+White command: explorer_uct -config explorer_config
+Black version: MoGo release 1. Please read http://www.lri.fr/~gelly/MoGo.htm for more information. That is NOT an official developpement MoGo version, but it is a public release. Its strength highly depends on your hardware and the time settings.
+White version: 
+Result[Black\]: B+R
+Result[White\]: B+R
+Referee: gnugo --mode gtp --never-resign --chinese-rules
+Result[Referee\]: B+R
+Host: unity019.watson.ibm.com (Intel(R) Xeon(TM) CPU 3.06GHz)
+Date: June 5, 2008 8:13:49 PM UTC]
+;B[ee];W[eg];B[fg];W[ff];B[ef];W[gg];B[fh];W[dg];B[cf];W[fe]
+;B[fd];W[gd];B[fc];W[gc];B[gh];W[hf];B[cg];W[hh];B[gb];W[hb]
+;B[fb];W[ch];B[bh];W[cb];B[bc];W[cc];B[bb];W[ed];B[ge];W[gf]
+;B[cd];W[dc];B[hc];W[hd];B[ha];W[ic];B[eb];W[bd];B[be];W[db]
+;B[ea];W[ga];B[df];W[dd];B[de];W[da];B[ad];W[ba];B[dh];W[ab]
+;B[ci];W[ia];B[if];W[hi];B[hg];W[ig];B[ih];W[ie];B[bg];W[eh]
+;B[ah];W[ei];B[ac];W[aa];B[gi];W[fa];B[ha];W[ga];B[ca];W[ba]
+;B[ab];W[];B[aa];W[fa];B[ha];W[ec];B[bi];W[fa];B[ca])

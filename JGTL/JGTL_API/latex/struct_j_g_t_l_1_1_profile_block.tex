@@ -1,0 +1,117 @@
+\hypertarget{struct_j_g_t_l_1_1_profile_block}{
+\section{JGTL::Profile\-Block Struct Reference}
+\label{struct_j_g_t_l_1_1_profile_block}\index{JGTL::ProfileBlock@{JGTL::ProfileBlock}}
+}
+{\tt \#include $<$JGTL\_\-Quick\-Prof.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{struct_j_g_t_l_1_1_profile_block_978acff6a004461d28e440472dd5d895}{Profile\-Block} ()
+\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+unsigned long int \hyperlink{struct_j_g_t_l_1_1_profile_block_49aa3dc0ecd58718ecccdb23ff8ca4f5}{current\-Block\-Start\-Microseconds}
+\begin{CompactList}\small\item\em The starting time (in us) of the current block update. \item\end{CompactList}\item 
+unsigned long int \hyperlink{struct_j_g_t_l_1_1_profile_block_4dbffcbbb50e7e6affc6116f361a2417}{current\-Cycle\-Total\-Microseconds}
+\item 
+double \hyperlink{struct_j_g_t_l_1_1_profile_block_d995e3d70a098db440f9002aef727d40}{avg\-Cycle\-Total\-Microseconds}
+\item 
+unsigned long int \hyperlink{struct_j_g_t_l_1_1_profile_block_457aeecf869359baed544fa467d46b42}{total\-Microseconds}
+\begin{CompactList}\small\item\em The total accumulated time (in us) spent in this block. \item\end{CompactList}\item 
+unsigned long int \hyperlink{struct_j_g_t_l_1_1_profile_block_8edab8046fbb65df2c8bef07c638829b}{smallest\-Cycle\-Microseconds}
+\begin{CompactList}\small\item\em The best time for this block. \item\end{CompactList}\item 
+double \hyperlink{struct_j_g_t_l_1_1_profile_block_75a7c8c6d211c681097adf60c797c56e}{smallest\-Cycle\-Percent}
+\item 
+unsigned long int \hyperlink{struct_j_g_t_l_1_1_profile_block_6dc09e684472a23ea795a39d3c113977}{largest\-Cycle\-Microseconds}
+\begin{CompactList}\small\item\em The worst time for this block. \item\end{CompactList}\item 
+double \hyperlink{struct_j_g_t_l_1_1_profile_block_15d4a484adfda90c368bbacdf680d99c}{largest\-Cycle\-Percent}
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+A simple data structure representing a single timed block of code. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{struct_j_g_t_l_1_1_profile_block_978acff6a004461d28e440472dd5d895}{
+\index{JGTL::ProfileBlock@{JGTL::Profile\-Block}!ProfileBlock@{ProfileBlock}}
+\index{ProfileBlock@{ProfileBlock}!JGTL::ProfileBlock@{JGTL::Profile\-Block}}
+\subsubsection[ProfileBlock]{\setlength{\rightskip}{0pt plus 5cm}JGTL::Profile\-Block::Profile\-Block ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{struct_j_g_t_l_1_1_profile_block_978acff6a004461d28e440472dd5d895}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{struct_j_g_t_l_1_1_profile_block_49aa3dc0ecd58718ecccdb23ff8ca4f5}{
+\index{JGTL::ProfileBlock@{JGTL::Profile\-Block}!currentBlockStartMicroseconds@{currentBlockStartMicroseconds}}
+\index{currentBlockStartMicroseconds@{currentBlockStartMicroseconds}!JGTL::ProfileBlock@{JGTL::Profile\-Block}}
+\subsubsection[currentBlockStartMicroseconds]{\setlength{\rightskip}{0pt plus 5cm}unsigned long int \hyperlink{struct_j_g_t_l_1_1_profile_block_49aa3dc0ecd58718ecccdb23ff8ca4f5}{JGTL::Profile\-Block::current\-Block\-Start\-Microseconds}}}
+\label{struct_j_g_t_l_1_1_profile_block_49aa3dc0ecd58718ecccdb23ff8ca4f5}
+
+
+The starting time (in us) of the current block update. 
+
+\hypertarget{struct_j_g_t_l_1_1_profile_block_4dbffcbbb50e7e6affc6116f361a2417}{
+\index{JGTL::ProfileBlock@{JGTL::Profile\-Block}!currentCycleTotalMicroseconds@{currentCycleTotalMicroseconds}}
+\index{currentCycleTotalMicroseconds@{currentCycleTotalMicroseconds}!JGTL::ProfileBlock@{JGTL::Profile\-Block}}
+\subsubsection[currentCycleTotalMicroseconds]{\setlength{\rightskip}{0pt plus 5cm}unsigned long int \hyperlink{struct_j_g_t_l_1_1_profile_block_4dbffcbbb50e7e6affc6116f361a2417}{JGTL::Profile\-Block::current\-Cycle\-Total\-Microseconds}}}
+\label{struct_j_g_t_l_1_1_profile_block_4dbffcbbb50e7e6affc6116f361a2417}
+
+
+The accumulated time (in us) spent in this block during the current profiling cycle. \hypertarget{struct_j_g_t_l_1_1_profile_block_d995e3d70a098db440f9002aef727d40}{
+\index{JGTL::ProfileBlock@{JGTL::Profile\-Block}!avgCycleTotalMicroseconds@{avgCycleTotalMicroseconds}}
+\index{avgCycleTotalMicroseconds@{avgCycleTotalMicroseconds}!JGTL::ProfileBlock@{JGTL::Profile\-Block}}
+\subsubsection[avgCycleTotalMicroseconds]{\setlength{\rightskip}{0pt plus 5cm}double \hyperlink{struct_j_g_t_l_1_1_profile_block_d995e3d70a098db440f9002aef727d40}{JGTL::Profile\-Block::avg\-Cycle\-Total\-Microseconds}}}
+\label{struct_j_g_t_l_1_1_profile_block_d995e3d70a098db440f9002aef727d40}
+
+
+The accumulated time (in us) spent in this block during the past profiling cycle. \hypertarget{struct_j_g_t_l_1_1_profile_block_457aeecf869359baed544fa467d46b42}{
+\index{JGTL::ProfileBlock@{JGTL::Profile\-Block}!totalMicroseconds@{totalMicroseconds}}
+\index{totalMicroseconds@{totalMicroseconds}!JGTL::ProfileBlock@{JGTL::Profile\-Block}}
+\subsubsection[totalMicroseconds]{\setlength{\rightskip}{0pt plus 5cm}unsigned long int \hyperlink{struct_j_g_t_l_1_1_profile_block_457aeecf869359baed544fa467d46b42}{JGTL::Profile\-Block::total\-Microseconds}}}
+\label{struct_j_g_t_l_1_1_profile_block_457aeecf869359baed544fa467d46b42}
+
+
+The total accumulated time (in us) spent in this block. 
+
+\hypertarget{struct_j_g_t_l_1_1_profile_block_8edab8046fbb65df2c8bef07c638829b}{
+\index{JGTL::ProfileBlock@{JGTL::Profile\-Block}!smallestCycleMicroseconds@{smallestCycleMicroseconds}}
+\index{smallestCycleMicroseconds@{smallestCycleMicroseconds}!JGTL::ProfileBlock@{JGTL::Profile\-Block}}
+\subsubsection[smallestCycleMicroseconds]{\setlength{\rightskip}{0pt plus 5cm}unsigned long int \hyperlink{struct_j_g_t_l_1_1_profile_block_8edab8046fbb65df2c8bef07c638829b}{JGTL::Profile\-Block::smallest\-Cycle\-Microseconds}}}
+\label{struct_j_g_t_l_1_1_profile_block_8edab8046fbb65df2c8bef07c638829b}
+
+
+The best time for this block. 
+
+\hypertarget{struct_j_g_t_l_1_1_profile_block_75a7c8c6d211c681097adf60c797c56e}{
+\index{JGTL::ProfileBlock@{JGTL::Profile\-Block}!smallestCyclePercent@{smallestCyclePercent}}
+\index{smallestCyclePercent@{smallestCyclePercent}!JGTL::ProfileBlock@{JGTL::Profile\-Block}}
+\subsubsection[smallestCyclePercent]{\setlength{\rightskip}{0pt plus 5cm}double \hyperlink{struct_j_g_t_l_1_1_profile_block_75a7c8c6d211c681097adf60c797c56e}{JGTL::Profile\-Block::smallest\-Cycle\-Percent}}}
+\label{struct_j_g_t_l_1_1_profile_block_75a7c8c6d211c681097adf60c797c56e}
+
+
+\hypertarget{struct_j_g_t_l_1_1_profile_block_6dc09e684472a23ea795a39d3c113977}{
+\index{JGTL::ProfileBlock@{JGTL::Profile\-Block}!largestCycleMicroseconds@{largestCycleMicroseconds}}
+\index{largestCycleMicroseconds@{largestCycleMicroseconds}!JGTL::ProfileBlock@{JGTL::Profile\-Block}}
+\subsubsection[largestCycleMicroseconds]{\setlength{\rightskip}{0pt plus 5cm}unsigned long int \hyperlink{struct_j_g_t_l_1_1_profile_block_6dc09e684472a23ea795a39d3c113977}{JGTL::Profile\-Block::largest\-Cycle\-Microseconds}}}
+\label{struct_j_g_t_l_1_1_profile_block_6dc09e684472a23ea795a39d3c113977}
+
+
+The worst time for this block. 
+
+\hypertarget{struct_j_g_t_l_1_1_profile_block_15d4a484adfda90c368bbacdf680d99c}{
+\index{JGTL::ProfileBlock@{JGTL::Profile\-Block}!largestCyclePercent@{largestCyclePercent}}
+\index{largestCyclePercent@{largestCyclePercent}!JGTL::ProfileBlock@{JGTL::Profile\-Block}}
+\subsubsection[largestCyclePercent]{\setlength{\rightskip}{0pt plus 5cm}double \hyperlink{struct_j_g_t_l_1_1_profile_block_15d4a484adfda90c368bbacdf680d99c}{JGTL::Profile\-Block::largest\-Cycle\-Percent}}}
+\label{struct_j_g_t_l_1_1_profile_block_15d4a484adfda90c368bbacdf680d99c}
+
+
+
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___quick_prof_8h}{JGTL\_\-Quick\-Prof.h}\end{CompactItemize}

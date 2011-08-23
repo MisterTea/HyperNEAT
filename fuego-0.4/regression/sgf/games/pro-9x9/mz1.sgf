@@ -1,0 +1,115 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Chinese]SZ[9]KM[6.50]TM[1800]
+PW[teytaud]PB[MoGoTiTan]DT[2008-09-27]PC[The KGS Go Server at http://www.gokgs.com/]C[MoGoTiTan [-\]: GTP Engine for MoGoTiTan (black): MoGo version 3.0.0: I'll resign if you win and playing until you pass if I win. If you passed and I did not, it often means that the status of some stones are not clear enough for me (I want to be sure we will agree on dead stones). Clarify them. Maybe I am losing, but have not enough time to be sure I should resign. In this case play until the end :'( (very rare cases)
+]RE[W+Resign]
+;B[ee]BL[1794.668]
+;W[ce]WL[1790.022]
+;B[cd]BL[1783.001]
+;W[dd]WL[1747.385]
+;B[de]BL[1782.808]
+;W[cc]WL[1735.81]
+;B[bd]BL[1782.622]
+;W[cf]WL[1724.042]
+;B[dg]BL[1782.421]
+;W[bc]WL[1700.522]
+;B[dc]BL[1643.929]
+;W[ed]WL[1684.161]C[tanguo [?\]: mogo对手是谁？
+]
+;B[fd]BL[1499.614]
+;W[ec]WL[1675.984]
+;B[fc]BL[1354.969]
+;W[eb]WL[1668.036]C[mstarsup5 [6d?\]: f8
+nutn309: 棋王周俊勳
+]
+;B[fb]BL[1240.736]
+;W[be]WL[1569.641]C[nutnmogo: e9 d8 f3 
+nutnmogo: mogo seems to be ahead
+]
+;B[gg]BL[1138.978]C[yoyoma [1d\]: mogo won  :)
+jnr [-\]: who control mogo ?
+nutnmogo: e9 d8 f3 would have been a sure and clean win :) but G3 seems to be ok
+jnr [-\]: olivier ?
+nutnmogo: jnr: olivier i guess
+fotland [?\]: Who is white?
+fotland [?\]: what's komi?
+yoyoma [1d\]: e9 is black's priveledge... white can't prevent yet
+jnr [-\]: I'm talking to the mogo team ^^
+mstarsup5 [6d?\]: komi: 6.5 it seems
+mstarsup5 [6d?\]: jnr: olivier i guess : p
+jnr [-\]: F5
+]
+;W[dh]WL[1347.969]C[jnr [-\]: -_-
+jnr [-\]: D8
+jnr [-\]: XD
+mstarsup5 [6d?\]: hmmm
+mstarsup5 [6d?\]: d8 e9
+mstarsup5 [6d?\]: doesn't C2 work?
+jnr [-\]: D9
+jnr [-\]: a yes
+]
+;B[eh]BL[1041.007]C[jnr [-\]: I'm tired sorry
+]
+;W[fa]WL[1289.277]C[yoyoma [1d\]: black lead too much, just refuse all invitation to complicate
+mstarsup5 [6d?\]: i think it's close now
+mstarsup5 [6d?\]: hmmm
+mstarsup5 [6d?\]: maybe w even ahead
+]
+;B[ga]BL[954.768]C[yoyoma [1d\]: oh white can try to make a ko
+]
+;W[ea]WL[1279.864]C[yoyoma [1d\]: errrr
+yoyoma [1d\]: oh lol
+mstarsup5 [6d?\]: h8 c3 e3 d4 e4 c2 d1 c1 e1 
+yoyoma [1d\]: I hallucinated white couldn't play this  :)
+]
+;B[cg]BL[876.885]C[jnr [-\]: wow
+]
+;W[bg]WL[1250.561]C[mstarsup5 [6d?\]: i looked at this move
+mstarsup5 [6d?\]: i think it leads to white + 0.5
+]
+;B[gb]BL[805.409]C[mstarsup5 [6d?\]: *1.5
+mstarsup5 [6d?\]: d4 e4 c2 e3 d1 e1 b2 
+yoyoma [1d\]: weird
+]
+;W[ch]WL[1169.863]C[yoyoma [1d\]: oh wD4... black can ignore and do C2
+]
+;B[ad]BL[739.819]C[yoyoma [1d\]: then I got b+0.5
+jnr [-\]: ??
+]
+;W[ac]WL[1153.409]C[mstarsup5 [6d?\]: hmmm
+mstarsup5 [6d?\]: C2 mistake?
+asasas: a6 bad play
+asasas: i am hui-ming
+]
+;B[eg]BL[673.466]C[jnr [-\]: nice to meet you ^^
+LapinBlanc [2d?\]: We'll see if it is a bad play depending on the win
+]
+;W[df]WL[1144.858]C[mstarsup5 [6d?\]: i still read w + 1.5 :/
+]
+;B[ef]BL[606.456]C[tanguo [?\]: who play white
+]
+;W[di]WL[1135.306]C[jnr [-\]: c6 seems strange
+tanguo [?\]: white ,?d
+asasas: teytaud...white
+mstarsup5 [6d?\]: so G3 was the losing move in the end?
+jnr [-\]: LapinBlanc, its an book opening ?
+fotland [?\]: maybe g3 at f3 better
+yoyoma [1d\]: or missing E9 double sente
+]
+;B[bf]BL[547.66]C[nutn309: white 9d
+fotland [?\]: desperate
+]
+;W[af]WL[1125.943]C[tanguo [?\]: who is teytaud ,how many d is it?
+mstarsup5 [6d?\]: g3 should be e9
+yoyoma [1d\]: if black get e9, he can still play g3 for safety
+yoyoma [1d\]: it's strange that mogo doesn't think e9 would increase it's % to win
+jnr [-\]: not very fair ... to resign now
+jnr [-\]: ^^
+fotland [?\]: is strange.
+fotland [?\]: I just checked Many Faces
+mstarsup5 [6d?\]: nice game, thanks to both players
+fotland [?\]: it gives e9 64%, g3 59% (#2 move)
+fotland [?\]: very good game
+COCKBOAT [?\]: indeed
+fotland [?\]: I looked at e9 first, then g3, then d2.  it seems white still wins.
+tanguo [?\]: who is teytaud,how is his d?
+])

@@ -1,0 +1,232 @@
+\hypertarget{class_j_g_t_l_1_1_pool_map}{
+\section{JGTL::Pool\-Map$<$ Key, Data $>$ Class Template Reference}
+\label{class_j_g_t_l_1_1_pool_map}\index{JGTL::PoolMap@{JGTL::PoolMap}}
+}
+{\tt \#include $<$JGTL\_\-Pool\-Map\_\-delete.h$>$}
+
+\subsection*{Public Types}
+\begin{CompactItemize}
+\item 
+typedef std::pair$<$ Key, Data $>$ $\ast$ \hyperlink{class_j_g_t_l_1_1_pool_map_b3af40821696ebcf9f62a3e9d91324ee}{iterator}
+\item 
+typedef const std::pair$<$ Key, Data $>$ $\ast$ \hyperlink{class_j_g_t_l_1_1_pool_map_123acfa775472141cec2bb3991c93d21}{const\_\-iterator}
+\end{CompactItemize}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_pool_map_8f488dfbc3383bc75157b60640b33ade}{Pool\-Map} (int \_\-max\-Elements)
+\item 
+\hyperlink{class_j_g_t_l_1_1_pool_map_a276af8c63cb02ed4d2de28bf36cd7cc}{Pool\-Map} (const \hyperlink{class_j_g_t_l_1_1_pool_map}{Pool\-Map}$<$ Key, Data $>$ \&other)
+\item 
+const \hyperlink{class_j_g_t_l_1_1_pool_map}{Pool\-Map} \& \hyperlink{class_j_g_t_l_1_1_pool_map_205541080219447b7651aadd391816e4}{operator=} (const \hyperlink{class_j_g_t_l_1_1_pool_map}{Pool\-Map}$<$ Key, Data $>$ \&other)
+\item 
+void \hyperlink{class_j_g_t_l_1_1_pool_map_3b3148e41d7f1df718801cd7396fd89f}{copy\-From} (const \hyperlink{class_j_g_t_l_1_1_pool_map}{Pool\-Map}$<$ Key, Data $>$ \&other)
+\item 
+virtual \hyperlink{class_j_g_t_l_1_1_pool_map_3b37f6bc0c5a42b4354edbd8ce8b907b}{$\sim$Pool\-Map} ()
+\item 
+void \hyperlink{class_j_g_t_l_1_1_pool_map_669bf1d78e81cdd09fb6d2b1aea4ce9a}{insert} (const Key \&key, const Data \&data)
+\item 
+int \hyperlink{class_j_g_t_l_1_1_pool_map_d9936165993f004d6c8b8aca4614e522}{size} ()
+\item 
+void \hyperlink{class_j_g_t_l_1_1_pool_map_e89e7a5f21139dd6dd927d1898bb9f7c}{clear} ()
+\item 
+\hyperlink{class_j_g_t_l_1_1_pool_map_b3af40821696ebcf9f62a3e9d91324ee}{iterator} \hyperlink{class_j_g_t_l_1_1_pool_map_2a375fae39774d1abe87588cffc9411a}{begin} ()
+\item 
+\hyperlink{class_j_g_t_l_1_1_pool_map_b3af40821696ebcf9f62a3e9d91324ee}{iterator} \hyperlink{class_j_g_t_l_1_1_pool_map_8d356ec14bedcd97fc2428ee7c7ba75b}{end} ()
+\item 
+const bool \hyperlink{class_j_g_t_l_1_1_pool_map_ed7f7adf472a3cb6be038adafcd1db70}{has\-Key} (const Key \&key) const 
+\item 
+\hyperlink{class_j_g_t_l_1_1_pool_map_b3af40821696ebcf9f62a3e9d91324ee}{iterator} \hyperlink{class_j_g_t_l_1_1_pool_map_bbf48a295265f59eb595e7695997ac14}{find} (const Key \&key)
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_pool_map_097cdf2c2bae8f59db2849a7b62f82d0}{get\-Data} (const Key \&key)
+\item 
+const Data $\ast$ \hyperlink{class_j_g_t_l_1_1_pool_map_7b04eb59001beed06626bde7622a42d0}{get\-Data} (const Key \&key) const 
+\item 
+const Data \& \hyperlink{class_j_g_t_l_1_1_pool_map_27a40fef553c59284fc28621fd7515b5}{get\-Data\-Ref} (const Key \&key) const 
+\item 
+const Data \& \hyperlink{class_j_g_t_l_1_1_pool_map_9f6083416f0d4896c13003adb5c9b935}{get\-Index\-Data} (int index) const
+\item 
+const Data $\ast$ \hyperlink{class_j_g_t_l_1_1_pool_map_68006d0d7c9195990a8d24dab585ce01}{get\-Index\-Data\-Ptr} (int index) const
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+int \hyperlink{class_j_g_t_l_1_1_pool_map_973160447230898cb7e0dd73ad675879}{num\-Elements}
+\item 
+int \hyperlink{class_j_g_t_l_1_1_pool_map_15fff9edc5d43282b599db47bfbd31f5}{max\-Elements}
+\item 
+std::pair$<$ Key, Data $>$ $\ast$ \hyperlink{class_j_g_t_l_1_1_pool_map_0f8e82d573853a0b6bf943f277106f7f}{data\-List}
+\end{CompactItemize}
+\subsubsection*{template$<$class Key, class Data$>$ class JGTL::Pool\-Map$<$ Key, Data $>$}
+
+
+
+\subsection{Member Typedef Documentation}
+\hypertarget{class_j_g_t_l_1_1_pool_map_b3af40821696ebcf9f62a3e9d91324ee}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!iterator@{iterator}}
+\index{iterator@{iterator}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[iterator]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ typedef std::pair$<$Key,Data$>$$\ast$ \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_pool_map_b3af40821696ebcf9f62a3e9d91324ee}{iterator}}}
+\label{class_j_g_t_l_1_1_pool_map_b3af40821696ebcf9f62a3e9d91324ee}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_123acfa775472141cec2bb3991c93d21}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!const_iterator@{const\_\-iterator}}
+\index{const_iterator@{const\_\-iterator}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[const\_\-iterator]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ typedef const std::pair$<$Key,Data$>$$\ast$ \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_pool_map_123acfa775472141cec2bb3991c93d21}{const\_\-iterator}}}
+\label{class_j_g_t_l_1_1_pool_map_123acfa775472141cec2bb3991c93d21}
+
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_pool_map_8f488dfbc3383bc75157b60640b33ade}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!PoolMap@{PoolMap}}
+\index{PoolMap@{PoolMap}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[PoolMap]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_pool_map}{Pool\-Map} (int {\em \_\-max\-Elements})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_8f488dfbc3383bc75157b60640b33ade}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_a276af8c63cb02ed4d2de28bf36cd7cc}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!PoolMap@{PoolMap}}
+\index{PoolMap@{PoolMap}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[PoolMap]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_pool_map}{Pool\-Map} (const \hyperlink{class_j_g_t_l_1_1_pool_map}{Pool\-Map}$<$ Key, Data $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_a276af8c63cb02ed4d2de28bf36cd7cc}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_3b37f6bc0c5a42b4354edbd8ce8b907b}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!~PoolMap@{$\sim$PoolMap}}
+\index{~PoolMap@{$\sim$PoolMap}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[$\sim$PoolMap]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ virtual \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::$\sim$\hyperlink{class_j_g_t_l_1_1_pool_map}{Pool\-Map} ()\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_3b37f6bc0c5a42b4354edbd8ce8b907b}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_pool_map_205541080219447b7651aadd391816e4}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!operator=@{operator=}}
+\index{operator=@{operator=}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[operator=]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const \hyperlink{class_j_g_t_l_1_1_pool_map}{Pool\-Map}\& \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::operator= (const \hyperlink{class_j_g_t_l_1_1_pool_map}{Pool\-Map}$<$ Key, Data $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_205541080219447b7651aadd391816e4}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_3b3148e41d7f1df718801cd7396fd89f}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!copyFrom@{copyFrom}}
+\index{copyFrom@{copyFrom}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[copyFrom]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ void \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::copy\-From (const \hyperlink{class_j_g_t_l_1_1_pool_map}{Pool\-Map}$<$ Key, Data $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_3b3148e41d7f1df718801cd7396fd89f}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_669bf1d78e81cdd09fb6d2b1aea4ce9a}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!insert@{insert}}
+\index{insert@{insert}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[insert]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ void \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::insert (const Key \& {\em key}, const Data \& {\em data})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_669bf1d78e81cdd09fb6d2b1aea4ce9a}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_d9936165993f004d6c8b8aca4614e522}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!size@{size}}
+\index{size@{size}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[size]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ int \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::size ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_d9936165993f004d6c8b8aca4614e522}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_e89e7a5f21139dd6dd927d1898bb9f7c}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!clear@{clear}}
+\index{clear@{clear}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[clear]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ void \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::clear ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_e89e7a5f21139dd6dd927d1898bb9f7c}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_2a375fae39774d1abe87588cffc9411a}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!begin@{begin}}
+\index{begin@{begin}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[begin]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_pool_map_b3af40821696ebcf9f62a3e9d91324ee}{iterator} \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::begin ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_2a375fae39774d1abe87588cffc9411a}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_8d356ec14bedcd97fc2428ee7c7ba75b}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!end@{end}}
+\index{end@{end}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[end]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_pool_map_b3af40821696ebcf9f62a3e9d91324ee}{iterator} \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::end ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_8d356ec14bedcd97fc2428ee7c7ba75b}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_ed7f7adf472a3cb6be038adafcd1db70}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!hasKey@{hasKey}}
+\index{hasKey@{hasKey}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[hasKey]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const bool \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::has\-Key (const Key \& {\em key}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_ed7f7adf472a3cb6be038adafcd1db70}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_bbf48a295265f59eb595e7695997ac14}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!find@{find}}
+\index{find@{find}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[find]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_pool_map_b3af40821696ebcf9f62a3e9d91324ee}{iterator} \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::find (const Key \& {\em key})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_bbf48a295265f59eb595e7695997ac14}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_097cdf2c2bae8f59db2849a7b62f82d0}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!getData@{getData}}
+\index{getData@{getData}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[getData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::get\-Data (const Key \& {\em key})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_097cdf2c2bae8f59db2849a7b62f82d0}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_7b04eb59001beed06626bde7622a42d0}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!getData@{getData}}
+\index{getData@{getData}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[getData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const Data$\ast$ \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::get\-Data (const Key \& {\em key}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_7b04eb59001beed06626bde7622a42d0}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_27a40fef553c59284fc28621fd7515b5}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!getDataRef@{getDataRef}}
+\index{getDataRef@{getDataRef}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[getDataRef]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const Data\& \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::get\-Data\-Ref (const Key \& {\em key}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_27a40fef553c59284fc28621fd7515b5}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_9f6083416f0d4896c13003adb5c9b935}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!getIndexData@{getIndexData}}
+\index{getIndexData@{getIndexData}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[getIndexData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const Data\& \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::get\-Index\-Data (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_9f6083416f0d4896c13003adb5c9b935}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_68006d0d7c9195990a8d24dab585ce01}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!getIndexDataPtr@{getIndexDataPtr}}
+\index{getIndexDataPtr@{getIndexDataPtr}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[getIndexDataPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const Data$\ast$ \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::get\-Index\-Data\-Ptr (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_68006d0d7c9195990a8d24dab585ce01}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_pool_map_973160447230898cb7e0dd73ad675879}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!numElements@{numElements}}
+\index{numElements@{numElements}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[numElements]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ int \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_pool_map_973160447230898cb7e0dd73ad675879}{num\-Elements}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_973160447230898cb7e0dd73ad675879}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_15fff9edc5d43282b599db47bfbd31f5}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!maxElements@{maxElements}}
+\index{maxElements@{maxElements}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[maxElements]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ int \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_pool_map_15fff9edc5d43282b599db47bfbd31f5}{max\-Elements}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_15fff9edc5d43282b599db47bfbd31f5}
+
+
+\hypertarget{class_j_g_t_l_1_1_pool_map_0f8e82d573853a0b6bf943f277106f7f}{
+\index{JGTL::PoolMap@{JGTL::Pool\-Map}!dataList@{dataList}}
+\index{dataList@{dataList}!JGTL::PoolMap@{JGTL::Pool\-Map}}
+\subsubsection[dataList]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ std::pair$<$Key,Data$>$$\ast$ \hyperlink{class_j_g_t_l_1_1_pool_map}{JGTL::Pool\-Map}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_pool_map_0f8e82d573853a0b6bf943f277106f7f}{data\-List}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_pool_map_0f8e82d573853a0b6bf943f277106f7f}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___pool_map__delete_8h}{JGTL\_\-Pool\-Map\_\-delete.h}\end{CompactItemize}

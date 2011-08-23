@@ -1,0 +1,198 @@
+\hypertarget{class_j_g_t_l_1_1_interpolated_value}{
+\section{JGTL::Interpolated\-Value$<$ T $>$ Class Template Reference}
+\label{class_j_g_t_l_1_1_interpolated_value}\index{JGTL::InterpolatedValue@{JGTL::InterpolatedValue}}
+}
+The \hyperlink{class_j_g_t_l_1_1_interpolated_value}{Interpolated\-Value} Class handles values which approach a limit using the formula New\-Value = actual\-Value + (potential\-Value-actual\-Value)$\ast$interpolation\-Coeff;.  
+
+
+{\tt \#include $<$JGTL\_\-Interpolated\-Value.h$>$}
+
+Inheritance diagram for JGTL::Interpolated\-Value$<$ T $>$::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{class_j_g_t_l_1_1_interpolated_value}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_interpolated_value_bccb0ff62b1196afd31d0fec4794f3e7}{Interpolated\-Value} ()
+\item 
+\hyperlink{class_j_g_t_l_1_1_interpolated_value_9664708ef92a7c352429c37d0f463f2f}{Interpolated\-Value} (float \_\-interpolation\-Coeff)
+\item 
+\hyperlink{class_j_g_t_l_1_1_interpolated_value_d8bccc51f6cb96e1bfe433d5b83a94ba}{Interpolated\-Value} (const T \&\_\-value, float \_\-interpolation\-Coeff)
+\item 
+const \hyperlink{class_j_g_t_l_1_1_interpolated_value}{Interpolated\-Value}$<$ T $>$ \& \hyperlink{class_j_g_t_l_1_1_interpolated_value_30b679bad94ef7adf003bf99e5756a53}{operator=} (T \_\-potential\-Value)
+\item 
+float \hyperlink{class_j_g_t_l_1_1_interpolated_value_79acd7ca199cd56a2930dd362f0e78ef}{get\-Interpolation\-Coeff} ()
+\item 
+void \hyperlink{class_j_g_t_l_1_1_interpolated_value_fbd2118a23563bf541c1388131035ef5}{set\-Coeff} (float \_\-coeff)
+\item 
+virtual void \hyperlink{class_j_g_t_l_1_1_interpolated_value_eaeff236b97efbf0c616333e1b94b210}{set\-Value} (const T \&\_\-value)
+\item 
+void \hyperlink{class_j_g_t_l_1_1_interpolated_value_58856554c17b6b4b815e2e74e0dc5b5b}{operator+=} (const T \&\_\-value)
+\item 
+void \hyperlink{class_j_g_t_l_1_1_interpolated_value_d8cd429d3c46e1a49c5791a60deb7570}{operator-=} (const T \&\_\-value)
+\item 
+const T \& \hyperlink{class_j_g_t_l_1_1_interpolated_value_a3f9c94d927a923eaab2d6cec96d4dd7}{get\-Potential\-Value} () const
+\item 
+const T \& \hyperlink{class_j_g_t_l_1_1_interpolated_value_7197bfe20e331bfa6be2cbe122b2ffba}{get\-Actual\-Value} () const
+\item 
+void \hyperlink{class_j_g_t_l_1_1_interpolated_value_3098413c5cb85973a20b7066a5ed3171}{force\-Value} ()
+\item 
+virtual void \hyperlink{class_j_g_t_l_1_1_interpolated_value_bc1a6a8d484921bc309289c400bf0fbe}{update} (int times=1)
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+T \hyperlink{class_j_g_t_l_1_1_interpolated_value_38e69e9add9640f5678a877ffd99ac4e}{potential\-Value}
+\item 
+T \hyperlink{class_j_g_t_l_1_1_interpolated_value_db402fa9ddb87fc80411e1bbbd88241f}{actual\-Value}
+\item 
+float \hyperlink{class_j_g_t_l_1_1_interpolated_value_5f7a5762a8a5cb68597b8fc1a406d9d0}{interpolation\-Coeff}
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$ class JGTL::Interpolated\-Value$<$ T $>$}
+
+The \hyperlink{class_j_g_t_l_1_1_interpolated_value}{Interpolated\-Value} Class handles values which approach a limit using the formula New\-Value = actual\-Value + (potential\-Value-actual\-Value)$\ast$interpolation\-Coeff;. 
+
+\begin{Desc}
+\item[Author:]Jason Gauci \end{Desc}
+\begin{Desc}
+\item[Date:]2008 \end{Desc}
+
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_interpolated_value_bccb0ff62b1196afd31d0fec4794f3e7}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!InterpolatedValue@{InterpolatedValue}}
+\index{InterpolatedValue@{InterpolatedValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[InterpolatedValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_interpolated_value}{Interpolated\-Value} ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_bccb0ff62b1196afd31d0fec4794f3e7}
+
+
+\hypertarget{class_j_g_t_l_1_1_interpolated_value_9664708ef92a7c352429c37d0f463f2f}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!InterpolatedValue@{InterpolatedValue}}
+\index{InterpolatedValue@{InterpolatedValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[InterpolatedValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_interpolated_value}{Interpolated\-Value} (float {\em \_\-interpolation\-Coeff})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_9664708ef92a7c352429c37d0f463f2f}
+
+
+\hypertarget{class_j_g_t_l_1_1_interpolated_value_d8bccc51f6cb96e1bfe433d5b83a94ba}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!InterpolatedValue@{InterpolatedValue}}
+\index{InterpolatedValue@{InterpolatedValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[InterpolatedValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_interpolated_value}{Interpolated\-Value} (const T \& {\em \_\-value}, float {\em \_\-interpolation\-Coeff})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_d8bccc51f6cb96e1bfe433d5b83a94ba}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_interpolated_value_30b679bad94ef7adf003bf99e5756a53}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!operator=@{operator=}}
+\index{operator=@{operator=}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[operator=]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ const \hyperlink{class_j_g_t_l_1_1_interpolated_value}{Interpolated\-Value}$<$T$>$\& \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::operator= (T {\em \_\-potential\-Value})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_30b679bad94ef7adf003bf99e5756a53}
+
+
+
+
+Reimplemented in \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_0608de450007ab26e20cd9a680da7e84}{JGTL::Wrapped\-Interpolated\-Value$<$ T $>$}.\hypertarget{class_j_g_t_l_1_1_interpolated_value_79acd7ca199cd56a2930dd362f0e78ef}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!getInterpolationCoeff@{getInterpolationCoeff}}
+\index{getInterpolationCoeff@{getInterpolationCoeff}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[getInterpolationCoeff]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ float \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::get\-Interpolation\-Coeff ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_79acd7ca199cd56a2930dd362f0e78ef}
+
+
+\hypertarget{class_j_g_t_l_1_1_interpolated_value_fbd2118a23563bf541c1388131035ef5}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!setCoeff@{setCoeff}}
+\index{setCoeff@{setCoeff}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[setCoeff]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::set\-Coeff (float {\em \_\-coeff})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_fbd2118a23563bf541c1388131035ef5}
+
+
+\hypertarget{class_j_g_t_l_1_1_interpolated_value_eaeff236b97efbf0c616333e1b94b210}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!setValue@{setValue}}
+\index{setValue@{setValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[setValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ virtual void \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::set\-Value (const T \& {\em \_\-value})\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_eaeff236b97efbf0c616333e1b94b210}
+
+
+
+
+Reimplemented in \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_1cc76107e67afe602b384a1ecc9e2840}{JGTL::Wrapped\-Interpolated\-Value$<$ T $>$}.\hypertarget{class_j_g_t_l_1_1_interpolated_value_58856554c17b6b4b815e2e74e0dc5b5b}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[operator+=]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::operator+= (const T \& {\em \_\-value})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_58856554c17b6b4b815e2e74e0dc5b5b}
+
+
+\hypertarget{class_j_g_t_l_1_1_interpolated_value_d8cd429d3c46e1a49c5791a60deb7570}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!operator-=@{operator-=}}
+\index{operator-=@{operator-=}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[operator-=]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::operator-= (const T \& {\em \_\-value})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_d8cd429d3c46e1a49c5791a60deb7570}
+
+
+\hypertarget{class_j_g_t_l_1_1_interpolated_value_a3f9c94d927a923eaab2d6cec96d4dd7}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!getPotentialValue@{getPotentialValue}}
+\index{getPotentialValue@{getPotentialValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[getPotentialValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ const T\& \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::get\-Potential\-Value () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_a3f9c94d927a923eaab2d6cec96d4dd7}
+
+
+\hypertarget{class_j_g_t_l_1_1_interpolated_value_7197bfe20e331bfa6be2cbe122b2ffba}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!getActualValue@{getActualValue}}
+\index{getActualValue@{getActualValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[getActualValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ const T\& \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::get\-Actual\-Value () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_7197bfe20e331bfa6be2cbe122b2ffba}
+
+
+\hypertarget{class_j_g_t_l_1_1_interpolated_value_3098413c5cb85973a20b7066a5ed3171}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!forceValue@{forceValue}}
+\index{forceValue@{forceValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[forceValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::force\-Value ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_3098413c5cb85973a20b7066a5ed3171}
+
+
+\hypertarget{class_j_g_t_l_1_1_interpolated_value_bc1a6a8d484921bc309289c400bf0fbe}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!update@{update}}
+\index{update@{update}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[update]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ virtual void \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::update (int {\em times} = {\tt 1})\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_bc1a6a8d484921bc309289c400bf0fbe}
+
+
+
+
+Reimplemented in \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value_2bdc736eda165b27af022bae1f352aae}{JGTL::Wrapped\-Interpolated\-Value$<$ T $>$}.
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_interpolated_value_38e69e9add9640f5678a877ffd99ac4e}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!potentialValue@{potentialValue}}
+\index{potentialValue@{potentialValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[potentialValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_interpolated_value_38e69e9add9640f5678a877ffd99ac4e}{potential\-Value}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_38e69e9add9640f5678a877ffd99ac4e}
+
+
+\hypertarget{class_j_g_t_l_1_1_interpolated_value_db402fa9ddb87fc80411e1bbbd88241f}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!actualValue@{actualValue}}
+\index{actualValue@{actualValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[actualValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_interpolated_value_db402fa9ddb87fc80411e1bbbd88241f}{actual\-Value}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_db402fa9ddb87fc80411e1bbbd88241f}
+
+
+This is the current value. This value is approaching the potential value \hypertarget{class_j_g_t_l_1_1_interpolated_value_5f7a5762a8a5cb68597b8fc1a406d9d0}{
+\index{JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}!interpolationCoeff@{interpolationCoeff}}
+\index{interpolationCoeff@{interpolationCoeff}!JGTL::InterpolatedValue@{JGTL::Interpolated\-Value}}
+\subsubsection[interpolationCoeff]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ float \hyperlink{class_j_g_t_l_1_1_interpolated_value}{JGTL::Interpolated\-Value}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_interpolated_value_5f7a5762a8a5cb68597b8fc1a406d9d0}{interpolation\-Coeff}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_interpolated_value_5f7a5762a8a5cb68597b8fc1a406d9d0}
+
+
+This handles the rate at which the actual value approaches the potential value 
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___interpolated_value_8h}{JGTL\_\-Interpolated\-Value.h}\end{CompactItemize}

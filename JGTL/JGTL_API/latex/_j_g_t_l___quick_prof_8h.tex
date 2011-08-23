@@ -1,0 +1,54 @@
+\hypertarget{_j_g_t_l___quick_prof_8h}{
+\section{JGTL\_\-Quick\-Prof.h File Reference}
+\label{_j_g_t_l___quick_prof_8h}\index{JGTL_QuickProf.h@{JGTL\_\-QuickProf.h}}
+}
+{\tt \#include $<$iostream$>$}\par
+{\tt \#include $<$fstream$>$}\par
+{\tt \#include $<$sstream$>$}\par
+{\tt \#include $<$math.h$>$}\par
+{\tt \#include $<$algorithm$>$}\par
+{\tt \#include \char`\"{}JGTL\_\-Located\-Exception.h\char`\"{}}\par
+{\tt \#include \char`\"{}JGTL\_\-Dynamic\-Pool\-Map.h\char`\"{}}\par
+{\tt \#include \char`\"{}JGTL\_\-Singleton.h\char`\"{}}\par
+{\tt \#include $<$sys/time.h$>$}\par
+\subsection*{Namespaces}
+\begin{CompactItemize}
+\item 
+namespace \hyperlink{namespace_j_g_t_l}{JGTL}
+\end{CompactItemize}
+\subsection*{Classes}
+\begin{CompactItemize}
+\item 
+struct \hyperlink{struct_j_g_t_l_1_1_profile_block}{JGTL::Profile\-Block}
+\item 
+class \hyperlink{class_j_g_t_l_1_1_clock}{JGTL::Clock}
+\item 
+class \hyperlink{class_j_g_t_l_1_1_profiler}{JGTL::Profiler}
+\begin{CompactList}\small\item\em A singleton class that manages timing for a set of profiling blocks. \item\end{CompactList}\item 
+class \hyperlink{class_j_g_t_l_1_1_profile_block_handler}{JGTL::Profile\-Block\-Handler}
+\end{CompactItemize}
+\subsection*{Defines}
+\begin{CompactItemize}
+\item 
+\#define \hyperlink{_j_g_t_l___quick_prof_8h_19c6455991847f755a6eae9042db8f27}{PROFILER}~JGTL::Profiler::get\-Instance()
+\end{CompactItemize}
+\subsection*{Enumerations}
+\begin{CompactItemize}
+\item 
+enum \hyperlink{namespace_j_g_t_l_11a34d88ecadd1c99354adc21fd5abe6}{JGTL::Time\-Format} \{ \hyperlink{namespace_j_g_t_l_11a34d88ecadd1c99354adc21fd5abe6ad29f96ec6ca22f686db310d3e491ccd}{JGTL::SECONDS}, 
+\hyperlink{namespace_j_g_t_l_11a34d88ecadd1c99354adc21fd5abe60634056587e1e00ecaa18019a990c055}{JGTL::MILLISECONDS}, 
+\hyperlink{namespace_j_g_t_l_11a34d88ecadd1c99354adc21fd5abe68e2289b823ea3baf8aa44b51676d3b08}{JGTL::MICROSECONDS}, 
+\hyperlink{namespace_j_g_t_l_11a34d88ecadd1c99354adc21fd5abe6a5f6364e2e978c03f8500a982568cad7}{JGTL::PERCENT}
+ \}
+\begin{CompactList}\small\item\em A set of ways to represent timing results. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Define Documentation}
+\hypertarget{_j_g_t_l___quick_prof_8h_19c6455991847f755a6eae9042db8f27}{
+\index{JGTL_QuickProf.h@{JGTL\_\-Quick\-Prof.h}!PROFILER@{PROFILER}}
+\index{PROFILER@{PROFILER}!JGTL_QuickProf.h@{JGTL\_\-Quick\-Prof.h}}
+\subsubsection[PROFILER]{\setlength{\rightskip}{0pt plus 5cm}\#define PROFILER~JGTL::Profiler::get\-Instance()}}
+\label{_j_g_t_l___quick_prof_8h_19c6455991847f755a6eae9042db8f27}
+
+
+Use this macro to access the profiler singleton. For example: PROFILER.init(); ... PROFILER.begin\-Block(\char`\"{}foo\char`\"{}); foo(); PROFILER.end\-Block(\char`\"{}foo\char`\"{}); 

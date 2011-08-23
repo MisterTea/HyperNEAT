@@ -1,0 +1,180 @@
+\hypertarget{class_j_g_t_l_1_1_ray2}{
+\section{JGTL::Ray2$<$ T $>$ Class Template Reference}
+\label{class_j_g_t_l_1_1_ray2}\index{JGTL::Ray2@{JGTL::Ray2}}
+}
+This class handles 2D Rays and Line Segments.  
+
+
+{\tt \#include $<$JGTL\_\-Ray2.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_ray2_31284d7badc1d41327dbe9f968c66186}{Ray2} ()
+\item 
+template$<$class TT, class TTT$>$ \hyperlink{class_j_g_t_l_1_1_ray2_5ab2591d6df17a32373b34259913fbe2}{Ray2} (const \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ TT $>$ \&\_\-base, const \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ TTT $>$ \&\_\-direction)
+\item 
+\hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ T $>$ \hyperlink{class_j_g_t_l_1_1_ray2_e3d5c3d3ba2693d7904dabfd6407cd32}{get\-Direction} () const
+\item 
+\hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ T $>$ \hyperlink{class_j_g_t_l_1_1_ray2_151f4c434cde6776eb9183def4529944}{get\-Base} () const
+\item 
+\hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ T $>$ \hyperlink{class_j_g_t_l_1_1_ray2_2b38de58f57dd042c582fe2f9aa9258a}{get\-End\-Point} () const
+\item 
+template$<$class TT$>$ void \hyperlink{class_j_g_t_l_1_1_ray2_188eb46e39c7240523863760a7afe756}{set\-Base} (const \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ TT $>$ \&new\-Base)
+\item 
+template$<$class TT$>$ void \hyperlink{class_j_g_t_l_1_1_ray2_cc31a907c03a3d013694d3f0ac476e47}{set\-Direction} (const \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ TT $>$ \&new\-Direction)
+\item 
+template$<$class TT$>$ T \hyperlink{class_j_g_t_l_1_1_ray2_32b3a18663a108c037713e0473180223}{get\-Projection\-TVal} (const \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ TT $>$ \&Vector) const 
+\item 
+\hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ T $>$ \hyperlink{class_j_g_t_l_1_1_ray2_e59574fde082ff15adf09d6597782447}{get\-Projection\-Vector} (T t) const 
+\item 
+void \hyperlink{class_j_g_t_l_1_1_ray2_ac8af5ab11d2371da705144c47f2913b}{normalize} ()
+\item 
+template$<$class TT$>$ std::pair$<$ \hyperlink{namespace_j_g_t_l_84ea7d7d885581de216d16c16850615a}{Intersection\-State}, float $>$ \hyperlink{class_j_g_t_l_1_1_ray2_f520be1d874ef1679798e3c2b24a23ed}{get\-Intersection} (const \hyperlink{class_j_g_t_l_1_1_ray2}{Ray2}$<$ TT $>$ \&other, bool line\-Segment=false) const 
+\end{CompactItemize}
+\subsection*{Protected Member Functions}
+\begin{CompactItemize}
+\item 
+bool \hyperlink{class_j_g_t_l_1_1_ray2_c41c241bb8ef64b63d43a9c5aaef78d9}{within} (T a, T b, T c) const
+\item 
+bool \hyperlink{class_j_g_t_l_1_1_ray2_206fd5a155f3d460b878ea94f8df3eb2}{putwhere} (T x, T y, \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ T $>$ \&where, bool first) const 
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ T $>$ \hyperlink{class_j_g_t_l_1_1_ray2_5a70c3e1b6e6e940feaf0a45ab377f34}{base}
+\item 
+\hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ T $>$ \hyperlink{class_j_g_t_l_1_1_ray2_cb20b77d19a22288144189f326a4fa79}{direction}
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$ class JGTL::Ray2$<$ T $>$}
+
+This class handles 2D Rays and Line Segments. 
+
+\begin{Desc}
+\item[Author:]Jason Gauci \end{Desc}
+\begin{Desc}
+\item[Date:]2008 \end{Desc}
+
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_ray2_31284d7badc1d41327dbe9f968c66186}{
+\index{JGTL::Ray2@{JGTL::Ray2}!Ray2@{Ray2}}
+\index{Ray2@{Ray2}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[Ray2]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_ray2}{Ray2} ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_31284d7badc1d41327dbe9f968c66186}
+
+
+\hypertarget{class_j_g_t_l_1_1_ray2_5ab2591d6df17a32373b34259913fbe2}{
+\index{JGTL::Ray2@{JGTL::Ray2}!Ray2@{Ray2}}
+\index{Ray2@{Ray2}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[Ray2]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ template$<$class TT, class TTT$>$ \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_ray2}{Ray2} (const \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ TT $>$ \& {\em \_\-base}, const \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ TTT $>$ \& {\em \_\-direction})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_5ab2591d6df17a32373b34259913fbe2}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_ray2_e3d5c3d3ba2693d7904dabfd6407cd32}{
+\index{JGTL::Ray2@{JGTL::Ray2}!getDirection@{getDirection}}
+\index{getDirection@{getDirection}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[getDirection]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$T$>$ \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::get\-Direction () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_e3d5c3d3ba2693d7904dabfd6407cd32}
+
+
+\hypertarget{class_j_g_t_l_1_1_ray2_151f4c434cde6776eb9183def4529944}{
+\index{JGTL::Ray2@{JGTL::Ray2}!getBase@{getBase}}
+\index{getBase@{getBase}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[getBase]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$T$>$ \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::get\-Base () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_151f4c434cde6776eb9183def4529944}
+
+
+\hypertarget{class_j_g_t_l_1_1_ray2_2b38de58f57dd042c582fe2f9aa9258a}{
+\index{JGTL::Ray2@{JGTL::Ray2}!getEndPoint@{getEndPoint}}
+\index{getEndPoint@{getEndPoint}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[getEndPoint]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$T$>$ \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::get\-End\-Point () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_2b38de58f57dd042c582fe2f9aa9258a}
+
+
+\hypertarget{class_j_g_t_l_1_1_ray2_188eb46e39c7240523863760a7afe756}{
+\index{JGTL::Ray2@{JGTL::Ray2}!setBase@{setBase}}
+\index{setBase@{setBase}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[setBase]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ template$<$class TT$>$ void \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::set\-Base (const \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ TT $>$ \& {\em new\-Base})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_188eb46e39c7240523863760a7afe756}
+
+
+\hypertarget{class_j_g_t_l_1_1_ray2_cc31a907c03a3d013694d3f0ac476e47}{
+\index{JGTL::Ray2@{JGTL::Ray2}!setDirection@{setDirection}}
+\index{setDirection@{setDirection}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[setDirection]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ template$<$class TT$>$ void \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::set\-Direction (const \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ TT $>$ \& {\em new\-Direction})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_cc31a907c03a3d013694d3f0ac476e47}
+
+
+\hypertarget{class_j_g_t_l_1_1_ray2_32b3a18663a108c037713e0473180223}{
+\index{JGTL::Ray2@{JGTL::Ray2}!getProjectionTVal@{getProjectionTVal}}
+\index{getProjectionTVal@{getProjectionTVal}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[getProjectionTVal]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ template$<$class TT$>$ T \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::get\-Projection\-TVal (const \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ TT $>$ \& {\em Vector}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_32b3a18663a108c037713e0473180223}
+
+
+\hypertarget{class_j_g_t_l_1_1_ray2_e59574fde082ff15adf09d6597782447}{
+\index{JGTL::Ray2@{JGTL::Ray2}!getProjectionVector@{getProjectionVector}}
+\index{getProjectionVector@{getProjectionVector}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[getProjectionVector]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$T$>$ \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::get\-Projection\-Vector (T {\em t}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_e59574fde082ff15adf09d6597782447}
+
+
+\hypertarget{class_j_g_t_l_1_1_ray2_ac8af5ab11d2371da705144c47f2913b}{
+\index{JGTL::Ray2@{JGTL::Ray2}!normalize@{normalize}}
+\index{normalize@{normalize}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[normalize]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::normalize ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_ac8af5ab11d2371da705144c47f2913b}
+
+
+\hypertarget{class_j_g_t_l_1_1_ray2_f520be1d874ef1679798e3c2b24a23ed}{
+\index{JGTL::Ray2@{JGTL::Ray2}!getIntersection@{getIntersection}}
+\index{getIntersection@{getIntersection}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[getIntersection]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ template$<$class TT$>$ std::pair$<$\hyperlink{namespace_j_g_t_l_84ea7d7d885581de216d16c16850615a}{Intersection\-State},float$>$ \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::get\-Intersection (const \hyperlink{class_j_g_t_l_1_1_ray2}{Ray2}$<$ TT $>$ \& {\em other}, bool {\em line\-Segment} = {\tt false}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_f520be1d874ef1679798e3c2b24a23ed}
+
+
+\hypertarget{class_j_g_t_l_1_1_ray2_c41c241bb8ef64b63d43a9c5aaef78d9}{
+\index{JGTL::Ray2@{JGTL::Ray2}!within@{within}}
+\index{within@{within}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[within]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ bool \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::within (T {\em a}, T {\em b}, T {\em c}) const\hspace{0.3cm}{\tt  \mbox{[}inline, protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_c41c241bb8ef64b63d43a9c5aaef78d9}
+
+
+\hypertarget{class_j_g_t_l_1_1_ray2_206fd5a155f3d460b878ea94f8df3eb2}{
+\index{JGTL::Ray2@{JGTL::Ray2}!putwhere@{putwhere}}
+\index{putwhere@{putwhere}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[putwhere]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ bool \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::putwhere (T {\em x}, T {\em y}, \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ T $>$ \& {\em where}, bool {\em first}) const\hspace{0.3cm}{\tt  \mbox{[}inline, protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_206fd5a155f3d460b878ea94f8df3eb2}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_ray2_5a70c3e1b6e6e940feaf0a45ab377f34}{
+\index{JGTL::Ray2@{JGTL::Ray2}!base@{base}}
+\index{base@{base}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[base]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$T$>$ \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_ray2_5a70c3e1b6e6e940feaf0a45ab377f34}{base}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_5a70c3e1b6e6e940feaf0a45ab377f34}
+
+
+\hypertarget{class_j_g_t_l_1_1_ray2_cb20b77d19a22288144189f326a4fa79}{
+\index{JGTL::Ray2@{JGTL::Ray2}!direction@{direction}}
+\index{direction@{direction}!JGTL::Ray2@{JGTL::Ray2}}
+\subsubsection[direction]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$T$>$ \hyperlink{class_j_g_t_l_1_1_ray2}{JGTL::Ray2}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_ray2_cb20b77d19a22288144189f326a4fa79}{direction}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_ray2_cb20b77d19a22288144189f326a4fa79}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___ray2_8h}{JGTL\_\-Ray2.h}\end{CompactItemize}

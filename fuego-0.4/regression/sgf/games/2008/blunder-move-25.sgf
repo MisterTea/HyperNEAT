@@ -1,0 +1,322 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1pre1]SZ[9]
+TM[300]PB[Uct-20080308-8c(2315)]PW[mogo-big-1core(2285)]DT[2008-03-14]
+RE[W+Resign]
+BL[300.0]WL[300.0];B[ee]
+C[GoGtpEngine::GenMove: Using move from opening book
+]
+BL[277.5];W[dc]WL[299.6];B[fc]
+C[GoGtpEngine::GenMove: Using move from opening book
+]
+BL[299.9];W[ed]WL[286.8];B[fd]
+C[GoGtpEngine::GenMove: Using move from opening book
+]
+BL[299.9];W[de]WL[268.3];B[ef]
+C[GoGtpEngine::GenMove: Using move from opening book
+]
+BL[299.9];W[df]WL[255.9];B[eg]
+C[GoGtpEngine::GenMove: Using move from opening book
+]
+BL[299.9];W[dg]WL[243.3]
+;B[dh]
+C[GoGtpEngine::GenMove: Using move from opening book
+]
+BL[299.9];W[ch]WL[231.4];B[eh]
+C[SgDefaultTimeControl: timeLeft=300 remainingMoves=20 timeForMove=15
+GoUctGlobalSearchPlayer::FindInitTree: Reusing 10832654 nodes (43%)
+Sequence       C2 
+[0\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[1\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[4\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[3\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[2\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[7\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[6\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[5\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+Count          550802
+Nodes          17616203
+GameLength     84.5 dev=10.3 min=5.0 max=137.0
+MovesInTree    10.4 dev=2.9 min=2.0 max=29.0
+Aborted        0%
+Games/s: 43742.4
+Value: 0.53
+Sequence: E2 E8 F8 F9 E7 D8 C3 B3 C1 G8 B2 H7 B4 H6 C4 D6 C5 C6 B6 B7 B5 
+]
+BL[295.6];W[eb]WL[220.5];B[fb]
+C[SgDefaultTimeControl: timeLeft=296 remainingMoves=20 timeForMove=14.8
+GoUctGlobalSearchPlayer::FindInitTree: Reusing 7859667 nodes (22%)
+Sequence       E8 
+[4\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[7\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[1\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[5\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[2\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[6\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[3\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[0\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+Count          471575
+Nodes          16045845
+GameLength     83.7 dev=9.7 min=6.0 max=133.0
+MovesInTree    11.4 dev=3.2 min=2.0 max=26.0
+Aborted        0%
+Games/s: 43411.9
+Value: 0.55
+Sequence: F8 F9 E7 D8 G9 E9 C3 B3 C1 G8 B2 C6 H6 A2 B1 A3 B4 C4 C2 B5 A5 
+A6 A7 B6 B7 A4 
+]
+BL[291.2];W[fa]WL[214.7];B[ga]
+C[SgDefaultTimeControl: timeLeft=292 remainingMoves=20 timeForMove=14.6
+GoUctGlobalSearchPlayer::FindInitTree: Reusing 6753196 nodes (28%)
+Sequence       F9 
+[3\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[1\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[2\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[4\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[0\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[6\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[5\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[7\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+Count          543589
+Nodes          18870406
+GameLength     79.9 dev=7.9 min=5.0 max=127.0
+MovesInTree    15.5 dev=4.5 min=2.0 max=32.0
+Aborted        0%
+Games/s: 43005.8
+Value: 0.56
+Sequence: G9 E9 E7 D8 C3 G8 B3 H7 H6 D6 G7 H8 F5 B4 C4 B2 C5 C6 B5 A3 B6 
+B7 A4 A2 A1 
+]
+BL[284.7];W[ea]WL[204.6];B[ec]
+C[SgDefaultTimeControl: timeLeft=285 remainingMoves=20 timeForMove=14.25
+GoUctGlobalSearchPlayer::FindInitTree: Reusing 17240518 nodes (67%)
+Sequence       E9 
+[1\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[5\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[0\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[2\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[3\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[4\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[6\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[7\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+Count          735294
+Nodes          17274052
+GameLength     80.4 dev=8.0 min=54.0 max=111.0
+MovesInTree    21.1 dev=4.6 min=2.0 max=31.0
+Aborted        0%
+Games/s: 14829.9
+Value: 0.56
+Sequence: E7 D8 C3 G8 B3 H7 H6 H5 D6 C6 J6 B2 A4 A2 C5 E6 B5 D6 B6 B7 A7 
+A8 J5 H4 J4 H3 J3 J2 H2 H1 J1 G1 
+]
+BL[284.1];W[db]WL[199.8]
+(;B[cg]
+C[SgDefaultTimeControl: timeLeft=285 remainingMoves=20 timeForMove=14.25
+GoUctGlobalSearchPlayer::FindInitTree: Reusing 19195263 nodes (85%)
+Sequence       D8 
+[7\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[1\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[5\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[6\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[0\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[4\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[2\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[3\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+Count          842562
+Nodes          19239532
+GameLength     78.6 dev=7.1 min=52.0 max=105.0
+MovesInTree    21.0 dev=4.3 min=3.0 max=31.0
+Aborted        0%
+Games/s: 17830.0
+Value: 0.57
+Sequence: C3 G8 B3 H7 H6 H5 D6 C6 J6 B2 B4 H3 G6 G2 J5 B5 A2 B1 C1 J4 J2 
+D1 E1 H9 C1 E6 F5 D6 A1 H1 B1 F1 
+]
+BL[284.0];W[bg]WL[190.7];B[gb]
+C[SgDefaultTimeControl: timeLeft=285 remainingMoves=20 timeForMove=14.25
+GoUctGlobalSearchPlayer::FindInitTree: Reusing 474667 nodes (99%)
+Sequence       
+[5\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[0\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[3\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[7\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[6\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[1\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[4\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[2\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+Count          609638
+Nodes          20962314
+GameLength     76.5 dev=9.5 min=4.0 max=127.0
+MovesInTree    11.9 dev=3.6 min=2.0 max=31.0
+Aborted        0%
+Games/s: 51503.8
+Value: 0.54
+Sequence: G8 C4 D6 C6 D1 E6 C1 B1 D6 H4 E6 H2 G3 H3 H5 G5 H6 G2 J4 H7 J6 
+J7 G6 G4 F3 A2 
+]
+BL[273.5];W[di]WL[181.6]
+(;B[dd]BL[263.0];W[cd]WL[196.0];B[cc]BL[257.0];W[ed]WL[297.0];B[ei]BL[232.0];
+W[ci]WL[293.0];B[dd]BL[205.0];W[cf]WL[286.0];B[cb]BL[175.0];W[ed]WL[283.0]
+;B[bd]BL[146.0];W[dd]WL[277.0]
+(;B[bb]
+C[A8 also works by making seki with the whole W group in the worst case, but B8 simply lives.]
+BL[9.0])
+(;B[ab]BL[116.0];W[ba]WL[249.0];B[ca]BL[114.0];W[bb]WL[224.0];B[bc]BL[103.0];
+W[ad]WL[222.0];B[be]BL[92.0];W[ae]WL[220.0];B[bf]BL[83.0];W[af]WL[218.0]))
+(;B[cf]
+C[The real game.
+
+SgDefaultTimeControl: timeLeft=274 remainingMoves=20 timeForMove=13.7
+GoUctGlobalSearchPlayer::FindInitTree: Reusing 230402 nodes (1%)
+Sequence       D1 
+[6\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[2\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[7\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[3\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[4\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[0\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[1\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[5\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+Count          373814
+Nodes          12595910
+GameLength     70.9 dev=10.0 min=8.0 max=123.0
+MovesInTree    12.8 dev=3.8 min=2.0 max=30.0
+Aborted        0%
+Games/s: 52300.9
+Value: 0.73
+Sequence: C4 D6 B2 B1 C1 G5 F5 C2 A2 A3 C1 B8 C2 G3 H5 H4 H6 H2 J5 J4 E1 
+F2 F1 G2 G1 
+]
+BL[267.0];W[ce]WL[172.9];B[bf]
+C[SgDefaultTimeControl: timeLeft=268 remainingMoves=20 timeForMove=13.4
+GoUctGlobalSearchPlayer::FindInitTree: Reusing 9480220 nodes (39%)
+Sequence       C5 
+[3\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[2\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[6\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[5\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[7\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[4\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[0\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[1\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+Count          760419
+Nodes          20211788
+GameLength     75.4 dev=8.2 min=8.0 max=119.0
+MovesInTree    17.6 dev=4.8 min=3.0 max=35.0
+Aborted        0%
+Games/s: 43837.0
+Value: 0.20
+Sequence: B4 B5 B2 A4 C1 B1 E1 D6 A1 F5 C3 C4 C1 G5 H6 G3 G2 H2 H1 G1 F2 
+F4 C6 C7 B6 A6 B7 B8 A8 B9 C3 A3 A2 C2 F1 
+]
+BL[260.0];W[be]WL[164.5];B[bh]
+C[SgDefaultTimeControl: timeLeft=260 remainingMoves=20 timeForMove=13
+GoUctGlobalSearchPlayer::FindInitTree: Reusing 12798830 nodes (73%)
+Sequence       B5 
+[3\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[5\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[1\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[2\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[0\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[4\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[6\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[7\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+Count          678954
+Nodes          12832636
+GameLength     72.7 dev=8.3 min=44.0 max=101.0
+MovesInTree    20.7 dev=4.6 min=4.0 max=31.0
+Aborted        0%
+Games/s: 19804.5
+Value: 0.23
+Sequence: B2 A4 C1 B1 E1 D6 A1 F5 C3 C4 C1 G5 H6 G3 G2 H2 H3 H4 H1 J2 B1 
+J5 J7 J4 F3 G4 C3 A3 C2 A2 F1 
+]
+BL[259.3];W[af]WL[157.6];B[ci]
+C[SgDefaultTimeControl: timeLeft=260 remainingMoves=20 timeForMove=13
+GoUctGlobalSearchPlayer::FindInitTree: Reusing 16577482 nodes (82%)
+Sequence       A4 
+[2\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[3\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[0\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[7\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[5\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[4\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[1\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[6\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+Count          906533
+Nodes          16612502
+GameLength     71.6 dev=7.5 min=46.0 max=95.0
+MovesInTree    21.8 dev=4.4 min=4.0 max=32.0
+Aborted        0%
+Games/s: 18637.0
+Value: 0.23
+Sequence: C1 B1 E1 D6 A1 F5 C3 C4 C1 G5 H6 G3 H2 G6 H7 H5 J5 J6 G2 H3 B1 
+J2 H1 J3 J7 J4 J6 F1 
+]
+BL[259.1];W[bi]WL[149.9];B[ei]
+C[SgDefaultTimeControl: timeLeft=260 remainingMoves=20 timeForMove=13
+GoUctGlobalSearchPlayer::FindInitTree: Reusing 21438303 nodes (84%)
+Sequence       B1 
+[4\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[0\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[2\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[6\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[7\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[5\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[1\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[3\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+Count          1186920
+Nodes          21482865
+GameLength     73.5 dev=8.8 min=44.0 max=109.0
+MovesInTree    15.7 dev=3.6 min=4.0 max=27.0
+Aborted        0%
+Games/s: 20874.2
+Value: 0.25
+Sequence: E1 D6 A1 F5 C3 C4 C1 G5 H6 G3 H2 G6 H7 H5 J5 J6 H3 J8 J7 H8 J9 
+J4 G4 F4 H4 J6 H9 J5 C3 A3 C2 A2 B1 G1 
+]
+BL[258.9];W[dd]WL[142.7]
+;B[ai]
+C[SgDefaultTimeControl: timeLeft=260 remainingMoves=20 timeForMove=13
+GoUctGlobalSearchPlayer::FindInitTree: Reusing 18129640 nodes (63%)
+Sequence       D6 
+[2\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[0\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[1\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[5\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[6\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[7\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[3\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[4\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+Count          1004719
+Nodes          18192737
+GameLength     68.6 dev=9.1 min=38.0 max=101.0
+MovesInTree    12.1 dev=3.7 min=4.0 max=23.0
+Aborted        0%
+Games/s: 25059.9
+Value: 0.25
+Sequence: A1 F5 C3 C4 C1 G5 H6 G3 H2 G6 H7 H5 J5 J6 H3 J8 J7 H8 J9 J4 G4 
+F4 H4 J6 H9 J5 C3 A3 C2 A2 B1 G1 
+]
+BL[259.1];W[ah]WL[141.3];B[bc]
+C[SgDefaultTimeControl: timeLeft=259 remainingMoves=20 timeForMove=12.95
+GoUctGlobalSearchPlayer::FindInitTree: Subtree to reuse has 0 nodes
+[6\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[7\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[3\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[2\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[4\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[1\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[0\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+[5\] SgUctSearch::CheckAbortSearch: best move cannot change anymore (count select)
+Count          876372
+Nodes          26538365
+GameLength     65.0 dev=8.8 min=2.0 max=118.0
+MovesInTree    7.7 dev=2.5 min=1.0 max=20.0
+Aborted        0%
+Games/s: 68228.1
+Value: 0.02
+Sequence: B7 C8 A8 B9 H4 C1 D9 C9 F1 
+]
+BL[246.3];W[cb]WL[140.3]))
+(;B[dd]BL[300.0];W[cd]WL[298.0];B[ci]BL[283.0];W[bh]WL[286.0];B[gb]BL[277.0];
+W[bi]WL[284.0];B[di]BL[276.0];W[ed]WL[283.0];B[cg]BL[267.0];W[bg]WL[279.0]
+;B[dd]BL[266.0];W[cc]WL[275.0];B[ed]BL[265.0]))

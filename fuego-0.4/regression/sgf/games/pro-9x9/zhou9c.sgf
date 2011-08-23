@@ -1,0 +1,1031 @@
+(;
+GM[1]FF[4]VW[]AP[Many Faces of Go version 12.001]
+SZ[9]
+HA[0]
+ST[0]
+PB[nutngo]
+PW[Mogo]
+DT[2009-02-13]
+PC[The KGS Go Server at http://www.gokgs.com/]
+KM[7.5]
+TM[3000]
+RU[Chinese]
+RE[B+Resign]
+C[Mogo [-\]: GTP Engine for Mogo (white): MoGo version 3.0.0: I'll \
+resign if you win and playing until you pass if I win. If you \
+passed and I did not, it often means that the status of some \
+stones are not clear enough for me (I want to be sure we will \
+agree on dead stones). Clarify them. Maybe I am losing, but have \
+not enough time to be sure I should resign. In this case play \
+until the end :'( (very rare cases)]
+CA[UTF-8];B[de]BL[2979.645];W[fe]
+C[Samowar [1d\]: eat him alive, Mogo:D]
+WL[2999.816];B[ff]BL[2933.595];W[gf]WL[2999.638];B[ef]BL[2926.878];W[gg]WL[2999.453];B[fd]BL[2924.686];W[ge]
+C[Korlon [2k\]: It's playing rather fast
+Cookies [6k\]: fast
+solarstar [6k\]: the 9 p go go
+shesck [17k\]: lol agian
+Bonushand [9k\]: lol is that some setting they can change?
+alexanro [6k\]: how much cpupower does Mogo have this time?
+shesck [17k\]: lol same i think
+Samowar [1d\]: looks like b already won^^
+shesck [17k\]: but whiteis in trouble
+lemming [5k\]: same as yesterday
+Bonushand [9k\]: 4 moves in one second
+wolfey [-\]: o.o
+josette [1d\]: D7
+Korlon [2k\]: D6?
+alexanro [6k\]: and how much was it yesterday? 800 CPU cluster?
+shesck [17k\]: D6?
+Samowar [1d\]: e6
+Korlon [2k\]: I thought it was always 640
+shesck [17k\]: bad
+aware [2k\]: 640 cpus of this monster work for mogo: http://www.itjungle.com/tlb/tlb071508-story02.html
+ElAlmaZen [8k\]: whos winning?
+alexanro [6k\]: aware: thanks man :)
+Cookies [6k\]: b]
+WL[2999.25]
+;B[ed]BL[2820.72];W[be]
+C[shesck [17k\]: what?!
+Samowar [1d\]: yay
+hakuru: fast
+aware [2k\]: welcome :)]
+WL[2999.027];B[bf]
+C[ElAlmaZen [8k\]: W has more points
+shesck [17k\]: nice
+shesck [17k\]: move
+Samowar [1d\]: not likely
+spirito [1k\]: what was the result yesterday ?
+dionisio [9k\]: who's playing?
+ElAlmaZen [8k\]: C4
+Tsu123 [12k\]: 9p vs comp
+ElAlmaZen [8k\]: go mogo
+shesck [17k\]: lol
+ElAlmaZen [8k\]: show them your cyber powa
+josette [1d\]: komi 7,5 it's quiet a lot
+sweety [-\]: spirito, --> http://go.nutn.edu.tw/2009/English/result_eng.htm
+ElAlmaZen [8k\]: 8,5 should be
+ElAlmaZen [8k\]: 7.8  is not enough for small board
+Zeid [2d\]: its too much
+dionisio [9k\]: nice, i hope 9 p win this match, mogo has been \
+beating all those players
+josette [1d\]: so much time to play!!
+ElAlmaZen [8k\]: on the contrary
+ElAlmaZen [8k\]: B first move is too big
+josette [1d\]: what's the mater mogo
+ElAlmaZen [8k\]: komi is to compensate that
+Zeid [2d\]: go seigen said it should be 3,5
+Zeid [2d\]: komi
+ElAlmaZen [8k\]: mogo is meditatin
+spirito [1k\]: thanks
+Mercury [2k\]: i rate 5
+NattyIce [1k\]: seigen sayanything about 19 zeid?
+Zeid [2d\]: 9x9
+alexanro [6k\]: mogo is very good at winning with as little as \
+possible
+NattyIce [1k\]: i now but did he about 19 also?
+ElAlmaZen [8k\]: lets help mogo: ommmm
+NattyIce [1k\]: know*
+Zeid [2d\]: seigen changed it from 5,5 to 6,5 in 19x19
+NattyIce [1k\]: thx
+Mercury [2k\]: 19 needs more than 9 lol
+Mercury [2k\]: 7.5 is fine in 19
+Mogo [-\]: GTP Engine for Mogo (white): MoGo version 3.0.0: I'll \
+resign if you win and playing until you pass if I win. If you \
+passed and I did not, it often means that the status of some \
+stones are not clear enough for me (I want to be sure we will \
+agree on dead stones). Clarify them. Maybe I am losing, but have \
+not enough time to be sure I should resign. In this case play \
+until the end :'( (very rare cases)
+elohimmeth [1k\]: whats going on, can computer think?
+wolfey [-\]: ^_^
+Tsu123 [12k\]: mogo likes to repeat himself =/
+Pae [3k\]: computers can compute
+ElAlmaZen [8k\]: shh
+Mercury [2k\]: c4 mogo
+alexanro [6k\]: elohimmeth: it tries loads and loads of random \
+games for each possible move, and picks the move that wins the \
+most games, as far as I've understood
+ElAlmaZen [8k\]: let the poor bot think
+Samowar [1d\]: hmm
+Zvi [3k\]: is he "considering" c7 ?
+ElAlmaZen [8k\]: C4 is not in the manual
+Samowar [1d\]: it's a monte carlo based program, right?
+Pae [3k\]: then it should think the same on a pentium 1, just \
+use a LOT more time
+josette [1d\]: c5
+alexanro [6k\]: yes
+Mercury [2k\]: why whats wrong with c4
+Tsu123 [12k\]: i like c5
+Pae [3k\]: is there something wrong with it?
+weirdchess [10k\]: c4 looks better than c5 to me
+Mercury [2k\]: c4 c5 b3 b 6
+Abaddon [5d\]: C4 is bad, C5 is even worse.
+josette [1d\]: may be B6
+MrZNF [11k\]: it isn't, c5 ftw :)
+ElAlmaZen [8k\]: c5? haha
+Mercury [2k\]: its not the best
+Euphorie [-\]: c4 ->b3
+Pae [3k\]: i would never c5 for sure
+Mercury [2k\]: but i dont see what the hell b 5 does anyway
+elohimmeth [1k\]: c4 b3 is okey for w
+Samowar [1d\]: Abaddon the worst
+ElAlmaZen [8k\]: C3 maybe
+CGBSpender [4d\]: what does montecarlo do in comparison with anything \
+else ?
+Pae [3k\]: c5 is "banging your head into the wall"
+weirdchess [10k\]: what are you thinking? c7?
+Mercury [2k\]: c4 gives black top half tho
+ElAlmaZen [8k\]: C5 is jachoon soo, right
+Euphorie [-\]: well yeah b3 doesn't work
+MrZNF [11k\]: C5 is either getting the corner or the stone or \
+escaping I think :)
+ElAlmaZen [8k\]: b3 = I resign
+jungle [1d\]: hi
+Samowar [1d\]: yo
+Mercury [2k\]: i think mogo will resign
+MrZNF [11k\]: maybe he will tenuki
+Zvi [3k\]: lol
+Mercury [2k\]: lol
+Euphorie [-\]: w should win this]
+BL[2807.36];W[cf]
+C[alexanro [6k\]: CGBSpender: "statistical brute force", in a way, \
+http://en.wikipedia.org/wiki/Computer_Go#Monte-Carlo_methods
+Mercury [2k\]: c4
+slinky [-\]: white wont
+Mercury [2k\]: see
+weirdchess [10k\]: there's no such thing as tenuki in 9x9
+ElAlmaZen [8k\]: finally
+MrZNF [11k\]: =(]
+WL[2555.848];B[ce]
+C[Mercury [2k\]: im good hey
+CGBSpender [4d\]: i bet on white
+Mercury [2k\]: i think like a bot
+Mercury [2k\]: b3!
+Euphorie [-\]: black in trouble
+josette [1d\]: good mercurey is mentor of mogo
+MrZNF [11k\]: white now has to play B3
+weirdchess [10k\]: b3 is obviously forced here
+Mercury [2k\]: ye
+Mercury [2k\]: what the heck esle can it do
+Mercury [2k\]: resign?
+josette [1d\]: b6
+aware [2k\]: exactly same game as the 1st they played up to now
+ElAlmaZen [8k\]: wake me up when Mogo plays B3
+Zvi [3k\]: this is starting to look like mogos and nutngo last \
+game
+weirdchess [10k\]: what happened in the first?
+CGBSpender [4d\]: and who had won, aware ?
+Mercury [2k\]: 0.5?
+Mercury [2k\]: mogo 0.5?
+aware [2k\]: the pro by resignation
+Zvi [3k\]: in the last one nutngo owned mogo completely
+Mercury [2k\]: im thinkin of last nite
+Zvi [3k\]: oh
+Samowar [1d\]: i'd b6 as well
+Mercury [2k\]: why cant mogo play 19x19
+Mercury [2k\]: is it too much for him?
+CGBSpender [4d\]: it takes lot of time
+Korlon [2k\]: He could
+requires [1d\]: mogo prefers a 1% chance to win, vs losign by \
+0.5  .  so when it loses, it mostly loses by res.  it doesn't \
+mean it was a blowout.
+alexanro [6k\]: mogo has
+Mercury [2k\]: play 1 move every day?
+mattpk [11k\]: a9 a8 b9 b8 c9 c8 d9 d8 e9 e8 f9 f8 g9 g8 h9 h8 \
+h7 j9 h6 j7 h5 j6 j5 j4 c4 
+mattpk [11k\]: nvm
+Korlon [2k\]: Should make mogo play on DGS
+alexanro [6k\]: Mercury: check the wikipedia link I found a bit \
+further up. At the end of that paragraph, a 19x19 is mentioned
+taodoc [15k\]: dumb
+aware [2k\]: mercury> it can... and it beat a 9p and a 1p with \
+7handy(against 9p) and 6handy (even though the rematch it lost \
+both times)
+Mercury [2k\]: put mogo against another bot
+ElAlmaZen [8k\]: A9???
+jungle [1d\]: a9 good move
+spirito [1k\]: isn't b6 possible here ?
+weirdchess [10k\]: he's counting points, not moves elalmazen
+Mercury [2k\]: it cant win with no handi tho
+xinwen [-\]: haha the computer isn't good enough to "think" faster
+Mercury [2k\]: b6 is useless
+alexanro [6k\]: xinwen: one can decide how long mogo should think, \
+longer gives better results]
+BL[2801.78];W[bg]WL[2327.333];B[bd]
+C[Mercury [2k\]: b3 yep
+Mercury [2k\]: LD:
+Mercury [2k\]: a4!
+heather [2d\]: is mogo's opening book being updated by these games?
+Mercury [2k\]: pro remembers exact moves
+ElAlmaZen [8k\]: mogo doesnt know openings
+Mercury [2k\]: and going to play them again cuz bot cant evolve?
+Mercury [2k\]: lol
+heather [2d\]: hmm I swear I remember mogo having opening plays \
+for small boards. Maybe it was crazystone
+aware [2k\]: still same game as their first ... mogo now a4, nutngo \
+e2:)
+weirdchess [10k\]: mogo definitely knows openings - it always \
+blitzes out the first 2-3 moves in one second
+alexanro [6k\]: Mercury: the bot uses probability, so it's likely \
+that it won't repeat the same patterns again and again
+ElAlmaZen [8k\]: bots dont evolve, stop reading sci-fi comics
+Mercury [2k\]: ahh
+Mercury [2k\]: does it have memory
+ElAlmaZen [8k\]: bots are machines
+ElAlmaZen [8k\]: only real beings evolve
+alexanro [6k\]: don't think so
+aware [2k\]: alexanro> up to now it did:)
+weirdchess [10k\]: though there are machine-learning algorithms
+alexanro [6k\]: aware: oh, ok :)
+Mercury [2k\]: then it cant remember
+Mercury [2k\]: when it lost.
+CptObvious [?\]: ElAlmaZen, you obviously haven't heard of skynet \
+before ;)
+zazi: programs evolve
+Mercury [2k\]: no
+Mercury [2k\]: programers evlove programs
+ElAlmaZen [8k\]: bot is a computer program only improves if the \
+programmer wants to
+Mercury [2k\]: lol
+Mercury [2k\]: maby in 10 years
+Mercury [2k\]: skynet !
+Tsu123 [12k\]: what is skynet
+ElAlmaZen [8k\]: go mogo go
+Mercury [2k\]: its terminator 
+alexanro [6k\]: Mercury: are you afraid of the idea that computer \
+programs can learn and be creative?
+Tsu123 [12k\]: ?
+Mercury [2k\]: no
+ElAlmaZen [8k\]: haha
+ElAlmaZen [8k\]: affraid,wow
+Mercury [2k\]: why would i be
+Mercury [2k\]: im a computer program
+Tsu123 [12k\]: that will smith movie
+CptObvious [?\]: tsu: http://www.imdb.com/title/tt0088247/
+Mercury [2k\]: :D
+calbonga [13k\]: play there!
+Mercury [2k\]: a4!
+Tsu123 [12k\]: thanks]
+BL[2798.001];W[af]
+C[Mercury [2k\]: yes!
+Mercury [2k\]: well done mogo
+xinwen [-\]: FIRST BLOOD
+josette [1d\]: mercury 100%
+aware [2k\]: e2 would be repetition of last game... im curious:)
+Mercury [2k\]: i cant predict black
+jungle [1d\]: stoned
+zazi: quit helping him
+Mercury [2k\]: too hard
+Mercury [2k\]: only mogo
+ElAlmaZen [8k\]: this mogo is running in a 486?
+weirdchess [10k\]: interesting - the pro doesnt have a response \
+prepared]
+WL[2114.385];B[eh]
+C[heather [2d\]: first captured stone(s) should be worth more points
+Mercury [2k\]: oh!
+aware [2k\]: yeah:)
+alexanro [6k\]: :
+xinwen [-\]: -,-
+Mercury [2k\]: i was thinking d 2 guess e2 was better
+Mercury [2k\]: attacks both sides
+jungle [1d\]: this game sucks
+weirdchess [10k\]: g7 here?
+aware [2k\]: g6 now again or is there another candidate with  \
+probability high enough?
+zazi: life in the jungle
+ElAlmaZen [8k\]: yes Jungle, next game you play with Mogo
+calbonga [13k\]: anyone saw mogo"S straight line game yesterday
+ElAlmaZen [8k\]: ok?
+fringd [1k\]: w owes b a move
+jungle [1d\]: ?
+fringd [1k\]: b can c2
+weirdchess [10k\]: why g6 instead of g7?
+heather [2d\]: well um allowing b c2 sucks
+chipper [-\]: aware, please predict game till end :)
+Zvi [3k\]: straight line game ?
+chipper [-\]: I think you can do it.
+calbonga [13k\]: yep
+Zvi [3k\]: what's that ?
+zazi: there's life in the jungle
+calbonga [13k\]: nothing
+mrhackett [7k\]: well, no doubt he can....
+Zvi [3k\]: :/
+PikkuKiusa [3k\]: loool
+calbonga [13k\]: yesterday mogo just played in one straight line
+Mercury [2k\]: well top is big
+PikkuKiusa [3k\]: 50 minutes and 9x9
+Mercury [2k\]: but bot has 1 eye
+chipper [-\]: g6 is now
+alexanro [6k\]: w c8, w d3, w d2, w g6 or somewhere else?
+fringd [1k\]: yeah only a computer has the patience to spend 50 \
+on 9x9
+chipper [-\]: G6, G7, D3, H7,
+weirdchess [10k\]: is white dead after black c2?
+Mercury [2k\]: think so
+jungle [1d\]: yes
+weirdchess [10k\]: it looks like yes to me
+Mercury [2k\]: so bot will play c 2?
+ElAlmaZen [8k\]: C4 first?
+aware [2k\]: g6 g7 d3 h7 f2 e3 d2 d1 c6 c7 a6 b7 
+jungle [1d\]: b7
+chipper [-\]: It will be funny if the same game occurs
+Mercury [2k\]: then pro will win
+jungle [1d\]: b4
+royalty [3d\]: nah, a6
+chipper [-\]: Aware :)
+Mercury [2k\]: with g 6
+ElAlmaZen [8k\]: C7 i mean]
+BL[2757.933];W[gd]
+C[royalty [3d\]: harr]
+WL[1917.22]
+;B[gc]
+C[heather [2d\]: hmm!
+chipper [-\]: Now, everyone follow along with aware
+Mercury [2k\]: i guess it wasnt dead
+chipper [-\]: And enjoy the show :)
+fringd [1k\]: b seems ok
+aware [2k\]: :) ... questio is if it sees some move that has same \
+probablity to win than the ones it played last time
+Mercury [2k\]: h 7 i guess
+mmueller [4d?\]: h7
+fringd [1k\]: black just counted
+fringd [1k\]: can win without killing
+Mercury [2k\]: but it wont die surely
+weirdchess [10k\]: why g6 over g7?  didn't g7 grab more?
+ElAlmaZen [8k\]: what is aware talking about?
+Vinicius [1d\]: killing? o.O
+Mercury [2k\]: cuz mogo knows all?
+ElAlmaZen [8k\]: i cant follow
+weirdchess [10k\]: white g7, black g6, white h6 looked safe to \
+me
+Mercury [2k\]: g7 is weak shape
+Mercury [2k\]: was
+Mercury [2k\]: black could take sente as well then maby
+Mercury [2k\]: come mogo h7 is ur only option surely
+fringd [1k\]: i see c2 no good
+chipper [-\]: it must play d3 or else death
+fringd [1k\]: c2, b2, c3
+Mercury [2k\]: c2 doesnt work
+chipper [-\]: so it will recreate losing position
+Mercury [2k\]: i mean mogo
+Mercury [2k\]: would know?]
+BL[2753.155];W[cd]
+C[solarstar [6k\]: i wish they play 19x19 already
+fringd [1k\]: no c2 b2, c3
+Mercury [2k\]: i dont know i dont doubt mogo tho
+aware [2k\]: ah - change!
+Mercury [2k\]: LLOL
+Cookies [6k\]: o.o..
+fringd [1k\]: c2 does work
+weirdchess [10k\]: ?
+chipper [-\]: not change..
+ElAlmaZen [8k\]: fight fight
+chipper [-\]: this is just different order of moves
+ElAlmaZen [8k\]: go mogo go
+chipper [-\]: still same position
+Korlon [2k\]: On what date was the other game like this one?
+Zvi [3k\]: okay. this game happened already right ?
+Mercury [2k\]: what is this aiming at hmm
+miago [1d\]: what was the time date of that game chipper?
+Cookies [6k\]: i think he wants b to c7
+Korlon [2k\]: C7 here
+Mercury [2k\]: i never saw last one
+Cookies [6k\]: then e5
+aware [2k\]: true chipper :)
+chipper [-\]: Zvi, mogo is playing similar to first game he played \
+against black
+ElAlmaZen [8k\]: this is confusing the human]
+WL[1735.853];B[cc]
+C[ElAlmaZen [8k\]: bot are clever
+Mercury [2k\]: bot gave a way a point
+Zvi [3k\]: it looks nearly exactly like the last game :(
+weirdchess [10k\]: im guessing white a6 here?
+heather [2d\]: I dubt b is confused
+Mercury [2k\]: a 5?
+Mercury [2k\]: 6
+weirdchess [10k\]: or is mogo going to pull a mogo and go d6 or \
+something?
+jungle [1d\]: b4
+ElAlmaZen [8k\]: see 9p is in doubt
+ElAlmaZen [8k\]: go mogo
+YOGI [12k\]: your rooting for the computer?
+Mercury [2k\]: d4 u mean
+solarstar [6k\]: mo go suks wat r u elma a robot?
+josette [1d\]: mogo founds this move in a bad game
+Korlon [2k\]: So is he going to D3 now?
+ElAlmaZen [8k\]: be nice with the poor bot
+Cookies [6k\]: mogo doesn't suck >:(
+Akagi316 [7k?\]: has bot won one yet
+Cookies [6k\]: yes
+Cookies [6k\]: won first 2
+Mercury [2k\]: he won won last nite
+chipper [-\]: Now I want to see if mogo changes..
+Mercury [2k\]: mogo isnt going to change
+jungle [1d\]: cant change i think
+Mercury [2k\]: he isnt like the weather
+reggel [-\]: mogo is probably alll like... can not compute... \
+can not compute... SELF DESTRUCT
+reggel [-\]: :)
+jungle [1d\]: :
+chipper [-\]: then it'll be the same?
+jungle [1d\]: :)
+josette [1d\]: and what the weather like
+chipper [-\]: d3, h7?
+chipper [-\]: just in different order
+Mercury [2k\]: not at all its more like compute compute compute \
+more compiute
+Mercury [2k\]: and then keep computing
+Mercury [2k\]: and make same move]
+BL[2699.462];W[dg]
+C[ElAlmaZen [8k\]: i told them to buy good machine oil
+Korlon [2k\]: Haha, D3
+weirdchess [10k\]: h6]
+WL[1574.682];B[dh]
+C[Mercury [2k\]: is it the same?
+josette [1d\]: fine bot psychology mercury
+mmueller [4d?\]: oh no
+chipper [-\]: h7 weirdchess
+Korlon [2k\]: Aww, black changed
+chipper [-\]: h6 would be gote
+reggel [-\]: why mogo go c6?
+fringd [1k\]: b read this already
+xinwen [-\]: B+R
+chipper [-\]: haha yes
+Korlon [2k\]: Black should've played H7
+aware [2k\]: oh - b answerd different than last time
+reggel [-\]: why hello shana
+chipper [-\]: well d2 still sente
+Zvi [3k\]: really? looks like last time
+aware [2k\]: korlon> b did h7 last time this position occured
+Zvi [3k\]: oh
+Zvi [3k\]: right :/
+josette [1d\]: and what if E3 now
+jungle [1d\]: h7 NOW HAHAHAHA
+Mercury [2k\]: but maby this guy is going for gold
+Mercury [2k\]: whole board distruction
+Korlon [2k\]: Did this guy watch that specific game?
+Ho [3k?\]: d4 
+reggel [-\]: D4?
+solarstar [6k\]: black should h7
+Zvi [3k\]: f2?
+Renen [15k\]: I find it funny that so many think they know better \
+than the pro player >_<
+Pizat19 [3k\]: black should wait for his turn :P
+Mercury [2k\]: nonono mogo knows best
+reggel [-\]: maybe I am a pro?
+solarstar [6k\]: well we areXD
+jungle [1d\]: we are all pro here
+Ho [3k?\]: c2  maybe
+Zvi [3k\]: isn't w: f2 good ?
+alexanro [6k\]: Renen: you're 15k, you're supposed to suggest \
+moves, not be all insightful ;)
+solarstar [6k\]: accept u
+Mercury [2k\]: pro go?
+sasa86 [5k\]: when watching a pro game everyone's a pro
+reggel [-\]: ever think about that? maybe my rank is hidden so \
+no one knows im a 4p?
+sasa86 [5k\]: like soccer
+weirdchess [10k\]: i'm pro in a totally amateur way]
+BL[2686.676];W[ad]
+C[Renen [15k\]: I have been shut down too many times alexanro :P]
+WL[1439.594];B[bc]
+C[reggel [-\]: SUFI!
+Zvi [3k\]: usually when p eople suggest moves rather throwing \
+them claiming they are correct, they are more welcome renen
+Mercury [2k\]: h7
+zazi: a6 only a program knows why
+fringd [1k\]: b will get h7
+fringd [1k\]: w still owes c2
+weirdchess [10k\]: mogo really only plays simple geometric structures \
+... straight line or small diagonals
+solarstar [6k\]: h7 or face deafeat black
+Korlon [2k\]: Don't we all do that?
+Mercury [2k\]: no
+aware [2k\]: weird> you should watch it on 19x19 ... and it has \
+no concept of "shape"
+Korlon [2k\]: I see lines from black here
+CGBSpender [4d\]: C2 is sente on b's group
+reggel [-\]: mogo gotta go H7... O
+Mercury [2k\]: we think in patterns
+weirdchess [10k\]: i've seen it on 19x19... it plays so well for \
+the first 30 moves then it starts playing like a 25kyu
+Mercury [2k\]: and we memorize patterns
+Korlon [2k\]: Mogo's self ataris are hilarious
+reggel [-\]: we 25K are a proud people!
+Mercury [2k\]: ya it gets confused
+josette [1d\]: c2 is sente on B's  group ?   can you explain]
+BL[2682.504];W[ch]
+C[Mercury [2k\]: cuz theres too much possibility]
+WL[1314.64];B[hd]
+C[aware [2k\]: weird> funny that this 25k  has beaten a 9p with \
+7 handy and a 1p with 6handy:)
+fringd [1k\]: b is bored
+Zvi [3k\]: wow h6
+CGBSpender [4d\]: e3 f3 f2 g2 e5 
+CGBSpender [4d\]: black is cut
+jungle [1d\]: f2 d4
+jungle [1d\]: noob
+smogogo [2k\]: c2make a cut in e5, but black will live i think
+Oops [2d\]: lol
+solarstar [6k\]: thats immposible 25 k suks
+Mercury [2k\]: how much handi
+Mercury [2k\]: does a dan need to beat 9 p
+reggel [-\]: power to the 25K!!!!
+solarstar [6k\]: 7 handi
+josette [1d\]: ok thx
+Bonushand [9k\]: 7.5
+Mercury [2k\]: 9?
+Mercury [2k\]: 1d
+Korlon [2k\]: Depends on what dan you're talking about
+weirdchess [10k\]: CGB's line is really interesting - would the \
+bottom black structure die then CGB?
+Mercury [2k\]: a kgs dan 
+CGBSpender [4d\]: yes
+solarstar [6k\]: 25 k can beat 9 p with 36 handi
+fringd [1k\]: e3 f3 f2 d4, CGBSpender
+CGBSpender [4d\]: but black will not get tricked, he will sacrifice \
+the tail
+wayward [1k\]: B+2.5
+jungle [1d\]: f2 d4 i said
+reggel [-\]: chinese stlye handi
+Mercury [2k\]: ye the more handi u make its easier
+aware [2k\]: seems like b is trying to put  more pressure to w \
+than last time and see how it reacts
+Variable [1d\]: there is no sacrifice
+CGBSpender [4d\]: i know that
+reggel [-\]: not always
+Mercury [2k\]: anything over 9 gets stupid
+royalty [3d\]: komi is not going to be enough?
+wayward [1k\]: nope
+wayward [1k\]: :)
+weirdchess [10k\]: what about e3 f3 d4?
+wayward [1k\]: I predict B+2.5
+reggel [-\]: unless you have a ridiculous handi
+Mercury [2k\]: then they can use basic lines
+solarstar [6k\]: push to lose sente?
+weirdchess [10k\]: then white double threatens e5 and f2
+CGBSpender [4d\]: it's the same whatever order is played
+Mercury [2k\]: and just play "connect the dots"
+Mercury [2k\]: and win
+CGBSpender [4d\]: white will use the weakness
+reggel [-\]: go mogo go mogo go go mogo go mogo go!
+solarstar [6k\]: and he call him self 9p
+josette [1d\]: human go human!
+alexanro [6k\]: W+1 ;)
+fringd [1k\]: just e5 then]
+BL[2678.263];W[hc]WL[1179.478]
+;B[hb]
+C[reggel [-\]: so i guess your an expert on pros now solarstar?
+Mercury [2k\]: f12>interesting
+jungle [1d\]: yes f12
+Mercury [2k\]: f12>
+Mercury [2k\]: :D
+Zioh [1k\]: id play f12 here
+Zvi [3k\]: f12 strong
+smogogo [2k\]: now e3 better
+Mercury [2k\]: if only theres a f12 hey
+solarstar [6k\]: yes i am regel
+wayward [1k\]: Alt F4 stronger
+reggel [-\]: i was think L13
+Mercury [2k\]: that would be mogos move
+royalty [3d\]: f9.. f1.. f2..f3.. f3 not really interesting
+reggel [-\]: thinking
+solarstar [6k\]: im ex[ert on pros
+reggel [-\]: how so?
+calbonga [13k\]: how come Mogo is always takin so long?
+solarstar [6k\]: cux im 10000p
+kuy30 [1d\]: only possibilities of result are W+0.5 and B+R
+Zvi [3k\]: he's wise
+Mercury [2k\]: come mogo if u dont h 5 ur stones will dine
+Korlon [2k\]: Needs processing time
+wayward [1k\]: Mogo is reading
+calbonga [13k\]: idk
+Mercury [2k\]: FF
+reggel [-\]: because robots need a long time to think!
+alexanro [6k\]: calbonga: the people running the mogo program \
+can decide how long Mogo should think
+solarstar [6k\]: so HA!
+calbonga [13k\]: grr
+reggel [-\]: lolololololol
+reggel [-\]: lolz
+calbonga [13k\]: ok I get it
+senseless [2d\]: black should win tis?
+weirdchess [10k\]: could comp run low on time with 50 min in 9x9?]
+BL[2674.797];W[gb]
+C[Mercury [2k\]: lololol
+Zvi [3k\]: ????
+reggel [-\]: what are you doing mogo?
+senseless [2d\]: is black leading now?
+Mercury [2k\]: here we go
+Zvi [3k\]: he thinks why will take lol
+reggel [-\]: no mogo no mogo no!
+wayward [1k\]: f7
+josette [1d\]: e3 f2 e5 D4  and no cut, isn't it
+fringd [1k\]: yeah f7 is easy
+Zvi [3k\]: just f7, and mogo loses
+chipper [-\]: mogo self destruct~
+eoe [11k\]: i could have played that ;\]
+reggel [-\]: wad i say!
+reggel [-\]: this is what happened
+Mercury [2k\]: j 7 mogo will lose too
+weirdchess [10k\]: i dont see a cut for white
+hakuru: alllll  the go bots r stupid
+weirdchess [10k\]: wow
+reggel [-\]: *can not compute... can not compute.... SUICIDE!*
+senseless [2d\]: mogo won him on 19x19 with 7 handi
+alexanro [6k\]: wait and see :)
+solarstar [6k\]: u all suk
+hakuru: F7
+Zvi [3k\]: j7 will create aji though
+Mercury [2k\]: ya
+wayward [1k\]: "stupid" is a virtue of humans only
+Mercury [2k\]: well f7 is the best
+Zvi [3k\]: don't like it :/
+CGBSpender [4d\]: white wants H5 sente
+CGBSpender [4d\]: nice
+Mercury [2k\]: then he needs j7
+McStylez [2k\]: H5 was sente without g8
+Mercury [2k\]: who has more libirties
+solarstar [6k\]: u all suk
+Zvi [3k\]: would have said the mcstylez, if the one saying that \
+wasn't 4d ;/
+matthos [11k\]: what game is this?
+reggel [-\]: NO U!
+Mercury [2k\]: black has more libirties
+solarstar [6k\]: u all suk!!!
+reggel [-\]: no u
+wayward [1k\]: easy there children, no cursing, no shouting, there's \
+admins here
+chipper [-\]: Focus on the game please
+Mercury [2k\]: black will win
+reggel [-\]: no u
+solarstar [6k\]: U suk more regel
+chipper [-\]: reggel...
+weirdchess [10k\]: j7 works for black, no? its a bit riskier but \
+i'm pretty sure white dies before black
+CGBSpender [4d\]: white wins this game
+chipper [-\]: and solarstar
+elohimmeth [1k\]: black gone
+Mercury [2k\]: yes
+gaudy [10k?\]: who is mogo playing?
+solarstar [6k\]: suk is not cursing
+sweety [-\]: solarstar, thats enough..
+chipper [-\]: I said focus on game
+Mercury [2k\]: black and white group have same libirties
+reggel [-\]: ...I will not object your athourty
+weirdchess [10k\]: jun xun zhou 9p
+matthos [11k\]: who is nutngo?
+calbonga [13k\]: a player
+Mercury [2k\]: but black is first
+wayward [1k\]: nutngo is a shared account
+calbonga [13k\]: a human
+wayward [1k\]: see MOTD
+reggel [-\]: how ever you may spell athourty
+chipper [-\]: Also, see nutngo's info for more information.
+calbonga [13k\]: plural human
+aware [2k\]: b is http://senseis.xmp.net/?ZhouJunxun
+calbonga [13k\]: humanS
+fringd [1k\]: b +5 at least
+fringd [1k\]: mogo is acting up
+calbonga [13k\]: f7
+reggel [-\]: what's taking nutngo so long?
+aware [2k\]: time stopped... nutngo connectin problems?
+calbonga [13k\]: this seems a bit complicated
+aware [2k\]: connection*
+Mercury [2k\]: ya
+solarstar [6k\]: yuh
+alexanro [6k\]: escape? ;)
+Mercury [2k\]: nutngo had power failure
+Mercury [2k\]: jsut phoned me to say
+weirdchess [10k\]: black j7 stops h5 from being sente, as opposed \
+to f7
+reggel [-\]: solarstar, this is all your fault!... jk, jk... don't \
+respond... and don't kick me admins
+miago [1d\]: The reason for these strange w moves: They increase \
+the computing horizon. This way w's positions looks better than.
+Zvi [3k\]: computing horizon ?
+Rajan [23k\]: More options
+Zvi [3k\]: thanks
+Mercury [2k\]: who stands at the top of the go world >\]
+fringd [1k\]: mogo can read that he will lose, but he can only \
+read so far, so he plays weird moves to extend the game because \
+unknown seems better than known failure
+wayward [1k\]: good explanation, fringd
+Zvi [3k\]: oh
+alexanro [6k\]: yes, nice
+Zvi [3k\]: makes more sense now
+Zvi [3k\]: thanks
+fringd [1k\]: e5 a little spooky
+Mercury [2k\]: i no squat about go
+Mercury [2k\]: i started last week
+calbonga [13k\]: did nutty escape?
+Mercury [2k\]: btw
+calbonga [13k\]: no
+Mercury [2k\]: so whos the best?
+Zvi [3k\]: me
+calbonga [13k\]: maybe mogo escaped
+wayward [1k\]: why don't they place their figures in the fields
+Mercury [2k\]: mogo is the best?
+alexanro [6k\]: I can try loading the game on my computer and \
+try running it with Mogo
+wayward [1k\]: is it a graphics problem?
+alexanro [6k\]: wonder what the difference in moves would be
+Rajan [23k\]: You're 2K and you only started last week? O.o
+calbonga [13k\]: nutngo is da best
+Mercury [2k\]: yeye
+jungle [1d\]: i started 2 months ago
+Zvi [3k\]: he's trolling
+Mercury [2k\]: last week
+matthos [11k\]: he's lying mang
+calbonga [13k\]: nutngo is 7dan right?
+Mercury [2k\]: i was 9d in chess
+wayward [1k\]: I started 7 months ago
+weirdchess [10k\]: there is no 9d in chess...
+Mercury [2k\]: ye the equivalent
+Rajan [23k\]: I started last month and I've barely gotten any \
+better >.<
+calbonga [13k\]: but in shogi
+Mercury [2k\]: chess master
+Zvi [3k\]: merc
+weirdchess [10k\]: nutngo is junxun zhou 9p calbonga
+Zvi [3k\]: that doesn't even close to making sense
+calbonga [13k\]: kool
+sulusepken [6k\]: nutngo=9p
+maszrum [-\]: there is 2800 elo  in chess
+Mercury [2k\]: master of chess
+wayward [1k\]: I'm joking, I've been playing since 2001
+Zvi [3k\]: i say kick the troll
+Mercury [2k\]: is like a 9 dan
+calbonga [13k\]: My friend is 3kyu in shgi :D
+Zvi [3k\]: get close*
+calbonga [13k\]: shogi*
+Mercury [2k\]: where do u play shougi
+bobstep [8k\]: seems both are gone
+wayward [1k\]: my friend is 2dan in aikido
+Mercury [2k\]: i wanna be 2k next week
+calbonga [13k\]: aikido rules!
+Mercury [2k\]: is there a shougi server :D
+jungle [1d\]: ex chess players progress really fast
+calbonga [13k\]: yeah Mercury
+dionisio [9k\]: aikido kick ass
+Mercury [2k\]: tell me
+Mercury [2k\]: plz
+calbonga [13k\]: I forget the name
+solarstar [6k\]: owstill thinking wi
+calbonga [13k\]: lolz
+Mercury [2k\]: i dont even no the rules
+Mercury [2k\]: lol
+basicpract [-\]: anyone know where nutngo went?
+calbonga [13k\]: Kanji was hard to read
+Mercury [2k\]: ye i told u power failure
+solarstar [6k\]: shouldn't it be black turn?
+weirdchess [10k\]: admins - you guys know what happened to the \
+game?
+Mercury [2k\]: typhoon
+solarstar [6k\]: w just play right?
+jungle [1d\]: b dead
+jungle [1d\]: in real life
+Mercury [2k\]: o no
+calbonga [13k\]: shh
+calbonga [13k\]: don't let anyone know
+Mercury [2k\]: thats a terrible thing to say
+calbonga [13k\]: they'll get upset
+Mercury [2k\]: i may lie but not like that
+Mercury [2k\]: wats the shougi server!
+calbonga [13k\]: my apologies, didn't mean it like that
+Mercury [2k\]: will google help me?
+calbonga [13k\]: look on google
+calbonga [13k\]: yeah
+calbonga [13k\]: I guess
+Mercury [2k\]: google can be a beech sometimes
+calbonga [13k\]: I'll check]
+WL[1075.319];B[fc]
+C[basicpract [-\]: he is back :)
+Mercury [2k\]: is shougi same rules as chess
+Mercury [2k\]: with flat pieces?
+myongstu [-\]: no
+calbonga [13k\]: try shogidojo.com
+Mercury [2k\]: ok
+Mercury [2k\]: well i saw shougi on this one anime
+Mogo [-\]: GTP Engine for Mogo (white): MoGo version 3.0.0: I'll \
+resign if you win and playing until you pass if I win. If you \
+passed and I did not, it often means that the status of some \
+stones are not clear enough for me (I want to be sure we will \
+agree on dead stones). Clarify them. Maybe I am losing, but have \
+not enough time to be sure I should resign. In this case play \
+until the end :'( (very rare cases)
+Mercury [2k\]: it looked like chess with flat pieces :P
+alexanro [6k\]: yey, the game is on again
+Mercury [2k\]: yay
+Mercury [2k\]: mogo didnt escape
+jungle [1d\]: i have erectile dysfunction
+calbonga [13k\]: shogidojo.com/eng/engindex.htm
+Troff [?\]: mercury look for HIDETCHI's shogi series on youtube
+jungle [1d\]: that sucks man
+nutngo2: yes, I am sorry that the internet has something wrong. \
+Now it's OK again.
+calbonga [13k\]: I saw Hidetchi's shogi series once
+calbonga [13k\]: when I wanted to learn how to play
+Mercury [2k\]: i saw
+Mercury [2k\]: that thing
+Mercury [2k\]: what was it
+calbonga [13k\]: I saw, I watched, I clicked
+Mercury [2k\]: shion no ou]
+BL[2531.079];W[he]WL[985.8];B[ic]
+C[calbonga [13k\]: good manga
+Mercury [2k\]: only prob
+Mercury [2k\]: i predicted it
+Troff [?\]: b+4.5
+Mercury [2k\]: on ep 3
+Mercury [2k\]: that that guy was the killer
+calbonga [13k\]: i didn't know
+Mercury [2k\]: it was obvious after about ep 15
+CGBSpender [4d\]: E3]
+BL[2527.852];W[gh]
+C[calbonga [13k\]: I read the manga but never saw the anime though
+kuy30 [1d\]: seem's like b wins even w gets a7 
+CGBSpender [4d\]: oh
+Mercury [2k\]: well u think
+Mercury [2k\]: its one of the borthers
+CGBSpender [4d\]: he missed this easy tesuji]
+WL[904.168];B[fh]
+C[Mercury [2k\]: then when u know its not the one
+Mercury [2k\]: u know its the other ;p
+Zvi [3k\]: *censored*
+calbonga [13k\]: anyways let's talk about the game
+alexanro [6k\]: Mogo isn't going for the easy moves ;)
+Mercury [2k\]: ye sorry
+Mercury [2k\]: mogo GOGO
+calbonga [13k\]: np
+DnFBlitz [1k\]: was G2 better than F2?
+CGBSpender [4d\]: so sad to see a tesuji like this going to waste
+wayward [1k\]: what tesuji, CGB?
+CGBSpender [4d\]: E3
+DnFBlitz [1k\]: oh hmm, E3 is definitely better than F2
+calbonga [13k\]: e3 kills it
+Zvi [3k\]: e3 r3 then?
+CGBSpender [4d\]: i meant for white]
+BL[2513.059];W[ac]
+C[maszrum [-\]: b+4,5 is impossible
+miago [1d\]: there was no tesuji...]
+WL[830.37];B[ab]
+C[wayward [1k\]: ah, to cut
+Zvi [3k\]: oh
+Zvi [3k\]: good one
+Zvi [3k\]: missed it
+wayward [1k\]: f2 sac to cut :)
+alexanro [6k\]: w d8 ? :P
+Mercury [2k\]: mogo loses
+calbonga [13k\]: a5, b9
+Variable [1d\]: there was nothing at e3
+Mercury [2k\]: sad but true
+CGBSpender [4d\]: read again, variable
+Zvi [3k\]: e3 f3 f2
+wayward [1k\]: e3, if B f3 then sac at f2
+Variable [1d\]: e3 f3 f2 d4 
+calbonga [13k\]: I just stated the obvious.. a5, b9
+Mercury [2k\]: well if komi is 6.5
+Mercury [2k\]: or what is it
+chipper [-\]: 7.5 chinese rules]
+BL[2508.784];W[ae]WL[759.895]
+;B[hh]
+C[Mercury [2k\]: lol :p
+wayward [1k\]: :)
+calbonga [13k\]: h1
+CGBSpender [4d\]: and then ? follow up.....
+Mercury [2k\]: gG
+calbonga [13k\]: ugh
+alexanro [6k\]: Mercury: Options->Rules
+Mercury [2k\]: OO
+Zvi [3k\]: ?
+Mercury [2k\]: see i only started last week i dont no this things
+DavidSzucs [10k\]: how long has this been going on
+gryn [2d?\]: e3 f3 f2 d4 c3 g2 
+DavidSzucs [10k\]: like the longest 9x9 ive ever seen probably
+Troff [?\]: i dont see g3 working either
+calbonga [13k\]: last week you started KGS?]
+BL[2506.297];W[hi]WL[691.964];B[hg]
+C[calbonga [13k\]: Mercury?
+Zvi [3k\]: he's trolling , what part of it don't you get ;/
+kuy30 [1d\]: b going to make w suffer
+Mercury [2k\]: rofl
+calbonga [13k\]: idk
+Mercury [2k\]: i started this account -.-
+calbonga [13k\]: ah
+alexanro [6k\]: Zvi: maybe calbonga is trying out trollbaiting \
+;)
+calbonga [13k\]: I thought you meant you started playing go last \
+week
+triking [9k\]: obviously he played before
+Mercury [2k\]: i have been playin go for 2 years
+Mercury [2k\]: lol
+calbonga [13k\]: oh
+Zvi [3k\]: which is nearly as nasty as trolling alexan ;)
+calbonga [13k\]: I've been playing for 3
+chipper [-\]: Let's focus on the game please]
+BL[2501.89];W[bb]
+C[calbonga [13k\]: oops]
+WL[635.059];B[cb]
+C[cheetos: whose playing mogo today?
+Mercury [2k\]: yes lets
+calbonga [13k\]: 9dan
+Mercury [2k\]: its pro zhan sumthing
+chipper [-\]: cheetos, please look at nutngo's profile
+nemoneko [5k\]: Zhou Junxun
+Mercury [2k\]: sorry i know little about the go world
+nogo123 [11k\]: i thought mogo was a robot?
+calbonga [13k\]: started with a J
+chipper [-\]: mogo is a robot
+cheetos: oh, thanks chipper
+calbonga [13k\]: I forget
+Zvi [3k\]: black wins the ko ?
+chipper [-\]: well computer is abetter term]
+BL[2497.954];W[aa]
+C[Zvi [3k\]: i mean, get's something :o
+wayward [1k\]: not really, "program" is the best]
+WL[582.353];B[ih]
+C[wayward [1k\]: :)
+chipper [-\]: true
+alexanro [6k\]: where is black's eyes?
+Zvi [3k\]: :OO
+calbonga [13k\]: twilight zone
+wayward [1k\]: but yeah, "computer" > "robot" if we have to
+Zvi [3k\]: he just lets it, die??
+PikkuKiusa [3k\]: yep
+chipper [-\]: He did this lat game also Zvi :)
+josette [1d\]: great victory for human pro
+calbonga [13k\]: idk what he is thinking but it must be good considering \
+he is a pro
+Zvi [3k\]: why ? :\\]
+BL[2484.282];W[ie]
+C[Zvi [3k\]: it's so big :O
+chipper [-\]: Check out the game two days agao
+chipper [-\]: ago*
+calbonga [13k\]: beats me]
+WL[535.205];B[ca]
+C[Zvi [3k\]: ha???
+Zvi [3k\]: he died in gote :(
+DnFBlitz [1k\]: poor mogo!
+chipper [-\]: Mogo still has problems with corner groups
+wayward [1k\]: I will launch the preposterously ignorant name \
+of "android" for Go programs
+inte [?\]: bulky 5 takes a long time to read out.
+cheetos: not seki?
+PikkuKiusa [3k\]: bot is weak
+wayward [1k\]: see if it catches on :)
+josette [1d\]: gote death !!
+DnFBlitz [1k\]: this is definitely a weakness of mogo
+cheetos: i see seki]
+BL[2475.638];W[df]
+C[inte [?\]: no seki
+kuy30 [1d\]: no seki]
+WL[492.011]
+;B[ee]
+C[solarstar [6k\]: yes
+Zvi [3k\]: how seki? :\\
+maszrum [-\]: buy yourself glasses
+solarstar [6k\]: seki
+Zvi [3k\]: if black want's to kill can just j3
+solarstar [6k\]: buy glases
+wayward [1k\]: j3, j4
+josette [1d\]: c'est qui
+wayward [1k\]: no seki afaik
+gryn [2d?\]: j3 tenuki?
+JpKitten [4k\]: wats the rank of nutngo this time?
+calbonga [13k\]: maybetree
+Zvi [3k\]: h4
+solarstar [6k\]: keep on talking
+calbonga [13k\]: e3
+Zvi [3k\]: j3 pass h4 pass
+popsickle [1d\]: 9p
+Zvi [3k\]: then fill outer libs
+popsickle [1d\]: jp
+JpKitten [4k\]: wows
+JpKitten [4k\]: pwned the poor bot
+triking [9k\]: Nice game
+solarstar [6k\]: seki popsickle?
+calbonga [13k\]: woah
+alexanro [6k\]: nice
+popsickle [1d\]: no
+dionisio [9k\]: at leats a really big powned
+JpKitten [4k\]: hi popsicle ^^
+inte [?\]: b won't play j3
+popsickle [1d\]: hi =)
+calbonga [13k\]: another game tommorow or what?
+josette [1d\]: 9 minutes 
+Zvi [3k\]: yeah sorry missread
+Zvi [3k\]: then how to kill ?
+inte [?\]: after outside liberties are gone, b j4 b j1 b h4 
+Mercury [2k\]: lol u can move into check in shougi
+calbonga [13k\]: gg
+Zvi [3k\]: fill all outer libs j4 ?
+Zvi [3k\]: yeah
+Zvi [3k\]: thought so
+Zvi [3k\]: thanks
+bobo [15k\]: yeah shogi is weird
+calbonga [13k\]: nah
+Psychopomp [5k?\]:  shape is dead
+calbonga [13k\]: shogi is good for your brain cells I guess
+calbonga [13k\]: anyways, bye all]
+BL[2471.863])

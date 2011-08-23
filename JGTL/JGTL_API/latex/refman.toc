@@ -1,0 +1,1072 @@
+\contentsline {chapter}{\numberline {1}JGTL Namespace Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}JGTL Namespace List}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}JGTL Hierarchical Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}JGTL Class Hierarchy}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}JGTL Class Index}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}JGTL Class List}{7}{section.3.1}
+\contentsline {chapter}{\numberline {4}JGTL File Index}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}JGTL File List}{11}{section.4.1}
+\contentsline {chapter}{\numberline {5}JGTL Namespace Documentation}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}JGTL Namespace Reference}{13}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{18}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Typedef Documentation}{18}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}\_\discretionary {-}{}{}CommandLineParser}{18}{subsubsection.5.1.2.1}
+\contentsline {subsubsection}{\numberline {5.1.2.2}uchar}{18}{subsubsection.5.1.2.2}
+\contentsline {subsubsection}{\numberline {5.1.2.3}units\_\discretionary {-}{}{}internal\_\discretionary {-}{}{}ulong}{18}{subsubsection.5.1.2.3}
+\contentsline {subsubsection}{\numberline {5.1.2.4}units\_\discretionary {-}{}{}internal\_\discretionary {-}{}{}ulong}{18}{subsubsection.5.1.2.4}
+\contentsline {subsection}{\numberline {5.1.3}Enumeration Type Documentation}{18}{subsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.3.1}IntersectionState}{18}{subsubsection.5.1.3.1}
+\contentsline {subsubsection}{\numberline {5.1.3.2}TimeFormat}{19}{subsubsection.5.1.3.2}
+\contentsline {subsection}{\numberline {5.1.4}Function Documentation}{21}{subsection.5.1.4}
+\contentsline {subsubsection}{\numberline {5.1.4.1}convertVector2}{21}{subsubsection.5.1.4.1}
+\contentsline {subsubsection}{\numberline {5.1.4.2}convertVector3}{21}{subsubsection.5.1.4.2}
+\contentsline {subsubsection}{\numberline {5.1.4.3}GCD}{21}{subsubsection.5.1.4.3}
+\contentsline {subsubsection}{\numberline {5.1.4.4}GCD}{21}{subsubsection.5.1.4.4}
+\contentsline {subsubsection}{\numberline {5.1.4.5}GCD}{21}{subsubsection.5.1.4.5}
+\contentsline {subsubsection}{\numberline {5.1.4.6}getIndexFromName}{21}{subsubsection.5.1.4.6}
+\contentsline {subsubsection}{\numberline {5.1.4.7}getIndexFromName}{21}{subsubsection.5.1.4.7}
+\contentsline {subsubsection}{\numberline {5.1.4.8}operator$<$$<$}{21}{subsubsection.5.1.4.8}
+\contentsline {subsubsection}{\numberline {5.1.4.9}operator$<$$<$}{21}{subsubsection.5.1.4.9}
+\contentsline {subsubsection}{\numberline {5.1.4.10}operator$<$$<$}{21}{subsubsection.5.1.4.10}
+\contentsline {subsubsection}{\numberline {5.1.4.11}operator$<$$<$}{21}{subsubsection.5.1.4.11}
+\contentsline {subsubsection}{\numberline {5.1.4.12}operator$<$$<$}{21}{subsubsection.5.1.4.12}
+\contentsline {subsubsection}{\numberline {5.1.4.13}operator$<$$<$}{21}{subsubsection.5.1.4.13}
+\contentsline {subsubsection}{\numberline {5.1.4.14}operator$<$$<$}{21}{subsubsection.5.1.4.14}
+\contentsline {subsubsection}{\numberline {5.1.4.15}operator$<$$<$}{21}{subsubsection.5.1.4.15}
+\contentsline {subsubsection}{\numberline {5.1.4.16}operator$>$$>$}{21}{subsubsection.5.1.4.16}
+\contentsline {subsubsection}{\numberline {5.1.4.17}operator$>$$>$}{21}{subsubsection.5.1.4.17}
+\contentsline {subsubsection}{\numberline {5.1.4.18}operator$>$$>$}{21}{subsubsection.5.1.4.18}
+\contentsline {subsubsection}{\numberline {5.1.4.19}operator$>$$>$}{21}{subsubsection.5.1.4.19}
+\contentsline {subsubsection}{\numberline {5.1.4.20}operator$>$$>$}{21}{subsubsection.5.1.4.20}
+\contentsline {subsubsection}{\numberline {5.1.4.21}operator$>$$>$}{21}{subsubsection.5.1.4.21}
+\contentsline {subsubsection}{\numberline {5.1.4.22}operator$>$$>$}{21}{subsubsection.5.1.4.22}
+\contentsline {subsubsection}{\numberline {5.1.4.23}operator$>$$>$}{21}{subsubsection.5.1.4.23}
+\contentsline {subsubsection}{\numberline {5.1.4.24}packBuffer}{21}{subsubsection.5.1.4.24}
+\contentsline {subsubsection}{\numberline {5.1.4.25}packBufferStack}{21}{subsubsection.5.1.4.25}
+\contentsline {subsubsection}{\numberline {5.1.4.26}packBufferString}{21}{subsubsection.5.1.4.26}
+\contentsline {subsubsection}{\numberline {5.1.4.27}packBufferString}{21}{subsubsection.5.1.4.27}
+\contentsline {subsubsection}{\numberline {5.1.4.28}stringTo}{21}{subsubsection.5.1.4.28}
+\contentsline {subsubsection}{\numberline {5.1.4.29}stringTo}{21}{subsubsection.5.1.4.29}
+\contentsline {subsubsection}{\numberline {5.1.4.30}toString}{22}{subsubsection.5.1.4.30}
+\contentsline {subsubsection}{\numberline {5.1.4.31}unpackBuffer}{22}{subsubsection.5.1.4.31}
+\contentsline {subsubsection}{\numberline {5.1.4.32}unpackBufferStack}{22}{subsubsection.5.1.4.32}
+\contentsline {subsubsection}{\numberline {5.1.4.33}unpackBufferString}{22}{subsubsection.5.1.4.33}
+\contentsline {section}{\numberline {5.2}std Namespace Reference}{23}{section.5.2}
+\contentsline {chapter}{\numberline {6}JGTL Class Documentation}{25}{chapter.6}
+\contentsline {section}{\numberline {6.1}JGTL::Bar$<$ Bar\discretionary {-}{}{}Value\discretionary {-}{}{}Type $>$ Class Template Reference}{25}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{25}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Constructor \& Destructor Documentation}{26}{subsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.2.1}Bar}{26}{subsubsection.6.1.2.1}
+\contentsline {subsubsection}{\numberline {6.1.2.2}Bar}{26}{subsubsection.6.1.2.2}
+\contentsline {subsubsection}{\numberline {6.1.2.3}Bar}{26}{subsubsection.6.1.2.3}
+\contentsline {subsection}{\numberline {6.1.3}Member Data Documentation}{26}{subsection.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.3.1}currentValue}{26}{subsubsection.6.1.3.1}
+\contentsline {subsubsection}{\numberline {6.1.3.2}maxValue}{26}{subsubsection.6.1.3.2}
+\contentsline {section}{\numberline {6.2}JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node Class Reference}{27}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Constructor \& Destructor Documentation}{28}{subsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.1.1}BinaryTreeNode}{28}{subsubsection.6.2.1.1}
+\contentsline {subsubsection}{\numberline {6.2.1.2}BinaryTreeNode}{28}{subsubsection.6.2.1.2}
+\contentsline {subsubsection}{\numberline {6.2.1.3}BinaryTreeNode}{28}{subsubsection.6.2.1.3}
+\contentsline {subsubsection}{\numberline {6.2.1.4}BinaryTreeNode}{28}{subsubsection.6.2.1.4}
+\contentsline {subsection}{\numberline {6.2.2}Member Function Documentation}{28}{subsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.1}operator=}{28}{subsubsection.6.2.2.1}
+\contentsline {subsection}{\numberline {6.2.3}Member Data Documentation}{28}{subsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.3.1}parent}{28}{subsubsection.6.2.3.1}
+\contentsline {subsubsection}{\numberline {6.2.3.2}left}{28}{subsubsection.6.2.3.2}
+\contentsline {subsubsection}{\numberline {6.2.3.3}right}{28}{subsubsection.6.2.3.3}
+\contentsline {section}{\numberline {6.3}JGTL::CCmd\discretionary {-}{}{}Param Struct Reference}{29}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Member Data Documentation}{29}{subsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.1.1}m\_\discretionary {-}{}{}strings}{29}{subsubsection.6.3.1.1}
+\contentsline {section}{\numberline {6.4}JGTL::Circular\discretionary {-}{}{}Buffer$<$ Data $>$ Class Template Reference}{30}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{31}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Constructor \& Destructor Documentation}{33}{subsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.2.1}CircularBuffer}{33}{subsubsection.6.4.2.1}
+\contentsline {subsubsection}{\numberline {6.4.2.2}CircularBuffer}{33}{subsubsection.6.4.2.2}
+\contentsline {subsubsection}{\numberline {6.4.2.3}$\sim $CircularBuffer}{33}{subsubsection.6.4.2.3}
+\contentsline {subsection}{\numberline {6.4.3}Member Function Documentation}{33}{subsection.6.4.3}
+\contentsline {subsubsection}{\numberline {6.4.3.1}operator=}{33}{subsubsection.6.4.3.1}
+\contentsline {subsubsection}{\numberline {6.4.3.2}enqueue}{33}{subsubsection.6.4.3.2}
+\contentsline {subsubsection}{\numberline {6.4.3.3}front}{33}{subsubsection.6.4.3.3}
+\contentsline {subsubsection}{\numberline {6.4.3.4}frontRef}{33}{subsubsection.6.4.3.4}
+\contentsline {subsubsection}{\numberline {6.4.3.5}frontRef}{33}{subsubsection.6.4.3.5}
+\contentsline {subsubsection}{\numberline {6.4.3.6}frontPtr}{33}{subsubsection.6.4.3.6}
+\contentsline {subsubsection}{\numberline {6.4.3.7}frontPtr}{33}{subsubsection.6.4.3.7}
+\contentsline {subsubsection}{\numberline {6.4.3.8}dequeue}{33}{subsubsection.6.4.3.8}
+\contentsline {subsubsection}{\numberline {6.4.3.9}size}{33}{subsubsection.6.4.3.9}
+\contentsline {subsubsection}{\numberline {6.4.3.10}capacity}{33}{subsubsection.6.4.3.10}
+\contentsline {subsubsection}{\numberline {6.4.3.11}empty}{33}{subsubsection.6.4.3.11}
+\contentsline {subsubsection}{\numberline {6.4.3.12}full}{33}{subsubsection.6.4.3.12}
+\contentsline {subsubsection}{\numberline {6.4.3.13}clear}{33}{subsubsection.6.4.3.13}
+\contentsline {subsubsection}{\numberline {6.4.3.14}getIndex}{33}{subsubsection.6.4.3.14}
+\contentsline {subsubsection}{\numberline {6.4.3.15}getIndex}{33}{subsubsection.6.4.3.15}
+\contentsline {subsubsection}{\numberline {6.4.3.16}getIndexRef}{33}{subsubsection.6.4.3.16}
+\contentsline {subsubsection}{\numberline {6.4.3.17}getIndexRef}{33}{subsubsection.6.4.3.17}
+\contentsline {subsubsection}{\numberline {6.4.3.18}copyFrom}{33}{subsubsection.6.4.3.18}
+\contentsline {subsubsection}{\numberline {6.4.3.19}incCounter}{33}{subsubsection.6.4.3.19}
+\contentsline {subsection}{\numberline {6.4.4}Member Data Documentation}{33}{subsection.6.4.4}
+\contentsline {subsubsection}{\numberline {6.4.4.1}elementStart}{33}{subsubsection.6.4.4.1}
+\contentsline {subsubsection}{\numberline {6.4.4.2}elementEnd}{33}{subsubsection.6.4.4.2}
+\contentsline {subsubsection}{\numberline {6.4.4.3}maxElements}{33}{subsubsection.6.4.4.3}
+\contentsline {subsubsection}{\numberline {6.4.4.4}dataList}{33}{subsubsection.6.4.4.4}
+\contentsline {subsubsection}{\numberline {6.4.4.5}enqueueLast}{33}{subsubsection.6.4.4.5}
+\contentsline {section}{\numberline {6.5}JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface$<$ Data $>$ Class Template Reference}{35}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{36}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Constructor \& Destructor Documentation}{36}{subsection.6.5.2}
+\contentsline {subsubsection}{\numberline {6.5.2.1}CircularBufferInterface}{36}{subsubsection.6.5.2.1}
+\contentsline {subsubsection}{\numberline {6.5.2.2}$\sim $CircularBufferInterface}{36}{subsubsection.6.5.2.2}
+\contentsline {subsection}{\numberline {6.5.3}Member Function Documentation}{36}{subsection.6.5.3}
+\contentsline {subsubsection}{\numberline {6.5.3.1}enqueue}{36}{subsubsection.6.5.3.1}
+\contentsline {subsubsection}{\numberline {6.5.3.2}resize}{36}{subsubsection.6.5.3.2}
+\contentsline {subsubsection}{\numberline {6.5.3.3}front}{38}{subsubsection.6.5.3.3}
+\contentsline {subsubsection}{\numberline {6.5.3.4}frontRef}{38}{subsubsection.6.5.3.4}
+\contentsline {subsubsection}{\numberline {6.5.3.5}frontRef}{38}{subsubsection.6.5.3.5}
+\contentsline {subsubsection}{\numberline {6.5.3.6}frontPtr}{38}{subsubsection.6.5.3.6}
+\contentsline {subsubsection}{\numberline {6.5.3.7}frontPtr}{38}{subsubsection.6.5.3.7}
+\contentsline {subsubsection}{\numberline {6.5.3.8}dequeue}{38}{subsubsection.6.5.3.8}
+\contentsline {subsubsection}{\numberline {6.5.3.9}size}{38}{subsubsection.6.5.3.9}
+\contentsline {subsubsection}{\numberline {6.5.3.10}capacity}{38}{subsubsection.6.5.3.10}
+\contentsline {subsubsection}{\numberline {6.5.3.11}empty}{38}{subsubsection.6.5.3.11}
+\contentsline {subsubsection}{\numberline {6.5.3.12}full}{38}{subsubsection.6.5.3.12}
+\contentsline {subsubsection}{\numberline {6.5.3.13}clear}{38}{subsubsection.6.5.3.13}
+\contentsline {subsubsection}{\numberline {6.5.3.14}getIndex}{38}{subsubsection.6.5.3.14}
+\contentsline {subsubsection}{\numberline {6.5.3.15}getIndex}{38}{subsubsection.6.5.3.15}
+\contentsline {subsubsection}{\numberline {6.5.3.16}getIndexRef}{38}{subsubsection.6.5.3.16}
+\contentsline {subsubsection}{\numberline {6.5.3.17}getIndexRef}{38}{subsubsection.6.5.3.17}
+\contentsline {subsubsection}{\numberline {6.5.3.18}incCounter}{38}{subsubsection.6.5.3.18}
+\contentsline {subsection}{\numberline {6.5.4}Member Data Documentation}{38}{subsection.6.5.4}
+\contentsline {subsubsection}{\numberline {6.5.4.1}elementStart}{38}{subsubsection.6.5.4.1}
+\contentsline {subsubsection}{\numberline {6.5.4.2}elementEnd}{38}{subsubsection.6.5.4.2}
+\contentsline {subsubsection}{\numberline {6.5.4.3}maxElements}{38}{subsubsection.6.5.4.3}
+\contentsline {subsubsection}{\numberline {6.5.4.4}dataList}{38}{subsubsection.6.5.4.4}
+\contentsline {subsubsection}{\numberline {6.5.4.5}enqueueLast}{38}{subsubsection.6.5.4.5}
+\contentsline {section}{\numberline {6.6}JGTL::Clock Class Reference}{40}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{40}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Constructor \& Destructor Documentation}{40}{subsection.6.6.2}
+\contentsline {subsubsection}{\numberline {6.6.2.1}Clock}{40}{subsubsection.6.6.2.1}
+\contentsline {subsubsection}{\numberline {6.6.2.2}$\sim $Clock}{40}{subsubsection.6.6.2.2}
+\contentsline {subsection}{\numberline {6.6.3}Member Function Documentation}{40}{subsection.6.6.3}
+\contentsline {subsubsection}{\numberline {6.6.3.1}reset}{40}{subsubsection.6.6.3.1}
+\contentsline {subsubsection}{\numberline {6.6.3.2}getTimeMilliseconds}{40}{subsubsection.6.6.3.2}
+\contentsline {subsubsection}{\numberline {6.6.3.3}getTimeMicroseconds}{41}{subsubsection.6.6.3.3}
+\contentsline {subsection}{\numberline {6.6.4}Member Data Documentation}{41}{subsection.6.6.4}
+\contentsline {subsubsection}{\numberline {6.6.4.1}mStartTime}{41}{subsubsection.6.6.4.1}
+\contentsline {section}{\numberline {6.7}JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser Class Reference}{42}{section.6.7}
+\contentsline {subsection}{\numberline {6.7.1}Constructor \& Destructor Documentation}{43}{subsection.6.7.1}
+\contentsline {subsubsection}{\numberline {6.7.1.1}CommandLineParser}{43}{subsubsection.6.7.1.1}
+\contentsline {subsubsection}{\numberline {6.7.1.2}CommandLineParser}{43}{subsubsection.6.7.1.2}
+\contentsline {subsection}{\numberline {6.7.2}Member Function Documentation}{43}{subsection.6.7.2}
+\contentsline {subsubsection}{\numberline {6.7.2.1}SplitLine}{43}{subsubsection.6.7.2.1}
+\contentsline {subsubsection}{\numberline {6.7.2.2}HasSwitch}{43}{subsubsection.6.7.2.2}
+\contentsline {subsubsection}{\numberline {6.7.2.3}GetSafeArgument}{43}{subsubsection.6.7.2.3}
+\contentsline {subsubsection}{\numberline {6.7.2.4}GetArgument}{43}{subsubsection.6.7.2.4}
+\contentsline {subsubsection}{\numberline {6.7.2.5}GetArgumentCount}{43}{subsubsection.6.7.2.5}
+\contentsline {subsubsection}{\numberline {6.7.2.6}IsSwitch}{43}{subsubsection.6.7.2.6}
+\contentsline {section}{\numberline {6.8}JGTL::Data\discretionary {-}{}{}Manager$<$ Data $>$ Class Template Reference}{44}{section.6.8}
+\contentsline {subsection}{\numberline {6.8.1}Constructor \& Destructor Documentation}{45}{subsection.6.8.1}
+\contentsline {subsubsection}{\numberline {6.8.1.1}DataManager}{45}{subsubsection.6.8.1.1}
+\contentsline {subsubsection}{\numberline {6.8.1.2}$\sim $DataManager}{45}{subsubsection.6.8.1.2}
+\contentsline {subsection}{\numberline {6.8.2}Member Function Documentation}{45}{subsection.6.8.2}
+\contentsline {subsubsection}{\numberline {6.8.2.1}addData}{45}{subsubsection.6.8.2.1}
+\contentsline {subsubsection}{\numberline {6.8.2.2}getData}{45}{subsubsection.6.8.2.2}
+\contentsline {subsubsection}{\numberline {6.8.2.3}getData}{45}{subsubsection.6.8.2.3}
+\contentsline {subsubsection}{\numberline {6.8.2.4}getDataPtr}{45}{subsubsection.6.8.2.4}
+\contentsline {subsubsection}{\numberline {6.8.2.5}begin}{45}{subsubsection.6.8.2.5}
+\contentsline {subsubsection}{\numberline {6.8.2.6}end}{45}{subsubsection.6.8.2.6}
+\contentsline {subsubsection}{\numberline {6.8.2.7}getSize}{45}{subsubsection.6.8.2.7}
+\contentsline {subsubsection}{\numberline {6.8.2.8}getDataPtr}{45}{subsubsection.6.8.2.8}
+\contentsline {subsubsection}{\numberline {6.8.2.9}getIndex}{45}{subsubsection.6.8.2.9}
+\contentsline {subsubsection}{\numberline {6.8.2.10}refreshNames}{45}{subsubsection.6.8.2.10}
+\contentsline {subsection}{\numberline {6.8.3}Member Data Documentation}{45}{subsection.6.8.3}
+\contentsline {subsubsection}{\numberline {6.8.3.1}numElements}{45}{subsubsection.6.8.3.1}
+\contentsline {subsubsection}{\numberline {6.8.3.2}maxElements}{45}{subsubsection.6.8.3.2}
+\contentsline {subsubsection}{\numberline {6.8.3.3}dataList}{45}{subsubsection.6.8.3.3}
+\contentsline {subsubsection}{\numberline {6.8.3.4}dataMap}{45}{subsubsection.6.8.3.4}
+\contentsline {subsubsection}{\numberline {6.8.3.5}dataCaseInsensitiveMap}{45}{subsubsection.6.8.3.5}
+\contentsline {section}{\numberline {6.9}JGTL::Data\discretionary {-}{}{}Pool$<$ Data $>$ Class Template Reference}{47}{section.6.9}
+\contentsline {subsection}{\numberline {6.9.1}Constructor \& Destructor Documentation}{48}{subsection.6.9.1}
+\contentsline {subsubsection}{\numberline {6.9.1.1}DataPool}{48}{subsubsection.6.9.1.1}
+\contentsline {subsubsection}{\numberline {6.9.1.2}$\sim $DataPool}{48}{subsubsection.6.9.1.2}
+\contentsline {subsection}{\numberline {6.9.2}Member Function Documentation}{48}{subsection.6.9.2}
+\contentsline {subsubsection}{\numberline {6.9.2.1}addData}{48}{subsubsection.6.9.2.1}
+\contentsline {subsubsection}{\numberline {6.9.2.2}getData}{48}{subsubsection.6.9.2.2}
+\contentsline {subsubsection}{\numberline {6.9.2.3}getData}{48}{subsubsection.6.9.2.3}
+\contentsline {subsubsection}{\numberline {6.9.2.4}getDataPtr}{48}{subsubsection.6.9.2.4}
+\contentsline {subsubsection}{\numberline {6.9.2.5}begin}{48}{subsubsection.6.9.2.5}
+\contentsline {subsubsection}{\numberline {6.9.2.6}end}{48}{subsubsection.6.9.2.6}
+\contentsline {subsubsection}{\numberline {6.9.2.7}getSize}{48}{subsubsection.6.9.2.7}
+\contentsline {subsubsection}{\numberline {6.9.2.8}getDataPtr}{48}{subsubsection.6.9.2.8}
+\contentsline {subsection}{\numberline {6.9.3}Member Data Documentation}{48}{subsection.6.9.3}
+\contentsline {subsubsection}{\numberline {6.9.3.1}numElements}{48}{subsubsection.6.9.3.1}
+\contentsline {subsubsection}{\numberline {6.9.3.2}maxElements}{48}{subsubsection.6.9.3.2}
+\contentsline {subsubsection}{\numberline {6.9.3.3}dataList}{48}{subsubsection.6.9.3.3}
+\contentsline {subsubsection}{\numberline {6.9.3.4}used}{48}{subsubsection.6.9.3.4}
+\contentsline {subsubsection}{\numberline {6.9.3.5}dataMap}{48}{subsubsection.6.9.3.5}
+\contentsline {subsubsection}{\numberline {6.9.3.6}dataCaseInsensitiveMap}{48}{subsubsection.6.9.3.6}
+\contentsline {subsubsection}{\numberline {6.9.3.7}alloc}{48}{subsubsection.6.9.3.7}
+\contentsline {subsubsection}{\numberline {6.9.3.8}boolAlloc}{48}{subsubsection.6.9.3.8}
+\contentsline {section}{\numberline {6.10}JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer$<$ Data $>$ Class Template Reference}{50}{section.6.10}
+\contentsline {subsection}{\numberline {6.10.1}Detailed Description}{50}{subsection.6.10.1}
+\contentsline {subsection}{\numberline {6.10.2}Constructor \& Destructor Documentation}{51}{subsection.6.10.2}
+\contentsline {subsubsection}{\numberline {6.10.2.1}DynamicCircularBuffer}{51}{subsubsection.6.10.2.1}
+\contentsline {subsubsection}{\numberline {6.10.2.2}DynamicCircularBuffer}{51}{subsubsection.6.10.2.2}
+\contentsline {subsubsection}{\numberline {6.10.2.3}$\sim $DynamicCircularBuffer}{51}{subsubsection.6.10.2.3}
+\contentsline {subsection}{\numberline {6.10.3}Member Function Documentation}{51}{subsection.6.10.3}
+\contentsline {subsubsection}{\numberline {6.10.3.1}operator=}{51}{subsubsection.6.10.3.1}
+\contentsline {subsubsection}{\numberline {6.10.3.2}resize}{51}{subsubsection.6.10.3.2}
+\contentsline {subsubsection}{\numberline {6.10.3.3}copyFrom}{51}{subsubsection.6.10.3.3}
+\contentsline {section}{\numberline {6.11}JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map$<$ Key, Data $>$ Class Template Reference}{52}{section.6.11}
+\contentsline {subsection}{\numberline {6.11.1}Detailed Description}{52}{subsection.6.11.1}
+\contentsline {subsection}{\numberline {6.11.2}Constructor \& Destructor Documentation}{53}{subsection.6.11.2}
+\contentsline {subsubsection}{\numberline {6.11.2.1}DynamicPoolMap}{53}{subsubsection.6.11.2.1}
+\contentsline {subsubsection}{\numberline {6.11.2.2}DynamicPoolMap}{53}{subsubsection.6.11.2.2}
+\contentsline {subsubsection}{\numberline {6.11.2.3}DynamicPoolMap}{53}{subsubsection.6.11.2.3}
+\contentsline {subsubsection}{\numberline {6.11.2.4}$\sim $DynamicPoolMap}{53}{subsubsection.6.11.2.4}
+\contentsline {subsubsection}{\numberline {6.11.2.5}DynamicPoolMap}{53}{subsubsection.6.11.2.5}
+\contentsline {subsubsection}{\numberline {6.11.2.6}DynamicPoolMap}{53}{subsubsection.6.11.2.6}
+\contentsline {subsubsection}{\numberline {6.11.2.7}$\sim $DynamicPoolMap}{53}{subsubsection.6.11.2.7}
+\contentsline {subsection}{\numberline {6.11.3}Member Function Documentation}{53}{subsection.6.11.3}
+\contentsline {subsubsection}{\numberline {6.11.3.1}operator=}{53}{subsubsection.6.11.3.1}
+\contentsline {subsubsection}{\numberline {6.11.3.2}resize}{53}{subsubsection.6.11.3.2}
+\contentsline {subsubsection}{\numberline {6.11.3.3}copyFrom}{54}{subsubsection.6.11.3.3}
+\contentsline {subsubsection}{\numberline {6.11.3.4}operator=}{54}{subsubsection.6.11.3.4}
+\contentsline {subsubsection}{\numberline {6.11.3.5}copyFrom}{54}{subsubsection.6.11.3.5}
+\contentsline {subsubsection}{\numberline {6.11.3.6}reserve}{54}{subsubsection.6.11.3.6}
+\contentsline {section}{\numberline {6.12}JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set$<$ Data $>$ Class Template Reference}{55}{section.6.12}
+\contentsline {subsection}{\numberline {6.12.1}Constructor \& Destructor Documentation}{56}{subsection.6.12.1}
+\contentsline {subsubsection}{\numberline {6.12.1.1}DynamicPoolSet}{56}{subsubsection.6.12.1.1}
+\contentsline {subsubsection}{\numberline {6.12.1.2}DynamicPoolSet}{56}{subsubsection.6.12.1.2}
+\contentsline {subsubsection}{\numberline {6.12.1.3}$\sim $DynamicPoolSet}{56}{subsubsection.6.12.1.3}
+\contentsline {subsection}{\numberline {6.12.2}Member Function Documentation}{56}{subsection.6.12.2}
+\contentsline {subsubsection}{\numberline {6.12.2.1}operator=}{56}{subsubsection.6.12.2.1}
+\contentsline {subsubsection}{\numberline {6.12.2.2}copyFrom}{56}{subsubsection.6.12.2.2}
+\contentsline {subsubsection}{\numberline {6.12.2.3}operator==}{56}{subsubsection.6.12.2.3}
+\contentsline {subsubsection}{\numberline {6.12.2.4}resize}{56}{subsubsection.6.12.2.4}
+\contentsline {section}{\numberline {6.13}JGTL::Floating\discretionary {-}{}{}Units$<$ Value\discretionary {-}{}{}Type, SCALE\_\discretionary {-}{}{}NUMERATOR, SCALE\_\discretionary {-}{}{}DENOMINATOR $>$ Class Template Reference}{57}{section.6.13}
+\contentsline {subsection}{\numberline {6.13.1}Constructor \& Destructor Documentation}{58}{subsection.6.13.1}
+\contentsline {subsubsection}{\numberline {6.13.1.1}FloatingUnits}{58}{subsubsection.6.13.1.1}
+\contentsline {subsubsection}{\numberline {6.13.1.2}FloatingUnits}{58}{subsubsection.6.13.1.2}
+\contentsline {subsection}{\numberline {6.13.2}Member Function Documentation}{58}{subsection.6.13.2}
+\contentsline {subsubsection}{\numberline {6.13.2.1}operator=}{58}{subsubsection.6.13.2.1}
+\contentsline {subsubsection}{\numberline {6.13.2.2}changeScale}{58}{subsubsection.6.13.2.2}
+\contentsline {subsubsection}{\numberline {6.13.2.3}getScale}{58}{subsubsection.6.13.2.3}
+\contentsline {subsubsection}{\numberline {6.13.2.4}setValue}{58}{subsubsection.6.13.2.4}
+\contentsline {subsubsection}{\numberline {6.13.2.5}getValue}{58}{subsubsection.6.13.2.5}
+\contentsline {subsection}{\numberline {6.13.3}Member Data Documentation}{58}{subsection.6.13.3}
+\contentsline {subsubsection}{\numberline {6.13.3.1}value}{58}{subsubsection.6.13.3.1}
+\contentsline {section}{\numberline {6.14}JGTL::Hex\discretionary {-}{}{}Tree$<$ T $>$ Class Template Reference}{60}{section.6.14}
+\contentsline {subsection}{\numberline {6.14.1}Constructor \& Destructor Documentation}{61}{subsection.6.14.1}
+\contentsline {subsubsection}{\numberline {6.14.1.1}HexTree}{61}{subsubsection.6.14.1.1}
+\contentsline {subsubsection}{\numberline {6.14.1.2}HexTree}{61}{subsubsection.6.14.1.2}
+\contentsline {subsubsection}{\numberline {6.14.1.3}$\sim $HexTree}{61}{subsubsection.6.14.1.3}
+\contentsline {subsection}{\numberline {6.14.2}Member Function Documentation}{61}{subsection.6.14.2}
+\contentsline {subsubsection}{\numberline {6.14.2.1}operator=}{61}{subsubsection.6.14.2.1}
+\contentsline {subsubsection}{\numberline {6.14.2.2}copyFrom}{61}{subsubsection.6.14.2.2}
+\contentsline {subsubsection}{\numberline {6.14.2.3}getValue}{61}{subsubsection.6.14.2.3}
+\contentsline {subsubsection}{\numberline {6.14.2.4}getValue}{61}{subsubsection.6.14.2.4}
+\contentsline {subsubsection}{\numberline {6.14.2.5}setValue}{61}{subsubsection.6.14.2.5}
+\contentsline {subsubsection}{\numberline {6.14.2.6}setValue}{61}{subsubsection.6.14.2.6}
+\contentsline {subsubsection}{\numberline {6.14.2.7}setAll}{61}{subsubsection.6.14.2.7}
+\contentsline {subsubsection}{\numberline {6.14.2.8}display}{61}{subsubsection.6.14.2.8}
+\contentsline {subsubsection}{\numberline {6.14.2.9}operator()}{61}{subsubsection.6.14.2.9}
+\contentsline {subsubsection}{\numberline {6.14.2.10}operator()}{61}{subsubsection.6.14.2.10}
+\contentsline {subsubsection}{\numberline {6.14.2.11}getMemUsage}{61}{subsubsection.6.14.2.11}
+\contentsline {subsection}{\numberline {6.14.3}Member Data Documentation}{61}{subsection.6.14.3}
+\contentsline {subsubsection}{\numberline {6.14.3.1}size}{61}{subsubsection.6.14.3.1}
+\contentsline {subsubsection}{\numberline {6.14.3.2}root}{61}{subsubsection.6.14.3.2}
+\contentsline {subsubsection}{\numberline {6.14.3.3}branchPool}{61}{subsubsection.6.14.3.3}
+\contentsline {subsubsection}{\numberline {6.14.3.4}stubPool}{61}{subsubsection.6.14.3.4}
+\contentsline {section}{\numberline {6.15}JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch$<$ T $>$ Class Template Reference}{63}{section.6.15}
+\contentsline {subsection}{\numberline {6.15.1}Constructor \& Destructor Documentation}{64}{subsection.6.15.1}
+\contentsline {subsubsection}{\numberline {6.15.1.1}HexTreeBranch}{64}{subsubsection.6.15.1.1}
+\contentsline {subsubsection}{\numberline {6.15.1.2}$\sim $HexTreeBranch}{64}{subsubsection.6.15.1.2}
+\contentsline {subsection}{\numberline {6.15.2}Member Function Documentation}{64}{subsection.6.15.2}
+\contentsline {subsubsection}{\numberline {6.15.2.1}destroy}{64}{subsubsection.6.15.2.1}
+\contentsline {subsubsection}{\numberline {6.15.2.2}getChildIndex}{64}{subsubsection.6.15.2.2}
+\contentsline {subsubsection}{\numberline {6.15.2.3}getValue}{64}{subsubsection.6.15.2.3}
+\contentsline {subsubsection}{\numberline {6.15.2.4}getValue}{64}{subsubsection.6.15.2.4}
+\contentsline {subsubsection}{\numberline {6.15.2.5}setAll}{64}{subsubsection.6.15.2.5}
+\contentsline {subsubsection}{\numberline {6.15.2.6}setValue}{64}{subsubsection.6.15.2.6}
+\contentsline {subsubsection}{\numberline {6.15.2.7}display}{65}{subsubsection.6.15.2.7}
+\contentsline {subsubsection}{\numberline {6.15.2.8}getMemUsage}{65}{subsubsection.6.15.2.8}
+\contentsline {subsection}{\numberline {6.15.3}Member Data Documentation}{65}{subsection.6.15.3}
+\contentsline {subsubsection}{\numberline {6.15.3.1}children}{65}{subsubsection.6.15.3.1}
+\contentsline {section}{\numberline {6.16}JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node$<$ T $>$ Class Template Reference}{66}{section.6.16}
+\contentsline {subsection}{\numberline {6.16.1}Constructor \& Destructor Documentation}{67}{subsection.6.16.1}
+\contentsline {subsubsection}{\numberline {6.16.1.1}HexTreeNode}{67}{subsubsection.6.16.1.1}
+\contentsline {subsubsection}{\numberline {6.16.1.2}$\sim $HexTreeNode}{67}{subsubsection.6.16.1.2}
+\contentsline {subsection}{\numberline {6.16.2}Member Function Documentation}{67}{subsection.6.16.2}
+\contentsline {subsubsection}{\numberline {6.16.2.1}getValue}{67}{subsubsection.6.16.2.1}
+\contentsline {subsubsection}{\numberline {6.16.2.2}getValue}{67}{subsubsection.6.16.2.2}
+\contentsline {subsubsection}{\numberline {6.16.2.3}setValue}{67}{subsubsection.6.16.2.3}
+\contentsline {subsubsection}{\numberline {6.16.2.4}isStub}{67}{subsubsection.6.16.2.4}
+\contentsline {subsubsection}{\numberline {6.16.2.5}destroy}{67}{subsubsection.6.16.2.5}
+\contentsline {subsubsection}{\numberline {6.16.2.6}display}{68}{subsubsection.6.16.2.6}
+\contentsline {subsubsection}{\numberline {6.16.2.7}getMemUsage}{68}{subsubsection.6.16.2.7}
+\contentsline {section}{\numberline {6.17}JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub$<$ T $>$ Class Template Reference}{69}{section.6.17}
+\contentsline {subsection}{\numberline {6.17.1}Constructor \& Destructor Documentation}{70}{subsection.6.17.1}
+\contentsline {subsubsection}{\numberline {6.17.1.1}HexTreeStub}{70}{subsubsection.6.17.1.1}
+\contentsline {subsubsection}{\numberline {6.17.1.2}$\sim $HexTreeStub}{70}{subsubsection.6.17.1.2}
+\contentsline {subsection}{\numberline {6.17.2}Member Function Documentation}{70}{subsection.6.17.2}
+\contentsline {subsubsection}{\numberline {6.17.2.1}getValue}{70}{subsubsection.6.17.2.1}
+\contentsline {subsubsection}{\numberline {6.17.2.2}getValue}{70}{subsubsection.6.17.2.2}
+\contentsline {subsubsection}{\numberline {6.17.2.3}setValue}{70}{subsubsection.6.17.2.3}
+\contentsline {subsubsection}{\numberline {6.17.2.4}setValue}{70}{subsubsection.6.17.2.4}
+\contentsline {subsubsection}{\numberline {6.17.2.5}isStub}{70}{subsubsection.6.17.2.5}
+\contentsline {subsubsection}{\numberline {6.17.2.6}display}{70}{subsubsection.6.17.2.6}
+\contentsline {subsubsection}{\numberline {6.17.2.7}getMemUsage}{71}{subsubsection.6.17.2.7}
+\contentsline {subsection}{\numberline {6.17.3}Member Data Documentation}{71}{subsection.6.17.3}
+\contentsline {subsubsection}{\numberline {6.17.3.1}value}{71}{subsubsection.6.17.3.1}
+\contentsline {section}{\numberline {6.18}JGTL::IF$<$ condition, Then, Else $>$ Struct Template Reference}{72}{section.6.18}
+\contentsline {subsection}{\numberline {6.18.1}Member Typedef Documentation}{72}{subsection.6.18.1}
+\contentsline {subsubsection}{\numberline {6.18.1.1}RET}{72}{subsubsection.6.18.1.1}
+\contentsline {section}{\numberline {6.19}JGTL::IF$<$ false, Then, Else $>$ Struct Template Reference}{73}{section.6.19}
+\contentsline {subsection}{\numberline {6.19.1}Member Typedef Documentation}{73}{subsection.6.19.1}
+\contentsline {subsubsection}{\numberline {6.19.1.1}RET}{73}{subsubsection.6.19.1.1}
+\contentsline {section}{\numberline {6.20}JGTL::Index2 Class Reference}{74}{section.6.20}
+\contentsline {subsection}{\numberline {6.20.1}Constructor \& Destructor Documentation}{75}{subsection.6.20.1}
+\contentsline {subsubsection}{\numberline {6.20.1.1}Index2}{75}{subsubsection.6.20.1.1}
+\contentsline {subsubsection}{\numberline {6.20.1.2}Index2}{75}{subsubsection.6.20.1.2}
+\contentsline {subsubsection}{\numberline {6.20.1.3}Index2}{75}{subsubsection.6.20.1.3}
+\contentsline {subsection}{\numberline {6.20.2}Member Function Documentation}{75}{subsection.6.20.2}
+\contentsline {subsubsection}{\numberline {6.20.2.1}getVector2}{75}{subsubsection.6.20.2.1}
+\contentsline {subsubsection}{\numberline {6.20.2.2}toString}{75}{subsubsection.6.20.2.2}
+\contentsline {subsubsection}{\numberline {6.20.2.3}operator==}{75}{subsubsection.6.20.2.3}
+\contentsline {subsubsection}{\numberline {6.20.2.4}operator"!=}{75}{subsubsection.6.20.2.4}
+\contentsline {subsection}{\numberline {6.20.3}Member Data Documentation}{75}{subsection.6.20.3}
+\contentsline {subsubsection}{\numberline {6.20.3.1}x}{75}{subsubsection.6.20.3.1}
+\contentsline {subsubsection}{\numberline {6.20.3.2}y}{75}{subsubsection.6.20.3.2}
+\contentsline {section}{\numberline {6.21}JGTL::Index3 Class Reference}{76}{section.6.21}
+\contentsline {subsection}{\numberline {6.21.1}Constructor \& Destructor Documentation}{78}{subsection.6.21.1}
+\contentsline {subsubsection}{\numberline {6.21.1.1}Index3}{78}{subsubsection.6.21.1.1}
+\contentsline {subsubsection}{\numberline {6.21.1.2}Index3}{78}{subsubsection.6.21.1.2}
+\contentsline {subsubsection}{\numberline {6.21.1.3}Index3}{78}{subsubsection.6.21.1.3}
+\contentsline {subsection}{\numberline {6.21.2}Member Function Documentation}{78}{subsection.6.21.2}
+\contentsline {subsubsection}{\numberline {6.21.2.1}operator$<$}{78}{subsubsection.6.21.2.1}
+\contentsline {subsubsection}{\numberline {6.21.2.2}operator==}{78}{subsubsection.6.21.2.2}
+\contentsline {subsubsection}{\numberline {6.21.2.3}operator"!=}{78}{subsubsection.6.21.2.3}
+\contentsline {subsubsection}{\numberline {6.21.2.4}operator $\ast $}{78}{subsubsection.6.21.2.4}
+\contentsline {subsubsection}{\numberline {6.21.2.5}operator $\ast $}{78}{subsubsection.6.21.2.5}
+\contentsline {subsubsection}{\numberline {6.21.2.6}operator/}{78}{subsubsection.6.21.2.6}
+\contentsline {subsubsection}{\numberline {6.21.2.7}operator-}{78}{subsubsection.6.21.2.7}
+\contentsline {subsubsection}{\numberline {6.21.2.8}operator-=}{78}{subsubsection.6.21.2.8}
+\contentsline {subsubsection}{\numberline {6.21.2.9}operator+}{78}{subsubsection.6.21.2.9}
+\contentsline {subsubsection}{\numberline {6.21.2.10}operator+=}{78}{subsubsection.6.21.2.10}
+\contentsline {subsubsection}{\numberline {6.21.2.11}magnitude}{78}{subsubsection.6.21.2.11}
+\contentsline {subsubsection}{\numberline {6.21.2.12}magnitudeSquared}{78}{subsubsection.6.21.2.12}
+\contentsline {subsubsection}{\numberline {6.21.2.13}distanceSquared}{78}{subsubsection.6.21.2.13}
+\contentsline {subsubsection}{\numberline {6.21.2.14}distanceSquared}{78}{subsubsection.6.21.2.14}
+\contentsline {subsubsection}{\numberline {6.21.2.15}chessDistance}{78}{subsubsection.6.21.2.15}
+\contentsline {subsubsection}{\numberline {6.21.2.16}manhatDistance}{78}{subsubsection.6.21.2.16}
+\contentsline {subsection}{\numberline {6.21.3}Member Data Documentation}{78}{subsection.6.21.3}
+\contentsline {subsubsection}{\numberline {6.21.3.1}x}{78}{subsubsection.6.21.3.1}
+\contentsline {subsubsection}{\numberline {6.21.3.2}y}{78}{subsubsection.6.21.3.2}
+\contentsline {subsubsection}{\numberline {6.21.3.3}z}{78}{subsubsection.6.21.3.3}
+\contentsline {section}{\numberline {6.22}JGTL::Integral\discretionary {-}{}{}Units$<$ Value\discretionary {-}{}{}Type, SCALE, USEGCD $>$ Class Template Reference}{80}{section.6.22}
+\contentsline {subsection}{\numberline {6.22.1}Constructor \& Destructor Documentation}{81}{subsection.6.22.1}
+\contentsline {subsubsection}{\numberline {6.22.1.1}IntegralUnits}{81}{subsubsection.6.22.1.1}
+\contentsline {subsubsection}{\numberline {6.22.1.2}IntegralUnits}{81}{subsubsection.6.22.1.2}
+\contentsline {subsection}{\numberline {6.22.2}Member Function Documentation}{81}{subsection.6.22.2}
+\contentsline {subsubsection}{\numberline {6.22.2.1}operator=}{81}{subsubsection.6.22.2.1}
+\contentsline {subsubsection}{\numberline {6.22.2.2}changeScale}{81}{subsubsection.6.22.2.2}
+\contentsline {subsubsection}{\numberline {6.22.2.3}getScale}{81}{subsubsection.6.22.2.3}
+\contentsline {subsubsection}{\numberline {6.22.2.4}setValue}{81}{subsubsection.6.22.2.4}
+\contentsline {subsubsection}{\numberline {6.22.2.5}getValue}{81}{subsubsection.6.22.2.5}
+\contentsline {subsection}{\numberline {6.22.3}Member Data Documentation}{81}{subsection.6.22.3}
+\contentsline {subsubsection}{\numberline {6.22.3.1}value}{81}{subsubsection.6.22.3.1}
+\contentsline {section}{\numberline {6.23}JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ i, j $>$ Struct Template Reference}{83}{section.6.23}
+\contentsline {subsection}{\numberline {6.23.1}Member Data Documentation}{83}{subsection.6.23.1}
+\contentsline {subsubsection}{\numberline {6.23.1.1}VALUE}{83}{subsubsection.6.23.1.1}
+\contentsline {section}{\numberline {6.24}JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 0, 0 $>$ Struct Template Reference}{84}{section.6.24}
+\contentsline {subsection}{\numberline {6.24.1}Member Data Documentation}{84}{subsection.6.24.1}
+\contentsline {subsubsection}{\numberline {6.24.1.1}VALUE}{84}{subsubsection.6.24.1.1}
+\contentsline {section}{\numberline {6.25}JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 0, j $>$ Struct Template Reference}{85}{section.6.25}
+\contentsline {subsection}{\numberline {6.25.1}Member Data Documentation}{85}{subsection.6.25.1}
+\contentsline {subsubsection}{\numberline {6.25.1.1}VALUE}{85}{subsubsection.6.25.1.1}
+\contentsline {section}{\numberline {6.26}JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 1, 1 $>$ Struct Template Reference}{86}{section.6.26}
+\contentsline {subsection}{\numberline {6.26.1}Member Data Documentation}{86}{subsection.6.26.1}
+\contentsline {subsubsection}{\numberline {6.26.1.1}VALUE}{86}{subsubsection.6.26.1.1}
+\contentsline {section}{\numberline {6.27}JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 1, j $>$ Struct Template Reference}{87}{section.6.27}
+\contentsline {subsection}{\numberline {6.27.1}Member Data Documentation}{87}{subsection.6.27.1}
+\contentsline {subsubsection}{\numberline {6.27.1.1}VALUE}{87}{subsubsection.6.27.1.1}
+\contentsline {section}{\numberline {6.28}JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ i, 0 $>$ Struct Template Reference}{88}{section.6.28}
+\contentsline {subsection}{\numberline {6.28.1}Member Data Documentation}{88}{subsection.6.28.1}
+\contentsline {subsubsection}{\numberline {6.28.1.1}VALUE}{88}{subsubsection.6.28.1.1}
+\contentsline {section}{\numberline {6.29}JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ i, 1 $>$ Struct Template Reference}{89}{section.6.29}
+\contentsline {subsection}{\numberline {6.29.1}Member Data Documentation}{89}{subsection.6.29.1}
+\contentsline {subsubsection}{\numberline {6.29.1.1}VALUE}{89}{subsubsection.6.29.1.1}
+\contentsline {section}{\numberline {6.30}JGTL::Interpolated\discretionary {-}{}{}Value$<$ T $>$ Class Template Reference}{90}{section.6.30}
+\contentsline {subsection}{\numberline {6.30.1}Detailed Description}{91}{subsection.6.30.1}
+\contentsline {subsection}{\numberline {6.30.2}Constructor \& Destructor Documentation}{91}{subsection.6.30.2}
+\contentsline {subsubsection}{\numberline {6.30.2.1}InterpolatedValue}{91}{subsubsection.6.30.2.1}
+\contentsline {subsubsection}{\numberline {6.30.2.2}InterpolatedValue}{91}{subsubsection.6.30.2.2}
+\contentsline {subsubsection}{\numberline {6.30.2.3}InterpolatedValue}{91}{subsubsection.6.30.2.3}
+\contentsline {subsection}{\numberline {6.30.3}Member Function Documentation}{91}{subsection.6.30.3}
+\contentsline {subsubsection}{\numberline {6.30.3.1}operator=}{91}{subsubsection.6.30.3.1}
+\contentsline {subsubsection}{\numberline {6.30.3.2}getInterpolationCoeff}{91}{subsubsection.6.30.3.2}
+\contentsline {subsubsection}{\numberline {6.30.3.3}setCoeff}{91}{subsubsection.6.30.3.3}
+\contentsline {subsubsection}{\numberline {6.30.3.4}setValue}{91}{subsubsection.6.30.3.4}
+\contentsline {subsubsection}{\numberline {6.30.3.5}operator+=}{92}{subsubsection.6.30.3.5}
+\contentsline {subsubsection}{\numberline {6.30.3.6}operator-=}{92}{subsubsection.6.30.3.6}
+\contentsline {subsubsection}{\numberline {6.30.3.7}getPotentialValue}{92}{subsubsection.6.30.3.7}
+\contentsline {subsubsection}{\numberline {6.30.3.8}getActualValue}{92}{subsubsection.6.30.3.8}
+\contentsline {subsubsection}{\numberline {6.30.3.9}forceValue}{92}{subsubsection.6.30.3.9}
+\contentsline {subsubsection}{\numberline {6.30.3.10}update}{92}{subsubsection.6.30.3.10}
+\contentsline {subsection}{\numberline {6.30.4}Member Data Documentation}{92}{subsection.6.30.4}
+\contentsline {subsubsection}{\numberline {6.30.4.1}potentialValue}{92}{subsubsection.6.30.4.1}
+\contentsline {subsubsection}{\numberline {6.30.4.2}actualValue}{92}{subsubsection.6.30.4.2}
+\contentsline {subsubsection}{\numberline {6.30.4.3}interpolationCoeff}{92}{subsubsection.6.30.4.3}
+\contentsline {section}{\numberline {6.31}JGTL::Located\discretionary {-}{}{}Exception Class Reference}{93}{section.6.31}
+\contentsline {subsection}{\numberline {6.31.1}Detailed Description}{93}{subsection.6.31.1}
+\contentsline {subsection}{\numberline {6.31.2}Constructor \& Destructor Documentation}{94}{subsection.6.31.2}
+\contentsline {subsubsection}{\numberline {6.31.2.1}LocatedException}{94}{subsubsection.6.31.2.1}
+\contentsline {subsubsection}{\numberline {6.31.2.2}LocatedException}{94}{subsubsection.6.31.2.2}
+\contentsline {subsection}{\numberline {6.31.3}Member Function Documentation}{94}{subsection.6.31.3}
+\contentsline {subsubsection}{\numberline {6.31.3.1}what}{94}{subsubsection.6.31.3.1}
+\contentsline {subsection}{\numberline {6.31.4}Member Data Documentation}{94}{subsection.6.31.4}
+\contentsline {subsubsection}{\numberline {6.31.4.1}text}{94}{subsubsection.6.31.4.1}
+\contentsline {section}{\numberline {6.32}JGTL::Map\discretionary {-}{}{}Interface$<$ Key, Data $>$ Class Template Reference}{95}{section.6.32}
+\contentsline {subsection}{\numberline {6.32.1}Detailed Description}{96}{subsection.6.32.1}
+\contentsline {subsection}{\numberline {6.32.2}Member Typedef Documentation}{97}{subsection.6.32.2}
+\contentsline {subsubsection}{\numberline {6.32.2.1}iterator}{97}{subsubsection.6.32.2.1}
+\contentsline {subsubsection}{\numberline {6.32.2.2}const\_\discretionary {-}{}{}iterator}{97}{subsubsection.6.32.2.2}
+\contentsline {subsubsection}{\numberline {6.32.2.3}TreeItem}{97}{subsubsection.6.32.2.3}
+\contentsline {subsubsection}{\numberline {6.32.2.4}TreeNode}{97}{subsubsection.6.32.2.4}
+\contentsline {subsection}{\numberline {6.32.3}Constructor \& Destructor Documentation}{97}{subsection.6.32.3}
+\contentsline {subsubsection}{\numberline {6.32.3.1}MapInterface}{97}{subsubsection.6.32.3.1}
+\contentsline {subsubsection}{\numberline {6.32.3.2}$\sim $MapInterface}{97}{subsubsection.6.32.3.2}
+\contentsline {subsubsection}{\numberline {6.32.3.3}MapInterface}{97}{subsubsection.6.32.3.3}
+\contentsline {subsubsection}{\numberline {6.32.3.4}$\sim $MapInterface}{97}{subsubsection.6.32.3.4}
+\contentsline {subsection}{\numberline {6.32.4}Member Function Documentation}{97}{subsection.6.32.4}
+\contentsline {subsubsection}{\numberline {6.32.4.1}operator==}{97}{subsubsection.6.32.4.1}
+\contentsline {subsubsection}{\numberline {6.32.4.2}resize}{97}{subsubsection.6.32.4.2}
+\contentsline {subsubsection}{\numberline {6.32.4.3}insert}{99}{subsubsection.6.32.4.3}
+\contentsline {subsubsection}{\numberline {6.32.4.4}size}{99}{subsubsection.6.32.4.4}
+\contentsline {subsubsection}{\numberline {6.32.4.5}empty}{99}{subsubsection.6.32.4.5}
+\contentsline {subsubsection}{\numberline {6.32.4.6}clear}{99}{subsubsection.6.32.4.6}
+\contentsline {subsubsection}{\numberline {6.32.4.7}begin}{99}{subsubsection.6.32.4.7}
+\contentsline {subsubsection}{\numberline {6.32.4.8}begin}{99}{subsubsection.6.32.4.8}
+\contentsline {subsubsection}{\numberline {6.32.4.9}end}{99}{subsubsection.6.32.4.9}
+\contentsline {subsubsection}{\numberline {6.32.4.10}end}{99}{subsubsection.6.32.4.10}
+\contentsline {subsubsection}{\numberline {6.32.4.11}hasKey}{99}{subsubsection.6.32.4.11}
+\contentsline {subsubsection}{\numberline {6.32.4.12}find}{99}{subsubsection.6.32.4.12}
+\contentsline {subsubsection}{\numberline {6.32.4.13}find}{99}{subsubsection.6.32.4.13}
+\contentsline {subsubsection}{\numberline {6.32.4.14}getData}{99}{subsubsection.6.32.4.14}
+\contentsline {subsubsection}{\numberline {6.32.4.15}getData}{99}{subsubsection.6.32.4.15}
+\contentsline {subsubsection}{\numberline {6.32.4.16}getDataRef}{99}{subsubsection.6.32.4.16}
+\contentsline {subsubsection}{\numberline {6.32.4.17}erase}{99}{subsubsection.6.32.4.17}
+\contentsline {subsubsection}{\numberline {6.32.4.18}eraseIndex}{99}{subsubsection.6.32.4.18}
+\contentsline {subsubsection}{\numberline {6.32.4.19}getIndexData}{99}{subsubsection.6.32.4.19}
+\contentsline {subsubsection}{\numberline {6.32.4.20}getIndexDataPtr}{99}{subsubsection.6.32.4.20}
+\contentsline {subsubsection}{\numberline {6.32.4.21}getIndexDataPtr}{99}{subsubsection.6.32.4.21}
+\contentsline {subsubsection}{\numberline {6.32.4.22}getIndex}{99}{subsubsection.6.32.4.22}
+\contentsline {subsubsection}{\numberline {6.32.4.23}getIndexPtr}{99}{subsubsection.6.32.4.23}
+\contentsline {subsubsection}{\numberline {6.32.4.24}getIndexPtr}{99}{subsubsection.6.32.4.24}
+\contentsline {subsubsection}{\numberline {6.32.4.25}operator==}{99}{subsubsection.6.32.4.25}
+\contentsline {subsubsection}{\numberline {6.32.4.26}reserve}{99}{subsubsection.6.32.4.26}
+\contentsline {subsubsection}{\numberline {6.32.4.27}insert}{101}{subsubsection.6.32.4.27}
+\contentsline {subsubsection}{\numberline {6.32.4.28}size}{101}{subsubsection.6.32.4.28}
+\contentsline {subsubsection}{\numberline {6.32.4.29}clear}{101}{subsubsection.6.32.4.29}
+\contentsline {subsubsection}{\numberline {6.32.4.30}hasKey}{101}{subsubsection.6.32.4.30}
+\contentsline {subsubsection}{\numberline {6.32.4.31}find}{101}{subsubsection.6.32.4.31}
+\contentsline {subsubsection}{\numberline {6.32.4.32}find}{101}{subsubsection.6.32.4.32}
+\contentsline {subsubsection}{\numberline {6.32.4.33}getData}{101}{subsubsection.6.32.4.33}
+\contentsline {subsubsection}{\numberline {6.32.4.34}getData}{101}{subsubsection.6.32.4.34}
+\contentsline {subsubsection}{\numberline {6.32.4.35}getDataRef}{101}{subsubsection.6.32.4.35}
+\contentsline {subsubsection}{\numberline {6.32.4.36}erase}{101}{subsubsection.6.32.4.36}
+\contentsline {subsubsection}{\numberline {6.32.4.37}getIndexData}{101}{subsubsection.6.32.4.37}
+\contentsline {subsubsection}{\numberline {6.32.4.38}getIndexDataPtr}{101}{subsubsection.6.32.4.38}
+\contentsline {subsubsection}{\numberline {6.32.4.39}getIndexDataPtr}{101}{subsubsection.6.32.4.39}
+\contentsline {subsection}{\numberline {6.32.5}Member Data Documentation}{101}{subsection.6.32.5}
+\contentsline {subsubsection}{\numberline {6.32.5.1}numElements}{101}{subsubsection.6.32.5.1}
+\contentsline {subsubsection}{\numberline {6.32.5.2}maxElements}{101}{subsubsection.6.32.5.2}
+\contentsline {subsubsection}{\numberline {6.32.5.3}dataList}{101}{subsubsection.6.32.5.3}
+\contentsline {subsubsection}{\numberline {6.32.5.4}dataList}{101}{subsubsection.6.32.5.4}
+\contentsline {subsubsection}{\numberline {6.32.5.5}nodeList}{101}{subsubsection.6.32.5.5}
+\contentsline {subsubsection}{\numberline {6.32.5.6}rootIndex}{101}{subsubsection.6.32.5.6}
+\contentsline {section}{\numberline {6.33}JGTL::Null\discretionary {-}{}{}Variant\discretionary {-}{}{}Class Class Reference}{103}{section.6.33}
+\contentsline {section}{\numberline {6.34}JGTL::Poly\discretionary {-}{}{}Variant$<$ Base\discretionary {-}{}{}Class, Class1, Class2, Class3, Class4, Class5, Class6, Class7, Class8, Class9, Class10 $>$ Class Template Reference}{104}{section.6.34}
+\contentsline {subsection}{\numberline {6.34.1}Constructor \& Destructor Documentation}{105}{subsection.6.34.1}
+\contentsline {subsubsection}{\numberline {6.34.1.1}PolyVariant}{105}{subsubsection.6.34.1.1}
+\contentsline {subsection}{\numberline {6.34.2}Member Function Documentation}{105}{subsection.6.34.2}
+\contentsline {subsubsection}{\numberline {6.34.2.1}operator-$>$}{105}{subsubsection.6.34.2.1}
+\contentsline {subsection}{\numberline {6.34.3}Member Data Documentation}{105}{subsection.6.34.3}
+\contentsline {subsubsection}{\numberline {6.34.3.1}base}{105}{subsubsection.6.34.3.1}
+\contentsline {section}{\numberline {6.35}JGTL::Pool\discretionary {-}{}{}Map$<$ Key, Data $>$ Class Template Reference}{106}{section.6.35}
+\contentsline {subsection}{\numberline {6.35.1}Member Typedef Documentation}{107}{subsection.6.35.1}
+\contentsline {subsubsection}{\numberline {6.35.1.1}iterator}{107}{subsubsection.6.35.1.1}
+\contentsline {subsubsection}{\numberline {6.35.1.2}const\_\discretionary {-}{}{}iterator}{107}{subsubsection.6.35.1.2}
+\contentsline {subsection}{\numberline {6.35.2}Constructor \& Destructor Documentation}{107}{subsection.6.35.2}
+\contentsline {subsubsection}{\numberline {6.35.2.1}PoolMap}{107}{subsubsection.6.35.2.1}
+\contentsline {subsubsection}{\numberline {6.35.2.2}PoolMap}{107}{subsubsection.6.35.2.2}
+\contentsline {subsubsection}{\numberline {6.35.2.3}$\sim $PoolMap}{107}{subsubsection.6.35.2.3}
+\contentsline {subsection}{\numberline {6.35.3}Member Function Documentation}{107}{subsection.6.35.3}
+\contentsline {subsubsection}{\numberline {6.35.3.1}operator=}{107}{subsubsection.6.35.3.1}
+\contentsline {subsubsection}{\numberline {6.35.3.2}copyFrom}{107}{subsubsection.6.35.3.2}
+\contentsline {subsubsection}{\numberline {6.35.3.3}insert}{107}{subsubsection.6.35.3.3}
+\contentsline {subsubsection}{\numberline {6.35.3.4}size}{107}{subsubsection.6.35.3.4}
+\contentsline {subsubsection}{\numberline {6.35.3.5}clear}{107}{subsubsection.6.35.3.5}
+\contentsline {subsubsection}{\numberline {6.35.3.6}begin}{107}{subsubsection.6.35.3.6}
+\contentsline {subsubsection}{\numberline {6.35.3.7}end}{107}{subsubsection.6.35.3.7}
+\contentsline {subsubsection}{\numberline {6.35.3.8}hasKey}{107}{subsubsection.6.35.3.8}
+\contentsline {subsubsection}{\numberline {6.35.3.9}find}{107}{subsubsection.6.35.3.9}
+\contentsline {subsubsection}{\numberline {6.35.3.10}getData}{107}{subsubsection.6.35.3.10}
+\contentsline {subsubsection}{\numberline {6.35.3.11}getData}{107}{subsubsection.6.35.3.11}
+\contentsline {subsubsection}{\numberline {6.35.3.12}getDataRef}{107}{subsubsection.6.35.3.12}
+\contentsline {subsubsection}{\numberline {6.35.3.13}getIndexData}{107}{subsubsection.6.35.3.13}
+\contentsline {subsubsection}{\numberline {6.35.3.14}getIndexDataPtr}{107}{subsubsection.6.35.3.14}
+\contentsline {subsection}{\numberline {6.35.4}Member Data Documentation}{107}{subsection.6.35.4}
+\contentsline {subsubsection}{\numberline {6.35.4.1}numElements}{107}{subsubsection.6.35.4.1}
+\contentsline {subsubsection}{\numberline {6.35.4.2}maxElements}{107}{subsubsection.6.35.4.2}
+\contentsline {subsubsection}{\numberline {6.35.4.3}dataList}{107}{subsubsection.6.35.4.3}
+\contentsline {section}{\numberline {6.36}JGTL::Profile\discretionary {-}{}{}Block Struct Reference}{109}{section.6.36}
+\contentsline {subsection}{\numberline {6.36.1}Detailed Description}{109}{subsection.6.36.1}
+\contentsline {subsection}{\numberline {6.36.2}Constructor \& Destructor Documentation}{109}{subsection.6.36.2}
+\contentsline {subsubsection}{\numberline {6.36.2.1}ProfileBlock}{109}{subsubsection.6.36.2.1}
+\contentsline {subsection}{\numberline {6.36.3}Member Data Documentation}{109}{subsection.6.36.3}
+\contentsline {subsubsection}{\numberline {6.36.3.1}currentBlockStartMicroseconds}{109}{subsubsection.6.36.3.1}
+\contentsline {subsubsection}{\numberline {6.36.3.2}currentCycleTotalMicroseconds}{110}{subsubsection.6.36.3.2}
+\contentsline {subsubsection}{\numberline {6.36.3.3}avgCycleTotalMicroseconds}{110}{subsubsection.6.36.3.3}
+\contentsline {subsubsection}{\numberline {6.36.3.4}totalMicroseconds}{110}{subsubsection.6.36.3.4}
+\contentsline {subsubsection}{\numberline {6.36.3.5}smallestCycleMicroseconds}{110}{subsubsection.6.36.3.5}
+\contentsline {subsubsection}{\numberline {6.36.3.6}smallestCyclePercent}{110}{subsubsection.6.36.3.6}
+\contentsline {subsubsection}{\numberline {6.36.3.7}largestCycleMicroseconds}{110}{subsubsection.6.36.3.7}
+\contentsline {subsubsection}{\numberline {6.36.3.8}largestCyclePercent}{110}{subsubsection.6.36.3.8}
+\contentsline {section}{\numberline {6.37}JGTL::Profile\discretionary {-}{}{}Block\discretionary {-}{}{}Handler Class Reference}{111}{section.6.37}
+\contentsline {subsection}{\numberline {6.37.1}Constructor \& Destructor Documentation}{111}{subsection.6.37.1}
+\contentsline {subsubsection}{\numberline {6.37.1.1}ProfileBlockHandler}{111}{subsubsection.6.37.1.1}
+\contentsline {subsubsection}{\numberline {6.37.1.2}$\sim $ProfileBlockHandler}{111}{subsubsection.6.37.1.2}
+\contentsline {subsection}{\numberline {6.37.2}Member Data Documentation}{111}{subsection.6.37.2}
+\contentsline {subsubsection}{\numberline {6.37.2.1}blockName}{111}{subsubsection.6.37.2.1}
+\contentsline {section}{\numberline {6.38}JGTL::Profiler Class Reference}{112}{section.6.38}
+\contentsline {subsection}{\numberline {6.38.1}Detailed Description}{113}{subsection.6.38.1}
+\contentsline {subsection}{\numberline {6.38.2}Constructor \& Destructor Documentation}{114}{subsection.6.38.2}
+\contentsline {subsubsection}{\numberline {6.38.2.1}Profiler}{114}{subsubsection.6.38.2.1}
+\contentsline {subsubsection}{\numberline {6.38.2.2}$\sim $Profiler}{114}{subsubsection.6.38.2.2}
+\contentsline {subsection}{\numberline {6.38.3}Member Function Documentation}{114}{subsection.6.38.3}
+\contentsline {subsubsection}{\numberline {6.38.3.1}createInstance}{114}{subsubsection.6.38.3.1}
+\contentsline {subsubsection}{\numberline {6.38.3.2}destroyInstance}{114}{subsubsection.6.38.3.2}
+\contentsline {subsubsection}{\numberline {6.38.3.3}init}{114}{subsubsection.6.38.3.3}
+\contentsline {subsubsection}{\numberline {6.38.3.4}reset}{115}{subsubsection.6.38.3.4}
+\contentsline {subsubsection}{\numberline {6.38.3.5}beginBlock}{115}{subsubsection.6.38.3.5}
+\contentsline {subsubsection}{\numberline {6.38.3.6}endBlock}{115}{subsubsection.6.38.3.6}
+\contentsline {subsubsection}{\numberline {6.38.3.7}beginCycle}{115}{subsubsection.6.38.3.7}
+\contentsline {subsubsection}{\numberline {6.38.3.8}endCycle}{115}{subsubsection.6.38.3.8}
+\contentsline {subsubsection}{\numberline {6.38.3.9}getAvgDuration}{115}{subsubsection.6.38.3.9}
+\contentsline {subsubsection}{\numberline {6.38.3.10}getSummary}{116}{subsubsection.6.38.3.10}
+\contentsline {subsubsection}{\numberline {6.38.3.11}printError}{116}{subsubsection.6.38.3.11}
+\contentsline {subsubsection}{\numberline {6.38.3.12}getProfileBlock}{116}{subsubsection.6.38.3.12}
+\contentsline {subsubsection}{\numberline {6.38.3.13}getBlockMinTime}{116}{subsubsection.6.38.3.13}
+\contentsline {subsubsection}{\numberline {6.38.3.14}getBlockTotalTime}{117}{subsubsection.6.38.3.14}
+\contentsline {subsubsection}{\numberline {6.38.3.15}getBlockMaxTime}{117}{subsubsection.6.38.3.15}
+\contentsline {subsubsection}{\numberline {6.38.3.16}getMicrosecondsSinceInit}{117}{subsubsection.6.38.3.16}
+\contentsline {subsubsection}{\numberline {6.38.3.17}getSuffixString}{118}{subsubsection.6.38.3.17}
+\contentsline {subsection}{\numberline {6.38.4}Member Data Documentation}{118}{subsection.6.38.4}
+\contentsline {subsubsection}{\numberline {6.38.4.1}mEnabled}{118}{subsubsection.6.38.4.1}
+\contentsline {subsubsection}{\numberline {6.38.4.2}mClock}{118}{subsubsection.6.38.4.2}
+\contentsline {subsubsection}{\numberline {6.38.4.3}mCurrentCycleStartMicroseconds}{118}{subsubsection.6.38.4.3}
+\contentsline {subsubsection}{\numberline {6.38.4.4}mLastCycleDurationMicroseconds}{118}{subsubsection.6.38.4.4}
+\contentsline {subsubsection}{\numberline {6.38.4.5}mProfileBlocks}{118}{subsubsection.6.38.4.5}
+\contentsline {subsubsection}{\numberline {6.38.4.6}mOutputFile}{118}{subsubsection.6.38.4.6}
+\contentsline {subsubsection}{\numberline {6.38.4.7}mFirstFileOutput}{118}{subsubsection.6.38.4.7}
+\contentsline {subsubsection}{\numberline {6.38.4.8}mMovingAvgScalar}{119}{subsubsection.6.38.4.8}
+\contentsline {subsubsection}{\numberline {6.38.4.9}mPrintPeriod}{119}{subsubsection.6.38.4.9}
+\contentsline {subsubsection}{\numberline {6.38.4.10}mPrintFormat}{119}{subsubsection.6.38.4.10}
+\contentsline {subsubsection}{\numberline {6.38.4.11}mCycleCounter}{119}{subsubsection.6.38.4.11}
+\contentsline {subsubsection}{\numberline {6.38.4.12}mFirstCycle}{119}{subsubsection.6.38.4.12}
+\contentsline {subsubsection}{\numberline {6.38.4.13}microsecondsSinceInit}{119}{subsubsection.6.38.4.13}
+\contentsline {section}{\numberline {6.39}JGTL::Quad\discretionary {-}{}{}Tree$<$ T $>$ Class Template Reference}{120}{section.6.39}
+\contentsline {subsection}{\numberline {6.39.1}Constructor \& Destructor Documentation}{121}{subsection.6.39.1}
+\contentsline {subsubsection}{\numberline {6.39.1.1}QuadTree}{121}{subsubsection.6.39.1.1}
+\contentsline {subsubsection}{\numberline {6.39.1.2}QuadTree}{121}{subsubsection.6.39.1.2}
+\contentsline {subsubsection}{\numberline {6.39.1.3}$\sim $QuadTree}{121}{subsubsection.6.39.1.3}
+\contentsline {subsection}{\numberline {6.39.2}Member Function Documentation}{121}{subsection.6.39.2}
+\contentsline {subsubsection}{\numberline {6.39.2.1}operator=}{121}{subsubsection.6.39.2.1}
+\contentsline {subsubsection}{\numberline {6.39.2.2}copyFrom}{121}{subsubsection.6.39.2.2}
+\contentsline {subsubsection}{\numberline {6.39.2.3}getValue}{121}{subsubsection.6.39.2.3}
+\contentsline {subsubsection}{\numberline {6.39.2.4}getValue}{121}{subsubsection.6.39.2.4}
+\contentsline {subsubsection}{\numberline {6.39.2.5}setValue}{121}{subsubsection.6.39.2.5}
+\contentsline {subsubsection}{\numberline {6.39.2.6}setValue}{121}{subsubsection.6.39.2.6}
+\contentsline {subsubsection}{\numberline {6.39.2.7}setAll}{121}{subsubsection.6.39.2.7}
+\contentsline {subsubsection}{\numberline {6.39.2.8}display}{121}{subsubsection.6.39.2.8}
+\contentsline {subsubsection}{\numberline {6.39.2.9}operator()}{121}{subsubsection.6.39.2.9}
+\contentsline {subsubsection}{\numberline {6.39.2.10}operator()}{121}{subsubsection.6.39.2.10}
+\contentsline {subsection}{\numberline {6.39.3}Member Data Documentation}{121}{subsection.6.39.3}
+\contentsline {subsubsection}{\numberline {6.39.3.1}size}{121}{subsubsection.6.39.3.1}
+\contentsline {subsubsection}{\numberline {6.39.3.2}root}{121}{subsubsection.6.39.3.2}
+\contentsline {subsubsection}{\numberline {6.39.3.3}branchPool}{121}{subsubsection.6.39.3.3}
+\contentsline {subsubsection}{\numberline {6.39.3.4}stubPool}{121}{subsubsection.6.39.3.4}
+\contentsline {section}{\numberline {6.40}JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch$<$ T $>$ Class Template Reference}{123}{section.6.40}
+\contentsline {subsection}{\numberline {6.40.1}Constructor \& Destructor Documentation}{124}{subsection.6.40.1}
+\contentsline {subsubsection}{\numberline {6.40.1.1}QuadTreeBranch}{124}{subsubsection.6.40.1.1}
+\contentsline {subsubsection}{\numberline {6.40.1.2}$\sim $QuadTreeBranch}{124}{subsubsection.6.40.1.2}
+\contentsline {subsection}{\numberline {6.40.2}Member Function Documentation}{124}{subsection.6.40.2}
+\contentsline {subsubsection}{\numberline {6.40.2.1}destroy}{124}{subsubsection.6.40.2.1}
+\contentsline {subsubsection}{\numberline {6.40.2.2}getValue}{124}{subsubsection.6.40.2.2}
+\contentsline {subsubsection}{\numberline {6.40.2.3}getValue}{124}{subsubsection.6.40.2.3}
+\contentsline {subsubsection}{\numberline {6.40.2.4}setAll}{124}{subsubsection.6.40.2.4}
+\contentsline {subsubsection}{\numberline {6.40.2.5}setValue}{124}{subsubsection.6.40.2.5}
+\contentsline {subsubsection}{\numberline {6.40.2.6}display}{125}{subsubsection.6.40.2.6}
+\contentsline {subsection}{\numberline {6.40.3}Member Data Documentation}{125}{subsection.6.40.3}
+\contentsline {subsubsection}{\numberline {6.40.3.1}topLeft}{125}{subsubsection.6.40.3.1}
+\contentsline {subsubsection}{\numberline {6.40.3.2}topRight}{125}{subsubsection.6.40.3.2}
+\contentsline {subsubsection}{\numberline {6.40.3.3}bottomLeft}{125}{subsubsection.6.40.3.3}
+\contentsline {subsubsection}{\numberline {6.40.3.4}bottomRight}{125}{subsubsection.6.40.3.4}
+\contentsline {section}{\numberline {6.41}JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node$<$ T $>$ Class Template Reference}{126}{section.6.41}
+\contentsline {subsection}{\numberline {6.41.1}Constructor \& Destructor Documentation}{127}{subsection.6.41.1}
+\contentsline {subsubsection}{\numberline {6.41.1.1}QuadTreeNode}{127}{subsubsection.6.41.1.1}
+\contentsline {subsubsection}{\numberline {6.41.1.2}$\sim $QuadTreeNode}{127}{subsubsection.6.41.1.2}
+\contentsline {subsection}{\numberline {6.41.2}Member Function Documentation}{127}{subsection.6.41.2}
+\contentsline {subsubsection}{\numberline {6.41.2.1}getValue}{127}{subsubsection.6.41.2.1}
+\contentsline {subsubsection}{\numberline {6.41.2.2}getValue}{127}{subsubsection.6.41.2.2}
+\contentsline {subsubsection}{\numberline {6.41.2.3}setValue}{127}{subsubsection.6.41.2.3}
+\contentsline {subsubsection}{\numberline {6.41.2.4}isStub}{127}{subsubsection.6.41.2.4}
+\contentsline {subsubsection}{\numberline {6.41.2.5}destroy}{127}{subsubsection.6.41.2.5}
+\contentsline {subsubsection}{\numberline {6.41.2.6}display}{128}{subsubsection.6.41.2.6}
+\contentsline {section}{\numberline {6.42}JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub$<$ T $>$ Class Template Reference}{129}{section.6.42}
+\contentsline {subsection}{\numberline {6.42.1}Constructor \& Destructor Documentation}{130}{subsection.6.42.1}
+\contentsline {subsubsection}{\numberline {6.42.1.1}QuadTreeStub}{130}{subsubsection.6.42.1.1}
+\contentsline {subsubsection}{\numberline {6.42.1.2}$\sim $QuadTreeStub}{130}{subsubsection.6.42.1.2}
+\contentsline {subsection}{\numberline {6.42.2}Member Function Documentation}{130}{subsection.6.42.2}
+\contentsline {subsubsection}{\numberline {6.42.2.1}getValue}{130}{subsubsection.6.42.2.1}
+\contentsline {subsubsection}{\numberline {6.42.2.2}getValue}{130}{subsubsection.6.42.2.2}
+\contentsline {subsubsection}{\numberline {6.42.2.3}setValue}{130}{subsubsection.6.42.2.3}
+\contentsline {subsubsection}{\numberline {6.42.2.4}setValue}{130}{subsubsection.6.42.2.4}
+\contentsline {subsubsection}{\numberline {6.42.2.5}isStub}{130}{subsubsection.6.42.2.5}
+\contentsline {subsubsection}{\numberline {6.42.2.6}display}{130}{subsubsection.6.42.2.6}
+\contentsline {subsection}{\numberline {6.42.3}Member Data Documentation}{131}{subsection.6.42.3}
+\contentsline {subsubsection}{\numberline {6.42.3.1}value}{131}{subsubsection.6.42.3.1}
+\contentsline {section}{\numberline {6.43}JGTL::Ray2$<$ T $>$ Class Template Reference}{132}{section.6.43}
+\contentsline {subsection}{\numberline {6.43.1}Detailed Description}{132}{subsection.6.43.1}
+\contentsline {subsection}{\numberline {6.43.2}Constructor \& Destructor Documentation}{134}{subsection.6.43.2}
+\contentsline {subsubsection}{\numberline {6.43.2.1}Ray2}{134}{subsubsection.6.43.2.1}
+\contentsline {subsubsection}{\numberline {6.43.2.2}Ray2}{134}{subsubsection.6.43.2.2}
+\contentsline {subsection}{\numberline {6.43.3}Member Function Documentation}{134}{subsection.6.43.3}
+\contentsline {subsubsection}{\numberline {6.43.3.1}getDirection}{134}{subsubsection.6.43.3.1}
+\contentsline {subsubsection}{\numberline {6.43.3.2}getBase}{134}{subsubsection.6.43.3.2}
+\contentsline {subsubsection}{\numberline {6.43.3.3}getEndPoint}{134}{subsubsection.6.43.3.3}
+\contentsline {subsubsection}{\numberline {6.43.3.4}setBase}{134}{subsubsection.6.43.3.4}
+\contentsline {subsubsection}{\numberline {6.43.3.5}setDirection}{134}{subsubsection.6.43.3.5}
+\contentsline {subsubsection}{\numberline {6.43.3.6}getProjectionTVal}{134}{subsubsection.6.43.3.6}
+\contentsline {subsubsection}{\numberline {6.43.3.7}getProjectionVector}{134}{subsubsection.6.43.3.7}
+\contentsline {subsubsection}{\numberline {6.43.3.8}normalize}{134}{subsubsection.6.43.3.8}
+\contentsline {subsubsection}{\numberline {6.43.3.9}getIntersection}{134}{subsubsection.6.43.3.9}
+\contentsline {subsubsection}{\numberline {6.43.3.10}within}{134}{subsubsection.6.43.3.10}
+\contentsline {subsubsection}{\numberline {6.43.3.11}putwhere}{134}{subsubsection.6.43.3.11}
+\contentsline {subsection}{\numberline {6.43.4}Member Data Documentation}{134}{subsection.6.43.4}
+\contentsline {subsubsection}{\numberline {6.43.4.1}base}{134}{subsubsection.6.43.4.1}
+\contentsline {subsubsection}{\numberline {6.43.4.2}direction}{134}{subsubsection.6.43.4.2}
+\contentsline {section}{\numberline {6.44}JGTL::Ray3$<$ T $>$ Class Template Reference}{136}{section.6.44}
+\contentsline {subsection}{\numberline {6.44.1}Detailed Description}{136}{subsection.6.44.1}
+\contentsline {subsection}{\numberline {6.44.2}Constructor \& Destructor Documentation}{137}{subsection.6.44.2}
+\contentsline {subsubsection}{\numberline {6.44.2.1}Ray3}{137}{subsubsection.6.44.2.1}
+\contentsline {subsubsection}{\numberline {6.44.2.2}Ray3}{137}{subsubsection.6.44.2.2}
+\contentsline {subsection}{\numberline {6.44.3}Member Function Documentation}{137}{subsection.6.44.3}
+\contentsline {subsubsection}{\numberline {6.44.3.1}getDirection}{137}{subsubsection.6.44.3.1}
+\contentsline {subsubsection}{\numberline {6.44.3.2}getBase}{137}{subsubsection.6.44.3.2}
+\contentsline {subsubsection}{\numberline {6.44.3.3}setBase}{137}{subsubsection.6.44.3.3}
+\contentsline {subsubsection}{\numberline {6.44.3.4}setDirection}{137}{subsubsection.6.44.3.4}
+\contentsline {subsubsection}{\numberline {6.44.3.5}getProjectionTVal}{137}{subsubsection.6.44.3.5}
+\contentsline {subsubsection}{\numberline {6.44.3.6}getProjectionVector}{137}{subsubsection.6.44.3.6}
+\contentsline {subsubsection}{\numberline {6.44.3.7}normalize}{137}{subsubsection.6.44.3.7}
+\contentsline {subsection}{\numberline {6.44.4}Member Data Documentation}{137}{subsection.6.44.4}
+\contentsline {subsubsection}{\numberline {6.44.4.1}base}{137}{subsubsection.6.44.4.1}
+\contentsline {subsubsection}{\numberline {6.44.4.2}direction}{137}{subsubsection.6.44.4.2}
+\contentsline {section}{\numberline {6.45}JGTL::Rectangle3$<$ T $>$ Class Template Reference}{138}{section.6.45}
+\contentsline {subsection}{\numberline {6.45.1}Constructor \& Destructor Documentation}{139}{subsection.6.45.1}
+\contentsline {subsubsection}{\numberline {6.45.1.1}Rectangle3}{139}{subsubsection.6.45.1.1}
+\contentsline {subsubsection}{\numberline {6.45.1.2}Rectangle3}{139}{subsubsection.6.45.1.2}
+\contentsline {subsection}{\numberline {6.45.2}Member Function Documentation}{139}{subsection.6.45.2}
+\contentsline {subsubsection}{\numberline {6.45.2.1}contains}{139}{subsubsection.6.45.2.1}
+\contentsline {subsubsection}{\numberline {6.45.2.2}getFirstPoint}{139}{subsubsection.6.45.2.2}
+\contentsline {subsubsection}{\numberline {6.45.2.3}getNextDiscretePoint}{139}{subsubsection.6.45.2.3}
+\contentsline {subsection}{\numberline {6.45.3}Member Data Documentation}{139}{subsection.6.45.3}
+\contentsline {subsubsection}{\numberline {6.45.3.1}topLeft}{139}{subsubsection.6.45.3.1}
+\contentsline {subsubsection}{\numberline {6.45.3.2}size}{139}{subsubsection.6.45.3.2}
+\contentsline {section}{\numberline {6.46}JGTL::Rectangle\discretionary {-}{}{}Index3 Class Reference}{140}{section.6.46}
+\contentsline {subsection}{\numberline {6.46.1}Constructor \& Destructor Documentation}{141}{subsection.6.46.1}
+\contentsline {subsubsection}{\numberline {6.46.1.1}RectangleIndex3}{141}{subsubsection.6.46.1.1}
+\contentsline {subsubsection}{\numberline {6.46.1.2}RectangleIndex3}{141}{subsubsection.6.46.1.2}
+\contentsline {subsubsection}{\numberline {6.46.1.3}RectangleIndex3}{141}{subsubsection.6.46.1.3}
+\contentsline {subsection}{\numberline {6.46.2}Member Function Documentation}{141}{subsection.6.46.2}
+\contentsline {subsubsection}{\numberline {6.46.2.1}contains}{141}{subsubsection.6.46.2.1}
+\contentsline {subsubsection}{\numberline {6.46.2.2}contains}{141}{subsubsection.6.46.2.2}
+\contentsline {subsubsection}{\numberline {6.46.2.3}getFirstPoint}{141}{subsubsection.6.46.2.3}
+\contentsline {subsubsection}{\numberline {6.46.2.4}getNextPoint}{141}{subsubsection.6.46.2.4}
+\contentsline {subsubsection}{\numberline {6.46.2.5}getArea}{141}{subsubsection.6.46.2.5}
+\contentsline {subsection}{\numberline {6.46.3}Member Data Documentation}{141}{subsection.6.46.3}
+\contentsline {subsubsection}{\numberline {6.46.3.1}topLeft}{141}{subsubsection.6.46.3.1}
+\contentsline {subsubsection}{\numberline {6.46.3.2}size}{141}{subsubsection.6.46.3.2}
+\contentsline {section}{\numberline {6.47}JGTL::Set\discretionary {-}{}{}Interface$<$ Data $>$ Class Template Reference}{142}{section.6.47}
+\contentsline {subsection}{\numberline {6.47.1}Detailed Description}{143}{subsection.6.47.1}
+\contentsline {subsection}{\numberline {6.47.2}Member Typedef Documentation}{143}{subsection.6.47.2}
+\contentsline {subsubsection}{\numberline {6.47.2.1}iterator}{143}{subsubsection.6.47.2.1}
+\contentsline {subsubsection}{\numberline {6.47.2.2}const\_\discretionary {-}{}{}iterator}{143}{subsubsection.6.47.2.2}
+\contentsline {subsection}{\numberline {6.47.3}Constructor \& Destructor Documentation}{143}{subsection.6.47.3}
+\contentsline {subsubsection}{\numberline {6.47.3.1}SetInterface}{143}{subsubsection.6.47.3.1}
+\contentsline {subsubsection}{\numberline {6.47.3.2}$\sim $SetInterface}{143}{subsubsection.6.47.3.2}
+\contentsline {subsection}{\numberline {6.47.4}Member Function Documentation}{143}{subsection.6.47.4}
+\contentsline {subsubsection}{\numberline {6.47.4.1}operator==}{143}{subsubsection.6.47.4.1}
+\contentsline {subsubsection}{\numberline {6.47.4.2}resize}{143}{subsubsection.6.47.4.2}
+\contentsline {subsubsection}{\numberline {6.47.4.3}insert}{145}{subsubsection.6.47.4.3}
+\contentsline {subsubsection}{\numberline {6.47.4.4}size}{145}{subsubsection.6.47.4.4}
+\contentsline {subsubsection}{\numberline {6.47.4.5}empty}{145}{subsubsection.6.47.4.5}
+\contentsline {subsubsection}{\numberline {6.47.4.6}clear}{145}{subsubsection.6.47.4.6}
+\contentsline {subsubsection}{\numberline {6.47.4.7}begin}{145}{subsubsection.6.47.4.7}
+\contentsline {subsubsection}{\numberline {6.47.4.8}begin}{145}{subsubsection.6.47.4.8}
+\contentsline {subsubsection}{\numberline {6.47.4.9}end}{145}{subsubsection.6.47.4.9}
+\contentsline {subsubsection}{\numberline {6.47.4.10}end}{145}{subsubsection.6.47.4.10}
+\contentsline {subsubsection}{\numberline {6.47.4.11}hasData}{145}{subsubsection.6.47.4.11}
+\contentsline {subsubsection}{\numberline {6.47.4.12}find}{145}{subsubsection.6.47.4.12}
+\contentsline {subsubsection}{\numberline {6.47.4.13}erase}{145}{subsubsection.6.47.4.13}
+\contentsline {subsubsection}{\numberline {6.47.4.14}erase}{145}{subsubsection.6.47.4.14}
+\contentsline {subsubsection}{\numberline {6.47.4.15}eraseIndex}{145}{subsubsection.6.47.4.15}
+\contentsline {subsubsection}{\numberline {6.47.4.16}getIndex}{145}{subsubsection.6.47.4.16}
+\contentsline {subsubsection}{\numberline {6.47.4.17}getIndexRef}{145}{subsubsection.6.47.4.17}
+\contentsline {subsubsection}{\numberline {6.47.4.18}getIndexPtr}{145}{subsubsection.6.47.4.18}
+\contentsline {subsubsection}{\numberline {6.47.4.19}getIndexPtr}{145}{subsubsection.6.47.4.19}
+\contentsline {subsection}{\numberline {6.47.5}Member Data Documentation}{145}{subsection.6.47.5}
+\contentsline {subsubsection}{\numberline {6.47.5.1}numElements}{145}{subsubsection.6.47.5.1}
+\contentsline {subsubsection}{\numberline {6.47.5.2}maxElements}{145}{subsubsection.6.47.5.2}
+\contentsline {subsubsection}{\numberline {6.47.5.3}dataList}{145}{subsubsection.6.47.5.3}
+\contentsline {section}{\numberline {6.48}JGTL::Singleton$<$ Type $>$ Class Template Reference}{147}{section.6.48}
+\contentsline {subsection}{\numberline {6.48.1}Detailed Description}{147}{subsection.6.48.1}
+\contentsline {subsection}{\numberline {6.48.2}Constructor \& Destructor Documentation}{148}{subsection.6.48.2}
+\contentsline {subsubsection}{\numberline {6.48.2.1}Singleton}{148}{subsubsection.6.48.2.1}
+\contentsline {subsubsection}{\numberline {6.48.2.2}$\sim $Singleton}{148}{subsubsection.6.48.2.2}
+\contentsline {subsection}{\numberline {6.48.3}Member Function Documentation}{148}{subsection.6.48.3}
+\contentsline {subsubsection}{\numberline {6.48.3.1}getInstance}{148}{subsubsection.6.48.3.1}
+\contentsline {subsubsection}{\numberline {6.48.3.2}destroyInstance}{148}{subsubsection.6.48.3.2}
+\contentsline {subsection}{\numberline {6.48.4}Member Data Documentation}{148}{subsection.6.48.4}
+\contentsline {subsubsection}{\numberline {6.48.4.1}instance}{148}{subsubsection.6.48.4.1}
+\contentsline {section}{\numberline {6.49}JGTL::Sorted\discretionary {-}{}{}List$<$ Data $>$ Class Template Reference}{149}{section.6.49}
+\contentsline {subsection}{\numberline {6.49.1}Constructor \& Destructor Documentation}{150}{subsection.6.49.1}
+\contentsline {subsubsection}{\numberline {6.49.1.1}SortedList}{150}{subsubsection.6.49.1.1}
+\contentsline {subsubsection}{\numberline {6.49.1.2}$\sim $SortedList}{150}{subsubsection.6.49.1.2}
+\contentsline {subsection}{\numberline {6.49.2}Member Function Documentation}{150}{subsection.6.49.2}
+\contentsline {subsubsection}{\numberline {6.49.2.1}addData}{150}{subsubsection.6.49.2.1}
+\contentsline {subsubsection}{\numberline {6.49.2.2}getDataSize}{150}{subsubsection.6.49.2.2}
+\contentsline {subsubsection}{\numberline {6.49.2.3}hasData}{150}{subsubsection.6.49.2.3}
+\contentsline {subsubsection}{\numberline {6.49.2.4}getData}{150}{subsubsection.6.49.2.4}
+\contentsline {subsubsection}{\numberline {6.49.2.5}getDataPtr}{150}{subsubsection.6.49.2.5}
+\contentsline {subsection}{\numberline {6.49.3}Member Data Documentation}{150}{subsection.6.49.3}
+\contentsline {subsubsection}{\numberline {6.49.3.1}numElements}{150}{subsubsection.6.49.3.1}
+\contentsline {subsubsection}{\numberline {6.49.3.2}maxElements}{150}{subsubsection.6.49.3.2}
+\contentsline {subsubsection}{\numberline {6.49.3.3}dataList}{150}{subsubsection.6.49.3.3}
+\contentsline {section}{\numberline {6.50}JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer$<$ Data, MAX\_\discretionary {-}{}{}ELEMENTS $>$ Class Template Reference}{151}{section.6.50}
+\contentsline {subsection}{\numberline {6.50.1}Detailed Description}{151}{subsection.6.50.1}
+\contentsline {subsection}{\numberline {6.50.2}Constructor \& Destructor Documentation}{152}{subsection.6.50.2}
+\contentsline {subsubsection}{\numberline {6.50.2.1}StackCircularBuffer}{152}{subsubsection.6.50.2.1}
+\contentsline {subsubsection}{\numberline {6.50.2.2}StackCircularBuffer}{152}{subsubsection.6.50.2.2}
+\contentsline {subsubsection}{\numberline {6.50.2.3}$\sim $StackCircularBuffer}{152}{subsubsection.6.50.2.3}
+\contentsline {subsection}{\numberline {6.50.3}Member Function Documentation}{152}{subsection.6.50.3}
+\contentsline {subsubsection}{\numberline {6.50.3.1}operator=}{152}{subsubsection.6.50.3.1}
+\contentsline {subsubsection}{\numberline {6.50.3.2}resize}{152}{subsubsection.6.50.3.2}
+\contentsline {subsubsection}{\numberline {6.50.3.3}copyFrom}{152}{subsubsection.6.50.3.3}
+\contentsline {subsection}{\numberline {6.50.4}Member Data Documentation}{152}{subsection.6.50.4}
+\contentsline {subsubsection}{\numberline {6.50.4.1}data}{152}{subsubsection.6.50.4.1}
+\contentsline {section}{\numberline {6.51}JGTL::Stack\discretionary {-}{}{}Map$<$ Key, Data, MAX\_\discretionary {-}{}{}ELEMENTS $>$ Class Template Reference}{154}{section.6.51}
+\contentsline {subsection}{\numberline {6.51.1}Detailed Description}{154}{subsection.6.51.1}
+\contentsline {subsection}{\numberline {6.51.2}Constructor \& Destructor Documentation}{155}{subsection.6.51.2}
+\contentsline {subsubsection}{\numberline {6.51.2.1}StackMap}{155}{subsubsection.6.51.2.1}
+\contentsline {subsubsection}{\numberline {6.51.2.2}StackMap}{155}{subsubsection.6.51.2.2}
+\contentsline {subsubsection}{\numberline {6.51.2.3}$\sim $StackMap}{155}{subsubsection.6.51.2.3}
+\contentsline {subsection}{\numberline {6.51.3}Member Function Documentation}{155}{subsection.6.51.3}
+\contentsline {subsubsection}{\numberline {6.51.3.1}operator=}{155}{subsubsection.6.51.3.1}
+\contentsline {subsubsection}{\numberline {6.51.3.2}resize}{155}{subsubsection.6.51.3.2}
+\contentsline {subsubsection}{\numberline {6.51.3.3}copyFrom}{156}{subsubsection.6.51.3.3}
+\contentsline {subsection}{\numberline {6.51.4}Member Data Documentation}{156}{subsection.6.51.4}
+\contentsline {subsubsection}{\numberline {6.51.4.1}data}{156}{subsubsection.6.51.4.1}
+\contentsline {section}{\numberline {6.52}JGTL::Stack\discretionary {-}{}{}Set$<$ Data, MAX\_\discretionary {-}{}{}ELEMENTS $>$ Class Template Reference}{157}{section.6.52}
+\contentsline {subsection}{\numberline {6.52.1}Constructor \& Destructor Documentation}{158}{subsection.6.52.1}
+\contentsline {subsubsection}{\numberline {6.52.1.1}StackSet}{158}{subsubsection.6.52.1.1}
+\contentsline {subsubsection}{\numberline {6.52.1.2}StackSet}{158}{subsubsection.6.52.1.2}
+\contentsline {subsubsection}{\numberline {6.52.1.3}$\sim $StackSet}{158}{subsubsection.6.52.1.3}
+\contentsline {subsection}{\numberline {6.52.2}Member Function Documentation}{158}{subsection.6.52.2}
+\contentsline {subsubsection}{\numberline {6.52.2.1}operator=}{158}{subsubsection.6.52.2.1}
+\contentsline {subsubsection}{\numberline {6.52.2.2}copyFrom}{158}{subsubsection.6.52.2.2}
+\contentsline {subsection}{\numberline {6.52.3}Member Data Documentation}{158}{subsection.6.52.3}
+\contentsline {subsubsection}{\numberline {6.52.3.1}data}{158}{subsubsection.6.52.3.1}
+\contentsline {section}{\numberline {6.53}JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten $>$ Struct Template Reference}{159}{section.6.53}
+\contentsline {subsection}{\numberline {6.53.1}Member Data Documentation}{159}{subsection.6.53.1}
+\contentsline {subsubsection}{\numberline {6.53.1.1}RESULT}{159}{subsubsection.6.53.1.1}
+\contentsline {section}{\numberline {6.54}JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, One, One, Two $>$ Struct Template Reference}{160}{section.6.54}
+\contentsline {subsection}{\numberline {6.54.1}Member Data Documentation}{160}{subsection.6.54.1}
+\contentsline {subsubsection}{\numberline {6.54.1.1}RESULT}{160}{subsubsection.6.54.1.1}
+\contentsline {section}{\numberline {6.55}JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, One, Two, Three $>$ Struct Template Reference}{161}{section.6.55}
+\contentsline {subsection}{\numberline {6.55.1}Member Data Documentation}{161}{subsection.6.55.1}
+\contentsline {subsubsection}{\numberline {6.55.1.1}RESULT}{161}{subsubsection.6.55.1.1}
+\contentsline {section}{\numberline {6.56}JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, Two, Three, Four $>$ Struct Template Reference}{162}{section.6.56}
+\contentsline {subsection}{\numberline {6.56.1}Member Data Documentation}{162}{subsection.6.56.1}
+\contentsline {subsubsection}{\numberline {6.56.1.1}RESULT}{162}{subsubsection.6.56.1.1}
+\contentsline {section}{\numberline {6.57}JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, Two, Three, Four, Five $>$ Struct Template Reference}{163}{section.6.57}
+\contentsline {subsection}{\numberline {6.57.1}Member Data Documentation}{163}{subsection.6.57.1}
+\contentsline {subsubsection}{\numberline {6.57.1.1}RESULT}{163}{subsubsection.6.57.1.1}
+\contentsline {section}{\numberline {6.58}JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, Two, Three, Four, Five, Six $>$ Struct Template Reference}{164}{section.6.58}
+\contentsline {subsection}{\numberline {6.58.1}Member Data Documentation}{164}{subsection.6.58.1}
+\contentsline {subsubsection}{\numberline {6.58.1.1}RESULT}{164}{subsubsection.6.58.1.1}
+\contentsline {section}{\numberline {6.59}JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, Two, Three, Four, Five, Six, Seven $>$ Struct Template Reference}{165}{section.6.59}
+\contentsline {subsection}{\numberline {6.59.1}Member Data Documentation}{165}{subsection.6.59.1}
+\contentsline {subsubsection}{\numberline {6.59.1.1}RESULT}{165}{subsubsection.6.59.1.1}
+\contentsline {section}{\numberline {6.60}JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, Two, Three, Four, Five, Six, Seven, Eight $>$ Struct Template Reference}{166}{section.6.60}
+\contentsline {subsection}{\numberline {6.60.1}Member Data Documentation}{166}{subsection.6.60.1}
+\contentsline {subsubsection}{\numberline {6.60.1.1}RESULT}{166}{subsubsection.6.60.1.1}
+\contentsline {section}{\numberline {6.61}JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, Two, Three, Four, Five, Six, Seven, Eight, Nine $>$ Struct Template Reference}{167}{section.6.61}
+\contentsline {subsection}{\numberline {6.61.1}Member Data Documentation}{167}{subsection.6.61.1}
+\contentsline {subsubsection}{\numberline {6.61.1.1}RESULT}{167}{subsubsection.6.61.1.1}
+\contentsline {section}{\numberline {6.62}JGTL::STATIC\_\discretionary {-}{}{}MOD$<$ Type, a, b $>$ Struct Template Reference}{168}{section.6.62}
+\contentsline {subsection}{\numberline {6.62.1}Member Data Documentation}{168}{subsection.6.62.1}
+\contentsline {subsubsection}{\numberline {6.62.1.1}VALUE}{168}{subsubsection.6.62.1.1}
+\contentsline {section}{\numberline {6.63}JGTL::Tree\discretionary {-}{}{}List$<$ Data $>$ Class Template Reference}{169}{section.6.63}
+\contentsline {subsection}{\numberline {6.63.1}Constructor \& Destructor Documentation}{169}{subsection.6.63.1}
+\contentsline {subsubsection}{\numberline {6.63.1.1}TreeList}{169}{subsubsection.6.63.1.1}
+\contentsline {subsubsection}{\numberline {6.63.1.2}$\sim $TreeList}{169}{subsubsection.6.63.1.2}
+\contentsline {subsection}{\numberline {6.63.2}Member Data Documentation}{169}{subsection.6.63.2}
+\contentsline {subsubsection}{\numberline {6.63.2.1}root}{169}{subsubsection.6.63.2.1}
+\contentsline {section}{\numberline {6.64}JGTL::Tree\discretionary {-}{}{}List\discretionary {-}{}{}Node$<$ Data $>$ Class Template Reference}{170}{section.6.64}
+\contentsline {subsection}{\numberline {6.64.1}Member Data Documentation}{170}{subsection.6.64.1}
+\contentsline {subsubsection}{\numberline {6.64.1.1}sibling}{170}{subsubsection.6.64.1.1}
+\contentsline {subsubsection}{\numberline {6.64.1.2}child}{170}{subsubsection.6.64.1.2}
+\contentsline {section}{\numberline {6.65}JGTL::TYPEIF$<$ Type, condition, Then, Else $>$ Struct Template Reference}{171}{section.6.65}
+\contentsline {subsection}{\numberline {6.65.1}Member Data Documentation}{171}{subsection.6.65.1}
+\contentsline {subsubsection}{\numberline {6.65.1.1}RESULT}{171}{subsubsection.6.65.1.1}
+\contentsline {section}{\numberline {6.66}JGTL::TYPEIF$<$ Type, false, Then, Else $>$ Struct Template Reference}{172}{section.6.66}
+\contentsline {subsection}{\numberline {6.66.1}Member Data Documentation}{172}{subsection.6.66.1}
+\contentsline {subsubsection}{\numberline {6.66.1.1}RESULT}{172}{subsubsection.6.66.1.1}
+\contentsline {section}{\numberline {6.67}JGTL::Variant$<$ Class1, Class2, Class3, Class4, Class5, Class6, Class7, Class8, Class9, Class10 $>$ Class Template Reference}{173}{section.6.67}
+\contentsline {subsection}{\numberline {6.67.1}Constructor \& Destructor Documentation}{174}{subsection.6.67.1}
+\contentsline {subsubsection}{\numberline {6.67.1.1}Variant}{174}{subsubsection.6.67.1.1}
+\contentsline {subsection}{\numberline {6.67.2}Member Function Documentation}{174}{subsection.6.67.2}
+\contentsline {subsubsection}{\numberline {6.67.2.1}isOfType}{174}{subsubsection.6.67.2.1}
+\contentsline {subsubsection}{\numberline {6.67.2.2}getValue}{174}{subsubsection.6.67.2.2}
+\contentsline {subsubsection}{\numberline {6.67.2.3}getValueRef}{174}{subsubsection.6.67.2.3}
+\contentsline {subsubsection}{\numberline {6.67.2.4}getValueRef}{174}{subsubsection.6.67.2.4}
+\contentsline {subsubsection}{\numberline {6.67.2.5}getValuePtr}{174}{subsubsection.6.67.2.5}
+\contentsline {subsubsection}{\numberline {6.67.2.6}getValuePtr}{174}{subsubsection.6.67.2.6}
+\contentsline {subsubsection}{\numberline {6.67.2.7}clearValue}{174}{subsubsection.6.67.2.7}
+\contentsline {subsubsection}{\numberline {6.67.2.8}setValue}{174}{subsubsection.6.67.2.8}
+\contentsline {subsection}{\numberline {6.67.3}Member Data Documentation}{174}{subsection.6.67.3}
+\contentsline {subsubsection}{\numberline {6.67.3.1}data}{174}{subsubsection.6.67.3.1}
+\contentsline {subsubsection}{\numberline {6.67.3.2}typeOfData}{174}{subsubsection.6.67.3.2}
+\contentsline {section}{\numberline {6.68}JGTL::Vector2$<$ T $>$ Class Template Reference}{176}{section.6.68}
+\contentsline {subsection}{\numberline {6.68.1}Detailed Description}{177}{subsection.6.68.1}
+\contentsline {subsection}{\numberline {6.68.2}Constructor \& Destructor Documentation}{179}{subsection.6.68.2}
+\contentsline {subsubsection}{\numberline {6.68.2.1}Vector2}{179}{subsubsection.6.68.2.1}
+\contentsline {subsubsection}{\numberline {6.68.2.2}Vector2}{179}{subsubsection.6.68.2.2}
+\contentsline {subsubsection}{\numberline {6.68.2.3}Vector2}{179}{subsubsection.6.68.2.3}
+\contentsline {subsection}{\numberline {6.68.3}Member Function Documentation}{179}{subsection.6.68.3}
+\contentsline {subsubsection}{\numberline {6.68.3.1}fromMagnitudeAngle}{179}{subsubsection.6.68.3.1}
+\contentsline {subsubsection}{\numberline {6.68.3.2}operator=}{179}{subsubsection.6.68.3.2}
+\contentsline {subsubsection}{\numberline {6.68.3.3}operator==}{179}{subsubsection.6.68.3.3}
+\contentsline {subsubsection}{\numberline {6.68.3.4}operator"!=}{179}{subsubsection.6.68.3.4}
+\contentsline {subsubsection}{\numberline {6.68.3.5}operator$<$}{179}{subsubsection.6.68.3.5}
+\contentsline {subsubsection}{\numberline {6.68.3.6}operator/}{179}{subsubsection.6.68.3.6}
+\contentsline {subsubsection}{\numberline {6.68.3.7}operator/=}{179}{subsubsection.6.68.3.7}
+\contentsline {subsubsection}{\numberline {6.68.3.8}operator-}{179}{subsubsection.6.68.3.8}
+\contentsline {subsubsection}{\numberline {6.68.3.9}operator-}{179}{subsubsection.6.68.3.9}
+\contentsline {subsubsection}{\numberline {6.68.3.10}operator+}{179}{subsubsection.6.68.3.10}
+\contentsline {subsubsection}{\numberline {6.68.3.11}operator $\ast $}{179}{subsubsection.6.68.3.11}
+\contentsline {subsubsection}{\numberline {6.68.3.12}operator+=}{179}{subsubsection.6.68.3.12}
+\contentsline {subsubsection}{\numberline {6.68.3.13}operator-=}{179}{subsubsection.6.68.3.13}
+\contentsline {subsubsection}{\numberline {6.68.3.14}operator $\ast $=}{179}{subsubsection.6.68.3.14}
+\contentsline {subsubsection}{\numberline {6.68.3.15}dot}{179}{subsubsection.6.68.3.15}
+\contentsline {subsubsection}{\numberline {6.68.3.16}cross}{179}{subsubsection.6.68.3.16}
+\contentsline {subsubsection}{\numberline {6.68.3.17}rightHandNormal}{179}{subsubsection.6.68.3.17}
+\contentsline {subsubsection}{\numberline {6.68.3.18}magnitudeSquared}{179}{subsubsection.6.68.3.18}
+\contentsline {subsubsection}{\numberline {6.68.3.19}normalize}{179}{subsubsection.6.68.3.19}
+\contentsline {subsubsection}{\numberline {6.68.3.20}normalizeCopy}{179}{subsubsection.6.68.3.20}
+\contentsline {subsubsection}{\numberline {6.68.3.21}projectOn}{179}{subsubsection.6.68.3.21}
+\contentsline {subsubsection}{\numberline {6.68.3.22}distance}{179}{subsubsection.6.68.3.22}
+\contentsline {subsubsection}{\numberline {6.68.3.23}distance}{179}{subsubsection.6.68.3.23}
+\contentsline {subsubsection}{\numberline {6.68.3.24}distanceSquared}{179}{subsubsection.6.68.3.24}
+\contentsline {subsubsection}{\numberline {6.68.3.25}chessDistance}{179}{subsubsection.6.68.3.25}
+\contentsline {subsubsection}{\numberline {6.68.3.26}angleTo}{179}{subsubsection.6.68.3.26}
+\contentsline {subsubsection}{\numberline {6.68.3.27}rotate}{179}{subsubsection.6.68.3.27}
+\contentsline {subsubsection}{\numberline {6.68.3.28}rotateCopy}{179}{subsubsection.6.68.3.28}
+\contentsline {subsubsection}{\numberline {6.68.3.29}getAngle}{179}{subsubsection.6.68.3.29}
+\contentsline {subsubsection}{\numberline {6.68.3.30}isContainedIn}{179}{subsubsection.6.68.3.30}
+\contentsline {subsection}{\numberline {6.68.4}Member Data Documentation}{179}{subsection.6.68.4}
+\contentsline {subsubsection}{\numberline {6.68.4.1}x}{179}{subsubsection.6.68.4.1}
+\contentsline {subsubsection}{\numberline {6.68.4.2}y}{179}{subsubsection.6.68.4.2}
+\contentsline {section}{\numberline {6.69}JGTL::Vector3$<$ T $>$ Class Template Reference}{181}{section.6.69}
+\contentsline {subsection}{\numberline {6.69.1}Constructor \& Destructor Documentation}{183}{subsection.6.69.1}
+\contentsline {subsubsection}{\numberline {6.69.1.1}Vector3}{183}{subsubsection.6.69.1.1}
+\contentsline {subsubsection}{\numberline {6.69.1.2}Vector3}{183}{subsubsection.6.69.1.2}
+\contentsline {subsubsection}{\numberline {6.69.1.3}Vector3}{183}{subsubsection.6.69.1.3}
+\contentsline {subsection}{\numberline {6.69.2}Member Function Documentation}{183}{subsection.6.69.2}
+\contentsline {subsubsection}{\numberline {6.69.2.1}operator=}{183}{subsubsection.6.69.2.1}
+\contentsline {subsubsection}{\numberline {6.69.2.2}operator==}{183}{subsubsection.6.69.2.2}
+\contentsline {subsubsection}{\numberline {6.69.2.3}operator"!=}{183}{subsubsection.6.69.2.3}
+\contentsline {subsubsection}{\numberline {6.69.2.4}operator$<$}{183}{subsubsection.6.69.2.4}
+\contentsline {subsubsection}{\numberline {6.69.2.5}operator/}{183}{subsubsection.6.69.2.5}
+\contentsline {subsubsection}{\numberline {6.69.2.6}operator/=}{183}{subsubsection.6.69.2.6}
+\contentsline {subsubsection}{\numberline {6.69.2.7}operator-}{183}{subsubsection.6.69.2.7}
+\contentsline {subsubsection}{\numberline {6.69.2.8}operator-}{183}{subsubsection.6.69.2.8}
+\contentsline {subsubsection}{\numberline {6.69.2.9}operator+}{183}{subsubsection.6.69.2.9}
+\contentsline {subsubsection}{\numberline {6.69.2.10}operator $\ast $}{183}{subsubsection.6.69.2.10}
+\contentsline {subsubsection}{\numberline {6.69.2.11}operator+=}{183}{subsubsection.6.69.2.11}
+\contentsline {subsubsection}{\numberline {6.69.2.12}operator-=}{183}{subsubsection.6.69.2.12}
+\contentsline {subsubsection}{\numberline {6.69.2.13}operator $\ast $=}{183}{subsubsection.6.69.2.13}
+\contentsline {subsubsection}{\numberline {6.69.2.14}dot}{183}{subsubsection.6.69.2.14}
+\contentsline {subsubsection}{\numberline {6.69.2.15}cross}{183}{subsubsection.6.69.2.15}
+\contentsline {subsubsection}{\numberline {6.69.2.16}magnitude}{183}{subsubsection.6.69.2.16}
+\contentsline {subsubsection}{\numberline {6.69.2.17}magnitudeSquared}{183}{subsubsection.6.69.2.17}
+\contentsline {subsubsection}{\numberline {6.69.2.18}normalize}{183}{subsubsection.6.69.2.18}
+\contentsline {subsubsection}{\numberline {6.69.2.19}normalizeCopy}{183}{subsubsection.6.69.2.19}
+\contentsline {subsubsection}{\numberline {6.69.2.20}projectOn}{183}{subsubsection.6.69.2.20}
+\contentsline {subsubsection}{\numberline {6.69.2.21}distance}{183}{subsubsection.6.69.2.21}
+\contentsline {subsubsection}{\numberline {6.69.2.22}distance}{183}{subsubsection.6.69.2.22}
+\contentsline {subsubsection}{\numberline {6.69.2.23}distanceSquared}{183}{subsubsection.6.69.2.23}
+\contentsline {subsubsection}{\numberline {6.69.2.24}distanceSquared}{183}{subsubsection.6.69.2.24}
+\contentsline {subsubsection}{\numberline {6.69.2.25}chessDistance}{183}{subsubsection.6.69.2.25}
+\contentsline {subsubsection}{\numberline {6.69.2.26}manhatDistance}{183}{subsubsection.6.69.2.26}
+\contentsline {subsection}{\numberline {6.69.3}Member Data Documentation}{183}{subsection.6.69.3}
+\contentsline {subsubsection}{\numberline {6.69.3.1}x}{183}{subsubsection.6.69.3.1}
+\contentsline {subsubsection}{\numberline {6.69.3.2}y}{183}{subsubsection.6.69.3.2}
+\contentsline {subsubsection}{\numberline {6.69.3.3}z}{183}{subsubsection.6.69.3.3}
+\contentsline {section}{\numberline {6.70}JGTL::Vector4$<$ T $>$ Class Template Reference}{185}{section.6.70}
+\contentsline {subsection}{\numberline {6.70.1}Constructor \& Destructor Documentation}{186}{subsection.6.70.1}
+\contentsline {subsubsection}{\numberline {6.70.1.1}Vector4}{186}{subsubsection.6.70.1.1}
+\contentsline {subsubsection}{\numberline {6.70.1.2}Vector4}{186}{subsubsection.6.70.1.2}
+\contentsline {subsection}{\numberline {6.70.2}Member Function Documentation}{186}{subsection.6.70.2}
+\contentsline {subsubsection}{\numberline {6.70.2.1}operator/}{186}{subsubsection.6.70.2.1}
+\contentsline {subsubsection}{\numberline {6.70.2.2}operator/=}{186}{subsubsection.6.70.2.2}
+\contentsline {subsubsection}{\numberline {6.70.2.3}operator-}{186}{subsubsection.6.70.2.3}
+\contentsline {subsubsection}{\numberline {6.70.2.4}operator-}{186}{subsubsection.6.70.2.4}
+\contentsline {subsubsection}{\numberline {6.70.2.5}operator+}{186}{subsubsection.6.70.2.5}
+\contentsline {subsubsection}{\numberline {6.70.2.6}operator $\ast $}{186}{subsubsection.6.70.2.6}
+\contentsline {subsubsection}{\numberline {6.70.2.7}operator+=}{186}{subsubsection.6.70.2.7}
+\contentsline {subsubsection}{\numberline {6.70.2.8}operator-=}{186}{subsubsection.6.70.2.8}
+\contentsline {subsubsection}{\numberline {6.70.2.9}operator $\ast $=}{186}{subsubsection.6.70.2.9}
+\contentsline {subsubsection}{\numberline {6.70.2.10}dot}{186}{subsubsection.6.70.2.10}
+\contentsline {subsubsection}{\numberline {6.70.2.11}getMagnitudeSquared}{186}{subsubsection.6.70.2.11}
+\contentsline {subsection}{\numberline {6.70.3}Member Data Documentation}{186}{subsection.6.70.3}
+\contentsline {subsubsection}{\numberline {6.70.3.1}x1}{186}{subsubsection.6.70.3.1}
+\contentsline {subsubsection}{\numberline {6.70.3.2}y1}{186}{subsubsection.6.70.3.2}
+\contentsline {subsubsection}{\numberline {6.70.3.3}x2}{186}{subsubsection.6.70.3.3}
+\contentsline {subsubsection}{\numberline {6.70.3.4}y2}{186}{subsubsection.6.70.3.4}
+\contentsline {section}{\numberline {6.71}JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value$<$ T $>$ Class Template Reference}{188}{section.6.71}
+\contentsline {subsection}{\numberline {6.71.1}Detailed Description}{189}{subsection.6.71.1}
+\contentsline {subsection}{\numberline {6.71.2}Constructor \& Destructor Documentation}{189}{subsection.6.71.2}
+\contentsline {subsubsection}{\numberline {6.71.2.1}WrappedInterpolatedValue}{189}{subsubsection.6.71.2.1}
+\contentsline {subsubsection}{\numberline {6.71.2.2}WrappedInterpolatedValue}{189}{subsubsection.6.71.2.2}
+\contentsline {subsubsection}{\numberline {6.71.2.3}WrappedInterpolatedValue}{189}{subsubsection.6.71.2.3}
+\contentsline {subsection}{\numberline {6.71.3}Member Function Documentation}{189}{subsection.6.71.3}
+\contentsline {subsubsection}{\numberline {6.71.3.1}operator=}{189}{subsubsection.6.71.3.1}
+\contentsline {subsubsection}{\numberline {6.71.3.2}setValue}{189}{subsubsection.6.71.3.2}
+\contentsline {subsubsection}{\numberline {6.71.3.3}update}{190}{subsubsection.6.71.3.3}
+\contentsline {subsubsection}{\numberline {6.71.3.4}clampValues}{190}{subsubsection.6.71.3.4}
+\contentsline {subsection}{\numberline {6.71.4}Member Data Documentation}{190}{subsection.6.71.4}
+\contentsline {subsubsection}{\numberline {6.71.4.1}minValue}{190}{subsubsection.6.71.4.1}
+\contentsline {subsubsection}{\numberline {6.71.4.2}maxValue}{190}{subsubsection.6.71.4.2}
+\contentsline {subsubsection}{\numberline {6.71.4.3}spread}{190}{subsubsection.6.71.4.3}
+\contentsline {section}{\numberline {6.72}JGTL::Xor\discretionary {-}{}{}Space$<$ Rectangle, Point $>$ Class Template Reference}{191}{section.6.72}
+\contentsline {subsection}{\numberline {6.72.1}Detailed Description}{191}{subsection.6.72.1}
+\contentsline {subsection}{\numberline {6.72.2}Member Typedef Documentation}{192}{subsection.6.72.2}
+\contentsline {subsubsection}{\numberline {6.72.2.1}SpaceIterator}{192}{subsubsection.6.72.2.1}
+\contentsline {subsubsection}{\numberline {6.72.2.2}ConstSpaceIterator}{192}{subsubsection.6.72.2.2}
+\contentsline {subsection}{\numberline {6.72.3}Constructor \& Destructor Documentation}{192}{subsection.6.72.3}
+\contentsline {subsubsection}{\numberline {6.72.3.1}XorSpace}{192}{subsubsection.6.72.3.1}
+\contentsline {subsubsection}{\numberline {6.72.3.2}XorSpace}{192}{subsubsection.6.72.3.2}
+\contentsline {subsection}{\numberline {6.72.4}Member Function Documentation}{192}{subsection.6.72.4}
+\contentsline {subsubsection}{\numberline {6.72.4.1}addSpace}{192}{subsubsection.6.72.4.1}
+\contentsline {subsubsection}{\numberline {6.72.4.2}removeSpace}{192}{subsubsection.6.72.4.2}
+\contentsline {subsubsection}{\numberline {6.72.4.3}contains}{193}{subsubsection.6.72.4.3}
+\contentsline {subsubsection}{\numberline {6.72.4.4}getTopLeft}{193}{subsubsection.6.72.4.4}
+\contentsline {subsubsection}{\numberline {6.72.4.5}getBottomRight}{193}{subsubsection.6.72.4.5}
+\contentsline {subsubsection}{\numberline {6.72.4.6}getSize}{193}{subsubsection.6.72.4.6}
+\contentsline {subsubsection}{\numberline {6.72.4.7}getFirstPoint}{193}{subsubsection.6.72.4.7}
+\contentsline {subsubsection}{\numberline {6.72.4.8}getNextPoint}{193}{subsubsection.6.72.4.8}
+\contentsline {subsubsection}{\numberline {6.72.4.9}pack}{193}{subsubsection.6.72.4.9}
+\contentsline {subsection}{\numberline {6.72.5}Member Data Documentation}{194}{subsection.6.72.5}
+\contentsline {subsubsection}{\numberline {6.72.5.1}spaces}{194}{subsubsection.6.72.5.1}
+\contentsline {subsubsection}{\numberline {6.72.5.2}topLeft}{194}{subsubsection.6.72.5.2}
+\contentsline {subsubsection}{\numberline {6.72.5.3}bottomRight}{194}{subsubsection.6.72.5.3}
+\contentsline {section}{\numberline {6.73}JGTL::Xor\discretionary {-}{}{}Space\discretionary {-}{}{}Rect$<$ Rectangle, Point $>$ Class Template Reference}{195}{section.6.73}
+\contentsline {subsection}{\numberline {6.73.1}Detailed Description}{195}{subsection.6.73.1}
+\contentsline {subsection}{\numberline {6.73.2}Constructor \& Destructor Documentation}{196}{subsection.6.73.2}
+\contentsline {subsubsection}{\numberline {6.73.2.1}XorSpaceRect}{196}{subsubsection.6.73.2.1}
+\contentsline {subsubsection}{\numberline {6.73.2.2}XorSpaceRect}{196}{subsubsection.6.73.2.2}
+\contentsline {subsection}{\numberline {6.73.3}Member Data Documentation}{196}{subsection.6.73.3}
+\contentsline {subsubsection}{\numberline {6.73.3.1}rect}{196}{subsubsection.6.73.3.1}
+\contentsline {subsubsection}{\numberline {6.73.3.2}positive}{196}{subsubsection.6.73.3.2}
+\contentsline {chapter}{\numberline {7}JGTL File Documentation}{197}{chapter.7}
+\contentsline {section}{\numberline {7.1}JGTL\_\discretionary {-}{}{}Bar.h File Reference}{197}{section.7.1}
+\contentsline {section}{\numberline {7.2}JGTL\_\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h File Reference}{198}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Define Documentation}{198}{subsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.1.1}DEBUG\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}{198}{subsubsection.7.2.1.1}
+\contentsline {section}{\numberline {7.3}JGTL\_\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface.h File Reference}{199}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Define Documentation}{199}{subsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.1.1}DEBUG\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER\_\discretionary {-}{}{}INTERFACE}{199}{subsubsection.7.3.1.1}
+\contentsline {section}{\numberline {7.4}JGTL\_\discretionary {-}{}{}Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser.h File Reference}{200}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Define Documentation}{200}{subsection.7.4.1}
+\contentsline {subsubsection}{\numberline {7.4.1.1}StringType}{200}{subsubsection.7.4.1.1}
+\contentsline {section}{\numberline {7.5}JGTL\_\discretionary {-}{}{}Data\discretionary {-}{}{}Manager.h File Reference}{201}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Define Documentation}{201}{subsection.7.5.1}
+\contentsline {subsubsection}{\numberline {7.5.1.1}DEBUG\_\discretionary {-}{}{}DATA\_\discretionary {-}{}{}MANAGER}{201}{subsubsection.7.5.1.1}
+\contentsline {section}{\numberline {7.6}JGTL\_\discretionary {-}{}{}Data\discretionary {-}{}{}Pool\_\discretionary {-}{}{}delete.h File Reference}{202}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Define Documentation}{202}{subsection.7.6.1}
+\contentsline {subsubsection}{\numberline {7.6.1.1}DEBUG\_\discretionary {-}{}{}DATA\_\discretionary {-}{}{}POOL}{202}{subsubsection.7.6.1.1}
+\contentsline {section}{\numberline {7.7}JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h File Reference}{203}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}Define Documentation}{203}{subsection.7.7.1}
+\contentsline {subsubsection}{\numberline {7.7.1.1}DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}{203}{subsubsection.7.7.1.1}
+\contentsline {section}{\numberline {7.8}JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map.h File Reference}{204}{section.7.8}
+\contentsline {subsection}{\numberline {7.8.1}Define Documentation}{204}{subsection.7.8.1}
+\contentsline {subsubsection}{\numberline {7.8.1.1}DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}MAP}{204}{subsubsection.7.8.1.1}
+\contentsline {section}{\numberline {7.9}JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set.h File Reference}{205}{section.7.9}
+\contentsline {subsection}{\numberline {7.9.1}Define Documentation}{205}{subsection.7.9.1}
+\contentsline {subsubsection}{\numberline {7.9.1.1}DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}SET}{205}{subsubsection.7.9.1.1}
+\contentsline {section}{\numberline {7.10}JGTL\_\discretionary {-}{}{}Floating\discretionary {-}{}{}Units.h File Reference}{206}{section.7.10}
+\contentsline {section}{\numberline {7.11}JGTL\_\discretionary {-}{}{}Hex\discretionary {-}{}{}Tree.h File Reference}{207}{section.7.11}
+\contentsline {section}{\numberline {7.12}JGTL\_\discretionary {-}{}{}Index2.h File Reference}{208}{section.7.12}
+\contentsline {section}{\numberline {7.13}JGTL\_\discretionary {-}{}{}Index3.h File Reference}{209}{section.7.13}
+\contentsline {section}{\numberline {7.14}JGTL\_\discretionary {-}{}{}Integral\discretionary {-}{}{}Units.h File Reference}{210}{section.7.14}
+\contentsline {section}{\numberline {7.15}JGTL\_\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value.h File Reference}{211}{section.7.15}
+\contentsline {section}{\numberline {7.16}JGTL\_\discretionary {-}{}{}Located\discretionary {-}{}{}Exception.h File Reference}{212}{section.7.16}
+\contentsline {subsection}{\numberline {7.16.1}Define Documentation}{212}{subsection.7.16.1}
+\contentsline {subsubsection}{\numberline {7.16.1.1}CREATE\_\discretionary {-}{}{}LOCATEDEXCEPTION\_\discretionary {-}{}{}INFO}{212}{subsubsection.7.16.1.1}
+\contentsline {subsubsection}{\numberline {7.16.1.2}CREATE\_\discretionary {-}{}{}PAUSE}{212}{subsubsection.7.16.1.2}
+\contentsline {section}{\numberline {7.17}JGTL\_\discretionary {-}{}{}Map\discretionary {-}{}{}Interface.h File Reference}{213}{section.7.17}
+\contentsline {subsection}{\numberline {7.17.1}Define Documentation}{213}{subsection.7.17.1}
+\contentsline {subsubsection}{\numberline {7.17.1.1}DEBUG\_\discretionary {-}{}{}MAP\_\discretionary {-}{}{}INTERFACE}{213}{subsubsection.7.17.1.1}
+\contentsline {section}{\numberline {7.18}JGTL\_\discretionary {-}{}{}Poly\discretionary {-}{}{}Variant.h File Reference}{214}{section.7.18}
+\contentsline {section}{\numberline {7.19}JGTL\_\discretionary {-}{}{}Pool\discretionary {-}{}{}Map\_\discretionary {-}{}{}delete.h File Reference}{215}{section.7.19}
+\contentsline {subsection}{\numberline {7.19.1}Define Documentation}{215}{subsection.7.19.1}
+\contentsline {subsubsection}{\numberline {7.19.1.1}DEBUG\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}MAP}{215}{subsubsection.7.19.1.1}
+\contentsline {section}{\numberline {7.20}JGTL\_\discretionary {-}{}{}Quad\discretionary {-}{}{}Tree.h File Reference}{216}{section.7.20}
+\contentsline {section}{\numberline {7.21}JGTL\_\discretionary {-}{}{}Quick\discretionary {-}{}{}Prof.h File Reference}{217}{section.7.21}
+\contentsline {subsection}{\numberline {7.21.1}Define Documentation}{218}{subsection.7.21.1}
+\contentsline {subsubsection}{\numberline {7.21.1.1}PROFILER}{218}{subsubsection.7.21.1.1}
+\contentsline {section}{\numberline {7.22}JGTL\_\discretionary {-}{}{}Ray2.h File Reference}{219}{section.7.22}
+\contentsline {section}{\numberline {7.23}JGTL\_\discretionary {-}{}{}Ray3.h File Reference}{220}{section.7.23}
+\contentsline {section}{\numberline {7.24}JGTL\_\discretionary {-}{}{}Rectangle3.h File Reference}{221}{section.7.24}
+\contentsline {section}{\numberline {7.25}JGTL\_\discretionary {-}{}{}Serialization.h File Reference}{222}{section.7.25}
+\contentsline {section}{\numberline {7.26}JGTL\_\discretionary {-}{}{}Set\discretionary {-}{}{}Interface.h File Reference}{223}{section.7.26}
+\contentsline {subsection}{\numberline {7.26.1}Define Documentation}{223}{subsection.7.26.1}
+\contentsline {subsubsection}{\numberline {7.26.1.1}DEBUG\_\discretionary {-}{}{}SET\_\discretionary {-}{}{}INTERFACE}{223}{subsubsection.7.26.1.1}
+\contentsline {section}{\numberline {7.27}JGTL\_\discretionary {-}{}{}Singleton.h File Reference}{224}{section.7.27}
+\contentsline {section}{\numberline {7.28}JGTL\_\discretionary {-}{}{}Sorted\discretionary {-}{}{}List\_\discretionary {-}{}{}delete.h File Reference}{225}{section.7.28}
+\contentsline {subsection}{\numberline {7.28.1}Define Documentation}{225}{subsection.7.28.1}
+\contentsline {subsubsection}{\numberline {7.28.1.1}DEBUG\_\discretionary {-}{}{}SORTED\_\discretionary {-}{}{}LIST}{225}{subsubsection.7.28.1.1}
+\contentsline {section}{\numberline {7.29}JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h File Reference}{226}{section.7.29}
+\contentsline {subsection}{\numberline {7.29.1}Define Documentation}{226}{subsection.7.29.1}
+\contentsline {subsubsection}{\numberline {7.29.1.1}DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}{226}{subsubsection.7.29.1.1}
+\contentsline {section}{\numberline {7.30}JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Map.h File Reference}{227}{section.7.30}
+\contentsline {subsection}{\numberline {7.30.1}Define Documentation}{227}{subsection.7.30.1}
+\contentsline {subsubsection}{\numberline {7.30.1.1}DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}MAP}{227}{subsubsection.7.30.1.1}
+\contentsline {section}{\numberline {7.31}JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Set.h File Reference}{228}{section.7.31}
+\contentsline {subsection}{\numberline {7.31.1}Define Documentation}{228}{subsection.7.31.1}
+\contentsline {subsubsection}{\numberline {7.31.1.1}DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}SET}{228}{subsubsection.7.31.1.1}
+\contentsline {section}{\numberline {7.32}JGTL\_\discretionary {-}{}{}String\discretionary {-}{}{}Converter.h File Reference}{229}{section.7.32}
+\contentsline {section}{\numberline {7.33}JGTL\_\discretionary {-}{}{}Tree\discretionary {-}{}{}List.h File Reference}{230}{section.7.33}
+\contentsline {section}{\numberline {7.34}JGTL\_\discretionary {-}{}{}Unordered\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map.h File Reference}{231}{section.7.34}
+\contentsline {subsection}{\numberline {7.34.1}Define Documentation}{231}{subsection.7.34.1}
+\contentsline {subsubsection}{\numberline {7.34.1.1}DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}MAP}{231}{subsubsection.7.34.1.1}
+\contentsline {section}{\numberline {7.35}JGTL\_\discretionary {-}{}{}Unordered\discretionary {-}{}{}Map\discretionary {-}{}{}Interface.h File Reference}{232}{section.7.35}
+\contentsline {subsection}{\numberline {7.35.1}Define Documentation}{232}{subsection.7.35.1}
+\contentsline {subsubsection}{\numberline {7.35.1.1}DEBUG\_\discretionary {-}{}{}MAP\_\discretionary {-}{}{}INTERFACE}{232}{subsubsection.7.35.1.1}
+\contentsline {section}{\numberline {7.36}JGTL\_\discretionary {-}{}{}Variant.h File Reference}{233}{section.7.36}
+\contentsline {section}{\numberline {7.37}JGTL\_\discretionary {-}{}{}Vector2.h File Reference}{234}{section.7.37}
+\contentsline {section}{\numberline {7.38}JGTL\_\discretionary {-}{}{}Vector3.h File Reference}{235}{section.7.38}
+\contentsline {section}{\numberline {7.39}JGTL\_\discretionary {-}{}{}Vector4.h File Reference}{236}{section.7.39}
+\contentsline {section}{\numberline {7.40}JGTL\_\discretionary {-}{}{}Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value.h File Reference}{237}{section.7.40}
+\contentsline {section}{\numberline {7.41}JGTL\_\discretionary {-}{}{}Xor\discretionary {-}{}{}Space.h File Reference}{238}{section.7.41}

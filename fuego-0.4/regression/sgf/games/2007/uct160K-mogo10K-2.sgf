@@ -1,0 +1,21 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1pre.SVNexported]SZ[9]
+KM[7.5]PB[GoUctGlobalSearchPlayer:6.6.x Oct 16 2007]
+PW[MoGo:MoGo release 1. Please read http://www.lri.fr/~gelly/MoGo.htm for more information. That is NOT an official developpement MoGo version, but it is a public release. Its strength highly depends on your hardware and the time settings.]
+DT[2007-10-27]RE[B+2.5]
+C[Black: /usr/scratch/mmueller/project_explorer/linux/build/release/explorer -player uct -config config-book160K.gtp
+White: /compsci/brule2/cshome/mmueller/mogo3/mogo_9x9_10K
+Result[Black\]: W+0.5
+Result[White\]: ?
+Referee: /compsci/brule2/cshome/mmueller/gnugo-3.6/interface/gnugo --mode gtp --never-resign --chinese-rules
+Result[Referee\]: B+2.5
+Host: vilna (AMD Athlon(tm) MP 2400+)
+Date: October 27, 2007 5:50:37 PM MDT]
+;B[ee];W[dc];B[fc];W[dg];B[ce];W[ff];B[hd];W[ef];B[cg];W[bc]
+;B[df];W[dh];B[ch];W[fh];B[gg];W[fe];B[fd];W[ed];B[de];W[be]
+;B[di];W[gh];B[cd];W[cc];B[gf];W[hg];B[bd];W[eb];B[hf];W[fg]
+;B[fb];W[ge];B[ec];W[ad];B[bf];W[dd];B[ae];W[ea];B[fa];W[ca]
+;B[ab];W[gd];B[db];W[da];B[ba];W[cb];B[gc];W[ac];B[hb];W[he]
+;B[hc];W[hh];B[ie];W[ci];B[bi];W[bh];B[id];W[ig];B[if];W[af]
+;B[ag];W[fi];B[ha];W[gi];B[eh];W[eg];B[ci];W[ei];B[af];W[ah]
+;B[be];W[bg];B[ai];W[bg];B[ah];W[ga];B[gb];W[ic];B[hi];W[ia]
+;B[ii];W[ih];B[hi];W[ii];B[ib];W[];B[bh];W[])

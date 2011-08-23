@@ -1,0 +1,536 @@
+\hypertarget{class_j_g_t_l_1_1_map_interface}{
+\section{JGTL::Map\-Interface$<$ Key, Data $>$ Class Template Reference}
+\label{class_j_g_t_l_1_1_map_interface}\index{JGTL::MapInterface@{JGTL::MapInterface}}
+}
+This class acts as a base class for the Map construct.  
+
+
+{\tt \#include $<$JGTL\_\-Map\-Interface.h$>$}
+
+Inheritance diagram for JGTL::Map\-Interface$<$ Key, Data $>$::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.22807cm]{class_j_g_t_l_1_1_map_interface}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{CompactItemize}
+\item 
+typedef std::pair$<$ Key, Data $>$ $\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface_a8fcdbd899d0df84ce1aaa67d8dc000e}{iterator}
+\item 
+typedef const std::pair$<$ Key, Data $>$ $\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator}
+\item 
+typedef std::pair$<$ Key, Data $>$ \hyperlink{class_j_g_t_l_1_1_map_interface_b7e9654bf9b2a906465e362475466ca5}{Tree\-Item}
+\item 
+typedef \hyperlink{class_j_g_t_l_1_1_binary_tree_node}{Binary\-Tree\-Node} \hyperlink{class_j_g_t_l_1_1_map_interface_0e980afab09f7663362337e025f73540}{Tree\-Node}
+\end{CompactItemize}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_map_interface_6d49e996123c82dbc4ac2b526de5225d}{Map\-Interface} ()
+\item 
+virtual \hyperlink{class_j_g_t_l_1_1_map_interface_f6fd6f5a7643f34cae4b7b67ba98a832}{$\sim$Map\-Interface} ()
+\item 
+bool \hyperlink{class_j_g_t_l_1_1_map_interface_2f61fdf95543ba566256642eeed659f4}{operator==} (const \hyperlink{class_j_g_t_l_1_1_map_interface}{Map\-Interface} \&other) const 
+\item 
+virtual bool \hyperlink{class_j_g_t_l_1_1_map_interface_177b75de36104c54e53080db65b777a2}{resize} (int new\-Size)=0
+\item 
+virtual void \hyperlink{class_j_g_t_l_1_1_map_interface_e416f8f15a065ea183c289932ef794c6}{insert} (const Key \&key, const Data \&data)
+\item 
+int \hyperlink{class_j_g_t_l_1_1_map_interface_416044d92d5c6d09ed79d13a775ba222}{size} () const
+\item 
+bool \hyperlink{class_j_g_t_l_1_1_map_interface_66e2355bebebd18fca84dee62e0fffa5}{empty} () const
+\item 
+void \hyperlink{class_j_g_t_l_1_1_map_interface_af2d3667a3a9cf577177720e2b757d03}{clear} ()
+\item 
+\hyperlink{class_j_g_t_l_1_1_map_interface_a8fcdbd899d0df84ce1aaa67d8dc000e}{iterator} \hyperlink{class_j_g_t_l_1_1_map_interface_b75e298063852903c54de5c9d17a2302}{begin} ()
+\item 
+\hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_map_interface_38bbeb2dba7c6b3d8a8a2e6f441b1757}{begin} () const
+\item 
+\hyperlink{class_j_g_t_l_1_1_map_interface_a8fcdbd899d0df84ce1aaa67d8dc000e}{iterator} \hyperlink{class_j_g_t_l_1_1_map_interface_b942b543e93621e8e6a84c8fcadb29fc}{end} ()
+\item 
+\hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_map_interface_8ce89dcb9cfb3d23d7123a8e7ad98633}{end} () const
+\item 
+const bool \hyperlink{class_j_g_t_l_1_1_map_interface_6a4c3571cb30d168d4a67dd2655a6b77}{has\-Key} (const Key \&key) const 
+\item 
+\hyperlink{class_j_g_t_l_1_1_map_interface_a8fcdbd899d0df84ce1aaa67d8dc000e}{iterator} \hyperlink{class_j_g_t_l_1_1_map_interface_7e97b54c29a253bd99caf2b0decb95a8}{find} (const Key \&key)
+\item 
+\hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_map_interface_4ec2d9323c3d2e65179c38ea7558a222}{find} (const Key \&key) const 
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface_b18a78bcb6d8ebac123e934aaa3fad0b}{get\-Data} (const Key \&key)
+\item 
+const Data $\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface_266cbd67bcff93d17649c35254d18190}{get\-Data} (const Key \&key) const 
+\item 
+const Data \& \hyperlink{class_j_g_t_l_1_1_map_interface_3613d63a8096f923e4e220e5aa002403}{get\-Data\-Ref} (const Key \&key) const 
+\item 
+void \hyperlink{class_j_g_t_l_1_1_map_interface_7fe23525fa2fca5e47cb047332fb49d3}{erase} (\hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator} iter)
+\item 
+void \hyperlink{class_j_g_t_l_1_1_map_interface_8b9cf8f1daa77edaf645c22f81812fcf}{erase\-Index} (int index)
+\item 
+const Data \& \hyperlink{class_j_g_t_l_1_1_map_interface_3bd1eca8bba2b057e09eb6579e26ad8f}{get\-Index\-Data} (int index) const
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface_e2b0ad1f3959cf7f8d1c6ef07c5a8c2c}{get\-Index\-Data\-Ptr} (int index)
+\item 
+const Data $\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface_cbbfe062862b57f4e0027026f81562a9}{get\-Index\-Data\-Ptr} (int index) const
+\item 
+const std::pair$<$ Key, Data $>$ \& \hyperlink{class_j_g_t_l_1_1_map_interface_2fad30d3c69882b66d210539775db665}{get\-Index} (int index) const
+\item 
+\hyperlink{class_j_g_t_l_1_1_map_interface_a8fcdbd899d0df84ce1aaa67d8dc000e}{iterator} \hyperlink{class_j_g_t_l_1_1_map_interface_1d28999130a2279ae668715e90ae5529}{get\-Index\-Ptr} (int index)
+\item 
+\hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_map_interface_f5cfdb7ca92b031a3ec4835c02a64d97}{get\-Index\-Ptr} (int index) const
+\item 
+\hyperlink{class_j_g_t_l_1_1_map_interface_6d49e996123c82dbc4ac2b526de5225d}{Map\-Interface} ()
+\item 
+virtual \hyperlink{class_j_g_t_l_1_1_map_interface_f6fd6f5a7643f34cae4b7b67ba98a832}{$\sim$Map\-Interface} ()
+\item 
+bool \hyperlink{class_j_g_t_l_1_1_map_interface_2f61fdf95543ba566256642eeed659f4}{operator==} (const \hyperlink{class_j_g_t_l_1_1_map_interface}{Map\-Interface} \&other) const 
+\item 
+virtual bool \hyperlink{class_j_g_t_l_1_1_map_interface_d5d7c32e4e413ef6fcd93ca53951ecf8}{reserve} (int new\-Size)
+\item 
+virtual void \hyperlink{class_j_g_t_l_1_1_map_interface_e416f8f15a065ea183c289932ef794c6}{insert} (const Key \&key, const Data \&data)
+\item 
+int \hyperlink{class_j_g_t_l_1_1_map_interface_416044d92d5c6d09ed79d13a775ba222}{size} () const
+\item 
+void \hyperlink{class_j_g_t_l_1_1_map_interface_af2d3667a3a9cf577177720e2b757d03}{clear} ()
+\item 
+const bool \hyperlink{class_j_g_t_l_1_1_map_interface_6a4c3571cb30d168d4a67dd2655a6b77}{has\-Key} (const Key \&key) const 
+\item 
+\hyperlink{class_j_g_t_l_1_1_map_interface_a8fcdbd899d0df84ce1aaa67d8dc000e}{iterator} \hyperlink{class_j_g_t_l_1_1_map_interface_7e97b54c29a253bd99caf2b0decb95a8}{find} (const Key \&key)
+\item 
+\hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_map_interface_4ec2d9323c3d2e65179c38ea7558a222}{find} (const Key \&key) const 
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface_b18a78bcb6d8ebac123e934aaa3fad0b}{get\-Data} (const Key \&key)
+\item 
+const Data $\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface_266cbd67bcff93d17649c35254d18190}{get\-Data} (const Key \&key) const 
+\item 
+const Data \& \hyperlink{class_j_g_t_l_1_1_map_interface_3613d63a8096f923e4e220e5aa002403}{get\-Data\-Ref} (const Key \&key) const 
+\item 
+void \hyperlink{class_j_g_t_l_1_1_map_interface_7fe23525fa2fca5e47cb047332fb49d3}{erase} (\hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator} iter)
+\item 
+const Data \& \hyperlink{class_j_g_t_l_1_1_map_interface_3bd1eca8bba2b057e09eb6579e26ad8f}{get\-Index\-Data} (int index) const
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface_e2b0ad1f3959cf7f8d1c6ef07c5a8c2c}{get\-Index\-Data\-Ptr} (int index)
+\item 
+const Data $\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface_cbbfe062862b57f4e0027026f81562a9}{get\-Index\-Data\-Ptr} (int index) const
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+int \hyperlink{class_j_g_t_l_1_1_map_interface_02b41b644ec9f7fc80888f2a621262e3}{num\-Elements}
+\item 
+int \hyperlink{class_j_g_t_l_1_1_map_interface_fd420367e3791206e3f22e9610e21afc}{max\-Elements}
+\item 
+std::pair$<$ Key, Data $>$ $\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface_b2f183b5fa7244a2b85571c2a62235c1}{data\-List}
+\item 
+\hyperlink{class_j_g_t_l_1_1_map_interface_b7e9654bf9b2a906465e362475466ca5}{Tree\-Item} $\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface_86fa704452e650dac12e3d01804739c2}{data\-List}
+\item 
+\hyperlink{class_j_g_t_l_1_1_binary_tree_node}{Tree\-Node} $\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface_7b271ddce20b3fc8386360ca277da4fa}{node\-List}
+\item 
+int \hyperlink{class_j_g_t_l_1_1_map_interface_9407ca6114c7972d533f22ad1061e23b}{root\-Index}
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class Key, class Data$>$ class JGTL::Map\-Interface$<$ Key, Data $>$}
+
+This class acts as a base class for the Map construct. 
+
+\begin{Desc}
+\item[Author:]Jason Gauci \end{Desc}
+\begin{Desc}
+\item[Date:]2008 \end{Desc}
+
+
+
+
+\subsection{Member Typedef Documentation}
+\hypertarget{class_j_g_t_l_1_1_map_interface_a8fcdbd899d0df84ce1aaa67d8dc000e}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!iterator@{iterator}}
+\index{iterator@{iterator}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[iterator]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ typedef std::pair$<$Key,Data$>$$\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_map_interface_a8fcdbd899d0df84ce1aaa67d8dc000e}{iterator}}}
+\label{class_j_g_t_l_1_1_map_interface_a8fcdbd899d0df84ce1aaa67d8dc000e}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!const_iterator@{const\_\-iterator}}
+\index{const_iterator@{const\_\-iterator}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[const\_\-iterator]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ typedef const std::pair$<$Key,Data$>$$\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator}}}
+\label{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_b7e9654bf9b2a906465e362475466ca5}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!TreeItem@{TreeItem}}
+\index{TreeItem@{TreeItem}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[TreeItem]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ typedef std::pair$<$Key,Data$>$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_map_interface_b7e9654bf9b2a906465e362475466ca5}{Tree\-Item}}}
+\label{class_j_g_t_l_1_1_map_interface_b7e9654bf9b2a906465e362475466ca5}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_0e980afab09f7663362337e025f73540}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!TreeNode@{TreeNode}}
+\index{TreeNode@{TreeNode}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[TreeNode]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ typedef \hyperlink{class_j_g_t_l_1_1_binary_tree_node}{Binary\-Tree\-Node} \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_binary_tree_node}{Tree\-Node}}}
+\label{class_j_g_t_l_1_1_map_interface_0e980afab09f7663362337e025f73540}
+
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_map_interface_6d49e996123c82dbc4ac2b526de5225d}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!MapInterface@{MapInterface}}
+\index{MapInterface@{MapInterface}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[MapInterface]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_map_interface}{Map\-Interface} ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_6d49e996123c82dbc4ac2b526de5225d}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_f6fd6f5a7643f34cae4b7b67ba98a832}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!~MapInterface@{$\sim$MapInterface}}
+\index{~MapInterface@{$\sim$MapInterface}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[$\sim$MapInterface]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ virtual \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::$\sim$\hyperlink{class_j_g_t_l_1_1_map_interface}{Map\-Interface} ()\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_f6fd6f5a7643f34cae4b7b67ba98a832}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_6d49e996123c82dbc4ac2b526de5225d}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!MapInterface@{MapInterface}}
+\index{MapInterface@{MapInterface}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[MapInterface]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_map_interface}{Map\-Interface} ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_6d49e996123c82dbc4ac2b526de5225d}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_f6fd6f5a7643f34cae4b7b67ba98a832}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!~MapInterface@{$\sim$MapInterface}}
+\index{~MapInterface@{$\sim$MapInterface}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[$\sim$MapInterface]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ virtual \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::$\sim$\hyperlink{class_j_g_t_l_1_1_map_interface}{Map\-Interface} ()\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_f6fd6f5a7643f34cae4b7b67ba98a832}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_map_interface_2f61fdf95543ba566256642eeed659f4}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!operator==@{operator==}}
+\index{operator==@{operator==}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[operator==]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ bool \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::operator== (const \hyperlink{class_j_g_t_l_1_1_map_interface}{Map\-Interface}$<$ Key, Data $>$ \& {\em other}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_2f61fdf95543ba566256642eeed659f4}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_177b75de36104c54e53080db65b777a2}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!resize@{resize}}
+\index{resize@{resize}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[resize]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ virtual bool \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::resize (int {\em new\-Size})\hspace{0.3cm}{\tt  \mbox{[}pure virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_177b75de36104c54e53080db65b777a2}
+
+
+
+
+Implemented in \hyperlink{class_j_g_t_l_1_1_dynamic_pool_map_236509cad797d15cbed5e09adf356a04}{JGTL::Dynamic\-Pool\-Map$<$ Key, Data $>$}, \hyperlink{class_j_g_t_l_1_1_stack_map_cd9363efffeb00f6b48b21ed2685ac7c}{JGTL::Stack\-Map$<$ Key, Data, MAX\_\-ELEMENTS $>$}, and \hyperlink{class_j_g_t_l_1_1_dynamic_pool_map_236509cad797d15cbed5e09adf356a04}{JGTL::Dynamic\-Pool\-Map$<$ std::string, JGTL::Profile\-Block $\ast$ $>$}.\hypertarget{class_j_g_t_l_1_1_map_interface_e416f8f15a065ea183c289932ef794c6}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!insert@{insert}}
+\index{insert@{insert}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[insert]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ virtual void \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::insert (const Key \& {\em key}, const Data \& {\em data})\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_e416f8f15a065ea183c289932ef794c6}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_416044d92d5c6d09ed79d13a775ba222}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!size@{size}}
+\index{size@{size}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[size]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ int \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::size () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_416044d92d5c6d09ed79d13a775ba222}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_66e2355bebebd18fca84dee62e0fffa5}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!empty@{empty}}
+\index{empty@{empty}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[empty]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ bool \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::empty () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_66e2355bebebd18fca84dee62e0fffa5}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_af2d3667a3a9cf577177720e2b757d03}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!clear@{clear}}
+\index{clear@{clear}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[clear]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ void \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::clear ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_af2d3667a3a9cf577177720e2b757d03}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_b75e298063852903c54de5c9d17a2302}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!begin@{begin}}
+\index{begin@{begin}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[begin]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_map_interface_a8fcdbd899d0df84ce1aaa67d8dc000e}{iterator} \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::begin ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_b75e298063852903c54de5c9d17a2302}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_38bbeb2dba7c6b3d8a8a2e6f441b1757}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!begin@{begin}}
+\index{begin@{begin}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[begin]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::begin () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_38bbeb2dba7c6b3d8a8a2e6f441b1757}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_b942b543e93621e8e6a84c8fcadb29fc}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!end@{end}}
+\index{end@{end}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[end]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_map_interface_a8fcdbd899d0df84ce1aaa67d8dc000e}{iterator} \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::end ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_b942b543e93621e8e6a84c8fcadb29fc}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_8ce89dcb9cfb3d23d7123a8e7ad98633}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!end@{end}}
+\index{end@{end}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[end]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::end () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_8ce89dcb9cfb3d23d7123a8e7ad98633}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_6a4c3571cb30d168d4a67dd2655a6b77}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!hasKey@{hasKey}}
+\index{hasKey@{hasKey}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[hasKey]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const bool \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::has\-Key (const Key \& {\em key}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_6a4c3571cb30d168d4a67dd2655a6b77}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_7e97b54c29a253bd99caf2b0decb95a8}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!find@{find}}
+\index{find@{find}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[find]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_map_interface_a8fcdbd899d0df84ce1aaa67d8dc000e}{iterator} \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::find (const Key \& {\em key})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_7e97b54c29a253bd99caf2b0decb95a8}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_4ec2d9323c3d2e65179c38ea7558a222}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!find@{find}}
+\index{find@{find}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[find]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::find (const Key \& {\em key}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_4ec2d9323c3d2e65179c38ea7558a222}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_b18a78bcb6d8ebac123e934aaa3fad0b}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getData@{getData}}
+\index{getData@{getData}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Data (const Key \& {\em key})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_b18a78bcb6d8ebac123e934aaa3fad0b}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_266cbd67bcff93d17649c35254d18190}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getData@{getData}}
+\index{getData@{getData}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const Data$\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Data (const Key \& {\em key}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_266cbd67bcff93d17649c35254d18190}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_3613d63a8096f923e4e220e5aa002403}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getDataRef@{getDataRef}}
+\index{getDataRef@{getDataRef}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getDataRef]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const Data\& \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Data\-Ref (const Key \& {\em key}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_3613d63a8096f923e4e220e5aa002403}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_7fe23525fa2fca5e47cb047332fb49d3}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!erase@{erase}}
+\index{erase@{erase}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[erase]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ void \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::erase (\hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator} {\em iter})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_7fe23525fa2fca5e47cb047332fb49d3}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_8b9cf8f1daa77edaf645c22f81812fcf}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!eraseIndex@{eraseIndex}}
+\index{eraseIndex@{eraseIndex}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[eraseIndex]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ void \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::erase\-Index (int {\em index})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_8b9cf8f1daa77edaf645c22f81812fcf}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_3bd1eca8bba2b057e09eb6579e26ad8f}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getIndexData@{getIndexData}}
+\index{getIndexData@{getIndexData}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getIndexData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const Data\& \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Index\-Data (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_3bd1eca8bba2b057e09eb6579e26ad8f}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_e2b0ad1f3959cf7f8d1c6ef07c5a8c2c}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getIndexDataPtr@{getIndexDataPtr}}
+\index{getIndexDataPtr@{getIndexDataPtr}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getIndexDataPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Index\-Data\-Ptr (int {\em index})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_e2b0ad1f3959cf7f8d1c6ef07c5a8c2c}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_cbbfe062862b57f4e0027026f81562a9}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getIndexDataPtr@{getIndexDataPtr}}
+\index{getIndexDataPtr@{getIndexDataPtr}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getIndexDataPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const Data$\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Index\-Data\-Ptr (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_cbbfe062862b57f4e0027026f81562a9}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_2fad30d3c69882b66d210539775db665}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getIndex@{getIndex}}
+\index{getIndex@{getIndex}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getIndex]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const std::pair$<$Key,Data$>$\& \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Index (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_2fad30d3c69882b66d210539775db665}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_1d28999130a2279ae668715e90ae5529}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getIndexPtr@{getIndexPtr}}
+\index{getIndexPtr@{getIndexPtr}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getIndexPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_map_interface_a8fcdbd899d0df84ce1aaa67d8dc000e}{iterator} \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Index\-Ptr (int {\em index})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_1d28999130a2279ae668715e90ae5529}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_f5cfdb7ca92b031a3ec4835c02a64d97}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getIndexPtr@{getIndexPtr}}
+\index{getIndexPtr@{getIndexPtr}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getIndexPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Index\-Ptr (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_f5cfdb7ca92b031a3ec4835c02a64d97}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_2f61fdf95543ba566256642eeed659f4}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!operator==@{operator==}}
+\index{operator==@{operator==}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[operator==]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ bool \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::operator== (const \hyperlink{class_j_g_t_l_1_1_map_interface}{Map\-Interface}$<$ Key, Data $>$ \& {\em other}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_2f61fdf95543ba566256642eeed659f4}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_d5d7c32e4e413ef6fcd93ca53951ecf8}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!reserve@{reserve}}
+\index{reserve@{reserve}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[reserve]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ virtual bool \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::reserve (int {\em new\-Size})\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_d5d7c32e4e413ef6fcd93ca53951ecf8}
+
+
+
+
+Reimplemented in \hyperlink{class_j_g_t_l_1_1_dynamic_pool_map_28192d8477398c5a94b3ca80fc366076}{JGTL::Dynamic\-Pool\-Map$<$ Key, Data $>$}, and \hyperlink{class_j_g_t_l_1_1_dynamic_pool_map_28192d8477398c5a94b3ca80fc366076}{JGTL::Dynamic\-Pool\-Map$<$ std::string, JGTL::Profile\-Block $\ast$ $>$}.\hypertarget{class_j_g_t_l_1_1_map_interface_e416f8f15a065ea183c289932ef794c6}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!insert@{insert}}
+\index{insert@{insert}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[insert]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ virtual void \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::insert (const Key \& {\em key}, const Data \& {\em data})\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_e416f8f15a065ea183c289932ef794c6}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_416044d92d5c6d09ed79d13a775ba222}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!size@{size}}
+\index{size@{size}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[size]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ int \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::size () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_416044d92d5c6d09ed79d13a775ba222}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_af2d3667a3a9cf577177720e2b757d03}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!clear@{clear}}
+\index{clear@{clear}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[clear]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ void \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::clear ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_af2d3667a3a9cf577177720e2b757d03}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_6a4c3571cb30d168d4a67dd2655a6b77}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!hasKey@{hasKey}}
+\index{hasKey@{hasKey}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[hasKey]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const bool \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::has\-Key (const Key \& {\em key}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_6a4c3571cb30d168d4a67dd2655a6b77}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_7e97b54c29a253bd99caf2b0decb95a8}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!find@{find}}
+\index{find@{find}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[find]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_map_interface_a8fcdbd899d0df84ce1aaa67d8dc000e}{iterator} \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::find (const Key \& {\em key})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_7e97b54c29a253bd99caf2b0decb95a8}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_4ec2d9323c3d2e65179c38ea7558a222}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!find@{find}}
+\index{find@{find}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[find]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::find (const Key \& {\em key}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_4ec2d9323c3d2e65179c38ea7558a222}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_b18a78bcb6d8ebac123e934aaa3fad0b}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getData@{getData}}
+\index{getData@{getData}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Data (const Key \& {\em key})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_b18a78bcb6d8ebac123e934aaa3fad0b}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_266cbd67bcff93d17649c35254d18190}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getData@{getData}}
+\index{getData@{getData}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const Data$\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Data (const Key \& {\em key}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_266cbd67bcff93d17649c35254d18190}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_3613d63a8096f923e4e220e5aa002403}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getDataRef@{getDataRef}}
+\index{getDataRef@{getDataRef}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getDataRef]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const Data\& \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Data\-Ref (const Key \& {\em key}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_3613d63a8096f923e4e220e5aa002403}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_7fe23525fa2fca5e47cb047332fb49d3}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!erase@{erase}}
+\index{erase@{erase}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[erase]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ void \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::erase (\hyperlink{class_j_g_t_l_1_1_map_interface_bbce6cc516069a5a504e0ae5b9aecd88}{const\_\-iterator} {\em iter})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_7fe23525fa2fca5e47cb047332fb49d3}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_3bd1eca8bba2b057e09eb6579e26ad8f}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getIndexData@{getIndexData}}
+\index{getIndexData@{getIndexData}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getIndexData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const Data\& \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Index\-Data (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_3bd1eca8bba2b057e09eb6579e26ad8f}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_e2b0ad1f3959cf7f8d1c6ef07c5a8c2c}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getIndexDataPtr@{getIndexDataPtr}}
+\index{getIndexDataPtr@{getIndexDataPtr}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getIndexDataPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Index\-Data\-Ptr (int {\em index})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_e2b0ad1f3959cf7f8d1c6ef07c5a8c2c}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_cbbfe062862b57f4e0027026f81562a9}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!getIndexDataPtr@{getIndexDataPtr}}
+\index{getIndexDataPtr@{getIndexDataPtr}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[getIndexDataPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ const Data$\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::get\-Index\-Data\-Ptr (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_cbbfe062862b57f4e0027026f81562a9}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_map_interface_02b41b644ec9f7fc80888f2a621262e3}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!numElements@{numElements}}
+\index{numElements@{numElements}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[numElements]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ int \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_map_interface_02b41b644ec9f7fc80888f2a621262e3}{num\-Elements}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_02b41b644ec9f7fc80888f2a621262e3}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_fd420367e3791206e3f22e9610e21afc}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!maxElements@{maxElements}}
+\index{maxElements@{maxElements}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[maxElements]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ int \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_map_interface_fd420367e3791206e3f22e9610e21afc}{max\-Elements}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_fd420367e3791206e3f22e9610e21afc}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_b2f183b5fa7244a2b85571c2a62235c1}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!dataList@{dataList}}
+\index{dataList@{dataList}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[dataList]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ std::pair$<$Key,Data$>$$\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_map_interface_b2f183b5fa7244a2b85571c2a62235c1}{data\-List}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_b2f183b5fa7244a2b85571c2a62235c1}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_86fa704452e650dac12e3d01804739c2}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!dataList@{dataList}}
+\index{dataList@{dataList}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[dataList]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_map_interface_b7e9654bf9b2a906465e362475466ca5}{Tree\-Item}$\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_map_interface_b2f183b5fa7244a2b85571c2a62235c1}{data\-List}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_86fa704452e650dac12e3d01804739c2}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_7b271ddce20b3fc8386360ca277da4fa}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!nodeList@{nodeList}}
+\index{nodeList@{nodeList}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[nodeList]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ \hyperlink{class_j_g_t_l_1_1_binary_tree_node}{Tree\-Node}$\ast$ \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_map_interface_7b271ddce20b3fc8386360ca277da4fa}{node\-List}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_7b271ddce20b3fc8386360ca277da4fa}
+
+
+\hypertarget{class_j_g_t_l_1_1_map_interface_9407ca6114c7972d533f22ad1061e23b}{
+\index{JGTL::MapInterface@{JGTL::Map\-Interface}!rootIndex@{rootIndex}}
+\index{rootIndex@{rootIndex}!JGTL::MapInterface@{JGTL::Map\-Interface}}
+\subsubsection[rootIndex]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Key, class Data$>$ int \hyperlink{class_j_g_t_l_1_1_map_interface}{JGTL::Map\-Interface}$<$ Key, Data $>$::\hyperlink{class_j_g_t_l_1_1_map_interface_9407ca6114c7972d533f22ad1061e23b}{root\-Index}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_map_interface_9407ca6114c7972d533f22ad1061e23b}
+
+
+
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___map_interface_8h}{JGTL\_\-Map\-Interface.h}\item 
+\hyperlink{_j_g_t_l___unordered_map_interface_8h}{JGTL\_\-Unordered\-Map\-Interface.h}\end{CompactItemize}

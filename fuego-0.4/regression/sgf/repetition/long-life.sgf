@@ -1,0 +1,10 @@
+(;FF[4]CA[UTF8]GN[long-life]AP[GoGui:0.8.x]SZ[9]KM[0]
+AB[ag][ad][bf][be][ba][ce][cd][cc][cb]
+AW[af][ab][bh][bg][bd][bc][bb][cf][df][de][dd][dc][db]
+C[From http://www-2.cs.cmu.edu/~wjh/go/rules/KSS.html
+
+White can kill Black by playing at A, so Black plays at A.]
+PL[B]LB[ac:A];B[ac]C[White captures two stones.];W[ae]
+C[Next Black can capture two stones.];B[ad]
+C[White must throw in to continue the attack. This is forbidden with the Superko rule.]
+LB[af:A];W[af];B[ac]C[Black plays at a7 again.])

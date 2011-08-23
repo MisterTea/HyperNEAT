@@ -1,0 +1,40 @@
+\hypertarget{_j_g_t_l___located_exception_8h}{
+\section{JGTL\_\-Located\-Exception.h File Reference}
+\label{_j_g_t_l___located_exception_8h}\index{JGTL_LocatedException.h@{JGTL\_\-LocatedException.h}}
+}
+{\tt \#include $<$string$>$}\par
+{\tt \#include $<$sstream$>$}\par
+\subsection*{Namespaces}
+\begin{CompactItemize}
+\item 
+namespace \hyperlink{namespace_j_g_t_l}{JGTL}
+\end{CompactItemize}
+\subsection*{Classes}
+\begin{CompactItemize}
+\item 
+class \hyperlink{class_j_g_t_l_1_1_located_exception}{JGTL::Located\-Exception}
+\begin{CompactList}\small\item\em This class handles throwing exceptions which include the file and line number. \item\end{CompactList}\end{CompactItemize}
+\subsection*{Defines}
+\begin{CompactItemize}
+\item 
+\#define \hyperlink{_j_g_t_l___located_exception_8h_fb222c40cffcdc9db02e5fb9b0e3a204}{CREATE\_\-PAUSE}(X)~\{cout $<$$<$ X $<$$<$ \char`\"{}$\backslash$n\-Press enter to continue\char`\"{} $<$$<$ endl;string line;getline(cin,line);\}
+\item 
+\#define \hyperlink{_j_g_t_l___located_exception_8h_4bda3acfa8613f0bee44fc645143e9d3}{CREATE\_\-LOCATEDEXCEPTION\_\-INFO}(X)~\hyperlink{class_j_g_t_l_1_1_located_exception}{JGTL::Located\-Exception}( (X) ,\_\-\_\-FILE\_\-\_\-,\_\-\_\-LINE\_\-\_\-);
+\end{CompactItemize}
+
+
+\subsection{Define Documentation}
+\hypertarget{_j_g_t_l___located_exception_8h_4bda3acfa8613f0bee44fc645143e9d3}{
+\index{JGTL_LocatedException.h@{JGTL\_\-Located\-Exception.h}!CREATE_LOCATEDEXCEPTION_INFO@{CREATE\_\-LOCATEDEXCEPTION\_\-INFO}}
+\index{CREATE_LOCATEDEXCEPTION_INFO@{CREATE\_\-LOCATEDEXCEPTION\_\-INFO}!JGTL_LocatedException.h@{JGTL\_\-Located\-Exception.h}}
+\subsubsection[CREATE\_\-LOCATEDEXCEPTION\_\-INFO]{\setlength{\rightskip}{0pt plus 5cm}\#define CREATE\_\-LOCATEDEXCEPTION\_\-INFO(X)~\hyperlink{class_j_g_t_l_1_1_located_exception}{JGTL::Located\-Exception}( (X) ,\_\-\_\-FILE\_\-\_\-,\_\-\_\-LINE\_\-\_\-);}}
+\label{_j_g_t_l___located_exception_8h_4bda3acfa8613f0bee44fc645143e9d3}
+
+
+\hypertarget{_j_g_t_l___located_exception_8h_fb222c40cffcdc9db02e5fb9b0e3a204}{
+\index{JGTL_LocatedException.h@{JGTL\_\-Located\-Exception.h}!CREATE_PAUSE@{CREATE\_\-PAUSE}}
+\index{CREATE_PAUSE@{CREATE\_\-PAUSE}!JGTL_LocatedException.h@{JGTL\_\-Located\-Exception.h}}
+\subsubsection[CREATE\_\-PAUSE]{\setlength{\rightskip}{0pt plus 5cm}\#define CREATE\_\-PAUSE(X)~\{cout $<$$<$ X $<$$<$ \char`\"{}$\backslash$n\-Press enter to continue\char`\"{} $<$$<$ endl;string line;getline(cin,line);\}}}
+\label{_j_g_t_l___located_exception_8h_fb222c40cffcdc9db02e5fb9b0e3a204}
+
+

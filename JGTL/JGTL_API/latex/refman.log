@@ -1,0 +1,3316 @@
+This is pdfeTeX, Version 3.141592-1.30.6-2.2 (MiKTeX 2.5) (preloaded format=pdflatex 2007.3.23)  28 MAR 2008 18:29
+entering extended mode
+**refman.tex
+(refman.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8g> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, french, loaded.
+("C:\MiKTeX 2.5\tex\latex\base\book.cls"
+Document Class: book 2005/09/16 v1.4f Standard LaTeX document class
+("C:\MiKTeX 2.5\tex\latex\base\bk10.clo"
+File: bk10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\MiKTeX 2.5\tex\latex\base\makeidx.sty"
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+("C:\MiKTeX 2.5\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+("C:\MiKTeX 2.5\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\MiKTeX 2.5\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\MiKTeX 2.5\tex\latex\graphics\graphics.sty"
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\MiKTeX 2.5\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\MiKTeX 2.5\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2005/12/29 v1.2 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+("C:\MiKTeX 2.5\tex\latex\graphics\pdftex.def"
+File: pdftex.def 2007/03/15 v0.04e Graphics/color for pdfTeX
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\MiKTeX 2.5\tex\latex\tools\multicol.sty"
+Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
+\c@tracingmulticols=\count89
+\mult@box=\box26
+\multicol@leftmargin=\dimen105
+\c@unbalance=\count90
+\c@collectmore=\count91
+\doublecol@number=\count92
+\multicoltolerance=\count93
+\multicolpretolerance=\count94
+\full@width=\dimen106
+\page@free=\dimen107
+\premulticols=\dimen108
+\postmulticols=\dimen109
+\multicolsep=\skip52
+\multicolbaselineskip=\skip53
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count95
+\c@finalcolumnbadness=\count96
+\last@try=\dimen110
+\multicolovershoot=\dimen111
+\multicolundershoot=\dimen112
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+)
+("C:\MiKTeX 2.5\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count97
+\float@exts=\toks15
+\float@box=\box52
+\@float@everytoks=\toks16
+\@floatcapt=\box53
+)
+("C:\MiKTeX 2.5\tex\latex\base\textcomp.sty"
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+("C:\MiKTeX 2.5\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+)
+("C:\MiKTeX 2.5\tex\latex\base\alltt.sty"
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+("C:\MiKTeX 2.5\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\MiKTeX 2.5\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2007/02/27 v6.75t Hypertext links for LaTeX
+\@linkdim=\dimen113
+\Hy@linkcounter=\count98
+\Hy@pagecounter=\count99
+
+("C:\MiKTeX 2.5\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2007/02/27 v6.75t Hyperref: PDFDocEncoding definition (HO)
+)
+("C:\MiKTeX 2.5\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2006/02/14 v1.1 MiKTeX 'hyperref' configuration
+)
+("C:\MiKTeX 2.5\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
+HO)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 2252.
+Package hyperref Info: Hyper figures OFF on input line 2302.
+Package hyperref Info: Link nesting OFF on input line 2307.
+Package hyperref Info: Hyper index ON on input line 2310.
+Package hyperref Info: Plain pages OFF on input line 2317.
+Package hyperref Info: Backreferencing ON on input line 2320.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2458.
+("C:\MiKTeX 2.5\tex\latex\hyperref\backref.sty"
+Package: backref 2006/10/06 v1.27 Bibliographical back referencing
+)
+("C:\MiKTeX 2.5\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 2613.
+\Fld@menulength=\count100
+\Field@Width=\dimen114
+\Fld@charsize=\dimen115
+\Choice@toks=\toks17
+\Field@toks=\toks18
+Package hyperref Info: Hyper figures OFF on input line 3121.
+Package hyperref Info: Link nesting OFF on input line 3126.
+Package hyperref Info: Hyper index ON on input line 3129.
+Package hyperref Info: backreferencing ON on input line 3134.
+Package hyperref Info: Link coloring ON on input line 3139.
+\Hy@abspage=\count101
+\c@Item=\count102
+\c@Hfootnote=\count103
+)
+*hyperref using driver hpdftex*
+("C:\MiKTeX 2.5\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2007/02/27 v6.75t Hyperref driver for pdfTeX
+\Fld@listcount=\count104
+) (doxygen.sty
+Package: doxygen 
+
+("C:\MiKTeX 2.5\tex\latex\tools\calc.sty"
+Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count105
+\calc@Bcount=\count106
+\calc@Adimen=\dimen116
+\calc@Bdimen=\dimen117
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count107
+\calc@Cskip=\skip56
+)
+("C:\MiKTeX 2.5\tex\latex\tools\array.sty"
+Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
+\col@sep=\dimen118
+\extrarowheight=\dimen119
+\NC@list=\toks19
+\extratabsurround=\skip57
+\backup@length=\skip58
+)
+\tmplength=\skip59
+)
+("C:\MiKTeX 2.5\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\MiKTeX 2.5\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+\@indexfile=\write3
+
+Writing index file refman.idx
+(refman.aux
+
+LaTeX Warning: Label `namespace_j_g_t_l_1924d6fd42e2d9661bc0b5a5063b99b3' multi
+ply defined.
+
+(namespacestd.aux) (class_j_g_t_l_1_1_binary_tree_node.aux)
+(struct_j_g_t_l_1_1_c_cmd_param.aux) (class_j_g_t_l_1_1_circular_buffer.aux)
+(class_j_g_t_l_1_1_circular_buffer_interface.aux) (class_j_g_t_l_1_1_clock.aux)
+(class_j_g_t_l_1_1_command_line_parser.aux) (class_j_g_t_l_1_1_data_manager.aux
+) (class_j_g_t_l_1_1_data_pool.aux)
+(class_j_g_t_l_1_1_dynamic_circular_buffer.aux)
+(class_j_g_t_l_1_1_dynamic_pool_map.aux
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_dynamic_pool_map_07c6425b3ff8be9bb668c1
+87f6431b76' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_dynamic_pool_map_309ac93775245116f166ac
+406fc192bd' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_dynamic_pool_map_b833361ff8ae724639fb0d
+4ed9e6392f' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_dynamic_pool_map_36d6be1323ed844a5d93dd
+f9814cc059' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_dynamic_pool_map_bce0771b0a4cc6238e7e3e
+24f5ec3bf0' multiply defined.
+
+) (class_j_g_t_l_1_1_dynamic_pool_set.aux)
+(class_j_g_t_l_1_1_floating_units.aux) (class_j_g_t_l_1_1_hex_tree.aux)
+(class_j_g_t_l_1_1_hex_tree_branch.aux) (class_j_g_t_l_1_1_hex_tree_node.aux)
+(class_j_g_t_l_1_1_hex_tree_stub.aux) (struct_j_g_t_l_1_1_i_f.aux)
+(struct_j_g_t_l_1_1_i_f_3_01false_00_01_then_00_01_else_01_4.aux)
+(class_j_g_t_l_1_1_index2.aux) (class_j_g_t_l_1_1_index3.aux)
+(class_j_g_t_l_1_1_integral_units.aux)
+(struct_j_g_t_l_1_1_integral_units_g_c_d.aux)
+(struct_j_g_t_l_1_1_integral_units_g_c_d_3_010_00_010_01_4.aux)
+(struct_j_g_t_l_1_1_integral_units_g_c_d_3_010_00_01j_01_4.aux)
+(struct_j_g_t_l_1_1_integral_units_g_c_d_3_011_00_011_01_4.aux)
+(struct_j_g_t_l_1_1_integral_units_g_c_d_3_011_00_01j_01_4.aux)
+(struct_j_g_t_l_1_1_integral_units_g_c_d_3_01i_00_010_01_4.aux)
+(struct_j_g_t_l_1_1_integral_units_g_c_d_3_01i_00_011_01_4.aux)
+(class_j_g_t_l_1_1_interpolated_value.aux)
+(class_j_g_t_l_1_1_located_exception.aux) (class_j_g_t_l_1_1_map_interface.aux
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_6d49e996123c82dbc4ac2b526
+de5225d' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_f6fd6f5a7643f34cae4b7b67b
+a98a832' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_2f61fdf95543ba566256642ee
+ed659f4' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_e416f8f15a065ea183c289932
+ef794c6' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_416044d92d5c6d09ed79d13a7
+75ba222' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_af2d3667a3a9cf577177720e2
+b757d03' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_6a4c3571cb30d168d4a67dd26
+55a6b77' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_7e97b54c29a253bd99caf2b0d
+ecb95a8' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_4ec2d9323c3d2e65179c38ea7
+558a222' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_b18a78bcb6d8ebac123e934aa
+a3fad0b' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_266cbd67bcff93d17649c3525
+4d18190' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_3613d63a8096f923e4e220e5a
+a002403' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_7fe23525fa2fca5e47cb04733
+2fb49d3' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_3bd1eca8bba2b057e09eb6579
+e26ad8f' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_e2b0ad1f3959cf7f8d1c6ef07
+c5a8c2c' multiply defined.
+
+
+LaTeX Warning: Label `class_j_g_t_l_1_1_map_interface_cbbfe062862b57f4e0027026f
+81562a9' multiply defined.
+
+) (class_j_g_t_l_1_1_null_variant_class.aux)
+(class_j_g_t_l_1_1_poly_variant.aux) (class_j_g_t_l_1_1_pool_map.aux)
+(struct_j_g_t_l_1_1_profile_block.aux)
+(class_j_g_t_l_1_1_profile_block_handler.aux) (class_j_g_t_l_1_1_profiler.aux)
+(class_j_g_t_l_1_1_quad_tree.aux) (class_j_g_t_l_1_1_quad_tree_branch.aux)
+(class_j_g_t_l_1_1_quad_tree_node.aux) (class_j_g_t_l_1_1_quad_tree_stub.aux)
+(class_j_g_t_l_1_1_ray2.aux) (class_j_g_t_l_1_1_ray3.aux)
+(class_j_g_t_l_1_1_rectangle3.aux) (class_j_g_t_l_1_1_rectangle_index3.aux)
+(class_j_g_t_l_1_1_set_interface.aux) (class_j_g_t_l_1_1_singleton.aux)
+(class_j_g_t_l_1_1_sorted_list.aux)
+(class_j_g_t_l_1_1_stack_circular_buffer.aux) (class_j_g_t_l_1_1_stack_map.aux)
+(class_j_g_t_l_1_1_stack_set.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on8bad4fe85b3207b51b4ba282cb73273e.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on0da18bc47224201889d1e0cafe760a2c.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on1ea2882b2f3315e024773e1becf2883f.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on2fb88e04d0121b9aa29a50f9670e334c.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on9f6e865142ccd9af848bb97d1dbfdb72.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_tw5a2eea924c533f564bf1050b20ef91fc.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_two_00_01_the35ecf7c7360ce295a7d197f78c1831e.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_two_
+00_01_three_00_01_f759e6bc76a9114cc8ef25088b44cc11.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_o_d.aux) (class_j_g_t_l_1_1_tree_list.aux)
+(class_j_g_t_l_1_1_tree_list_node.aux) (struct_j_g_t_l_1_1_t_y_p_e_i_f.aux)
+(struct_j_g_t_l_1_1_t_y_p_e_i_f_3_01_type_00_01false_00_01_then_00_01_else_01_4
+.aux) (class_j_g_t_l_1_1_variant.aux) (class_j_g_t_l_1_1_vector2.aux)
+(class_j_g_t_l_1_1_vector3.aux) (class_j_g_t_l_1_1_vector4.aux)
+(class_j_g_t_l_1_1_wrapped_interpolated_value.aux)
+(class_j_g_t_l_1_1_xor_space.aux) (class_j_g_t_l_1_1_xor_space_rect.aux)
+(_j_g_t_l___circular_buffer_8h.aux)
+(_j_g_t_l___circular_buffer_interface_8h.aux)
+(_j_g_t_l___command_line_parser_8h.aux) (_j_g_t_l___data_manager_8h.aux)
+(_j_g_t_l___data_pool__delete_8h.aux)
+(_j_g_t_l___dynamic_circular_buffer_8h.aux) (_j_g_t_l___dynamic_pool_map_8h.aux
+) (_j_g_t_l___dynamic_pool_set_8h.aux) (_j_g_t_l___floating_units_8h.aux)
+(_j_g_t_l___hex_tree_8h.aux) (_j_g_t_l___index2_8h.aux)
+(_j_g_t_l___index3_8h.aux) (_j_g_t_l___integral_units_8h.aux)
+(_j_g_t_l___interpolated_value_8h.aux) (_j_g_t_l___located_exception_8h.aux)
+(_j_g_t_l___map_interface_8h.aux) (_j_g_t_l___poly_variant_8h.aux)
+(_j_g_t_l___pool_map__delete_8h.aux) (_j_g_t_l___quad_tree_8h.aux)
+(_j_g_t_l___quick_prof_8h.aux) (_j_g_t_l___ray2_8h.aux) (_j_g_t_l___ray3_8h.aux
+) (_j_g_t_l___rectangle3_8h.aux) (_j_g_t_l___serialization_8h.aux)
+(_j_g_t_l___set_interface_8h.aux) (_j_g_t_l___singleton_8h.aux)
+(_j_g_t_l___sorted_list__delete_8h.aux)
+(_j_g_t_l___stack_circular_buffer_8h.aux) (_j_g_t_l___stack_map_8h.aux)
+(_j_g_t_l___stack_set_8h.aux) (_j_g_t_l___string_converter_8h.aux)
+(_j_g_t_l___tree_list_8h.aux) (_j_g_t_l___unordered_dynamic_pool_map_8h.aux)
+(_j_g_t_l___unordered_map_interface_8h.aux) (_j_g_t_l___variant_8h.aux)
+(_j_g_t_l___vector2_8h.aux) (_j_g_t_l___vector3_8h.aux)
+(_j_g_t_l___vector4_8h.aux) (_j_g_t_l___wrapped_interpolated_value_8h.aux)
+(_j_g_t_l___xor_space_8h.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 28.
+ ("C:\MiKTeX 2.5\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 28.
+
+("C:\MiKTeX 2.5\tex\latex\psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+("C:\MiKTeX 2.5\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count108
+\scratchdimen=\dimen120
+\scratchbox=\box54
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen121
+\MPnumerator=\count112
+\everyMPtoPDFconversion=\toks20
+) ("C:\MiKTeX 2.5\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\MiKTeX 2.5\tex\latex\00miktex\color.cfg"
+File: color.cfg 2005/12/29 v1.1 MiKTeX 'color' configuration
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+Package hyperref Info: Link coloring ON on input line 28.
+
+("C:\MiKTeX 2.5\tex\latex\hyperref\nameref.sty"
+Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
+
+("C:\MiKTeX 2.5\tex\latex\oberdiek\refcount.sty"
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count113
+)
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+ (refman.out) (refman.out)
+\@outlinefile=\write4
+
+[1
+
+
+{psfonts.map}] [2
+
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 41.
+ (refman.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+ [1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
+ [][] [][][]\T1/ptm/m/n/10 JGTL::Floating-Units$\OML/cmm/m/it/10 <$ \T1/ptm/m/n
+/10 Value-Type, SCALE_-NUMERATOR, 
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 487--487
+ [][] [][][]\T1/ptm/m/n/10 JGTL::Poly-Variant$\OML/cmm/m/it/10 <$ \T1/ptm/m/n/1
+0 Base-Class, Class1, Class2, Class3, Class4, 
+ []
+
+
+Underfull \vbox (badness 1874) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 540.
+ [2]
+[3]
+Underfull \hbox (badness 1354) in paragraph at lines 835--835
+ [][] [][][]\T1/ptm/m/n/10 JGTL::Variant$\OML/cmm/m/it/10 <$ \T1/ptm/m/n/10 Cla
+ss1, Class2, Class3, Class4, Class5, Class6, 
+ []
+
+
+Underfull \vbox (badness 1831) has occurred while \output is active []
+
+ [4])
+\tf@toc=\write5
+
+[5] [6
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 44.
+(namespaces.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+)
+! pdfTeX warning (ext4): destination with the same identifier (name{page.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.46 \chapter
+             {JGTL Hierarchical Index} [1
+
+]
+! pdfTeX warning (ext4): destination with the same identifier (name{page.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.46 \chapter
+             {JGTL Hierarchical Index} [2
+
+]
+Chapter 2.
+(hierarchy.tex
+Underfull \hbox (badness 6758) in paragraph at lines 16--16
+ [][] \T1/ptm/m/n/10 JGTL::Floating-Units$\OML/cmm/m/it/10 <$ \T1/ptm/m/n/10 Va
+lue-Type, SCALE_-NUMERATOR, SCALE_- 
+ []
+
+[3] [4]) [5] [6
+
+]
+Chapter 3.
+(annotated.tex
+Underfull \hbox (badness 6758) in paragraph at lines 15--15
+ [][] [][]\T1/ptm/m/n/10 JGTL::Floating-Units$\OML/cmm/m/it/10 <$ \T1/ptm/m/n/1
+0 Value-Type, SCALE_-NUMERATOR, SCALE_- 
+ []
+
+[7]
+Underfull \hbox (badness 1931) in paragraph at lines 52--52
+ [][] [][]\T1/ptm/m/n/10 JGTL::Stack-Circular-Buffer$\OML/cmm/m/it/10 <$ \T1/pt
+m/m/n/10 Data, MAX_-ELEMENTS $\OML/cmm/m/it/10 >$[][] \T1/ptm/m/n/10 (The [][]S
+tack- 
+ []
+
+[8]
+Underfull \hbox (badness 7869) in paragraph at lines 73--73
+ \T1/ptm/m/n/10 Class han-dles val-ues which ap-proach a limit us-ing the 
+ []
+
+
+Underfull \hbox (badness 7869) in paragraph at lines 73--73
+ \T1/ptm/m/n/10 for-mula New-Value = actual-Value + (potential-Value-actual- 
+ []
+
+) [9] [10
+
+]
+Chapter 4.
+(files.tex [11]) [12]
+Chapter 5.
+(namespace_j_g_t_l.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 8.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 11.
+ ("C:\MiKTeX 2.5\tex\latex\psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [13
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 74.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 74.
+
+[14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class Value-Type, u
+nits_-internal_-ulong SCALE_-NUMERATOR,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
+\T1/ptm/m/n/10 (std::ostream &stream, const [][]Floating-Units[][]$\OML/cmm/m/i
+t/10 <$ \T1/ptm/m/n/10 Value-Type, SCALE_-
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class Value-Type, u
+nits_-internal_-ulong SCALE_-NUMERATOR,
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 205--207
+\T1/ptm/m/n/10 & [][]operator$\OML/cmm/m/it/10 >$$>$[][] \T1/ptm/m/n/10 (std::i
+stream &stream, [][]Integral-Units[][]$\OML/cmm/m/it/10 <$ \T1/ptm/m/n/10 Value
+-Type, SCALE,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class T$\OML/cmm/m/
+it/10 >$ \T1/ptm/m/n/10 std::istream & [][]operator$\OML/cmm/m/it/10 >$$>$[][] 
+\T1/ptm/m/n/10 (std::istream &stream,
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 231--233
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class T$\OML/cmm/m/
+it/10 >$ \T1/ptm/m/n/10 T [][]get-Index-From-Name[][] (const char $\OMS/cmsy/m/
+n/10 $\T1/ptm/m/n/10 name, const char
+ []
+
+[17]
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 302.
+ [18
+! pdfTeX warning (ext4): destination with the same identifier (name{namespace_j
+_g_t_l_1924d6fd42e2d9661bc0b5a5063b99b3}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.333 }]
+        \index{MICROSECONDS@{MICROSECONDS}!JGTL@{JGTL}}\index{JGTL@{JGTL}!MI...
+]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 385.
+ ("C:\MiKTeX 2.5\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Overfull \vbox (601.21289pt too high) has occurred while \output is active []
+
+
+[21]) [22] (namespacestd.tex) [23
+
+] [24
+
+
+]
+Chapter 6.
+(class_j_g_t_l_1_1_bar.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+[25]) [26] (class_j_g_t_l_1_1_binary_tree_node.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27
+
+])
+[28] (struct_j_g_t_l_1_1_c_cmd_param.tex) [29
+
+
+]
+(class_j_g_t_l_1_1_circular_buffer.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+[30
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Overfull \vbox (545.21289pt too high) has occurred while \output is active []
+
+
+[33]) [34] (class_j_g_t_l_1_1_circular_buffer_interface.tex
+Underfull \hbox (badness 3792) in paragraph at lines 4--4
+[]\T1/ptm/b/n/14.4 JGTL::Circular-Buffer-Interface$\OML/cmm/m/it/14.4 <$ \T1/pt
+m/b/n/14.4 Data $\OML/cmm/m/it/14.4 >$ \T1/ptm/b/n/14.4 Class
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+<class_j_g_t_l_1_1_circular_buffer_interface.pdf, id=1811, 501.875pt x 61.22874
+pt>
+File: class_j_g_t_l_1_1_circular_buffer_interface.pdf Graphic file (type pdf)
+ <use class_j_g_t_l_1_1_circular_buffer_interface.pdf>
+Overfull \hbox (51.98233pt too wide) in paragraph at lines 12--14
+ [] 
+ []
+
+[35
+
+
+ <class_j_g_t_l_1_1_circular_buffer_interface.pdf>] [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+Overfull \vbox (251.68945pt too high) has occurred while \output is active []
+
+
+[38]) [39] (class_j_g_t_l_1_1_clock.tex
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+\T1/ptm/m/n/10 A cross-platform clock class in-spired by the Timer classes in O
+gre
+ []
+
+[40
+
+
+]) [41] (class_j_g_t_l_1_1_command_line_parser.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42
+
+
+])
+[43] (class_j_g_t_l_1_1_data_manager.tex
+Underfull \hbox (badness 2142) in paragraph at lines 4--4
+[]\T1/ptm/b/n/14.4 JGTL::Data-Manager$\OML/cmm/m/it/14.4 <$ \T1/ptm/b/n/14.4 Da
+ta $\OML/cmm/m/it/14.4 >$ \T1/ptm/b/n/14.4 Class Tem-plate
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Underfull \vbox (badness 6380) has occurred while \output is active []
+
+ [44
+
+
+]
+Overfull \vbox (207.24902pt too high) has occurred while \output is active []
+
+
+[45]) [46] (class_j_g_t_l_1_1_data_pool.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Underfull \vbox (badness 4634) has occurred while \output is active []
+
+ [47
+
+
+]
+Overfull \vbox (219.68945pt too high) has occurred while \output is active []
+
+
+[48]) [49] (class_j_g_t_l_1_1_dynamic_circular_buffer.tex
+Underfull \hbox (badness 1325) in paragraph at lines 4--4
+[]\T1/ptm/b/n/14.4 JGTL::Dynamic-Circular-Buffer$\OML/cmm/m/it/14.4 <$ \T1/ptm/
+b/n/14.4 Data $\OML/cmm/m/it/14.4 >$ \T1/ptm/b/n/14.4 Class
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+<class_j_g_t_l_1_1_dynamic_circular_buffer.pdf, id=2231, 501.875pt x 169.63374p
+t>
+File: class_j_g_t_l_1_1_dynamic_circular_buffer.pdf Graphic file (type pdf)
+ <use class_j_g_t_l_1_1_dynamic_circular_buffer.pdf>
+Underfull \hbox (badness 3547) in paragraph at lines 23--25
+[]\T1/ptm/m/n/10 const [][]Dynamic-Circular-Buffer[][] & [][]op-er-a-tor=[][] (
+const [][]Dynamic-Circular-Buffer[][]
+ []
+
+[50
+
+
+ <class_j_g_t_l_1_1_dynamic_circular_buffer.pdf>]) [51]
+(class_j_g_t_l_1_1_dynamic_pool_map.tex
+Underfull \hbox (badness 1248) in paragraph at lines 4--4
+[]\T1/ptm/b/n/14.4 JGTL::Dynamic-Pool-Map$\OML/cmm/m/it/14.4 <$ \T1/ptm/b/n/14.
+4 Key, Data $\OML/cmm/m/it/14.4 >$ \T1/ptm/b/n/14.4 Class
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_dynamic_pool_map.pdf, id=2288, 501.875pt x 85.31876pt>
+File: class_j_g_t_l_1_1_dynamic_pool_map.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_dynamic_pool_map.pdf> [52
+
+
+ <class_j_g_t_l_1_1_dynamic_pool_map.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_dynamic_pool_map_07c6425b3ff8be9bb668c187f6431b76}) has been already use
+d, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.164 T
+       he documentation for this class was generated from the following file...
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_dynamic_pool_map_309ac93775245116f166ac406fc192bd}) has been already use
+d, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.164 T
+       he documentation for this class was generated from the following file...
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_dynamic_pool_map_b833361ff8ae724639fb0d4ed9e6392f}) has been already use
+d, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.164 T
+       he documentation for this class was generated from the following file...
+]) [54
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_dynamic_pool_map_36d6be1323ed844a5d93ddf9814cc059}) has been already use
+d, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.66 \include{class_j_g_t_l_1_1_dynamic_pool_map}
+                                                 
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_dynamic_pool_map_bce0771b0a4cc6238e7e3e24f5ec3bf0}) has been already use
+d, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.66 \include{class_j_g_t_l_1_1_dynamic_pool_map}
+                                                 ]
+(class_j_g_t_l_1_1_dynamic_pool_set.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_dynamic_pool_set.pdf, id=2391, 501.875pt x 203.76125pt>
+File: class_j_g_t_l_1_1_dynamic_pool_set.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_dynamic_pool_set.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55
+
+
+ <class_j_g_t_l_1_1_dynamic_pool_set.pdf>]) [56] (class_j_g_t_l_1_1_floating_un
+its.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]\T1/ptm/b/n/14.4 JGTL::Floating-Units$\OML/cmm/m/it/14.4 <$ \T1/ptm/b/n/14.4 
+Value-Type, SCALE_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/ptm/b/n/14.4 NUMERATOR, SCALE_-DENOMINATOR $\OML/cmm/m/it/14.4 >$
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class Other-Value-T
+ype, units_-internal_-ulong OTHERSCALE_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\T1/ptm/m/n/10 NUMERATOR, units_-internal_-ulong OTHERSCALE_-DENOMINATOR$\OML/c
+mm/m/it/10 >$
+ []
+
+
+Underfull \hbox (badness 7613) in paragraph at lines 12--14
+[][]\T1/ptm/m/n/10 Floating-Units[][] (const [][]Floating-Units[][]$\OML/cmm/m/
+it/10 <$ \T1/ptm/m/n/10 Other-Value-Type, OTHERSCALE_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class Other-Value-T
+ype, units_-internal_-ulong OTHERSCALE_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+\T1/ptm/m/n/10 NUMERATOR, units_-internal_-ulong OTHERSCALE_-DENOMINATOR$\OML/c
+mm/m/it/10 >$
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 14--16
+\T1/ptm/m/n/10 const [][]Floating-Units[][] & [][]op-er-a-tor=[][] (const [][]F
+loating-Units[][]$\OML/cmm/m/it/10 <$ \T1/ptm/m/n/10 Other-Value-Type,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class Other-Value-T
+ype, units_-internal_-ulong OTHERSCALE_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+\T1/ptm/m/n/10 NUMERATOR, units_-internal_-ulong OTHERSCALE_-DENOMINATOR$\OML/c
+mm/m/it/10 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+\T1/ptm/m/n/10 Value-Type [][]change-Scale[][] (const [][]Floating-Units[][]$\O
+ML/cmm/m/it/10 <$ \T1/ptm/m/n/10 Other-Value-Type,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+\T1/ptm/m/n/10 OTHERSCALE_-NUMERATOR, OTHERSCALE_-DENOMINATOR $\OML/cmm/m/it/10
+ >$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[57
+
+
+]
+Overfull \vbox (311.28516pt too high) has occurred while \output is active []
+
+
+[58])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[59] (class_j_g_t_l_1_1_hex_tree.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Underfull \vbox (badness 6078) has occurred while \output is active []
+
+ [60
+
+
+]
+Overfull \vbox (195.68945pt too high) has occurred while \output is active []
+
+
+[61]) [62] (class_j_g_t_l_1_1_hex_tree_branch.tex
+Underfull \hbox (badness 2285) in paragraph at lines 4--4
+[]\T1/ptm/b/n/14.4 JGTL::Hex-Tree-Branch$\OML/cmm/m/it/14.4 <$ \T1/ptm/b/n/14.4
+ T $\OML/cmm/m/it/14.4 >$ \T1/ptm/b/n/14.4 Class Tem-plate
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_hex_tree_branch.pdf, id=2629, 501.875pt x 228.855pt>
+File: class_j_g_t_l_1_1_hex_tree_branch.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_hex_tree_branch.pdf>
+Underfull \vbox (badness 3209) has occurred while \output is active []
+
+ [63
+
+
+ <class_j_g_t_l_1_1_hex_tree_branch.pdf>] [64]) [65]
+(class_j_g_t_l_1_1_hex_tree_node.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_hex_tree_node.pdf, id=2731, 501.875pt x 114.4275pt>
+File: class_j_g_t_l_1_1_hex_tree_node.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_hex_tree_node.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66
+
+
+ <class_j_g_t_l_1_1_hex_tree_node.pdf>] [67]) [68]
+(class_j_g_t_l_1_1_hex_tree_stub.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_hex_tree_stub.pdf, id=2811, 501.875pt x 243.91125pt>
+File: class_j_g_t_l_1_1_hex_tree_stub.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_hex_tree_stub.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [69
+
+
+ <class_j_g_t_l_1_1_hex_tree_stub.pdf>] [70]) [71] (struct_j_g_t_l_1_1_i_f.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+) [72
+
+
+] (struct_j_g_t_l_1_1_i_f_3_01false_00_01_then_00_01_else_01_4.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+) [73
+
+
+] (class_j_g_t_l_1_1_index2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74
+
+
+])
+[75] (class_j_g_t_l_1_1_index3.tex
+Underfull \vbox (badness 1509) has occurred while \output is active []
+
+ [76
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
+Overfull \vbox (207.01074pt too high) has occurred while \output is active []
+
+
+[78]) [79] (class_j_g_t_l_1_1_integral_units.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]\T1/ptm/b/n/14.4 JGTL::Integral-Units$\OML/cmm/m/it/14.4 <$ \T1/ptm/b/n/14.4 
+Value-Type, SCALE,
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class Other-Value-T
+ype, Other-Value-Type OTH-ER-SCALE, bool
+ []
+
+
+Underfull \hbox (badness 6758) in paragraph at lines 12--14
+\T1/ptm/m/n/10 OTHERUSEGCD$\OML/cmm/m/it/10 >$ [][]\T1/ptm/m/n/10 Integral-Unit
+s[][] (const [][]Integral-Units[][]$\OML/cmm/m/it/10 <$ \T1/ptm/m/n/10 Other-Va
+lue-Type,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class Other-Value-T
+ype, Other-Value-Type OTH-ER-SCALE, bool
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class Other-Value-T
+ype, Other-Value-Type OTH-ER-SCALE, bool
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]\T1/ptm/b/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/b/n/10 class Value-Type, V
+alue-Type SCALE, bool USEGCD$\OML/cmm/m/it/10 >$ \T1/ptm/b/n/10 class
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80
+
+
+]
+Overfull \vbox (59.28516pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[81]) [82] (struct_j_g_t_l_1_1_integral_units_g_c_d.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Overfull \hbox (197.40034pt too wide) in paragraph at lines 40--40
+[]                        \T1/pcr/m/n/8 STATIC_MOD<units_internal_ulong,j,STATI
+C_MOD<units_internal_ulong,i,j>::VALUE>::VALUE==0,[] 
+ []
+
+
+Overfull \hbox (178.20033pt too wide) in paragraph at lines 40--40
+[]                        \T1/pcr/m/n/8 STATIC_MOD<units_internal_ulong,j,STATI
+C_MOD<units_internal_ulong,i,j>::VALUE>::VALUE[] 
+ []
+
+) [83
+
+
+] (struct_j_g_t_l_1_1_integral_units_g_c_d_3_010_00_010_01_4.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+) [84
+
+
+] (struct_j_g_t_l_1_1_integral_units_g_c_d_3_010_00_01j_01_4.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+) [85
+
+
+] (struct_j_g_t_l_1_1_integral_units_g_c_d_3_011_00_011_01_4.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+) [86
+
+
+] (struct_j_g_t_l_1_1_integral_units_g_c_d_3_011_00_01j_01_4.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+) [87
+
+
+] (struct_j_g_t_l_1_1_integral_units_g_c_d_3_01i_00_010_01_4.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+) [88
+
+
+] (struct_j_g_t_l_1_1_integral_units_g_c_d_3_01i_00_011_01_4.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+) [89
+
+
+] (class_j_g_t_l_1_1_interpolated_value.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_interpolated_value.pdf, id=3256, 501.875pt x 169.63374pt>
+File: class_j_g_t_l_1_1_interpolated_value.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_interpolated_value.pdf> [90
+
+
+ <class_j_g_t_l_1_1_interpolated_value.pdf>] [91]) [92] (class_j_g_t_l_1_1_loca
+ted_exception.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93
+
+
+])
+[94] (class_j_g_t_l_1_1_map_interface.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_map_interface.pdf, id=3389, 501.875pt x 44.165pt>
+File: class_j_g_t_l_1_1_map_interface.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_map_interface.pdf>
+Overfull \hbox (52.07422pt too wide) in paragraph at lines 12--14
+ [] 
+ []
+
+[95
+
+
+ <class_j_g_t_l_1_1_map_interface.pdf>]
+Underfull \hbox (badness 4608) in paragraph at lines 225--228
+\T1/ptm/m/n/10 Implemented in [][]JGTL::Dynamic-Pool-Map$\OML/cmm/m/it/10 <$ \T
+1/ptm/m/n/10 Key, Data $\OML/cmm/m/it/10 >$[][]\T1/ptm/m/n/10 , [][]JGTL::Stack
+-Map$\OML/cmm/m/it/10 <$
+ []
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 225--228
+\T1/ptm/m/n/10 Key, Data, MAX_-ELEMENTS $\OML/cmm/m/it/10 >$[][]\T1/ptm/m/n/10 
+, and [][]JGTL::Dynamic-Pool-Map$\OML/cmm/m/it/10 <$ \T1/ptm/m/n/10 std::string
+,
+ []
+
+[96]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [97
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_6d49e996123c82dbc4ac2b526de5225d}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.398 ...}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+                                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_f6fd6f5a7643f34cae4b7b67ba98a832}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.398 ...}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+                                                  ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98]
+Overfull \vbox (406.57031pt too high) has occurred while \output is active []
+
+
+[99
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_2f61fdf95543ba566256642eeed659f4}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.398 ...}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+                                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_e416f8f15a065ea183c289932ef794c6}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.398 ...}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+                                                  ]
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_416044d92d5c6d09ed79d13a775ba222}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.405 ...ace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+                                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_af2d3667a3a9cf577177720e2b757d03}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.412 ...ace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+                                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_6a4c3571cb30d168d4a67dd2655a6b77}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.419 ...ace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+                                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_7e97b54c29a253bd99caf2b0decb95a8}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.426 ...ace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+                                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_4ec2d9323c3d2e65179c38ea7558a222}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.433 ...ace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+                                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_b18a78bcb6d8ebac123e934aaa3fad0b}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.440 ...ace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+                                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_266cbd67bcff93d17649c35254d18190}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.447 ...ace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+                                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_3613d63a8096f923e4e220e5aa002403}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.454 ...ace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+                                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_7fe23525fa2fca5e47cb047332fb49d3}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.461 ...ace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+                                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_3bd1eca8bba2b057e09eb6579e26ad8f}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.468 ...ace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+                                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_e2b0ad1f3959cf7f8d1c6ef07c5a8c2c}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.475 ...ace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+                                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{class_j_g_t
+_l_1_1_map_interface_cbbfe062862b57f4e0027026f81562a9}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.482 ...ace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100]
+Overfull \vbox (202.8086pt too high) has occurred while \output is active []
+
+
+[101]) [102] (class_j_g_t_l_1_1_null_variant_class.tex) [103
+
+
+]
+(class_j_g_t_l_1_1_poly_variant.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_poly_variant.pdf, id=3695, 501.875pt x 59.22125pt>
+File: class_j_g_t_l_1_1_poly_variant.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_poly_variant.pdf>
+Overfull \hbox (50.99445pt too wide) in paragraph at lines 9--11
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [104
+
+
+ <class_j_g_t_l_1_1_poly_variant.pdf>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[105] (class_j_g_t_l_1_1_pool_map.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+[106
+
+
+]
+Overfull \vbox (403.8916pt too high) has occurred while \output is active []
+
+
+[107]) [108] (struct_j_g_t_l_1_1_profile_block.tex [109
+
+
+]) [110]
+(class_j_g_t_l_1_1_profile_block_handler.tex) [111
+
+
+]
+(class_j_g_t_l_1_1_profiler.tex
+<class_j_g_t_l_1_1_profiler.pdf, id=3931, 501.875pt x 250.9375pt>
+File: class_j_g_t_l_1_1_profiler.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_profiler.pdf> [112
+
+
+ <class_j_g_t_l_1_1_profiler.pdf>]
+[113] [114] [115] [116] [117] [118]) [119] (class_j_g_t_l_1_1_quad_tree.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Underfull \vbox (badness 6380) has occurred while \output is active []
+
+ [120
+
+
+]
+Overfull \vbox (171.24902pt too high) has occurred while \output is active []
+
+
+[121]) [122] (class_j_g_t_l_1_1_quad_tree_branch.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_quad_tree_branch.pdf, id=4227, 501.875pt x 217.81375pt>
+File: class_j_g_t_l_1_1_quad_tree_branch.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_quad_tree_branch.pdf>
+Underfull \hbox (badness 1552) in paragraph at lines 16--18
+[][][]\T1/ptm/m/n/10 Quad-Tree-Branch[][] (boost::pool$\OML/cmm/m/it/10 <$$>$ \
+T1/ptm/m/n/10 &branch-Pool, boost::pool$\OML/cmm/m/it/10 <$$>$ \T1/ptm/m/n/10 &
+stub-Pool,
+ []
+
+
+Underfull \vbox (badness 1859) has occurred while \output is active []
+
+ [123
+
+
+ <class_j_g_t_l_1_1_quad_tree_branch.pdf>] [124]) [125]
+(class_j_g_t_l_1_1_quad_tree_node.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_quad_tree_node.pdf, id=4332, 501.875pt x 109.40875pt>
+File: class_j_g_t_l_1_1_quad_tree_node.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_quad_tree_node.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [126
+
+
+ <class_j_g_t_l_1_1_quad_tree_node.pdf>] [127]) [128]
+(class_j_g_t_l_1_1_quad_tree_stub.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_quad_tree_stub.pdf, id=4406, 501.875pt x 230.8625pt>
+File: class_j_g_t_l_1_1_quad_tree_stub.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_quad_tree_stub.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [129
+
+
+ <class_j_g_t_l_1_1_quad_tree_stub.pdf>] [130]) [131] (class_j_g_t_l_1_1_ray2.t
+ex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+[132
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [133]
+Overfull \vbox (95.92773pt too high) has occurred while \output is active []
+
+
+[134]) [135] (class_j_g_t_l_1_1_ray3.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+[136
+
+
+]) [137] (class_j_g_t_l_1_1_rectangle3.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [138
+
+
+])
+[139] (class_j_g_t_l_1_1_rectangle_index3.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [140
+
+
+])
+[141] (class_j_g_t_l_1_1_set_interface.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_set_interface.pdf, id=4805, 501.875pt x 76.285pt>
+File: class_j_g_t_l_1_1_set_interface.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_set_interface.pdf>
+Overfull \hbox (29.39127pt too wide) in paragraph at lines 12--14
+ [] 
+ []
+
+[142
+
+
+ <class_j_g_t_l_1_1_set_interface.pdf>] [143]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [144]
+Overfull \vbox (215.24902pt too high) has occurred while \output is active []
+
+
+[145]) [146] (class_j_g_t_l_1_1_singleton.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_singleton.pdf, id=4970, 501.875pt x 250.9375pt>
+File: class_j_g_t_l_1_1_singleton.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_singleton.pdf> [147
+
+
+ <class_j_g_t_l_1_1_singleton.pdf>])
+[148] (class_j_g_t_l_1_1_sorted_list.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [149
+
+
+])
+[150] (class_j_g_t_l_1_1_stack_circular_buffer.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]\T1/ptm/b/n/14.4 JGTL::Stack-Circular-Buffer$\OML/cmm/m/it/14.4 <$ \T1/ptm/b/
+n/14.4 Data, MAX_-
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+<class_j_g_t_l_1_1_stack_circular_buffer.pdf, id=5076, 501.875pt x 122.4575pt>
+File: class_j_g_t_l_1_1_stack_circular_buffer.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_stack_circular_buffer.pdf>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[151
+
+
+ <class_j_g_t_l_1_1_stack_circular_buffer.pdf>] [152])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[153] (class_j_g_t_l_1_1_stack_map.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]\T1/ptm/b/n/14.4 JGTL::Stack-Map$\OML/cmm/m/it/14.4 <$ \T1/ptm/b/n/14.4 Key, 
+Data, MAX_-
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_stack_map.pdf, id=5144, 501.875pt x 132.495pt>
+File: class_j_g_t_l_1_1_stack_map.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_stack_map.pdf> [154
+
+
+ <class_j_g_t_l_1_1_stack_map.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[155]) [156] (class_j_g_t_l_1_1_stack_set.tex
+Underfull \hbox (badness 1436) in paragraph at lines 4--4
+[]\T1/ptm/b/n/14.4 JGTL::Stack-Set$\OML/cmm/m/it/14.4 <$ \T1/ptm/b/n/14.4 Data,
+ MAX_-ELEMENTS $\OML/cmm/m/it/14.4 >$
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_stack_set.pdf, id=5213, 501.875pt x 151.56625pt>
+File: class_j_g_t_l_1_1_stack_set.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_stack_set.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [157
+
+
+ <class_j_g_t_l_1_1_stack_set.pdf>]) [158]
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Overfull \hbox (115.8003pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,Two,Four,Five,S
+ix,Seven,Eight,Nine,Ten>::RESULT,[] 
+ []
+
+
+Overfull \hbox (120.6003pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,Three,Four,Five
+,Six,Seven,Eight,Nine,Ten>::RESULT[] 
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[159
+
+
+]
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on8bad4fe85b3207b51b4ba282cb73273e.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+) [160
+
+
+]
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on0da18bc47224201889d1e0cafe760a2c.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Overfull \hbox (82.20027pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,One,One,One,One
+,One,One,One,Two>::RESULT,[] 
+ []
+
+
+Overfull \hbox (87.00027pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,One,One,One,One
+,One,One,One,Three>::RESULT[] 
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[161
+
+
+]
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on1ea2882b2f3315e024773e1becf2883f.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Overfull \hbox (87.00027pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,One,One,One,One
+,One,One,Two,Four>::RESULT,[] 
+ []
+
+
+Overfull \hbox (91.80028pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,One,One,One,One
+,One,One,Three,Four>::RESULT[] 
+ []
+
+) [162
+
+
+]
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on2fb88e04d0121b9aa29a50f9670e334c.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Overfull \hbox (91.80028pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,One,One,One,One
+,One,Two,Four,Five>::RESULT,[] 
+ []
+
+
+Overfull \hbox (96.60028pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,One,One,One,One
+,One,Three,Four,Five>::RESULT[] 
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[163
+
+
+]
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on9f6e865142ccd9af848bb97d1dbfdb72.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Overfull \hbox (91.80028pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,One,One,One,One
+,Two,Four,Five,Six>::RESULT,[] 
+ []
+
+
+Overfull \hbox (96.60028pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,One,One,One,One
+,Three,Four,Five,Six>::RESULT[] 
+ []
+
+) [164
+
+
+]
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_tw5a2eea924c533f564bf1050b20ef91fc.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Overfull \hbox (101.40028pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,One,One,One,Two
+,Four,Five,Six,Seven>::RESULT,[] 
+ []
+
+
+Overfull \hbox (106.20029pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,One,One,One,Thr
+ee,Four,Five,Six,Seven>::RESULT[] 
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[165
+
+
+]
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_two_00_01_the35ecf7c7360ce295a7d197f78c1831e.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Overfull \hbox (111.00029pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,One,One,Two,Fou
+r,Five,Six,Seven,Eight>::RESULT,[] 
+ []
+
+
+Overfull \hbox (115.8003pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,One,One,Three,F
+our,Five,Six,Seven,Eight>::RESULT[] 
+ []
+
+) [166
+
+
+]
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_two_
+00_01_three_00_01_f759e6bc76a9114cc8ef25088b44cc11.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Overfull \hbox (115.8003pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,One,Two,Four,Fi
+ve,Six,Seven,Eight,Nine>::RESULT,[] 
+ []
+
+
+Overfull \hbox (120.6003pt too wide) in paragraph at lines 33--33
+[]                        \T1/pcr/m/n/8 STATIC_MAX_SIZE<One,One,One,Three,Four,
+Five,Six,Seven,Eight,Nine>::RESULT[] 
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[167
+
+
+] (struct_j_g_t_l_1_1_s_t_a_t_i_c___m_o_d.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+) [168
+
+
+] (class_j_g_t_l_1_1_tree_list.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+) [169
+
+
+] (class_j_g_t_l_1_1_tree_list_node.tex
+Underfull \hbox (badness 1052) in paragraph at lines 4--4
+[]\T1/ptm/b/n/14.4 JGTL::Tree-List-Node$\OML/cmm/m/it/14.4 <$ \T1/ptm/b/n/14.4 
+Data $\OML/cmm/m/it/14.4 >$ \T1/ptm/b/n/14.4 Class Tem-plate
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+) [170
+
+
+] (struct_j_g_t_l_1_1_t_y_p_e_i_f.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]\T1/ptm/b/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/b/n/10 class Type, bool co
+n-di-tion, Type Then, Type Else$\OML/cmm/m/it/10 >$ \T1/ptm/b/n/10 struct
+ []
+
+) [171
+
+
+]
+(struct_j_g_t_l_1_1_t_y_p_e_i_f_3_01_type_00_01false_00_01_then_00_01_else_01_4
+.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+) [172
+
+
+] (class_j_g_t_l_1_1_variant.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+<class_j_g_t_l_1_1_variant.pdf, id=5475, 501.875pt x 59.22125pt>
+File: class_j_g_t_l_1_1_variant.pdf Graphic file (type pdf)
+
+<use class_j_g_t_l_1_1_variant.pdf>
+Overfull \hbox (50.99445pt too wide) in paragraph at lines 9--11
+ [] 
+ []
+
+
+Overfull \hbox (2.79648pt too wide) in paragraph at lines 118--118
+\T1/ptm/b/n/10 Class1,Class2,Class3,Class4,Class5,Class6,Class7,Class8,Class9,C
+lass10 
+ []
+
+
+Underfull \vbox (badness 2521) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[173
+
+
+ <class_j_g_t_l_1_1_variant.pdf>]
+Overfull \vbox (780.60645pt too high) has occurred while \output is active []
+
+
+[174])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[175] (class_j_g_t_l_1_1_vector2.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+[176
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [177]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [178]
+Overfull \vbox (860.73633pt too high) has occurred while \output is active []
+
+
+[179]) [180] (class_j_g_t_l_1_1_vector3.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+[181
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [182]
+Overfull \vbox (765.85547pt too high) has occurred while \output is active []
+
+
+[183]) [184] (class_j_g_t_l_1_1_vector4.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [185
+
+
+]
+Overfull \vbox (123.24902pt too high) has occurred while \output is active []
+
+
+[186]) [187] (class_j_g_t_l_1_1_wrapped_interpolated_value.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+<class_j_g_t_l_1_1_wrapped_interpolated_value.pdf, id=6101, 501.875pt x 169.633
+74pt>
+File: class_j_g_t_l_1_1_wrapped_interpolated_value.pdf Graphic file (type pdf)
+ <use class_j_g_t_l_1_1_wrapped_interpolated_value.pdf> [188
+
+
+ <class_j_g_t_l_1_1_wrapped_interpolated_value.pdf>] [189]) [190]
+(class_j_g_t_l_1_1_xor_space.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+[191
+
+
+] [192]
+Underfull \vbox (badness 1424) has occurred while \output is active []
+
+ [193])
+[194] (class_j_g_t_l_1_1_xor_space_rect.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 4.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [195
+
+
+])
+[196]
+Chapter 7.
+(_j_g_t_l___bar_8h.tex
+Underfull \hbox (badness 5711) in paragraph at lines 18--20
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class Bar-Value-Typ
+e$\OML/cmm/m/it/10 >$ \T1/ptm/m/n/10 os-tream & [][]JGTL::operator$\OML/cmm/m/i
+t/10 <$$<$[][] \T1/ptm/m/n/10 (os-tream
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class Bar-Value-Typ
+e$\OML/cmm/m/it/10 >$ \T1/ptm/m/n/10 istream & [][]JGTL::operator$\OML/cmm/m/it
+/10 >$$>$[][] \T1/ptm/m/n/10 (istream
+ []
+
+) [197
+
+
+] (_j_g_t_l___circular_buffer_8h.tex) [198
+
+]
+(_j_g_t_l___circular_buffer_interface_8h.tex) [199
+
+
+]
+(_j_g_t_l___command_line_parser_8h.tex) [200
+
+
+] (_j_g_t_l___data_manager_8h.tex)
+[201
+
+
+] (_j_g_t_l___data_pool__delete_8h.tex) [202
+
+
+]
+(_j_g_t_l___dynamic_circular_buffer_8h.tex) [203
+
+
+]
+(_j_g_t_l___dynamic_pool_map_8h.tex) [204
+
+
+] (_j_g_t_l___dynamic_pool_set_8h.tex) [205
+
+
+] (_j_g_t_l___floating_units_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class Value-Type, u
+nits_-internal_-ulong SCALE_-NUMERATOR,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+\T1/ptm/m/n/10 units_-internal_-ulong SCALE_-DENOMINATOR$\OML/cmm/m/it/10 >$ \T
+1/ptm/m/n/10 std::ostream &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class Value-Type, u
+nits_-internal_-ulong SCALE_-NUMERATOR,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+\T1/ptm/m/n/10 units_-internal_-ulong SCALE_-DENOMINATOR$\OML/cmm/m/it/10 >$ \T
+1/ptm/m/n/10 std::istream &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+[][]\T1/ptm/m/n/10 JGTL::operator$\OML/cmm/m/it/10 >$$>$[][] \T1/ptm/m/n/10 (st
+d::istream &stream, Floating-Units$\OML/cmm/m/it/10 <$ \T1/ptm/m/n/10 Value-Typ
+e,
+ []
+
+) [206
+
+
+] (_j_g_t_l___hex_tree_8h.tex) [207
+
+
+] (_j_g_t_l___index2_8h.tex) [208
+
+
+]
+(_j_g_t_l___index3_8h.tex) [209
+
+
+] (_j_g_t_l___integral_units_8h.tex) [210
+
+
+]
+(_j_g_t_l___interpolated_value_8h.tex) [211
+
+
+]
+(_j_g_t_l___located_exception_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+[]\T1/ptm/m/n/10 #define [][]CREATE_-LOCATEDEXCEPTION_-INFO[][](X) [][]JGTL::Lo
+cated-
+ []
+
+) [212
+
+
+] (_j_g_t_l___map_interface_8h.tex) [213
+
+
+] (_j_g_t_l___poly_variant_8h.tex) [214
+
+
+] (_j_g_t_l___pool_map__delete_8h.tex) [215
+
+
+] (_j_g_t_l___quad_tree_8h.tex) [216
+
+
+] (_j_g_t_l___quick_prof_8h.tex
+Underfull \hbox (badness 5563) in paragraph at lines 38--43
+[]\T1/ptm/m/n/10 enum [][]JGTL::Time-Format[][] { [][]JGTL::SECONDS[][], [][]JG
+TL::MILLISECONDS[][],
+ []
+
+) [217
+
+
+] [218] (_j_g_t_l___ray2_8h.tex) [219
+
+
+] (_j_g_t_l___ray3_8h.tex) [220
+
+
+]
+(_j_g_t_l___rectangle3_8h.tex) [221
+
+
+] (_j_g_t_l___serialization_8h.tex
+Underfull \hbox (badness 2744) in paragraph at lines 27--29
+[]\T1/ptm/m/n/10 template$\OML/cmm/m/it/10 <$\T1/ptm/m/n/10 class Data$\OML/cmm
+/m/it/10 >$ \T1/ptm/m/n/10 void [][]JGTL::pack-Buffer-Stack[][] (uchar $\OMS/cm
+sy/m/n/10 $\T1/ptm/m/n/10 &buffer, int
+ []
+
+) [222
+
+
+] (_j_g_t_l___set_interface_8h.tex) [223
+
+
+] (_j_g_t_l___singleton_8h.tex)
+[224
+
+
+] (_j_g_t_l___sorted_list__delete_8h.tex) [225
+
+
+]
+(_j_g_t_l___stack_circular_buffer_8h.tex) [226
+
+
+] (_j_g_t_l___stack_map_8h.tex)
+[227
+
+
+] (_j_g_t_l___stack_set_8h.tex) [228
+
+
+] (_j_g_t_l___string_converter_8h.tex)
+[229
+
+
+] (_j_g_t_l___tree_list_8h.tex) [230
+
+
+]
+(_j_g_t_l___unordered_dynamic_pool_map_8h.tex) [231
+
+
+]
+(_j_g_t_l___unordered_map_interface_8h.tex) [232
+
+
+] (_j_g_t_l___variant_8h.tex)
+[233
+
+
+] (_j_g_t_l___vector2_8h.tex) [234
+
+
+] (_j_g_t_l___vector3_8h.tex) [235
+
+
+]
+(_j_g_t_l___vector4_8h.tex) [236
+
+
+] (_j_g_t_l___wrapped_interpolated_value_8h.tex
+Underfull \hbox (badness 1320) in paragraph at lines 4--4
+[]\T1/ptm/b/n/14.4 JGTL_-Wrapped-Interpolated-Value.h File Ref-er-
+ []
+
+) [237
+
+
+] (_j_g_t_l___xor_space_8h.tex) [238
+
+
+] (refman.ind [239
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
+[]| \T1/ptm/m/n/10 JGTL::Wrapped-Interpolated-Value,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+[]\T1/ptm/m/n/10 CREATE_-LOCATEDEXCEPTION_-
+ []
+
+[240]
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+[]\T1/ptm/m/n/10 DEBUG_-CIRCULAR_-BUFFER_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--268
+[]| \T1/ptm/m/n/10 JGTL_-Circular-Buffer-Interface.h,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+[]\T1/ptm/m/n/10 DEBUG_-DYNAMIC_-CIRCULAR_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--277
+[]| \T1/ptm/m/n/10 JGTL_-Dynamic-Circular-Buffer.h,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--282
+[]| \T1/ptm/m/n/10 JGTL_-Unordered-Dynamic-Pool-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--290
+[]| \T1/ptm/m/n/10 JGTL_-Unordered-Map-Interface.h,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+[]\T1/ptm/m/n/10 DEBUG_-STACK_-CIRCULAR_-
+ []
+
+[241] [242] [243] [244] [245] [246] [247] [248]
+Underfull \hbox (badness 10000) in paragraph at lines 1082--1083
+[]| \T1/ptm/m/n/10 cur-rent-Cy-cle-To-talMi-crosec-onds,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1112--1113
+[]| \T1/ptm/m/n/10 mCur-rent-Cy-cleStart-Mi-crosec-onds,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1118--1119
+[]| \T1/ptm/m/n/10 mLast-Cy-cle-Du-ra-tion-Mi-crosec-onds,
+ []
+
+[249] [250]
+Underfull \hbox (badness 2165) in paragraph at lines 1292--1294
+\T1/ptm/m/n/10 One, One, One, One, Two,
+ []
+
+[251] [252]
+Underfull \hbox (badness 10000) in paragraph at lines 1443--1445
+[]| \T1/ptm/m/n/10 DEBUG_-CIRCULAR_-BUFFER,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1448--1450
+[]| \T1/ptm/m/n/10 DEBUG_-CIRCULAR_-BUFFER_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1466--1468
+[]| \T1/ptm/m/n/10 DEBUG_-DYNAMIC_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1472
+[]| \T1/ptm/m/n/10 DEBUG_-DYNAMIC_-POOL_-MAP,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1474--1476
+[]| \T1/ptm/m/n/10 DEBUG_-DYNAMIC_-POOL_-SET,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1486--1488
+[]| \T1/ptm/m/n/10 CREATE_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1486--1488
+\T1/ptm/m/n/10 LOCATEDEXCEPTION_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1520--1522
+[]| \T1/ptm/m/n/10 DEBUG_-STACK_-CIRCULAR_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1533--1535
+[]\T1/ptm/m/n/10 JGTL_-UnorderedDynamicPoolMap.h,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1536--1538
+[]| \T1/ptm/m/n/10 DEBUG_-DYNAMIC_-POOL_-MAP,
+ []
+
+[253]
+Underfull \hbox (badness 10000) in paragraph at lines 1597--1599
+[]| \T1/ptm/m/n/10 JGTL::Wrapped-Interpolated-Value,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1618--1620
+[]| \T1/ptm/m/n/10 JGTL::Wrapped-Interpolated-Value,
+ []
+
+[254]
+Underfull \hbox (badness 10000) in paragraph at lines 1744--1746
+[]| \T1/ptm/m/n/10 JGTL::Wrapped-Interpolated-Value,
+ []
+
+[255]
+Underfull \hbox (badness 2165) in paragraph at lines 1869--1871
+\T1/ptm/m/n/10 One, One, One, One, Two,
+ []
+
+[256]
+Underfull \hbox (badness 10000) in paragraph at lines 1945--1947
+[]| \T1/ptm/m/n/10 JGTL::Wrapped-Interpolated-Value,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1983--1985
+[]| \T1/ptm/m/n/10 JGTL::Wrapped-Interpolated-Value,
+ []
+
+[257]
+Underfull \hbox (badness 10000) in paragraph at lines 2049--2051
+[]| \T1/ptm/m/n/10 JGTL::Wrapped-Interpolated-Value,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2098--2100
+[]| \T1/ptm/m/n/10 JGTL::Wrapped-Interpolated-Value,
+ []
+
+[258] [259
+
+]) (refman.aux (namespacestd.aux)
+(class_j_g_t_l_1_1_binary_tree_node.aux) (struct_j_g_t_l_1_1_c_cmd_param.aux)
+(class_j_g_t_l_1_1_circular_buffer.aux)
+(class_j_g_t_l_1_1_circular_buffer_interface.aux) (class_j_g_t_l_1_1_clock.aux)
+(class_j_g_t_l_1_1_command_line_parser.aux) (class_j_g_t_l_1_1_data_manager.aux
+) (class_j_g_t_l_1_1_data_pool.aux)
+(class_j_g_t_l_1_1_dynamic_circular_buffer.aux)
+(class_j_g_t_l_1_1_dynamic_pool_map.aux)
+(class_j_g_t_l_1_1_dynamic_pool_set.aux) (class_j_g_t_l_1_1_floating_units.aux)
+(class_j_g_t_l_1_1_hex_tree.aux) (class_j_g_t_l_1_1_hex_tree_branch.aux)
+(class_j_g_t_l_1_1_hex_tree_node.aux) (class_j_g_t_l_1_1_hex_tree_stub.aux)
+(struct_j_g_t_l_1_1_i_f.aux)
+(struct_j_g_t_l_1_1_i_f_3_01false_00_01_then_00_01_else_01_4.aux)
+(class_j_g_t_l_1_1_index2.aux) (class_j_g_t_l_1_1_index3.aux)
+(class_j_g_t_l_1_1_integral_units.aux)
+(struct_j_g_t_l_1_1_integral_units_g_c_d.aux)
+(struct_j_g_t_l_1_1_integral_units_g_c_d_3_010_00_010_01_4.aux)
+(struct_j_g_t_l_1_1_integral_units_g_c_d_3_010_00_01j_01_4.aux)
+(struct_j_g_t_l_1_1_integral_units_g_c_d_3_011_00_011_01_4.aux)
+(struct_j_g_t_l_1_1_integral_units_g_c_d_3_011_00_01j_01_4.aux)
+(struct_j_g_t_l_1_1_integral_units_g_c_d_3_01i_00_010_01_4.aux)
+(struct_j_g_t_l_1_1_integral_units_g_c_d_3_01i_00_011_01_4.aux)
+(class_j_g_t_l_1_1_interpolated_value.aux)
+(class_j_g_t_l_1_1_located_exception.aux) (class_j_g_t_l_1_1_map_interface.aux)
+(class_j_g_t_l_1_1_null_variant_class.aux) (class_j_g_t_l_1_1_poly_variant.aux)
+(class_j_g_t_l_1_1_pool_map.aux) (struct_j_g_t_l_1_1_profile_block.aux)
+(class_j_g_t_l_1_1_profile_block_handler.aux) (class_j_g_t_l_1_1_profiler.aux)
+(class_j_g_t_l_1_1_quad_tree.aux) (class_j_g_t_l_1_1_quad_tree_branch.aux)
+(class_j_g_t_l_1_1_quad_tree_node.aux) (class_j_g_t_l_1_1_quad_tree_stub.aux)
+(class_j_g_t_l_1_1_ray2.aux) (class_j_g_t_l_1_1_ray3.aux)
+(class_j_g_t_l_1_1_rectangle3.aux) (class_j_g_t_l_1_1_rectangle_index3.aux)
+(class_j_g_t_l_1_1_set_interface.aux) (class_j_g_t_l_1_1_singleton.aux)
+(class_j_g_t_l_1_1_sorted_list.aux)
+(class_j_g_t_l_1_1_stack_circular_buffer.aux) (class_j_g_t_l_1_1_stack_map.aux)
+(class_j_g_t_l_1_1_stack_set.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on8bad4fe85b3207b51b4ba282cb73273e.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on0da18bc47224201889d1e0cafe760a2c.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on1ea2882b2f3315e024773e1becf2883f.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on2fb88e04d0121b9aa29a50f9670e334c.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_on9f6e865142ccd9af848bb97d1dbfdb72.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_one_00_01_tw5a2eea924c533f564bf1050b20ef91fc.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_
+00_01_two_00_01_the35ecf7c7360ce295a7d197f78c1831e.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_two_
+00_01_three_00_01_f759e6bc76a9114cc8ef25088b44cc11.aux)
+(struct_j_g_t_l_1_1_s_t_a_t_i_c___m_o_d.aux) (class_j_g_t_l_1_1_tree_list.aux)
+(class_j_g_t_l_1_1_tree_list_node.aux) (struct_j_g_t_l_1_1_t_y_p_e_i_f.aux)
+(struct_j_g_t_l_1_1_t_y_p_e_i_f_3_01_type_00_01false_00_01_then_00_01_else_01_4
+.aux) (class_j_g_t_l_1_1_variant.aux) (class_j_g_t_l_1_1_vector2.aux)
+(class_j_g_t_l_1_1_vector3.aux) (class_j_g_t_l_1_1_vector4.aux)
+(class_j_g_t_l_1_1_wrapped_interpolated_value.aux)
+(class_j_g_t_l_1_1_xor_space.aux) (class_j_g_t_l_1_1_xor_space_rect.aux)
+(_j_g_t_l___circular_buffer_8h.aux)
+(_j_g_t_l___circular_buffer_interface_8h.aux)
+(_j_g_t_l___command_line_parser_8h.aux) (_j_g_t_l___data_manager_8h.aux)
+(_j_g_t_l___data_pool__delete_8h.aux)
+(_j_g_t_l___dynamic_circular_buffer_8h.aux) (_j_g_t_l___dynamic_pool_map_8h.aux
+) (_j_g_t_l___dynamic_pool_set_8h.aux) (_j_g_t_l___floating_units_8h.aux)
+(_j_g_t_l___hex_tree_8h.aux) (_j_g_t_l___index2_8h.aux)
+(_j_g_t_l___index3_8h.aux) (_j_g_t_l___integral_units_8h.aux)
+(_j_g_t_l___interpolated_value_8h.aux) (_j_g_t_l___located_exception_8h.aux)
+(_j_g_t_l___map_interface_8h.aux) (_j_g_t_l___poly_variant_8h.aux)
+(_j_g_t_l___pool_map__delete_8h.aux) (_j_g_t_l___quad_tree_8h.aux)
+(_j_g_t_l___quick_prof_8h.aux) (_j_g_t_l___ray2_8h.aux) (_j_g_t_l___ray3_8h.aux
+) (_j_g_t_l___rectangle3_8h.aux) (_j_g_t_l___serialization_8h.aux)
+(_j_g_t_l___set_interface_8h.aux) (_j_g_t_l___singleton_8h.aux)
+(_j_g_t_l___sorted_list__delete_8h.aux)
+(_j_g_t_l___stack_circular_buffer_8h.aux) (_j_g_t_l___stack_map_8h.aux)
+(_j_g_t_l___stack_set_8h.aux) (_j_g_t_l___string_converter_8h.aux)
+(_j_g_t_l___tree_list_8h.aux) (_j_g_t_l___unordered_dynamic_pool_map_8h.aux)
+(_j_g_t_l___unordered_map_interface_8h.aux) (_j_g_t_l___variant_8h.aux)
+(_j_g_t_l___vector2_8h.aux) (_j_g_t_l___vector3_8h.aux)
+(_j_g_t_l___vector4_8h.aux) (_j_g_t_l___wrapped_interpolated_value_8h.aux)
+(_j_g_t_l___xor_space_8h.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10228 strings out of 95408
+ 257433 string characters out of 1187545
+ 228644 words of memory out of 1214424
+ 8330 multiletter control sequences out of 60000
+ 46949 words of font info for 56 fonts, out of 1000000 for 2000
+ 14 hyphenation exceptions out of 8191
+ 38i,13n,43p,1367b,487s stack positions out of 5000i,500n,10000p,200000b,32768s
+PDF statistics:
+ 8345 PDF objects out of 300000
+ 2491 named destinations out of 300000
+ 1138 words of extra memory for PDF output out of 10000
+<C:/MiKTeX 2.5/fonts/type1/bluesky/cm/cmmi12.pfb>{8r.enc}<C:/MiKTeX 2.5/fonts
+/type1/urw/courier/ucrr8a.pfb><C:/MiKTeX 2.5/fonts/type1/urw/times/utmbi8a.pfb>
+<C:/MiKTeX 2.5/fonts/type1/bluesky/cm/cmsy9.pfb><C:/MiKTeX 2.5/fonts/type1/urw/
+times/utmri8a.pfb><C:/MiKTeX 2.5/fonts/type1/bluesky/cm/cmsy10.pfb><C:/MiKTeX 2
+.5/fonts/type1/bluesky/cm/cmmi10.pfb><C:/MiKTeX 2.5/fonts/type1/urw/times/utmb8
+a.pfb><C:/MiKTeX 2.5/fonts/type1/urw/times/utmr8a.pfb>
+Output written on refman.pdf (267 pages, 1925573 bytes).

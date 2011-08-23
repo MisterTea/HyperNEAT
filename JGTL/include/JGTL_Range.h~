@@ -1,0 +1,114 @@
+#ifndef RANGE_H_INCLUDED
+#define RANGE_H_INCLUDED
+
+#include "CH_Defines.h"
+
+namespace CH
+{
+    template<class T>
+    class RangeSet;
+
+    template<class T>
+    class Range
+    {
+        friend class RangeSet<T>;
+        T low,high;
+
+    public:
+        Range()
+                :
+                low(0),
+                high(0)
+        {}
+
+        Range(const T &a,const T &b)
+        {
+            low = min(a,b);
+            high = max(a,b);
+        }
+
+        T getLow() const
+        {
+            return low;
+        }
+
+        T getHigh() const
+        {
+            return high;
+        }
+
+        bool isOverlapping(const Range<T> &other) const
+        {
+            if(high<other.getLow())
+                return false;
+            else if(low>other.getHigh())
+                return false;
+            else
+                return true;
+        }
+
+        inline bool isNull() const
+        {
+            return (low==-INT_MAX&&high==-INT_MAX);
+        }
+
+        T getOverlapSize(const Range<T> &other) const
+        {
+            if(!isOverlapping(other))
+            {
+                return 0;
+            }
+            else
+            {
+                return min(high,other.high)-max(low,other.low);
+            }
+        }
+
+        T getProjectionDistance(const Range<T> &other) const
+        {
+            //Two ways to move.  Either the high == other.low or low == other.high.
+            //Pick the smallest
+
+            if(!isOverlapping(other))
+            {
+                return 0;
+            }
+            else
+            {
+                if(fabs(high-other.low)<fabs(low-other.high))
+                {
+                    return other.low-high;
+                }
+                else
+                {
+                    return other.high-low;
+                }
+            }
+        }
+
+        Range<T> getOverlap(const Range<T> &other) const
+        {
+            if(!isOverlapping(other))
+            {
+                return Range<T>(T(-INT_MAX),T(-INT_MAX));
+            }
+            else
+            {
+                Range<T> newRange;
+
+                newRange.low = max(low,other.low);
+                newRange.high = min(high,other.high);
+
+                return newRange;
+            }
+        }
+
+        void display()
+        {
+            cout << '[' << low << "," << high << "]";
+        }
+    };
+
+}
+
+#endif

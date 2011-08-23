@@ -1,0 +1,202 @@
+\hypertarget{class_j_g_t_l_1_1_xor_space}{
+\section{JGTL::Xor\-Space$<$ Rectangle, Point $>$ Class Template Reference}
+\label{class_j_g_t_l_1_1_xor_space}\index{JGTL::XorSpace@{JGTL::XorSpace}}
+}
+This class handles Xor spaces. Think of this as a way to handle things like rectangular doughnuts. A positive space followed by a smaller concentric negative space would represent a doughnut.  
+
+
+{\tt \#include $<$JGTL\_\-Xor\-Space.h$>$}
+
+\subsection*{Public Types}
+\begin{CompactItemize}
+\item 
+typedef vector$<$ \hyperlink{class_j_g_t_l_1_1_xor_space_rect}{Xor\-Space\-Rect}$<$ Rectangle, Point $>$ $>$::iterator \hyperlink{class_j_g_t_l_1_1_xor_space_17c93bf8f2f8ec86efcc3e4a63e4a6ef}{Space\-Iterator}
+\item 
+typedef vector$<$ \hyperlink{class_j_g_t_l_1_1_xor_space_rect}{Xor\-Space\-Rect}$<$ Rectangle, Point $>$ $>$::const\_\-iterator \hyperlink{class_j_g_t_l_1_1_xor_space_467518dcd95f1c3f009f59ad3ea5d8df}{Const\-Space\-Iterator}
+\end{CompactItemize}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_xor_space_ad236c36d98b3fbf0d592ea1a524c34d}{Xor\-Space} ()
+\item 
+\hyperlink{class_j_g_t_l_1_1_xor_space_7ba86691f975e9e55e71ff94e46b7855}{Xor\-Space} (const Rectangle \&start)
+\item 
+void \hyperlink{class_j_g_t_l_1_1_xor_space_0f5b4faaaf03b9c7f85302125e2e834b}{add\-Space} (const Rectangle \&space, bool positive)
+\item 
+void \hyperlink{class_j_g_t_l_1_1_xor_space_ade3a68cc488df5f40a33df407887c2f}{remove\-Space} (const Rectangle \&space, bool positive)
+\item 
+bool \hyperlink{class_j_g_t_l_1_1_xor_space_327d98abef98ac5263a081a96cdc12ec}{contains} (const Point \&point) const 
+\item 
+const Point \& \hyperlink{class_j_g_t_l_1_1_xor_space_cb61e4508a4df0ab8dc83db8ce75140a}{get\-Top\-Left} () const
+\item 
+const Point \& \hyperlink{class_j_g_t_l_1_1_xor_space_20f62e7360534b0d7f9945acc99627d1}{get\-Bottom\-Right} () const
+\item 
+Point \hyperlink{class_j_g_t_l_1_1_xor_space_497ef0f83c9d2b6cdc10c4b297fd6e4f}{get\-Size} () const
+\item 
+Point \hyperlink{class_j_g_t_l_1_1_xor_space_fc844c1202940bc5340cf01a4431cbab}{get\-First\-Point} () const
+\item 
+bool \hyperlink{class_j_g_t_l_1_1_xor_space_88d290e087366c43f48ba39f3df78931}{get\-Next\-Point} (Point \&cur\-Point) const 
+\item 
+void \hyperlink{class_j_g_t_l_1_1_xor_space_a699867cb9debc04136fbbc8ccc4ff6f}{pack} ()
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+vector$<$ \hyperlink{class_j_g_t_l_1_1_xor_space_rect}{Xor\-Space\-Rect}$<$ Rectangle, Point $>$ $>$ \hyperlink{class_j_g_t_l_1_1_xor_space_107013005de6d1b3b7c5e6067b2054c5}{spaces}
+\item 
+Point \hyperlink{class_j_g_t_l_1_1_xor_space_9220f06140cf547c2521372da2d97f80}{top\-Left}
+\item 
+Point \hyperlink{class_j_g_t_l_1_1_xor_space_e76eebb329d0056211ff1c0caee42364}{bottom\-Right}
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class Rectangle, class Point$>$ class JGTL::Xor\-Space$<$ Rectangle, Point $>$}
+
+This class handles Xor spaces. Think of this as a way to handle things like rectangular doughnuts. A positive space followed by a smaller concentric negative space would represent a doughnut. 
+
+\begin{Desc}
+\item[Author:]Jason Gauci \end{Desc}
+\begin{Desc}
+\item[Date:]2008 \end{Desc}
+
+
+
+
+\subsection{Member Typedef Documentation}
+\hypertarget{class_j_g_t_l_1_1_xor_space_17c93bf8f2f8ec86efcc3e4a63e4a6ef}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!SpaceIterator@{SpaceIterator}}
+\index{SpaceIterator@{SpaceIterator}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[SpaceIterator]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ typedef vector$<$ \hyperlink{class_j_g_t_l_1_1_xor_space_rect}{Xor\-Space\-Rect}$<$Rectangle,Point$>$ $>$::iterator \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::\hyperlink{class_j_g_t_l_1_1_xor_space_17c93bf8f2f8ec86efcc3e4a63e4a6ef}{Space\-Iterator}}}
+\label{class_j_g_t_l_1_1_xor_space_17c93bf8f2f8ec86efcc3e4a63e4a6ef}
+
+
+\hypertarget{class_j_g_t_l_1_1_xor_space_467518dcd95f1c3f009f59ad3ea5d8df}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!ConstSpaceIterator@{ConstSpaceIterator}}
+\index{ConstSpaceIterator@{ConstSpaceIterator}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[ConstSpaceIterator]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ typedef vector$<$ \hyperlink{class_j_g_t_l_1_1_xor_space_rect}{Xor\-Space\-Rect}$<$Rectangle,Point$>$ $>$::const\_\-iterator \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::\hyperlink{class_j_g_t_l_1_1_xor_space_467518dcd95f1c3f009f59ad3ea5d8df}{Const\-Space\-Iterator}}}
+\label{class_j_g_t_l_1_1_xor_space_467518dcd95f1c3f009f59ad3ea5d8df}
+
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_xor_space_ad236c36d98b3fbf0d592ea1a524c34d}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!XorSpace@{XorSpace}}
+\index{XorSpace@{XorSpace}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[XorSpace]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::\hyperlink{class_j_g_t_l_1_1_xor_space}{Xor\-Space} ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_xor_space_ad236c36d98b3fbf0d592ea1a524c34d}
+
+
+\hypertarget{class_j_g_t_l_1_1_xor_space_7ba86691f975e9e55e71ff94e46b7855}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!XorSpace@{XorSpace}}
+\index{XorSpace@{XorSpace}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[XorSpace]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::\hyperlink{class_j_g_t_l_1_1_xor_space}{Xor\-Space} (const Rectangle \& {\em start})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_xor_space_7ba86691f975e9e55e71ff94e46b7855}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_xor_space_0f5b4faaaf03b9c7f85302125e2e834b}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!addSpace@{addSpace}}
+\index{addSpace@{addSpace}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[addSpace]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ void \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::add\-Space (const Rectangle \& {\em space}, bool {\em positive})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_xor_space_0f5b4faaaf03b9c7f85302125e2e834b}
+
+
+Adds a space with the highest priority to the list of spaces. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em space}]The rectangle to add \item[{\em positive}]Whether the rectangle is positive or negative (a negative cancels all positives before it) \end{description}
+\end{Desc}
+\hypertarget{class_j_g_t_l_1_1_xor_space_ade3a68cc488df5f40a33df407887c2f}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!removeSpace@{removeSpace}}
+\index{removeSpace@{removeSpace}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[removeSpace]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ void \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::remove\-Space (const Rectangle \& {\em space}, bool {\em positive})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_xor_space_ade3a68cc488df5f40a33df407887c2f}
+
+
+Removes a space with the lowest priority and a certain size and polarity \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em space}]The rectangle to add \item[{\em positive}]Whether the rectangle is positive or negative (a negative cancels all positives before it) \end{description}
+\end{Desc}
+\hypertarget{class_j_g_t_l_1_1_xor_space_327d98abef98ac5263a081a96cdc12ec}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!contains@{contains}}
+\index{contains@{contains}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[contains]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ bool \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::contains (const Point \& {\em point}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_xor_space_327d98abef98ac5263a081a96cdc12ec}
+
+
+Checks if the \hyperlink{class_j_g_t_l_1_1_xor_space}{Xor\-Space} contains a certain point \hypertarget{class_j_g_t_l_1_1_xor_space_cb61e4508a4df0ab8dc83db8ce75140a}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!getTopLeft@{getTopLeft}}
+\index{getTopLeft@{getTopLeft}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[getTopLeft]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ const Point\& \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::get\-Top\-Left () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_xor_space_cb61e4508a4df0ab8dc83db8ce75140a}
+
+
+\hypertarget{class_j_g_t_l_1_1_xor_space_20f62e7360534b0d7f9945acc99627d1}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!getBottomRight@{getBottomRight}}
+\index{getBottomRight@{getBottomRight}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[getBottomRight]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ const Point\& \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::get\-Bottom\-Right () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_xor_space_20f62e7360534b0d7f9945acc99627d1}
+
+
+\hypertarget{class_j_g_t_l_1_1_xor_space_497ef0f83c9d2b6cdc10c4b297fd6e4f}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!getSize@{getSize}}
+\index{getSize@{getSize}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[getSize]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ Point \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::get\-Size () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_xor_space_497ef0f83c9d2b6cdc10c4b297fd6e4f}
+
+
+\hypertarget{class_j_g_t_l_1_1_xor_space_fc844c1202940bc5340cf01a4431cbab}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!getFirstPoint@{getFirstPoint}}
+\index{getFirstPoint@{getFirstPoint}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[getFirstPoint]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ Point \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::get\-First\-Point () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_xor_space_fc844c1202940bc5340cf01a4431cbab}
+
+
+Returns the top-left point of an Xor-Space \hypertarget{class_j_g_t_l_1_1_xor_space_88d290e087366c43f48ba39f3df78931}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!getNextPoint@{getNextPoint}}
+\index{getNextPoint@{getNextPoint}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[getNextPoint]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ bool \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::get\-Next\-Point (Point \& {\em cur\-Point}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_xor_space_88d290e087366c43f48ba39f3df78931}
+
+
+Gets the next point within an \hyperlink{class_j_g_t_l_1_1_xor_space}{Xor\-Space}. Works along with \hyperlink{class_j_g_t_l_1_1_xor_space_fc844c1202940bc5340cf01a4431cbab}{get\-First\-Point()} to iterate over all points. \hypertarget{class_j_g_t_l_1_1_xor_space_a699867cb9debc04136fbbc8ccc4ff6f}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!pack@{pack}}
+\index{pack@{pack}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[pack]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ void \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::pack ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_xor_space_a699867cb9debc04136fbbc8ccc4ff6f}
+
+
+Tries to eliminate redundant spaces in an \hyperlink{class_j_g_t_l_1_1_xor_space}{Xor\-Space} 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_xor_space_107013005de6d1b3b7c5e6067b2054c5}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!spaces@{spaces}}
+\index{spaces@{spaces}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[spaces]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ vector$<$\hyperlink{class_j_g_t_l_1_1_xor_space_rect}{Xor\-Space\-Rect}$<$Rectangle,Point$>$ $>$ \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::\hyperlink{class_j_g_t_l_1_1_xor_space_107013005de6d1b3b7c5e6067b2054c5}{spaces}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_xor_space_107013005de6d1b3b7c5e6067b2054c5}
+
+
+\hypertarget{class_j_g_t_l_1_1_xor_space_9220f06140cf547c2521372da2d97f80}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!topLeft@{topLeft}}
+\index{topLeft@{topLeft}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[topLeft]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ Point \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::\hyperlink{class_j_g_t_l_1_1_xor_space_9220f06140cf547c2521372da2d97f80}{top\-Left}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_xor_space_9220f06140cf547c2521372da2d97f80}
+
+
+\hypertarget{class_j_g_t_l_1_1_xor_space_e76eebb329d0056211ff1c0caee42364}{
+\index{JGTL::XorSpace@{JGTL::Xor\-Space}!bottomRight@{bottomRight}}
+\index{bottomRight@{bottomRight}!JGTL::XorSpace@{JGTL::Xor\-Space}}
+\subsubsection[bottomRight]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Rectangle, class Point$>$ Point \hyperlink{class_j_g_t_l_1_1_xor_space}{JGTL::Xor\-Space}$<$ Rectangle, Point $>$::\hyperlink{class_j_g_t_l_1_1_xor_space_e76eebb329d0056211ff1c0caee42364}{bottom\-Right}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_xor_space_e76eebb329d0056211ff1c0caee42364}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___xor_space_8h}{JGTL\_\-Xor\-Space.h}\end{CompactItemize}

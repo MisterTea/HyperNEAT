@@ -1,0 +1,190 @@
+\hypertarget{class_j_g_t_l_1_1_hex_tree}{
+\section{JGTL::Hex\-Tree$<$ T $>$ Class Template Reference}
+\label{class_j_g_t_l_1_1_hex_tree}\index{JGTL::HexTree@{JGTL::HexTree}}
+}
+{\tt \#include $<$JGTL\_\-Hex\-Tree.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_hex_tree_0bc0009b14ba1373be655f7f8939759b}{Hex\-Tree} (int \_\-size=16, T default\-Value=(T) 0)
+\item 
+\hyperlink{class_j_g_t_l_1_1_hex_tree_b33bd761f532e8a9489269bbb9816cc5}{Hex\-Tree} (const \hyperlink{class_j_g_t_l_1_1_hex_tree}{Hex\-Tree}$<$ T $>$ \&other)
+\item 
+\hyperlink{class_j_g_t_l_1_1_hex_tree_d378b61bdb0638b99d2afd06cf90a62e}{$\sim$Hex\-Tree} ()
+\item 
+\hyperlink{class_j_g_t_l_1_1_hex_tree}{Hex\-Tree}$<$ T $>$ \& \hyperlink{class_j_g_t_l_1_1_hex_tree_511cd2289f7aced36c88122de0b41dbc}{operator=} (const \hyperlink{class_j_g_t_l_1_1_hex_tree}{Hex\-Tree}$<$ T $>$ \&other)
+\item 
+void \hyperlink{class_j_g_t_l_1_1_hex_tree_6d8486ed19b1f07ae74b85fcb6bc6969}{copy\-From} (const \hyperlink{class_j_g_t_l_1_1_hex_tree}{Hex\-Tree}$<$ T $>$ \&other)
+\item 
+T \hyperlink{class_j_g_t_l_1_1_hex_tree_72f9d55be8d485f8ef551d6c27aab7d7}{get\-Value} (const \hyperlink{class_j_g_t_l_1_1_vector4}{Vector4}$<$ int $>$ \&location) const
+\item 
+T \hyperlink{class_j_g_t_l_1_1_hex_tree_1d6ec3d8be42e25c77209fab1b350d43}{get\-Value} (int x1, int y1, int x2, int y2) const
+\item 
+void \hyperlink{class_j_g_t_l_1_1_hex_tree_e91ed4c6f6373541acc8dec5b82c91b4}{set\-Value} (const \hyperlink{class_j_g_t_l_1_1_vector4}{Vector4}$<$ int $>$ \&location, T value)
+\item 
+void \hyperlink{class_j_g_t_l_1_1_hex_tree_e39f7e05c965191d3809649ea4f7aad9}{set\-Value} (int x1, int y1, int x2, int y2, T value)
+\item 
+void \hyperlink{class_j_g_t_l_1_1_hex_tree_d98751804b80105248de750d25732c6d}{set\-All} (T value)
+\item 
+void \hyperlink{class_j_g_t_l_1_1_hex_tree_6d57b2b70e4fc6bac53e7fe193b95bdf}{display} () const
+\item 
+T \hyperlink{class_j_g_t_l_1_1_hex_tree_865cb6d4d3f9fd06a64e981e43d03db3}{operator()} (const \hyperlink{class_j_g_t_l_1_1_vector4}{Vector4}$<$ int $>$ \&location) const
+\item 
+T \hyperlink{class_j_g_t_l_1_1_hex_tree_ac1a3d36414e7db5b4681987095d10a1}{operator()} (int x1, int y1, int x2, int y2) const
+\item 
+int \hyperlink{class_j_g_t_l_1_1_hex_tree_e1db8278c26cac15bead7197c9e6d76c}{get\-Mem\-Usage} () const
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+int \hyperlink{class_j_g_t_l_1_1_hex_tree_6b9ceceeccc164dde96f9f4e75c62723}{size}
+\item 
+\hyperlink{class_j_g_t_l_1_1_hex_tree_branch}{Hex\-Tree\-Branch}$<$ T $>$ $\ast$ \hyperlink{class_j_g_t_l_1_1_hex_tree_5b04bc2334f5d662959cbaf5b57ba71e}{root}
+\item 
+pool \hyperlink{class_j_g_t_l_1_1_hex_tree_0491463e043431f5a10b5cffc1eabdf3}{branch\-Pool}
+\item 
+pool \hyperlink{class_j_g_t_l_1_1_hex_tree_d0e61d442265093fe56a2b60979d7ad3}{stub\-Pool}
+\end{CompactItemize}
+\subsubsection*{template$<$class T$>$ class JGTL::Hex\-Tree$<$ T $>$}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_hex_tree_0bc0009b14ba1373be655f7f8939759b}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!HexTree@{HexTree}}
+\index{HexTree@{HexTree}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[HexTree]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_hex_tree}{Hex\-Tree} (int {\em \_\-size} = {\tt 16}, T {\em default\-Value} = {\tt (T)0})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_0bc0009b14ba1373be655f7f8939759b}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_b33bd761f532e8a9489269bbb9816cc5}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!HexTree@{HexTree}}
+\index{HexTree@{HexTree}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[HexTree]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_hex_tree}{Hex\-Tree} (const \hyperlink{class_j_g_t_l_1_1_hex_tree}{Hex\-Tree}$<$ T $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_b33bd761f532e8a9489269bbb9816cc5}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_d378b61bdb0638b99d2afd06cf90a62e}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!~HexTree@{$\sim$HexTree}}
+\index{~HexTree@{$\sim$HexTree}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[$\sim$HexTree]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::$\sim$\hyperlink{class_j_g_t_l_1_1_hex_tree}{Hex\-Tree} ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_d378b61bdb0638b99d2afd06cf90a62e}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_hex_tree_511cd2289f7aced36c88122de0b41dbc}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!operator=@{operator=}}
+\index{operator=@{operator=}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[operator=]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_hex_tree}{Hex\-Tree}$<$T$>$\& \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::operator= (const \hyperlink{class_j_g_t_l_1_1_hex_tree}{Hex\-Tree}$<$ T $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_511cd2289f7aced36c88122de0b41dbc}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_6d8486ed19b1f07ae74b85fcb6bc6969}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!copyFrom@{copyFrom}}
+\index{copyFrom@{copyFrom}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[copyFrom]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::copy\-From (const \hyperlink{class_j_g_t_l_1_1_hex_tree}{Hex\-Tree}$<$ T $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_6d8486ed19b1f07ae74b85fcb6bc6969}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_72f9d55be8d485f8ef551d6c27aab7d7}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!getValue@{getValue}}
+\index{getValue@{getValue}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[getValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::get\-Value (const \hyperlink{class_j_g_t_l_1_1_vector4}{Vector4}$<$ int $>$ \& {\em location}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_72f9d55be8d485f8ef551d6c27aab7d7}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_1d6ec3d8be42e25c77209fab1b350d43}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!getValue@{getValue}}
+\index{getValue@{getValue}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[getValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::get\-Value (int {\em x1}, int {\em y1}, int {\em x2}, int {\em y2}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_1d6ec3d8be42e25c77209fab1b350d43}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_e91ed4c6f6373541acc8dec5b82c91b4}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!setValue@{setValue}}
+\index{setValue@{setValue}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[setValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::set\-Value (const \hyperlink{class_j_g_t_l_1_1_vector4}{Vector4}$<$ int $>$ \& {\em location}, T {\em value})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_e91ed4c6f6373541acc8dec5b82c91b4}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_e39f7e05c965191d3809649ea4f7aad9}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!setValue@{setValue}}
+\index{setValue@{setValue}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[setValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::set\-Value (int {\em x1}, int {\em y1}, int {\em x2}, int {\em y2}, T {\em value})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_e39f7e05c965191d3809649ea4f7aad9}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_d98751804b80105248de750d25732c6d}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!setAll@{setAll}}
+\index{setAll@{setAll}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[setAll]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::set\-All (T {\em value})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_d98751804b80105248de750d25732c6d}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_6d57b2b70e4fc6bac53e7fe193b95bdf}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!display@{display}}
+\index{display@{display}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[display]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::display () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_6d57b2b70e4fc6bac53e7fe193b95bdf}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_865cb6d4d3f9fd06a64e981e43d03db3}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!operator()@{operator()}}
+\index{operator()@{operator()}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[operator()]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::operator() (const \hyperlink{class_j_g_t_l_1_1_vector4}{Vector4}$<$ int $>$ \& {\em location}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_865cb6d4d3f9fd06a64e981e43d03db3}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_ac1a3d36414e7db5b4681987095d10a1}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!operator()@{operator()}}
+\index{operator()@{operator()}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[operator()]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::operator() (int {\em x1}, int {\em y1}, int {\em x2}, int {\em y2}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_ac1a3d36414e7db5b4681987095d10a1}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_e1db8278c26cac15bead7197c9e6d76c}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!getMemUsage@{getMemUsage}}
+\index{getMemUsage@{getMemUsage}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[getMemUsage]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ int \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::get\-Mem\-Usage () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_e1db8278c26cac15bead7197c9e6d76c}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_hex_tree_6b9ceceeccc164dde96f9f4e75c62723}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!size@{size}}
+\index{size@{size}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[size]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ int \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_hex_tree_6b9ceceeccc164dde96f9f4e75c62723}{size}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_6b9ceceeccc164dde96f9f4e75c62723}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_5b04bc2334f5d662959cbaf5b57ba71e}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!root@{root}}
+\index{root@{root}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[root]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_hex_tree_branch}{Hex\-Tree\-Branch}$<$T$>$$\ast$ \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_hex_tree_5b04bc2334f5d662959cbaf5b57ba71e}{root}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_5b04bc2334f5d662959cbaf5b57ba71e}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_0491463e043431f5a10b5cffc1eabdf3}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!branchPool@{branchPool}}
+\index{branchPool@{branchPool}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[branchPool]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ pool \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_hex_tree_0491463e043431f5a10b5cffc1eabdf3}{branch\-Pool}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_0491463e043431f5a10b5cffc1eabdf3}
+
+
+\hypertarget{class_j_g_t_l_1_1_hex_tree_d0e61d442265093fe56a2b60979d7ad3}{
+\index{JGTL::HexTree@{JGTL::Hex\-Tree}!stubPool@{stubPool}}
+\index{stubPool@{stubPool}!JGTL::HexTree@{JGTL::Hex\-Tree}}
+\subsubsection[stubPool]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ pool \hyperlink{class_j_g_t_l_1_1_hex_tree}{JGTL::Hex\-Tree}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_hex_tree_d0e61d442265093fe56a2b60979d7ad3}{stub\-Pool}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_j_g_t_l_1_1_hex_tree_d0e61d442265093fe56a2b60979d7ad3}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___hex_tree_8h}{JGTL\_\-Hex\-Tree.h}\end{CompactItemize}

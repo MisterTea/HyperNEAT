@@ -1,0 +1,181 @@
+\hypertarget{class_j_g_t_l_1_1_data_manager}{
+\section{JGTL::Data\-Manager$<$ Data $>$ Class Template Reference}
+\label{class_j_g_t_l_1_1_data_manager}\index{JGTL::DataManager@{JGTL::DataManager}}
+}
+{\tt \#include $<$JGTL\_\-Data\-Manager.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_data_manager_ad25adf4d2c94622679097e1213d835c}{Data\-Manager} (int \_\-max\-Elements)
+\item 
+virtual \hyperlink{class_j_g_t_l_1_1_data_manager_6055cf850702d6462aeaf05e0705d060}{$\sim$Data\-Manager} ()
+\item 
+void \hyperlink{class_j_g_t_l_1_1_data_manager_67daf4c2ff45ed86ee52295355fa7aa6}{add\-Data} (Data \&data)
+\item 
+Data \& \hyperlink{class_j_g_t_l_1_1_data_manager_e74ffb480046ea8c78a6cd3bd90b0c49}{get\-Data} (int index) const
+\item 
+Data \& \hyperlink{class_j_g_t_l_1_1_data_manager_79748c8bd3a3ede098c3ebffe0357a98}{get\-Data} (const string \&key, bool case\-Sensitive=true) const 
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_data_manager_f5abfb945d321d19c19ad94e3e4ca6f9}{get\-Data\-Ptr} (int index) const
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_data_manager_23842ccd54e7f6e33035635181a533fd}{begin} () const
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_data_manager_58cae71a92dc49f2cf7b051b1153afd3}{end} () const
+\item 
+int \hyperlink{class_j_g_t_l_1_1_data_manager_f4f37d5da6b7a6b1bd27378249fbf778}{get\-Size} () const
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_data_manager_6551f27a6d72f21451ea061ac975f017}{get\-Data\-Ptr} (const std::string \&key, bool case\-Sensitive=true) const
+\item 
+int \hyperlink{class_j_g_t_l_1_1_data_manager_401f692c79570aaef1e179d12f884758}{get\-Index} (const Data $\ast$data) const 
+\item 
+void \hyperlink{class_j_g_t_l_1_1_data_manager_f588204810497ad82506075bea7c3ccc}{refresh\-Names} ()
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+int \hyperlink{class_j_g_t_l_1_1_data_manager_8819d3a793123ef49ee07bb11302af71}{num\-Elements}
+\item 
+int \hyperlink{class_j_g_t_l_1_1_data_manager_aa1a49e57505b0542e99dbaeda22b2e9}{max\-Elements}
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_data_manager_2b20ba5251d89c1daeb92f4566c3d8cc}{data\-List}
+\item 
+std::map$<$ std::string, Data $\ast$ $>$ \hyperlink{class_j_g_t_l_1_1_data_manager_871994eebcabe5b6c8f4565561d09004}{data\-Map}
+\item 
+std::map$<$ std::string, Data $\ast$ $>$ \hyperlink{class_j_g_t_l_1_1_data_manager_a4e97afca438785863a86a20898130b0}{data\-Case\-Insensitive\-Map}
+\end{CompactItemize}
+\subsubsection*{template$<$class Data$>$ class JGTL::Data\-Manager$<$ Data $>$}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_data_manager_ad25adf4d2c94622679097e1213d835c}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!DataManager@{DataManager}}
+\index{DataManager@{DataManager}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[DataManager]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_manager}{Data\-Manager} (int {\em \_\-max\-Elements})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_ad25adf4d2c94622679097e1213d835c}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_manager_6055cf850702d6462aeaf05e0705d060}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!~DataManager@{$\sim$DataManager}}
+\index{~DataManager@{$\sim$DataManager}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[$\sim$DataManager]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ virtual \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::$\sim$\hyperlink{class_j_g_t_l_1_1_data_manager}{Data\-Manager} ()\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_6055cf850702d6462aeaf05e0705d060}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_data_manager_67daf4c2ff45ed86ee52295355fa7aa6}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!addData@{addData}}
+\index{addData@{addData}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[addData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ void \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::add\-Data (Data \& {\em data})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_67daf4c2ff45ed86ee52295355fa7aa6}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_manager_e74ffb480046ea8c78a6cd3bd90b0c49}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!getData@{getData}}
+\index{getData@{getData}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[getData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data\& \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::get\-Data (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_e74ffb480046ea8c78a6cd3bd90b0c49}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_manager_79748c8bd3a3ede098c3ebffe0357a98}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!getData@{getData}}
+\index{getData@{getData}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[getData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data\& \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::get\-Data (const string \& {\em key}, bool {\em case\-Sensitive} = {\tt true}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_79748c8bd3a3ede098c3ebffe0357a98}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_manager_f5abfb945d321d19c19ad94e3e4ca6f9}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!getDataPtr@{getDataPtr}}
+\index{getDataPtr@{getDataPtr}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[getDataPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::get\-Data\-Ptr (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_f5abfb945d321d19c19ad94e3e4ca6f9}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_manager_23842ccd54e7f6e33035635181a533fd}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!begin@{begin}}
+\index{begin@{begin}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[begin]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::begin () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_23842ccd54e7f6e33035635181a533fd}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_manager_58cae71a92dc49f2cf7b051b1153afd3}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!end@{end}}
+\index{end@{end}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[end]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::end () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_58cae71a92dc49f2cf7b051b1153afd3}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_manager_f4f37d5da6b7a6b1bd27378249fbf778}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!getSize@{getSize}}
+\index{getSize@{getSize}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[getSize]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ int \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::get\-Size () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_f4f37d5da6b7a6b1bd27378249fbf778}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_manager_6551f27a6d72f21451ea061ac975f017}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!getDataPtr@{getDataPtr}}
+\index{getDataPtr@{getDataPtr}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[getDataPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::get\-Data\-Ptr (const std::string \& {\em key}, bool {\em case\-Sensitive} = {\tt true}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_6551f27a6d72f21451ea061ac975f017}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_manager_401f692c79570aaef1e179d12f884758}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!getIndex@{getIndex}}
+\index{getIndex@{getIndex}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[getIndex]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ int \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::get\-Index (const Data $\ast$ {\em data}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_401f692c79570aaef1e179d12f884758}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_manager_f588204810497ad82506075bea7c3ccc}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!refreshNames@{refreshNames}}
+\index{refreshNames@{refreshNames}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[refreshNames]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ void \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::refresh\-Names ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_f588204810497ad82506075bea7c3ccc}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_data_manager_8819d3a793123ef49ee07bb11302af71}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!numElements@{numElements}}
+\index{numElements@{numElements}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[numElements]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ int \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_manager_8819d3a793123ef49ee07bb11302af71}{num\-Elements}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_8819d3a793123ef49ee07bb11302af71}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_manager_aa1a49e57505b0542e99dbaeda22b2e9}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!maxElements@{maxElements}}
+\index{maxElements@{maxElements}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[maxElements]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ int \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_manager_aa1a49e57505b0542e99dbaeda22b2e9}{max\-Elements}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_aa1a49e57505b0542e99dbaeda22b2e9}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_manager_2b20ba5251d89c1daeb92f4566c3d8cc}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!dataList@{dataList}}
+\index{dataList@{dataList}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[dataList]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_manager_2b20ba5251d89c1daeb92f4566c3d8cc}{data\-List}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_2b20ba5251d89c1daeb92f4566c3d8cc}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_manager_871994eebcabe5b6c8f4565561d09004}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!dataMap@{dataMap}}
+\index{dataMap@{dataMap}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[dataMap]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ std::map$<$std::string,Data $\ast$$>$ \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_manager_871994eebcabe5b6c8f4565561d09004}{data\-Map}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_871994eebcabe5b6c8f4565561d09004}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_manager_a4e97afca438785863a86a20898130b0}{
+\index{JGTL::DataManager@{JGTL::Data\-Manager}!dataCaseInsensitiveMap@{dataCaseInsensitiveMap}}
+\index{dataCaseInsensitiveMap@{dataCaseInsensitiveMap}!JGTL::DataManager@{JGTL::Data\-Manager}}
+\subsubsection[dataCaseInsensitiveMap]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ std::map$<$std::string,Data $\ast$$>$ \hyperlink{class_j_g_t_l_1_1_data_manager}{JGTL::Data\-Manager}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_manager_a4e97afca438785863a86a20898130b0}{data\-Case\-Insensitive\-Map}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_manager_a4e97afca438785863a86a20898130b0}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___data_manager_8h}{JGTL\_\-Data\-Manager.h}\end{CompactItemize}

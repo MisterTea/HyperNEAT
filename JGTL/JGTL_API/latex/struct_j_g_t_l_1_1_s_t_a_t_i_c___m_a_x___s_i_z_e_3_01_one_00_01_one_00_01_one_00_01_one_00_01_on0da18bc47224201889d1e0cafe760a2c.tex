@@ -1,0 +1,38 @@
+\hypertarget{struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_00_01_one_00_01_on0da18bc47224201889d1e0cafe760a2c}{
+\section{JGTL::STATIC\_\-MAX\_\-SIZE$<$ One, One, One, One, One, One, One, One, Two, Three $>$ Struct Template Reference}
+\label{struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_00_01_one_00_01_on0da18bc47224201889d1e0cafe760a2c}\index{JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, One, One, Two, Three >@{JGTL::STATIC\_\-MAX\_\-SIZE$<$ One, One, One, One, One, One, One, One, Two, Three $>$}}
+}
+{\tt \#include $<$JGTL\_\-Variant.h$>$}
+
+\subsection*{Static Public Attributes}
+\begin{CompactItemize}
+\item 
+static const int \hyperlink{struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_00_01_one_00_01_on0da18bc47224201889d1e0cafe760a2c_bca6174e9e13911ee264d948a915d565}{RESULT}
+\end{CompactItemize}
+\subsubsection*{template$<$class One, class Two, class Three$>$ struct JGTL::STATIC\_\-MAX\_\-SIZE$<$ One, One, One, One, One, One, One, One, Two, Three $>$}
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_00_01_one_00_01_on0da18bc47224201889d1e0cafe760a2c_bca6174e9e13911ee264d948a915d565}{
+\index{JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, One, One, Two, Three >@{JGTL::STATIC\_\-MAX\_\-SIZE$<$ One, One, One, One, One, One, One, One, Two, Three $>$}!RESULT@{RESULT}}
+\index{RESULT@{RESULT}!JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, One, One, Two, Three >@{JGTL::STATIC\_\-MAX\_\-SIZE$<$ One, One, One, One, One, One, One, One, Two, Three $>$}}
+\subsubsection[RESULT]{\setlength{\rightskip}{0pt plus 5cm}template$<$class One, class Two, class Three$>$ const int \hyperlink{struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e}{JGTL::STATIC\_\-MAX\_\-SIZE}$<$ One, One, One, One, One, One, One, One, Two, Three $>$::\hyperlink{struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_00_01_one_00_01_on0da18bc47224201889d1e0cafe760a2c_bca6174e9e13911ee264d948a915d565}{RESULT}\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{struct_j_g_t_l_1_1_s_t_a_t_i_c___m_a_x___s_i_z_e_3_01_one_00_01_one_00_01_one_00_01_one_00_01_on0da18bc47224201889d1e0cafe760a2c_bca6174e9e13911ee264d948a915d565}
+
+
+\textbf{Initial value:}
+
+\begin{Code}\begin{verbatim}
+                        TYPEIF<
+                        int,
+                        (sizeof(Two) > sizeof(Three)),
+                        STATIC_MAX_SIZE<One,One,One,One,One,One,One,One,One,Two>::RESULT,
+                        STATIC_MAX_SIZE<One,One,One,One,One,One,One,One,One,Three>::RESULT
+                        >::RESULT
+\end{verbatim}\end{Code}
+
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___variant_8h}{JGTL\_\-Variant.h}\end{CompactItemize}

@@ -1,0 +1,1606 @@
+\indexentry{JGTL@{JGTL}|hyperpage}{13}
+\indexentry{JGTL@{JGTL}!_CommandLineParser@{\_\discretionary {-}{}{}CommandLineParser}|hyperpage}{18}
+\indexentry{_CommandLineParser@{\_\discretionary {-}{}{}CommandLineParser}!JGTL@{JGTL}|hyperpage}{18}
+\indexentry{JGTL@{JGTL}!uchar@{uchar}|hyperpage}{18}
+\indexentry{uchar@{uchar}!JGTL@{JGTL}|hyperpage}{18}
+\indexentry{JGTL@{JGTL}!units_internal_ulong@{units\_\discretionary {-}{}{}internal\_\discretionary {-}{}{}ulong}|hyperpage}{18}
+\indexentry{units_internal_ulong@{units\_\discretionary {-}{}{}internal\_\discretionary {-}{}{}ulong}!JGTL@{JGTL}|hyperpage}{18}
+\indexentry{JGTL@{JGTL}!units_internal_ulong@{units\_\discretionary {-}{}{}internal\_\discretionary {-}{}{}ulong}|hyperpage}{18}
+\indexentry{units_internal_ulong@{units\_\discretionary {-}{}{}internal\_\discretionary {-}{}{}ulong}!JGTL@{JGTL}|hyperpage}{18}
+\indexentry{JGTL@{JGTL}!IntersectionState@{IntersectionState}|hyperpage}{18}
+\indexentry{IntersectionState@{IntersectionState}!JGTL@{JGTL}|hyperpage}{18}
+\indexentry{IS_NONE@{IS\_\-NONE}!JGTL@{JGTL}|hyperpage}{18}
+\indexentry{JGTL@{JGTL}!IS_NONE@{IS\_\-NONE}|hyperpage}{18}
+\indexentry{IS_ONE@{IS\_\-ONE}!JGTL@{JGTL}|hyperpage}{18}
+\indexentry{JGTL@{JGTL}!IS_ONE@{IS\_\-ONE}|hyperpage}{18}
+\indexentry{IS_INFINITE@{IS\_\-INFINITE}!JGTL@{JGTL}|hyperpage}{18}
+\indexentry{JGTL@{JGTL}!IS_INFINITE@{IS\_\-INFINITE}|hyperpage}{18}
+\indexentry{JGTL@{JGTL}!TimeFormat@{TimeFormat}|hyperpage}{18}
+\indexentry{TimeFormat@{TimeFormat}!JGTL@{JGTL}|hyperpage}{18}
+\indexentry{SECONDS@{SECONDS}!JGTL@{JGTL}|hyperpage}{19}
+\indexentry{JGTL@{JGTL}!SECONDS@{SECONDS}|hyperpage}{19}
+\indexentry{MILLISECONDS@{MILLISECONDS}!JGTL@{JGTL}|hyperpage}{19}
+\indexentry{JGTL@{JGTL}!MILLISECONDS@{MILLISECONDS}|hyperpage}{19}
+\indexentry{MICROSECONDS@{MICROSECONDS}!JGTL@{JGTL}|hyperpage}{19}
+\indexentry{JGTL@{JGTL}!MICROSECONDS@{MICROSECONDS}|hyperpage}{19}
+\indexentry{PERCENT@{PERCENT}!JGTL@{JGTL}|hyperpage}{19}
+\indexentry{JGTL@{JGTL}!PERCENT@{PERCENT}|hyperpage}{19}
+\indexentry{JGTL@{JGTL}!convertVector2@{convertVector2}|hyperpage}{21}
+\indexentry{convertVector2@{convertVector2}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!convertVector3@{convertVector3}|hyperpage}{21}
+\indexentry{convertVector3@{convertVector3}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!GCD@{GCD}|hyperpage}{21}
+\indexentry{GCD@{GCD}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!GCD@{GCD}|hyperpage}{21}
+\indexentry{GCD@{GCD}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!GCD@{GCD}|hyperpage}{21}
+\indexentry{GCD@{GCD}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!getIndexFromName@{getIndexFromName}|hyperpage}{21}
+\indexentry{getIndexFromName@{getIndexFromName}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!getIndexFromName@{getIndexFromName}|hyperpage}{21}
+\indexentry{getIndexFromName@{getIndexFromName}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator<<@{operator$<$$<$}|hyperpage}{21}
+\indexentry{operator<<@{operator$<$$<$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator<<@{operator$<$$<$}|hyperpage}{21}
+\indexentry{operator<<@{operator$<$$<$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator<<@{operator$<$$<$}|hyperpage}{21}
+\indexentry{operator<<@{operator$<$$<$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator<<@{operator$<$$<$}|hyperpage}{21}
+\indexentry{operator<<@{operator$<$$<$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator<<@{operator$<$$<$}|hyperpage}{21}
+\indexentry{operator<<@{operator$<$$<$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator<<@{operator$<$$<$}|hyperpage}{21}
+\indexentry{operator<<@{operator$<$$<$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator<<@{operator$<$$<$}|hyperpage}{21}
+\indexentry{operator<<@{operator$<$$<$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator<<@{operator$<$$<$}|hyperpage}{21}
+\indexentry{operator<<@{operator$<$$<$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator>>@{operator$>$$>$}|hyperpage}{21}
+\indexentry{operator>>@{operator$>$$>$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator>>@{operator$>$$>$}|hyperpage}{21}
+\indexentry{operator>>@{operator$>$$>$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator>>@{operator$>$$>$}|hyperpage}{21}
+\indexentry{operator>>@{operator$>$$>$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator>>@{operator$>$$>$}|hyperpage}{21}
+\indexentry{operator>>@{operator$>$$>$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator>>@{operator$>$$>$}|hyperpage}{21}
+\indexentry{operator>>@{operator$>$$>$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator>>@{operator$>$$>$}|hyperpage}{21}
+\indexentry{operator>>@{operator$>$$>$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator>>@{operator$>$$>$}|hyperpage}{21}
+\indexentry{operator>>@{operator$>$$>$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!operator>>@{operator$>$$>$}|hyperpage}{21}
+\indexentry{operator>>@{operator$>$$>$}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!packBuffer@{packBuffer}|hyperpage}{21}
+\indexentry{packBuffer@{packBuffer}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!packBufferStack@{packBufferStack}|hyperpage}{21}
+\indexentry{packBufferStack@{packBufferStack}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!packBufferString@{packBufferString}|hyperpage}{21}
+\indexentry{packBufferString@{packBufferString}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!packBufferString@{packBufferString}|hyperpage}{21}
+\indexentry{packBufferString@{packBufferString}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!stringTo@{stringTo}|hyperpage}{21}
+\indexentry{stringTo@{stringTo}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!stringTo@{stringTo}|hyperpage}{21}
+\indexentry{stringTo@{stringTo}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!toString@{toString}|hyperpage}{21}
+\indexentry{toString@{toString}!JGTL@{JGTL}|hyperpage}{21}
+\indexentry{JGTL@{JGTL}!unpackBuffer@{unpackBuffer}|hyperpage}{22}
+\indexentry{unpackBuffer@{unpackBuffer}!JGTL@{JGTL}|hyperpage}{22}
+\indexentry{JGTL@{JGTL}!unpackBufferStack@{unpackBufferStack}|hyperpage}{22}
+\indexentry{unpackBufferStack@{unpackBufferStack}!JGTL@{JGTL}|hyperpage}{22}
+\indexentry{JGTL@{JGTL}!unpackBufferString@{unpackBufferString}|hyperpage}{22}
+\indexentry{unpackBufferString@{unpackBufferString}!JGTL@{JGTL}|hyperpage}{22}
+\indexentry{std@{std}|hyperpage}{23}
+\indexentry{JGTL::Bar@{JGTL::Bar}|hyperpage}{25}
+\indexentry{JGTL::Bar@{JGTL::Bar}!Bar@{Bar}|hyperpage}{26}
+\indexentry{Bar@{Bar}!JGTL::Bar@{JGTL::Bar}|hyperpage}{26}
+\indexentry{JGTL::Bar@{JGTL::Bar}!Bar@{Bar}|hyperpage}{26}
+\indexentry{Bar@{Bar}!JGTL::Bar@{JGTL::Bar}|hyperpage}{26}
+\indexentry{JGTL::Bar@{JGTL::Bar}!Bar@{Bar}|hyperpage}{26}
+\indexentry{Bar@{Bar}!JGTL::Bar@{JGTL::Bar}|hyperpage}{26}
+\indexentry{JGTL::Bar@{JGTL::Bar}!currentValue@{currentValue}|hyperpage}{26}
+\indexentry{currentValue@{currentValue}!JGTL::Bar@{JGTL::Bar}|hyperpage}{26}
+\indexentry{JGTL::Bar@{JGTL::Bar}!maxValue@{maxValue}|hyperpage}{26}
+\indexentry{maxValue@{maxValue}!JGTL::Bar@{JGTL::Bar}|hyperpage}{26}
+\indexentry{JGTL::BinaryTreeNode@{JGTL::BinaryTreeNode}|hyperpage}{27}
+\indexentry{JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!BinaryTreeNode@{BinaryTreeNode}|hyperpage}{28}
+\indexentry{BinaryTreeNode@{BinaryTreeNode}!JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{28}
+\indexentry{JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!BinaryTreeNode@{BinaryTreeNode}|hyperpage}{28}
+\indexentry{BinaryTreeNode@{BinaryTreeNode}!JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{28}
+\indexentry{JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!BinaryTreeNode@{BinaryTreeNode}|hyperpage}{28}
+\indexentry{BinaryTreeNode@{BinaryTreeNode}!JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{28}
+\indexentry{JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!BinaryTreeNode@{BinaryTreeNode}|hyperpage}{28}
+\indexentry{BinaryTreeNode@{BinaryTreeNode}!JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{28}
+\indexentry{JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!operator=@{operator=}|hyperpage}{28}
+\indexentry{operator=@{operator=}!JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{28}
+\indexentry{JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!parent@{parent}|hyperpage}{28}
+\indexentry{parent@{parent}!JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{28}
+\indexentry{JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!left@{left}|hyperpage}{28}
+\indexentry{left@{left}!JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{28}
+\indexentry{JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!right@{right}|hyperpage}{28}
+\indexentry{right@{right}!JGTL::BinaryTreeNode@{JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{28}
+\indexentry{JGTL::CCmdParam@{JGTL::CCmdParam}|hyperpage}{29}
+\indexentry{JGTL::CCmdParam@{JGTL::CCmd\discretionary {-}{}{}Param}!m_strings@{m\_\discretionary {-}{}{}strings}|hyperpage}{29}
+\indexentry{m_strings@{m\_\discretionary {-}{}{}strings}!JGTL::CCmdParam@{JGTL::CCmd\discretionary {-}{}{}Param}|hyperpage}{29}
+\indexentry{JGTL::CircularBuffer@{JGTL::CircularBuffer}|hyperpage}{30}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!CircularBuffer@{CircularBuffer}|hyperpage}{33}
+\indexentry{CircularBuffer@{CircularBuffer}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!CircularBuffer@{CircularBuffer}|hyperpage}{33}
+\indexentry{CircularBuffer@{CircularBuffer}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!\nobreakspace  {}CircularBuffer@{$\sim $CircularBuffer}|hyperpage}{33}
+\indexentry{\nobreakspace  {}CircularBuffer@{$\sim $CircularBuffer}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!operator=@{operator=}|hyperpage}{33}
+\indexentry{operator=@{operator=}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!enqueue@{enqueue}|hyperpage}{33}
+\indexentry{enqueue@{enqueue}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!front@{front}|hyperpage}{33}
+\indexentry{front@{front}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!frontRef@{frontRef}|hyperpage}{33}
+\indexentry{frontRef@{frontRef}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!frontRef@{frontRef}|hyperpage}{33}
+\indexentry{frontRef@{frontRef}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!frontPtr@{frontPtr}|hyperpage}{33}
+\indexentry{frontPtr@{frontPtr}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!frontPtr@{frontPtr}|hyperpage}{33}
+\indexentry{frontPtr@{frontPtr}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!dequeue@{dequeue}|hyperpage}{33}
+\indexentry{dequeue@{dequeue}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!size@{size}|hyperpage}{33}
+\indexentry{size@{size}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!capacity@{capacity}|hyperpage}{33}
+\indexentry{capacity@{capacity}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!empty@{empty}|hyperpage}{33}
+\indexentry{empty@{empty}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!full@{full}|hyperpage}{33}
+\indexentry{full@{full}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!clear@{clear}|hyperpage}{33}
+\indexentry{clear@{clear}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!getIndex@{getIndex}|hyperpage}{33}
+\indexentry{getIndex@{getIndex}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!getIndex@{getIndex}|hyperpage}{33}
+\indexentry{getIndex@{getIndex}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!getIndexRef@{getIndexRef}|hyperpage}{33}
+\indexentry{getIndexRef@{getIndexRef}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!getIndexRef@{getIndexRef}|hyperpage}{33}
+\indexentry{getIndexRef@{getIndexRef}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!copyFrom@{copyFrom}|hyperpage}{33}
+\indexentry{copyFrom@{copyFrom}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!incCounter@{incCounter}|hyperpage}{33}
+\indexentry{incCounter@{incCounter}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!elementStart@{elementStart}|hyperpage}{33}
+\indexentry{elementStart@{elementStart}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!elementEnd@{elementEnd}|hyperpage}{33}
+\indexentry{elementEnd@{elementEnd}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!maxElements@{maxElements}|hyperpage}{33}
+\indexentry{maxElements@{maxElements}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!dataList@{dataList}|hyperpage}{33}
+\indexentry{dataList@{dataList}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}!enqueueLast@{enqueueLast}|hyperpage}{33}
+\indexentry{enqueueLast@{enqueueLast}!JGTL::CircularBuffer@{JGTL::Circular\discretionary {-}{}{}Buffer}|hyperpage}{33}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::CircularBufferInterface}|hyperpage}{35}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!CircularBufferInterface@{CircularBufferInterface}|hyperpage}{36}
+\indexentry{CircularBufferInterface@{CircularBufferInterface}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{36}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!\nobreakspace  {}CircularBufferInterface@{$\sim $CircularBufferInterface}|hyperpage}{36}
+\indexentry{\nobreakspace  {}CircularBufferInterface@{$\sim $CircularBufferInterface}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{36}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!enqueue@{enqueue}|hyperpage}{36}
+\indexentry{enqueue@{enqueue}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{36}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!resize@{resize}|hyperpage}{36}
+\indexentry{resize@{resize}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{36}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!front@{front}|hyperpage}{36}
+\indexentry{front@{front}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{36}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!frontRef@{frontRef}|hyperpage}{38}
+\indexentry{frontRef@{frontRef}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!frontRef@{frontRef}|hyperpage}{38}
+\indexentry{frontRef@{frontRef}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!frontPtr@{frontPtr}|hyperpage}{38}
+\indexentry{frontPtr@{frontPtr}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!frontPtr@{frontPtr}|hyperpage}{38}
+\indexentry{frontPtr@{frontPtr}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!dequeue@{dequeue}|hyperpage}{38}
+\indexentry{dequeue@{dequeue}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!size@{size}|hyperpage}{38}
+\indexentry{size@{size}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!capacity@{capacity}|hyperpage}{38}
+\indexentry{capacity@{capacity}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!empty@{empty}|hyperpage}{38}
+\indexentry{empty@{empty}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!full@{full}|hyperpage}{38}
+\indexentry{full@{full}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!clear@{clear}|hyperpage}{38}
+\indexentry{clear@{clear}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!getIndex@{getIndex}|hyperpage}{38}
+\indexentry{getIndex@{getIndex}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!getIndex@{getIndex}|hyperpage}{38}
+\indexentry{getIndex@{getIndex}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!getIndexRef@{getIndexRef}|hyperpage}{38}
+\indexentry{getIndexRef@{getIndexRef}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!getIndexRef@{getIndexRef}|hyperpage}{38}
+\indexentry{getIndexRef@{getIndexRef}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!incCounter@{incCounter}|hyperpage}{38}
+\indexentry{incCounter@{incCounter}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!elementStart@{elementStart}|hyperpage}{38}
+\indexentry{elementStart@{elementStart}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!elementEnd@{elementEnd}|hyperpage}{38}
+\indexentry{elementEnd@{elementEnd}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!maxElements@{maxElements}|hyperpage}{38}
+\indexentry{maxElements@{maxElements}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!dataList@{dataList}|hyperpage}{38}
+\indexentry{dataList@{dataList}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}!enqueueLast@{enqueueLast}|hyperpage}{38}
+\indexentry{enqueueLast@{enqueueLast}!JGTL::CircularBufferInterface@{JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}|hyperpage}{38}
+\indexentry{JGTL::Clock@{JGTL::Clock}|hyperpage}{40}
+\indexentry{JGTL::Clock@{JGTL::Clock}!Clock@{Clock}|hyperpage}{40}
+\indexentry{Clock@{Clock}!JGTL::Clock@{JGTL::Clock}|hyperpage}{40}
+\indexentry{JGTL::Clock@{JGTL::Clock}!\nobreakspace  {}Clock@{$\sim $Clock}|hyperpage}{40}
+\indexentry{\nobreakspace  {}Clock@{$\sim $Clock}!JGTL::Clock@{JGTL::Clock}|hyperpage}{40}
+\indexentry{JGTL::Clock@{JGTL::Clock}!reset@{reset}|hyperpage}{40}
+\indexentry{reset@{reset}!JGTL::Clock@{JGTL::Clock}|hyperpage}{40}
+\indexentry{JGTL::Clock@{JGTL::Clock}!getTimeMilliseconds@{getTimeMilliseconds}|hyperpage}{40}
+\indexentry{getTimeMilliseconds@{getTimeMilliseconds}!JGTL::Clock@{JGTL::Clock}|hyperpage}{40}
+\indexentry{JGTL::Clock@{JGTL::Clock}!getTimeMicroseconds@{getTimeMicroseconds}|hyperpage}{40}
+\indexentry{getTimeMicroseconds@{getTimeMicroseconds}!JGTL::Clock@{JGTL::Clock}|hyperpage}{40}
+\indexentry{JGTL::Clock@{JGTL::Clock}!mStartTime@{mStartTime}|hyperpage}{41}
+\indexentry{mStartTime@{mStartTime}!JGTL::Clock@{JGTL::Clock}|hyperpage}{41}
+\indexentry{JGTL::CommandLineParser@{JGTL::CommandLineParser}|hyperpage}{42}
+\indexentry{JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}!CommandLineParser@{CommandLineParser}|hyperpage}{43}
+\indexentry{CommandLineParser@{CommandLineParser}!JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}|hyperpage}{43}
+\indexentry{JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}!CommandLineParser@{CommandLineParser}|hyperpage}{43}
+\indexentry{CommandLineParser@{CommandLineParser}!JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}|hyperpage}{43}
+\indexentry{JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}!SplitLine@{SplitLine}|hyperpage}{43}
+\indexentry{SplitLine@{SplitLine}!JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}|hyperpage}{43}
+\indexentry{JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}!HasSwitch@{HasSwitch}|hyperpage}{43}
+\indexentry{HasSwitch@{HasSwitch}!JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}|hyperpage}{43}
+\indexentry{JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}!GetSafeArgument@{GetSafeArgument}|hyperpage}{43}
+\indexentry{GetSafeArgument@{GetSafeArgument}!JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}|hyperpage}{43}
+\indexentry{JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}!GetArgument@{GetArgument}|hyperpage}{43}
+\indexentry{GetArgument@{GetArgument}!JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}|hyperpage}{43}
+\indexentry{JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}!GetArgumentCount@{GetArgumentCount}|hyperpage}{43}
+\indexentry{GetArgumentCount@{GetArgumentCount}!JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}|hyperpage}{43}
+\indexentry{JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}!IsSwitch@{IsSwitch}|hyperpage}{43}
+\indexentry{IsSwitch@{IsSwitch}!JGTL::CommandLineParser@{JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}|hyperpage}{43}
+\indexentry{JGTL::DataManager@{JGTL::DataManager}|hyperpage}{44}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!DataManager@{DataManager}|hyperpage}{45}
+\indexentry{DataManager@{DataManager}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!\nobreakspace  {}DataManager@{$\sim $DataManager}|hyperpage}{45}
+\indexentry{\nobreakspace  {}DataManager@{$\sim $DataManager}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!addData@{addData}|hyperpage}{45}
+\indexentry{addData@{addData}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!getData@{getData}|hyperpage}{45}
+\indexentry{getData@{getData}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!getData@{getData}|hyperpage}{45}
+\indexentry{getData@{getData}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!getDataPtr@{getDataPtr}|hyperpage}{45}
+\indexentry{getDataPtr@{getDataPtr}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!begin@{begin}|hyperpage}{45}
+\indexentry{begin@{begin}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!end@{end}|hyperpage}{45}
+\indexentry{end@{end}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!getSize@{getSize}|hyperpage}{45}
+\indexentry{getSize@{getSize}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!getDataPtr@{getDataPtr}|hyperpage}{45}
+\indexentry{getDataPtr@{getDataPtr}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!getIndex@{getIndex}|hyperpage}{45}
+\indexentry{getIndex@{getIndex}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!refreshNames@{refreshNames}|hyperpage}{45}
+\indexentry{refreshNames@{refreshNames}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!numElements@{numElements}|hyperpage}{45}
+\indexentry{numElements@{numElements}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!maxElements@{maxElements}|hyperpage}{45}
+\indexentry{maxElements@{maxElements}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!dataList@{dataList}|hyperpage}{45}
+\indexentry{dataList@{dataList}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!dataMap@{dataMap}|hyperpage}{45}
+\indexentry{dataMap@{dataMap}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}!dataCaseInsensitiveMap@{dataCaseInsensitiveMap}|hyperpage}{45}
+\indexentry{dataCaseInsensitiveMap@{dataCaseInsensitiveMap}!JGTL::DataManager@{JGTL::Data\discretionary {-}{}{}Manager}|hyperpage}{45}
+\indexentry{JGTL::DataPool@{JGTL::DataPool}|hyperpage}{47}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!DataPool@{DataPool}|hyperpage}{48}
+\indexentry{DataPool@{DataPool}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!\nobreakspace  {}DataPool@{$\sim $DataPool}|hyperpage}{48}
+\indexentry{\nobreakspace  {}DataPool@{$\sim $DataPool}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!addData@{addData}|hyperpage}{48}
+\indexentry{addData@{addData}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!getData@{getData}|hyperpage}{48}
+\indexentry{getData@{getData}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!getData@{getData}|hyperpage}{48}
+\indexentry{getData@{getData}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!getDataPtr@{getDataPtr}|hyperpage}{48}
+\indexentry{getDataPtr@{getDataPtr}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!begin@{begin}|hyperpage}{48}
+\indexentry{begin@{begin}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!end@{end}|hyperpage}{48}
+\indexentry{end@{end}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!getSize@{getSize}|hyperpage}{48}
+\indexentry{getSize@{getSize}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!getDataPtr@{getDataPtr}|hyperpage}{48}
+\indexentry{getDataPtr@{getDataPtr}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!numElements@{numElements}|hyperpage}{48}
+\indexentry{numElements@{numElements}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!maxElements@{maxElements}|hyperpage}{48}
+\indexentry{maxElements@{maxElements}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!dataList@{dataList}|hyperpage}{48}
+\indexentry{dataList@{dataList}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!used@{used}|hyperpage}{48}
+\indexentry{used@{used}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!dataMap@{dataMap}|hyperpage}{48}
+\indexentry{dataMap@{dataMap}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!dataCaseInsensitiveMap@{dataCaseInsensitiveMap}|hyperpage}{48}
+\indexentry{dataCaseInsensitiveMap@{dataCaseInsensitiveMap}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!alloc@{alloc}|hyperpage}{48}
+\indexentry{alloc@{alloc}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}!boolAlloc@{boolAlloc}|hyperpage}{48}
+\indexentry{boolAlloc@{boolAlloc}!JGTL::DataPool@{JGTL::Data\discretionary {-}{}{}Pool}|hyperpage}{48}
+\indexentry{JGTL::DynamicCircularBuffer@{JGTL::DynamicCircularBuffer}|hyperpage}{50}
+\indexentry{JGTL::DynamicCircularBuffer@{JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}!DynamicCircularBuffer@{DynamicCircularBuffer}|hyperpage}{51}
+\indexentry{DynamicCircularBuffer@{DynamicCircularBuffer}!JGTL::DynamicCircularBuffer@{JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}|hyperpage}{51}
+\indexentry{JGTL::DynamicCircularBuffer@{JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}!DynamicCircularBuffer@{DynamicCircularBuffer}|hyperpage}{51}
+\indexentry{DynamicCircularBuffer@{DynamicCircularBuffer}!JGTL::DynamicCircularBuffer@{JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}|hyperpage}{51}
+\indexentry{JGTL::DynamicCircularBuffer@{JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}!\nobreakspace  {}DynamicCircularBuffer@{$\sim $DynamicCircularBuffer}|hyperpage}{51}
+\indexentry{\nobreakspace  {}DynamicCircularBuffer@{$\sim $DynamicCircularBuffer}!JGTL::DynamicCircularBuffer@{JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}|hyperpage}{51}
+\indexentry{JGTL::DynamicCircularBuffer@{JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}!operator=@{operator=}|hyperpage}{51}
+\indexentry{operator=@{operator=}!JGTL::DynamicCircularBuffer@{JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}|hyperpage}{51}
+\indexentry{JGTL::DynamicCircularBuffer@{JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}!resize@{resize}|hyperpage}{51}
+\indexentry{resize@{resize}!JGTL::DynamicCircularBuffer@{JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}|hyperpage}{51}
+\indexentry{JGTL::DynamicCircularBuffer@{JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}!copyFrom@{copyFrom}|hyperpage}{51}
+\indexentry{copyFrom@{copyFrom}!JGTL::DynamicCircularBuffer@{JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}|hyperpage}{51}
+\indexentry{JGTL::DynamicPoolMap@{JGTL::DynamicPoolMap}|hyperpage}{52}
+\indexentry{JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}!DynamicPoolMap@{DynamicPoolMap}|hyperpage}{53}
+\indexentry{DynamicPoolMap@{DynamicPoolMap}!JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}|hyperpage}{53}
+\indexentry{JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}!DynamicPoolMap@{DynamicPoolMap}|hyperpage}{53}
+\indexentry{DynamicPoolMap@{DynamicPoolMap}!JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}|hyperpage}{53}
+\indexentry{JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}!DynamicPoolMap@{DynamicPoolMap}|hyperpage}{53}
+\indexentry{DynamicPoolMap@{DynamicPoolMap}!JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}|hyperpage}{53}
+\indexentry{JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}!\nobreakspace  {}DynamicPoolMap@{$\sim $DynamicPoolMap}|hyperpage}{53}
+\indexentry{\nobreakspace  {}DynamicPoolMap@{$\sim $DynamicPoolMap}!JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}|hyperpage}{53}
+\indexentry{JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}!DynamicPoolMap@{DynamicPoolMap}|hyperpage}{53}
+\indexentry{DynamicPoolMap@{DynamicPoolMap}!JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}|hyperpage}{53}
+\indexentry{JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}!DynamicPoolMap@{DynamicPoolMap}|hyperpage}{53}
+\indexentry{DynamicPoolMap@{DynamicPoolMap}!JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}|hyperpage}{53}
+\indexentry{JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}!\nobreakspace  {}DynamicPoolMap@{$\sim $DynamicPoolMap}|hyperpage}{53}
+\indexentry{\nobreakspace  {}DynamicPoolMap@{$\sim $DynamicPoolMap}!JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}|hyperpage}{53}
+\indexentry{JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}!operator=@{operator=}|hyperpage}{53}
+\indexentry{operator=@{operator=}!JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}|hyperpage}{53}
+\indexentry{JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}!resize@{resize}|hyperpage}{53}
+\indexentry{resize@{resize}!JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}|hyperpage}{53}
+\indexentry{JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}!copyFrom@{copyFrom}|hyperpage}{53}
+\indexentry{copyFrom@{copyFrom}!JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}|hyperpage}{53}
+\indexentry{JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}!operator=@{operator=}|hyperpage}{54}
+\indexentry{operator=@{operator=}!JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}|hyperpage}{54}
+\indexentry{JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}!copyFrom@{copyFrom}|hyperpage}{54}
+\indexentry{copyFrom@{copyFrom}!JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}|hyperpage}{54}
+\indexentry{JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}!reserve@{reserve}|hyperpage}{54}
+\indexentry{reserve@{reserve}!JGTL::DynamicPoolMap@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}|hyperpage}{54}
+\indexentry{JGTL::DynamicPoolSet@{JGTL::DynamicPoolSet}|hyperpage}{55}
+\indexentry{JGTL::DynamicPoolSet@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}!DynamicPoolSet@{DynamicPoolSet}|hyperpage}{56}
+\indexentry{DynamicPoolSet@{DynamicPoolSet}!JGTL::DynamicPoolSet@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}|hyperpage}{56}
+\indexentry{JGTL::DynamicPoolSet@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}!DynamicPoolSet@{DynamicPoolSet}|hyperpage}{56}
+\indexentry{DynamicPoolSet@{DynamicPoolSet}!JGTL::DynamicPoolSet@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}|hyperpage}{56}
+\indexentry{JGTL::DynamicPoolSet@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}!\nobreakspace  {}DynamicPoolSet@{$\sim $DynamicPoolSet}|hyperpage}{56}
+\indexentry{\nobreakspace  {}DynamicPoolSet@{$\sim $DynamicPoolSet}!JGTL::DynamicPoolSet@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}|hyperpage}{56}
+\indexentry{JGTL::DynamicPoolSet@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}!operator=@{operator=}|hyperpage}{56}
+\indexentry{operator=@{operator=}!JGTL::DynamicPoolSet@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}|hyperpage}{56}
+\indexentry{JGTL::DynamicPoolSet@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}!copyFrom@{copyFrom}|hyperpage}{56}
+\indexentry{copyFrom@{copyFrom}!JGTL::DynamicPoolSet@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}|hyperpage}{56}
+\indexentry{JGTL::DynamicPoolSet@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}!operator==@{operator==}|hyperpage}{56}
+\indexentry{operator==@{operator==}!JGTL::DynamicPoolSet@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}|hyperpage}{56}
+\indexentry{JGTL::DynamicPoolSet@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}!resize@{resize}|hyperpage}{56}
+\indexentry{resize@{resize}!JGTL::DynamicPoolSet@{JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}|hyperpage}{56}
+\indexentry{JGTL::FloatingUnits@{JGTL::FloatingUnits}|hyperpage}{57}
+\indexentry{JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}!FloatingUnits@{FloatingUnits}|hyperpage}{58}
+\indexentry{FloatingUnits@{FloatingUnits}!JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}|hyperpage}{58}
+\indexentry{JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}!FloatingUnits@{FloatingUnits}|hyperpage}{58}
+\indexentry{FloatingUnits@{FloatingUnits}!JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}|hyperpage}{58}
+\indexentry{JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}!operator=@{operator=}|hyperpage}{58}
+\indexentry{operator=@{operator=}!JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}|hyperpage}{58}
+\indexentry{JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}!changeScale@{changeScale}|hyperpage}{58}
+\indexentry{changeScale@{changeScale}!JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}|hyperpage}{58}
+\indexentry{JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}!getScale@{getScale}|hyperpage}{58}
+\indexentry{getScale@{getScale}!JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}|hyperpage}{58}
+\indexentry{JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}!setValue@{setValue}|hyperpage}{58}
+\indexentry{setValue@{setValue}!JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}|hyperpage}{58}
+\indexentry{JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}!getValue@{getValue}|hyperpage}{58}
+\indexentry{getValue@{getValue}!JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}|hyperpage}{58}
+\indexentry{JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}!value@{value}|hyperpage}{58}
+\indexentry{value@{value}!JGTL::FloatingUnits@{JGTL::Floating\discretionary {-}{}{}Units}|hyperpage}{58}
+\indexentry{JGTL::HexTree@{JGTL::HexTree}|hyperpage}{60}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!HexTree@{HexTree}|hyperpage}{61}
+\indexentry{HexTree@{HexTree}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!HexTree@{HexTree}|hyperpage}{61}
+\indexentry{HexTree@{HexTree}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!\nobreakspace  {}HexTree@{$\sim $HexTree}|hyperpage}{61}
+\indexentry{\nobreakspace  {}HexTree@{$\sim $HexTree}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!operator=@{operator=}|hyperpage}{61}
+\indexentry{operator=@{operator=}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!copyFrom@{copyFrom}|hyperpage}{61}
+\indexentry{copyFrom@{copyFrom}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!getValue@{getValue}|hyperpage}{61}
+\indexentry{getValue@{getValue}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!getValue@{getValue}|hyperpage}{61}
+\indexentry{getValue@{getValue}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!setValue@{setValue}|hyperpage}{61}
+\indexentry{setValue@{setValue}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!setValue@{setValue}|hyperpage}{61}
+\indexentry{setValue@{setValue}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!setAll@{setAll}|hyperpage}{61}
+\indexentry{setAll@{setAll}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!display@{display}|hyperpage}{61}
+\indexentry{display@{display}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!operator()@{operator()}|hyperpage}{61}
+\indexentry{operator()@{operator()}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!operator()@{operator()}|hyperpage}{61}
+\indexentry{operator()@{operator()}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!getMemUsage@{getMemUsage}|hyperpage}{61}
+\indexentry{getMemUsage@{getMemUsage}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!size@{size}|hyperpage}{61}
+\indexentry{size@{size}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!root@{root}|hyperpage}{61}
+\indexentry{root@{root}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!branchPool@{branchPool}|hyperpage}{61}
+\indexentry{branchPool@{branchPool}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}!stubPool@{stubPool}|hyperpage}{61}
+\indexentry{stubPool@{stubPool}!JGTL::HexTree@{JGTL::Hex\discretionary {-}{}{}Tree}|hyperpage}{61}
+\indexentry{JGTL::HexTreeBranch@{JGTL::HexTreeBranch}|hyperpage}{63}
+\indexentry{JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!HexTreeBranch@{HexTreeBranch}|hyperpage}{64}
+\indexentry{HexTreeBranch@{HexTreeBranch}!JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{64}
+\indexentry{JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!\nobreakspace  {}HexTreeBranch@{$\sim $HexTreeBranch}|hyperpage}{64}
+\indexentry{\nobreakspace  {}HexTreeBranch@{$\sim $HexTreeBranch}!JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{64}
+\indexentry{JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!destroy@{destroy}|hyperpage}{64}
+\indexentry{destroy@{destroy}!JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{64}
+\indexentry{JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!getChildIndex@{getChildIndex}|hyperpage}{64}
+\indexentry{getChildIndex@{getChildIndex}!JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{64}
+\indexentry{JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!getValue@{getValue}|hyperpage}{64}
+\indexentry{getValue@{getValue}!JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{64}
+\indexentry{JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!getValue@{getValue}|hyperpage}{64}
+\indexentry{getValue@{getValue}!JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{64}
+\indexentry{JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!setAll@{setAll}|hyperpage}{64}
+\indexentry{setAll@{setAll}!JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{64}
+\indexentry{JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!setValue@{setValue}|hyperpage}{64}
+\indexentry{setValue@{setValue}!JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{64}
+\indexentry{JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!display@{display}|hyperpage}{64}
+\indexentry{display@{display}!JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{64}
+\indexentry{JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!getMemUsage@{getMemUsage}|hyperpage}{65}
+\indexentry{getMemUsage@{getMemUsage}!JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{65}
+\indexentry{JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!children@{children}|hyperpage}{65}
+\indexentry{children@{children}!JGTL::HexTreeBranch@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{65}
+\indexentry{JGTL::HexTreeNode@{JGTL::HexTreeNode}|hyperpage}{66}
+\indexentry{JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!HexTreeNode@{HexTreeNode}|hyperpage}{67}
+\indexentry{HexTreeNode@{HexTreeNode}!JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{67}
+\indexentry{JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!\nobreakspace  {}HexTreeNode@{$\sim $HexTreeNode}|hyperpage}{67}
+\indexentry{\nobreakspace  {}HexTreeNode@{$\sim $HexTreeNode}!JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{67}
+\indexentry{JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!getValue@{getValue}|hyperpage}{67}
+\indexentry{getValue@{getValue}!JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{67}
+\indexentry{JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!getValue@{getValue}|hyperpage}{67}
+\indexentry{getValue@{getValue}!JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{67}
+\indexentry{JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!setValue@{setValue}|hyperpage}{67}
+\indexentry{setValue@{setValue}!JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{67}
+\indexentry{JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!isStub@{isStub}|hyperpage}{67}
+\indexentry{isStub@{isStub}!JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{67}
+\indexentry{JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!destroy@{destroy}|hyperpage}{67}
+\indexentry{destroy@{destroy}!JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{67}
+\indexentry{JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!display@{display}|hyperpage}{67}
+\indexentry{display@{display}!JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{67}
+\indexentry{JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!getMemUsage@{getMemUsage}|hyperpage}{68}
+\indexentry{getMemUsage@{getMemUsage}!JGTL::HexTreeNode@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{68}
+\indexentry{JGTL::HexTreeStub@{JGTL::HexTreeStub}|hyperpage}{69}
+\indexentry{JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!HexTreeStub@{HexTreeStub}|hyperpage}{70}
+\indexentry{HexTreeStub@{HexTreeStub}!JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{70}
+\indexentry{JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!\nobreakspace  {}HexTreeStub@{$\sim $HexTreeStub}|hyperpage}{70}
+\indexentry{\nobreakspace  {}HexTreeStub@{$\sim $HexTreeStub}!JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{70}
+\indexentry{JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!getValue@{getValue}|hyperpage}{70}
+\indexentry{getValue@{getValue}!JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{70}
+\indexentry{JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!getValue@{getValue}|hyperpage}{70}
+\indexentry{getValue@{getValue}!JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{70}
+\indexentry{JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!setValue@{setValue}|hyperpage}{70}
+\indexentry{setValue@{setValue}!JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{70}
+\indexentry{JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!setValue@{setValue}|hyperpage}{70}
+\indexentry{setValue@{setValue}!JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{70}
+\indexentry{JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!isStub@{isStub}|hyperpage}{70}
+\indexentry{isStub@{isStub}!JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{70}
+\indexentry{JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!display@{display}|hyperpage}{70}
+\indexentry{display@{display}!JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{70}
+\indexentry{JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!getMemUsage@{getMemUsage}|hyperpage}{70}
+\indexentry{getMemUsage@{getMemUsage}!JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{70}
+\indexentry{JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!value@{value}|hyperpage}{71}
+\indexentry{value@{value}!JGTL::HexTreeStub@{JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{71}
+\indexentry{JGTL::IF@{JGTL::IF}|hyperpage}{72}
+\indexentry{JGTL::IF@{JGTL::IF}!RET@{RET}|hyperpage}{72}
+\indexentry{RET@{RET}!JGTL::IF@{JGTL::IF}|hyperpage}{72}
+\indexentry{JGTL::IF< false, Then, Else >@{JGTL::IF$<$ false, Then, Else $>$}|hyperpage}{73}
+\indexentry{JGTL::IF< false, Then, Else >@{JGTL::IF$<$ false, Then, Else $>$}!RET@{RET}|hyperpage}{73}
+\indexentry{RET@{RET}!JGTL::IF< false, Then, Else >@{JGTL::IF$<$ false, Then, Else $>$}|hyperpage}{73}
+\indexentry{JGTL::Index2@{JGTL::Index2}|hyperpage}{74}
+\indexentry{JGTL::Index2@{JGTL::Index2}!Index2@{Index2}|hyperpage}{75}
+\indexentry{Index2@{Index2}!JGTL::Index2@{JGTL::Index2}|hyperpage}{75}
+\indexentry{JGTL::Index2@{JGTL::Index2}!Index2@{Index2}|hyperpage}{75}
+\indexentry{Index2@{Index2}!JGTL::Index2@{JGTL::Index2}|hyperpage}{75}
+\indexentry{JGTL::Index2@{JGTL::Index2}!Index2@{Index2}|hyperpage}{75}
+\indexentry{Index2@{Index2}!JGTL::Index2@{JGTL::Index2}|hyperpage}{75}
+\indexentry{JGTL::Index2@{JGTL::Index2}!getVector2@{getVector2}|hyperpage}{75}
+\indexentry{getVector2@{getVector2}!JGTL::Index2@{JGTL::Index2}|hyperpage}{75}
+\indexentry{JGTL::Index2@{JGTL::Index2}!toString@{toString}|hyperpage}{75}
+\indexentry{toString@{toString}!JGTL::Index2@{JGTL::Index2}|hyperpage}{75}
+\indexentry{JGTL::Index2@{JGTL::Index2}!operator==@{operator==}|hyperpage}{75}
+\indexentry{operator==@{operator==}!JGTL::Index2@{JGTL::Index2}|hyperpage}{75}
+\indexentry{JGTL::Index2@{JGTL::Index2}!operator"!=@{operator"!=}|hyperpage}{75}
+\indexentry{operator"!=@{operator"!=}!JGTL::Index2@{JGTL::Index2}|hyperpage}{75}
+\indexentry{JGTL::Index2@{JGTL::Index2}!x@{x}|hyperpage}{75}
+\indexentry{x@{x}!JGTL::Index2@{JGTL::Index2}|hyperpage}{75}
+\indexentry{JGTL::Index2@{JGTL::Index2}!y@{y}|hyperpage}{75}
+\indexentry{y@{y}!JGTL::Index2@{JGTL::Index2}|hyperpage}{75}
+\indexentry{JGTL::Index3@{JGTL::Index3}|hyperpage}{76}
+\indexentry{JGTL::Index3@{JGTL::Index3}!Index3@{Index3}|hyperpage}{78}
+\indexentry{Index3@{Index3}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!Index3@{Index3}|hyperpage}{78}
+\indexentry{Index3@{Index3}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!Index3@{Index3}|hyperpage}{78}
+\indexentry{Index3@{Index3}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!operator<@{operator$<$}|hyperpage}{78}
+\indexentry{operator<@{operator$<$}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!operator==@{operator==}|hyperpage}{78}
+\indexentry{operator==@{operator==}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!operator"!=@{operator"!=}|hyperpage}{78}
+\indexentry{operator"!=@{operator"!=}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!operator *@{operator $\ast $}|hyperpage}{78}
+\indexentry{operator *@{operator $\ast $}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!operator *@{operator $\ast $}|hyperpage}{78}
+\indexentry{operator *@{operator $\ast $}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!operator/@{operator/}|hyperpage}{78}
+\indexentry{operator/@{operator/}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!operator-@{operator-}|hyperpage}{78}
+\indexentry{operator-@{operator-}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!operator-=@{operator-=}|hyperpage}{78}
+\indexentry{operator-=@{operator-=}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!operator+@{operator+}|hyperpage}{78}
+\indexentry{operator+@{operator+}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!operator+=@{operator+=}|hyperpage}{78}
+\indexentry{operator+=@{operator+=}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!magnitude@{magnitude}|hyperpage}{78}
+\indexentry{magnitude@{magnitude}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!magnitudeSquared@{magnitudeSquared}|hyperpage}{78}
+\indexentry{magnitudeSquared@{magnitudeSquared}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!distanceSquared@{distanceSquared}|hyperpage}{78}
+\indexentry{distanceSquared@{distanceSquared}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!distanceSquared@{distanceSquared}|hyperpage}{78}
+\indexentry{distanceSquared@{distanceSquared}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!chessDistance@{chessDistance}|hyperpage}{78}
+\indexentry{chessDistance@{chessDistance}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!manhatDistance@{manhatDistance}|hyperpage}{78}
+\indexentry{manhatDistance@{manhatDistance}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!x@{x}|hyperpage}{78}
+\indexentry{x@{x}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!y@{y}|hyperpage}{78}
+\indexentry{y@{y}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::Index3@{JGTL::Index3}!z@{z}|hyperpage}{78}
+\indexentry{z@{z}!JGTL::Index3@{JGTL::Index3}|hyperpage}{78}
+\indexentry{JGTL::IntegralUnits@{JGTL::IntegralUnits}|hyperpage}{80}
+\indexentry{JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}!IntegralUnits@{IntegralUnits}|hyperpage}{81}
+\indexentry{IntegralUnits@{IntegralUnits}!JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}|hyperpage}{81}
+\indexentry{JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}!IntegralUnits@{IntegralUnits}|hyperpage}{81}
+\indexentry{IntegralUnits@{IntegralUnits}!JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}|hyperpage}{81}
+\indexentry{JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}!operator=@{operator=}|hyperpage}{81}
+\indexentry{operator=@{operator=}!JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}|hyperpage}{81}
+\indexentry{JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}!changeScale@{changeScale}|hyperpage}{81}
+\indexentry{changeScale@{changeScale}!JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}|hyperpage}{81}
+\indexentry{JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}!getScale@{getScale}|hyperpage}{81}
+\indexentry{getScale@{getScale}!JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}|hyperpage}{81}
+\indexentry{JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}!setValue@{setValue}|hyperpage}{81}
+\indexentry{setValue@{setValue}!JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}|hyperpage}{81}
+\indexentry{JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}!getValue@{getValue}|hyperpage}{81}
+\indexentry{getValue@{getValue}!JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}|hyperpage}{81}
+\indexentry{JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}!value@{value}|hyperpage}{81}
+\indexentry{value@{value}!JGTL::IntegralUnits@{JGTL::Integral\discretionary {-}{}{}Units}|hyperpage}{81}
+\indexentry{JGTL::IntegralUnitsGCD@{JGTL::IntegralUnitsGCD}|hyperpage}{83}
+\indexentry{JGTL::IntegralUnitsGCD@{JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD}!VALUE@{VALUE}|hyperpage}{83}
+\indexentry{VALUE@{VALUE}!JGTL::IntegralUnitsGCD@{JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD}|hyperpage}{83}
+\indexentry{JGTL::IntegralUnitsGCD< 0, 0 >@{JGTL::IntegralUnitsGCD$<$ 0, 0 $>$}|hyperpage}{84}
+\indexentry{JGTL::IntegralUnitsGCD< 0, 0 >@{JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 0, 0 $>$}!VALUE@{VALUE}|hyperpage}{84}
+\indexentry{VALUE@{VALUE}!JGTL::IntegralUnitsGCD< 0, 0 >@{JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 0, 0 $>$}|hyperpage}{84}
+\indexentry{JGTL::IntegralUnitsGCD< 0, j >@{JGTL::IntegralUnitsGCD$<$ 0, j $>$}|hyperpage}{85}
+\indexentry{JGTL::IntegralUnitsGCD< 0, j >@{JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 0, j $>$}!VALUE@{VALUE}|hyperpage}{85}
+\indexentry{VALUE@{VALUE}!JGTL::IntegralUnitsGCD< 0, j >@{JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 0, j $>$}|hyperpage}{85}
+\indexentry{JGTL::IntegralUnitsGCD< 1, 1 >@{JGTL::IntegralUnitsGCD$<$ 1, 1 $>$}|hyperpage}{86}
+\indexentry{JGTL::IntegralUnitsGCD< 1, 1 >@{JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 1, 1 $>$}!VALUE@{VALUE}|hyperpage}{86}
+\indexentry{VALUE@{VALUE}!JGTL::IntegralUnitsGCD< 1, 1 >@{JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 1, 1 $>$}|hyperpage}{86}
+\indexentry{JGTL::IntegralUnitsGCD< 1, j >@{JGTL::IntegralUnitsGCD$<$ 1, j $>$}|hyperpage}{87}
+\indexentry{JGTL::IntegralUnitsGCD< 1, j >@{JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 1, j $>$}!VALUE@{VALUE}|hyperpage}{87}
+\indexentry{VALUE@{VALUE}!JGTL::IntegralUnitsGCD< 1, j >@{JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 1, j $>$}|hyperpage}{87}
+\indexentry{JGTL::IntegralUnitsGCD< i, 0 >@{JGTL::IntegralUnitsGCD$<$ i, 0 $>$}|hyperpage}{88}
+\indexentry{JGTL::IntegralUnitsGCD< i, 0 >@{JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ i, 0 $>$}!VALUE@{VALUE}|hyperpage}{88}
+\indexentry{VALUE@{VALUE}!JGTL::IntegralUnitsGCD< i, 0 >@{JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ i, 0 $>$}|hyperpage}{88}
+\indexentry{JGTL::IntegralUnitsGCD< i, 1 >@{JGTL::IntegralUnitsGCD$<$ i, 1 $>$}|hyperpage}{89}
+\indexentry{JGTL::IntegralUnitsGCD< i, 1 >@{JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ i, 1 $>$}!VALUE@{VALUE}|hyperpage}{89}
+\indexentry{VALUE@{VALUE}!JGTL::IntegralUnitsGCD< i, 1 >@{JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ i, 1 $>$}|hyperpage}{89}
+\indexentry{JGTL::InterpolatedValue@{JGTL::InterpolatedValue}|hyperpage}{90}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!InterpolatedValue@{InterpolatedValue}|hyperpage}{91}
+\indexentry{InterpolatedValue@{InterpolatedValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{91}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!InterpolatedValue@{InterpolatedValue}|hyperpage}{91}
+\indexentry{InterpolatedValue@{InterpolatedValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{91}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!InterpolatedValue@{InterpolatedValue}|hyperpage}{91}
+\indexentry{InterpolatedValue@{InterpolatedValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{91}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!operator=@{operator=}|hyperpage}{91}
+\indexentry{operator=@{operator=}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{91}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!getInterpolationCoeff@{getInterpolationCoeff}|hyperpage}{91}
+\indexentry{getInterpolationCoeff@{getInterpolationCoeff}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{91}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!setCoeff@{setCoeff}|hyperpage}{91}
+\indexentry{setCoeff@{setCoeff}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{91}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!setValue@{setValue}|hyperpage}{91}
+\indexentry{setValue@{setValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{91}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!operator+=@{operator+=}|hyperpage}{91}
+\indexentry{operator+=@{operator+=}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{91}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!operator-=@{operator-=}|hyperpage}{92}
+\indexentry{operator-=@{operator-=}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{92}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!getPotentialValue@{getPotentialValue}|hyperpage}{92}
+\indexentry{getPotentialValue@{getPotentialValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{92}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!getActualValue@{getActualValue}|hyperpage}{92}
+\indexentry{getActualValue@{getActualValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{92}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!forceValue@{forceValue}|hyperpage}{92}
+\indexentry{forceValue@{forceValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{92}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!update@{update}|hyperpage}{92}
+\indexentry{update@{update}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{92}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!potentialValue@{potentialValue}|hyperpage}{92}
+\indexentry{potentialValue@{potentialValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{92}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!actualValue@{actualValue}|hyperpage}{92}
+\indexentry{actualValue@{actualValue}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{92}
+\indexentry{JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}!interpolationCoeff@{interpolationCoeff}|hyperpage}{92}
+\indexentry{interpolationCoeff@{interpolationCoeff}!JGTL::InterpolatedValue@{JGTL::Interpolated\discretionary {-}{}{}Value}|hyperpage}{92}
+\indexentry{JGTL::LocatedException@{JGTL::LocatedException}|hyperpage}{93}
+\indexentry{JGTL::LocatedException@{JGTL::Located\discretionary {-}{}{}Exception}!LocatedException@{LocatedException}|hyperpage}{94}
+\indexentry{LocatedException@{LocatedException}!JGTL::LocatedException@{JGTL::Located\discretionary {-}{}{}Exception}|hyperpage}{94}
+\indexentry{JGTL::LocatedException@{JGTL::Located\discretionary {-}{}{}Exception}!LocatedException@{LocatedException}|hyperpage}{94}
+\indexentry{LocatedException@{LocatedException}!JGTL::LocatedException@{JGTL::Located\discretionary {-}{}{}Exception}|hyperpage}{94}
+\indexentry{JGTL::LocatedException@{JGTL::Located\discretionary {-}{}{}Exception}!what@{what}|hyperpage}{94}
+\indexentry{what@{what}!JGTL::LocatedException@{JGTL::Located\discretionary {-}{}{}Exception}|hyperpage}{94}
+\indexentry{JGTL::LocatedException@{JGTL::Located\discretionary {-}{}{}Exception}!text@{text}|hyperpage}{94}
+\indexentry{text@{text}!JGTL::LocatedException@{JGTL::Located\discretionary {-}{}{}Exception}|hyperpage}{94}
+\indexentry{JGTL::MapInterface@{JGTL::MapInterface}|hyperpage}{95}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!iterator@{iterator}|hyperpage}{97}
+\indexentry{iterator@{iterator}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{97}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!const_iterator@{const\_\discretionary {-}{}{}iterator}|hyperpage}{97}
+\indexentry{const_iterator@{const\_\discretionary {-}{}{}iterator}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{97}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!TreeItem@{TreeItem}|hyperpage}{97}
+\indexentry{TreeItem@{TreeItem}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{97}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!TreeNode@{TreeNode}|hyperpage}{97}
+\indexentry{TreeNode@{TreeNode}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{97}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!MapInterface@{MapInterface}|hyperpage}{97}
+\indexentry{MapInterface@{MapInterface}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{97}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!\nobreakspace  {}MapInterface@{$\sim $MapInterface}|hyperpage}{97}
+\indexentry{\nobreakspace  {}MapInterface@{$\sim $MapInterface}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{97}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!MapInterface@{MapInterface}|hyperpage}{97}
+\indexentry{MapInterface@{MapInterface}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{97}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!\nobreakspace  {}MapInterface@{$\sim $MapInterface}|hyperpage}{97}
+\indexentry{\nobreakspace  {}MapInterface@{$\sim $MapInterface}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{97}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!operator==@{operator==}|hyperpage}{97}
+\indexentry{operator==@{operator==}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{97}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!resize@{resize}|hyperpage}{97}
+\indexentry{resize@{resize}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{97}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!insert@{insert}|hyperpage}{97}
+\indexentry{insert@{insert}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{97}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!size@{size}|hyperpage}{99}
+\indexentry{size@{size}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!empty@{empty}|hyperpage}{99}
+\indexentry{empty@{empty}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!clear@{clear}|hyperpage}{99}
+\indexentry{clear@{clear}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!begin@{begin}|hyperpage}{99}
+\indexentry{begin@{begin}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!begin@{begin}|hyperpage}{99}
+\indexentry{begin@{begin}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!end@{end}|hyperpage}{99}
+\indexentry{end@{end}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!end@{end}|hyperpage}{99}
+\indexentry{end@{end}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!hasKey@{hasKey}|hyperpage}{99}
+\indexentry{hasKey@{hasKey}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!find@{find}|hyperpage}{99}
+\indexentry{find@{find}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!find@{find}|hyperpage}{99}
+\indexentry{find@{find}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getData@{getData}|hyperpage}{99}
+\indexentry{getData@{getData}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getData@{getData}|hyperpage}{99}
+\indexentry{getData@{getData}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getDataRef@{getDataRef}|hyperpage}{99}
+\indexentry{getDataRef@{getDataRef}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!erase@{erase}|hyperpage}{99}
+\indexentry{erase@{erase}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!eraseIndex@{eraseIndex}|hyperpage}{99}
+\indexentry{eraseIndex@{eraseIndex}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getIndexData@{getIndexData}|hyperpage}{99}
+\indexentry{getIndexData@{getIndexData}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getIndexDataPtr@{getIndexDataPtr}|hyperpage}{99}
+\indexentry{getIndexDataPtr@{getIndexDataPtr}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getIndexDataPtr@{getIndexDataPtr}|hyperpage}{99}
+\indexentry{getIndexDataPtr@{getIndexDataPtr}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getIndex@{getIndex}|hyperpage}{99}
+\indexentry{getIndex@{getIndex}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getIndexPtr@{getIndexPtr}|hyperpage}{99}
+\indexentry{getIndexPtr@{getIndexPtr}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getIndexPtr@{getIndexPtr}|hyperpage}{99}
+\indexentry{getIndexPtr@{getIndexPtr}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!operator==@{operator==}|hyperpage}{99}
+\indexentry{operator==@{operator==}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!reserve@{reserve}|hyperpage}{99}
+\indexentry{reserve@{reserve}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!insert@{insert}|hyperpage}{99}
+\indexentry{insert@{insert}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{99}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!size@{size}|hyperpage}{101}
+\indexentry{size@{size}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!clear@{clear}|hyperpage}{101}
+\indexentry{clear@{clear}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!hasKey@{hasKey}|hyperpage}{101}
+\indexentry{hasKey@{hasKey}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!find@{find}|hyperpage}{101}
+\indexentry{find@{find}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!find@{find}|hyperpage}{101}
+\indexentry{find@{find}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getData@{getData}|hyperpage}{101}
+\indexentry{getData@{getData}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getData@{getData}|hyperpage}{101}
+\indexentry{getData@{getData}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getDataRef@{getDataRef}|hyperpage}{101}
+\indexentry{getDataRef@{getDataRef}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!erase@{erase}|hyperpage}{101}
+\indexentry{erase@{erase}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getIndexData@{getIndexData}|hyperpage}{101}
+\indexentry{getIndexData@{getIndexData}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getIndexDataPtr@{getIndexDataPtr}|hyperpage}{101}
+\indexentry{getIndexDataPtr@{getIndexDataPtr}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!getIndexDataPtr@{getIndexDataPtr}|hyperpage}{101}
+\indexentry{getIndexDataPtr@{getIndexDataPtr}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!numElements@{numElements}|hyperpage}{101}
+\indexentry{numElements@{numElements}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!maxElements@{maxElements}|hyperpage}{101}
+\indexentry{maxElements@{maxElements}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!dataList@{dataList}|hyperpage}{101}
+\indexentry{dataList@{dataList}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!dataList@{dataList}|hyperpage}{101}
+\indexentry{dataList@{dataList}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!nodeList@{nodeList}|hyperpage}{101}
+\indexentry{nodeList@{nodeList}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}!rootIndex@{rootIndex}|hyperpage}{101}
+\indexentry{rootIndex@{rootIndex}!JGTL::MapInterface@{JGTL::Map\discretionary {-}{}{}Interface}|hyperpage}{101}
+\indexentry{JGTL::NullVariantClass@{JGTL::NullVariantClass}|hyperpage}{103}
+\indexentry{JGTL::PolyVariant@{JGTL::PolyVariant}|hyperpage}{104}
+\indexentry{JGTL::PolyVariant@{JGTL::Poly\discretionary {-}{}{}Variant}!PolyVariant@{PolyVariant}|hyperpage}{105}
+\indexentry{PolyVariant@{PolyVariant}!JGTL::PolyVariant@{JGTL::Poly\discretionary {-}{}{}Variant}|hyperpage}{105}
+\indexentry{JGTL::PolyVariant@{JGTL::Poly\discretionary {-}{}{}Variant}!operator->@{operator-$>$}|hyperpage}{105}
+\indexentry{operator->@{operator-$>$}!JGTL::PolyVariant@{JGTL::Poly\discretionary {-}{}{}Variant}|hyperpage}{105}
+\indexentry{JGTL::PolyVariant@{JGTL::Poly\discretionary {-}{}{}Variant}!base@{base}|hyperpage}{105}
+\indexentry{base@{base}!JGTL::PolyVariant@{JGTL::Poly\discretionary {-}{}{}Variant}|hyperpage}{105}
+\indexentry{JGTL::PoolMap@{JGTL::PoolMap}|hyperpage}{106}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!iterator@{iterator}|hyperpage}{107}
+\indexentry{iterator@{iterator}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!const_iterator@{const\_\discretionary {-}{}{}iterator}|hyperpage}{107}
+\indexentry{const_iterator@{const\_\discretionary {-}{}{}iterator}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!PoolMap@{PoolMap}|hyperpage}{107}
+\indexentry{PoolMap@{PoolMap}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!PoolMap@{PoolMap}|hyperpage}{107}
+\indexentry{PoolMap@{PoolMap}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!\nobreakspace  {}PoolMap@{$\sim $PoolMap}|hyperpage}{107}
+\indexentry{\nobreakspace  {}PoolMap@{$\sim $PoolMap}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!operator=@{operator=}|hyperpage}{107}
+\indexentry{operator=@{operator=}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!copyFrom@{copyFrom}|hyperpage}{107}
+\indexentry{copyFrom@{copyFrom}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!insert@{insert}|hyperpage}{107}
+\indexentry{insert@{insert}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!size@{size}|hyperpage}{107}
+\indexentry{size@{size}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!clear@{clear}|hyperpage}{107}
+\indexentry{clear@{clear}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!begin@{begin}|hyperpage}{107}
+\indexentry{begin@{begin}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!end@{end}|hyperpage}{107}
+\indexentry{end@{end}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!hasKey@{hasKey}|hyperpage}{107}
+\indexentry{hasKey@{hasKey}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!find@{find}|hyperpage}{107}
+\indexentry{find@{find}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!getData@{getData}|hyperpage}{107}
+\indexentry{getData@{getData}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!getData@{getData}|hyperpage}{107}
+\indexentry{getData@{getData}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!getDataRef@{getDataRef}|hyperpage}{107}
+\indexentry{getDataRef@{getDataRef}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!getIndexData@{getIndexData}|hyperpage}{107}
+\indexentry{getIndexData@{getIndexData}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!getIndexDataPtr@{getIndexDataPtr}|hyperpage}{107}
+\indexentry{getIndexDataPtr@{getIndexDataPtr}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!numElements@{numElements}|hyperpage}{107}
+\indexentry{numElements@{numElements}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!maxElements@{maxElements}|hyperpage}{107}
+\indexentry{maxElements@{maxElements}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}!dataList@{dataList}|hyperpage}{107}
+\indexentry{dataList@{dataList}!JGTL::PoolMap@{JGTL::Pool\discretionary {-}{}{}Map}|hyperpage}{107}
+\indexentry{JGTL::ProfileBlock@{JGTL::ProfileBlock}|hyperpage}{109}
+\indexentry{JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}!ProfileBlock@{ProfileBlock}|hyperpage}{109}
+\indexentry{ProfileBlock@{ProfileBlock}!JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}|hyperpage}{109}
+\indexentry{JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}!currentBlockStartMicroseconds@{currentBlockStartMicroseconds}|hyperpage}{109}
+\indexentry{currentBlockStartMicroseconds@{currentBlockStartMicroseconds}!JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}|hyperpage}{109}
+\indexentry{JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}!currentCycleTotalMicroseconds@{currentCycleTotalMicroseconds}|hyperpage}{109}
+\indexentry{currentCycleTotalMicroseconds@{currentCycleTotalMicroseconds}!JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}|hyperpage}{109}
+\indexentry{JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}!avgCycleTotalMicroseconds@{avgCycleTotalMicroseconds}|hyperpage}{110}
+\indexentry{avgCycleTotalMicroseconds@{avgCycleTotalMicroseconds}!JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}|hyperpage}{110}
+\indexentry{JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}!totalMicroseconds@{totalMicroseconds}|hyperpage}{110}
+\indexentry{totalMicroseconds@{totalMicroseconds}!JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}|hyperpage}{110}
+\indexentry{JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}!smallestCycleMicroseconds@{smallestCycleMicroseconds}|hyperpage}{110}
+\indexentry{smallestCycleMicroseconds@{smallestCycleMicroseconds}!JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}|hyperpage}{110}
+\indexentry{JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}!smallestCyclePercent@{smallestCyclePercent}|hyperpage}{110}
+\indexentry{smallestCyclePercent@{smallestCyclePercent}!JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}|hyperpage}{110}
+\indexentry{JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}!largestCycleMicroseconds@{largestCycleMicroseconds}|hyperpage}{110}
+\indexentry{largestCycleMicroseconds@{largestCycleMicroseconds}!JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}|hyperpage}{110}
+\indexentry{JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}!largestCyclePercent@{largestCyclePercent}|hyperpage}{110}
+\indexentry{largestCyclePercent@{largestCyclePercent}!JGTL::ProfileBlock@{JGTL::Profile\discretionary {-}{}{}Block}|hyperpage}{110}
+\indexentry{JGTL::ProfileBlockHandler@{JGTL::ProfileBlockHandler}|hyperpage}{111}
+\indexentry{JGTL::ProfileBlockHandler@{JGTL::Profile\discretionary {-}{}{}Block\discretionary {-}{}{}Handler}!ProfileBlockHandler@{ProfileBlockHandler}|hyperpage}{111}
+\indexentry{ProfileBlockHandler@{ProfileBlockHandler}!JGTL::ProfileBlockHandler@{JGTL::Profile\discretionary {-}{}{}Block\discretionary {-}{}{}Handler}|hyperpage}{111}
+\indexentry{JGTL::ProfileBlockHandler@{JGTL::Profile\discretionary {-}{}{}Block\discretionary {-}{}{}Handler}!\nobreakspace  {}ProfileBlockHandler@{$\sim $ProfileBlockHandler}|hyperpage}{111}
+\indexentry{\nobreakspace  {}ProfileBlockHandler@{$\sim $ProfileBlockHandler}!JGTL::ProfileBlockHandler@{JGTL::Profile\discretionary {-}{}{}Block\discretionary {-}{}{}Handler}|hyperpage}{111}
+\indexentry{JGTL::ProfileBlockHandler@{JGTL::Profile\discretionary {-}{}{}Block\discretionary {-}{}{}Handler}!blockName@{blockName}|hyperpage}{111}
+\indexentry{blockName@{blockName}!JGTL::ProfileBlockHandler@{JGTL::Profile\discretionary {-}{}{}Block\discretionary {-}{}{}Handler}|hyperpage}{111}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}|hyperpage}{112}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!Profiler@{Profiler}|hyperpage}{114}
+\indexentry{Profiler@{Profiler}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{114}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!\nobreakspace  {}Profiler@{$\sim $Profiler}|hyperpage}{114}
+\indexentry{\nobreakspace  {}Profiler@{$\sim $Profiler}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{114}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!createInstance@{createInstance}|hyperpage}{114}
+\indexentry{createInstance@{createInstance}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{114}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!destroyInstance@{destroyInstance}|hyperpage}{114}
+\indexentry{destroyInstance@{destroyInstance}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{114}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!init@{init}|hyperpage}{114}
+\indexentry{init@{init}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{114}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!reset@{reset}|hyperpage}{114}
+\indexentry{reset@{reset}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{114}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!beginBlock@{beginBlock}|hyperpage}{115}
+\indexentry{beginBlock@{beginBlock}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{115}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!endBlock@{endBlock}|hyperpage}{115}
+\indexentry{endBlock@{endBlock}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{115}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!beginCycle@{beginCycle}|hyperpage}{115}
+\indexentry{beginCycle@{beginCycle}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{115}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!endCycle@{endCycle}|hyperpage}{115}
+\indexentry{endCycle@{endCycle}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{115}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!getAvgDuration@{getAvgDuration}|hyperpage}{115}
+\indexentry{getAvgDuration@{getAvgDuration}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{115}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!getSummary@{getSummary}|hyperpage}{115}
+\indexentry{getSummary@{getSummary}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{115}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!printError@{printError}|hyperpage}{116}
+\indexentry{printError@{printError}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{116}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!getProfileBlock@{getProfileBlock}|hyperpage}{116}
+\indexentry{getProfileBlock@{getProfileBlock}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{116}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!getBlockMinTime@{getBlockMinTime}|hyperpage}{116}
+\indexentry{getBlockMinTime@{getBlockMinTime}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{116}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!getBlockTotalTime@{getBlockTotalTime}|hyperpage}{117}
+\indexentry{getBlockTotalTime@{getBlockTotalTime}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{117}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!getBlockMaxTime@{getBlockMaxTime}|hyperpage}{117}
+\indexentry{getBlockMaxTime@{getBlockMaxTime}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{117}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!getMicrosecondsSinceInit@{getMicrosecondsSinceInit}|hyperpage}{117}
+\indexentry{getMicrosecondsSinceInit@{getMicrosecondsSinceInit}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{117}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!getSuffixString@{getSuffixString}|hyperpage}{117}
+\indexentry{getSuffixString@{getSuffixString}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{117}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!mEnabled@{mEnabled}|hyperpage}{118}
+\indexentry{mEnabled@{mEnabled}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{118}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!mClock@{mClock}|hyperpage}{118}
+\indexentry{mClock@{mClock}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{118}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!mCurrentCycleStartMicroseconds@{mCurrentCycleStartMicroseconds}|hyperpage}{118}
+\indexentry{mCurrentCycleStartMicroseconds@{mCurrentCycleStartMicroseconds}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{118}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!mLastCycleDurationMicroseconds@{mLastCycleDurationMicroseconds}|hyperpage}{118}
+\indexentry{mLastCycleDurationMicroseconds@{mLastCycleDurationMicroseconds}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{118}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!mProfileBlocks@{mProfileBlocks}|hyperpage}{118}
+\indexentry{mProfileBlocks@{mProfileBlocks}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{118}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!mOutputFile@{mOutputFile}|hyperpage}{118}
+\indexentry{mOutputFile@{mOutputFile}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{118}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!mFirstFileOutput@{mFirstFileOutput}|hyperpage}{118}
+\indexentry{mFirstFileOutput@{mFirstFileOutput}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{118}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!mMovingAvgScalar@{mMovingAvgScalar}|hyperpage}{118}
+\indexentry{mMovingAvgScalar@{mMovingAvgScalar}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{118}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!mPrintPeriod@{mPrintPeriod}|hyperpage}{119}
+\indexentry{mPrintPeriod@{mPrintPeriod}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{119}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!mPrintFormat@{mPrintFormat}|hyperpage}{119}
+\indexentry{mPrintFormat@{mPrintFormat}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{119}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!mCycleCounter@{mCycleCounter}|hyperpage}{119}
+\indexentry{mCycleCounter@{mCycleCounter}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{119}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!mFirstCycle@{mFirstCycle}|hyperpage}{119}
+\indexentry{mFirstCycle@{mFirstCycle}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{119}
+\indexentry{JGTL::Profiler@{JGTL::Profiler}!microsecondsSinceInit@{microsecondsSinceInit}|hyperpage}{119}
+\indexentry{microsecondsSinceInit@{microsecondsSinceInit}!JGTL::Profiler@{JGTL::Profiler}|hyperpage}{119}
+\indexentry{JGTL::QuadTree@{JGTL::QuadTree}|hyperpage}{120}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!QuadTree@{QuadTree}|hyperpage}{121}
+\indexentry{QuadTree@{QuadTree}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!QuadTree@{QuadTree}|hyperpage}{121}
+\indexentry{QuadTree@{QuadTree}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!\nobreakspace  {}QuadTree@{$\sim $QuadTree}|hyperpage}{121}
+\indexentry{\nobreakspace  {}QuadTree@{$\sim $QuadTree}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!operator=@{operator=}|hyperpage}{121}
+\indexentry{operator=@{operator=}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!copyFrom@{copyFrom}|hyperpage}{121}
+\indexentry{copyFrom@{copyFrom}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!getValue@{getValue}|hyperpage}{121}
+\indexentry{getValue@{getValue}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!getValue@{getValue}|hyperpage}{121}
+\indexentry{getValue@{getValue}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!setValue@{setValue}|hyperpage}{121}
+\indexentry{setValue@{setValue}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!setValue@{setValue}|hyperpage}{121}
+\indexentry{setValue@{setValue}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!setAll@{setAll}|hyperpage}{121}
+\indexentry{setAll@{setAll}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!display@{display}|hyperpage}{121}
+\indexentry{display@{display}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!operator()@{operator()}|hyperpage}{121}
+\indexentry{operator()@{operator()}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!operator()@{operator()}|hyperpage}{121}
+\indexentry{operator()@{operator()}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!size@{size}|hyperpage}{121}
+\indexentry{size@{size}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!root@{root}|hyperpage}{121}
+\indexentry{root@{root}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!branchPool@{branchPool}|hyperpage}{121}
+\indexentry{branchPool@{branchPool}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}!stubPool@{stubPool}|hyperpage}{121}
+\indexentry{stubPool@{stubPool}!JGTL::QuadTree@{JGTL::Quad\discretionary {-}{}{}Tree}|hyperpage}{121}
+\indexentry{JGTL::QuadTreeBranch@{JGTL::QuadTreeBranch}|hyperpage}{123}
+\indexentry{JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!QuadTreeBranch@{QuadTreeBranch}|hyperpage}{124}
+\indexentry{QuadTreeBranch@{QuadTreeBranch}!JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{124}
+\indexentry{JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!\nobreakspace  {}QuadTreeBranch@{$\sim $QuadTreeBranch}|hyperpage}{124}
+\indexentry{\nobreakspace  {}QuadTreeBranch@{$\sim $QuadTreeBranch}!JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{124}
+\indexentry{JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!destroy@{destroy}|hyperpage}{124}
+\indexentry{destroy@{destroy}!JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{124}
+\indexentry{JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!getValue@{getValue}|hyperpage}{124}
+\indexentry{getValue@{getValue}!JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{124}
+\indexentry{JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!getValue@{getValue}|hyperpage}{124}
+\indexentry{getValue@{getValue}!JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{124}
+\indexentry{JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!setAll@{setAll}|hyperpage}{124}
+\indexentry{setAll@{setAll}!JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{124}
+\indexentry{JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!setValue@{setValue}|hyperpage}{124}
+\indexentry{setValue@{setValue}!JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{124}
+\indexentry{JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!display@{display}|hyperpage}{124}
+\indexentry{display@{display}!JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{124}
+\indexentry{JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!topLeft@{topLeft}|hyperpage}{125}
+\indexentry{topLeft@{topLeft}!JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{125}
+\indexentry{JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!topRight@{topRight}|hyperpage}{125}
+\indexentry{topRight@{topRight}!JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{125}
+\indexentry{JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!bottomLeft@{bottomLeft}|hyperpage}{125}
+\indexentry{bottomLeft@{bottomLeft}!JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{125}
+\indexentry{JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}!bottomRight@{bottomRight}|hyperpage}{125}
+\indexentry{bottomRight@{bottomRight}!JGTL::QuadTreeBranch@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}|hyperpage}{125}
+\indexentry{JGTL::QuadTreeNode@{JGTL::QuadTreeNode}|hyperpage}{126}
+\indexentry{JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!QuadTreeNode@{QuadTreeNode}|hyperpage}{127}
+\indexentry{QuadTreeNode@{QuadTreeNode}!JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{127}
+\indexentry{JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!\nobreakspace  {}QuadTreeNode@{$\sim $QuadTreeNode}|hyperpage}{127}
+\indexentry{\nobreakspace  {}QuadTreeNode@{$\sim $QuadTreeNode}!JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{127}
+\indexentry{JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!getValue@{getValue}|hyperpage}{127}
+\indexentry{getValue@{getValue}!JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{127}
+\indexentry{JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!getValue@{getValue}|hyperpage}{127}
+\indexentry{getValue@{getValue}!JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{127}
+\indexentry{JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!setValue@{setValue}|hyperpage}{127}
+\indexentry{setValue@{setValue}!JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{127}
+\indexentry{JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!isStub@{isStub}|hyperpage}{127}
+\indexentry{isStub@{isStub}!JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{127}
+\indexentry{JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!destroy@{destroy}|hyperpage}{127}
+\indexentry{destroy@{destroy}!JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{127}
+\indexentry{JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}!display@{display}|hyperpage}{127}
+\indexentry{display@{display}!JGTL::QuadTreeNode@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}|hyperpage}{127}
+\indexentry{JGTL::QuadTreeStub@{JGTL::QuadTreeStub}|hyperpage}{129}
+\indexentry{JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!QuadTreeStub@{QuadTreeStub}|hyperpage}{130}
+\indexentry{QuadTreeStub@{QuadTreeStub}!JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{130}
+\indexentry{JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!\nobreakspace  {}QuadTreeStub@{$\sim $QuadTreeStub}|hyperpage}{130}
+\indexentry{\nobreakspace  {}QuadTreeStub@{$\sim $QuadTreeStub}!JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{130}
+\indexentry{JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!getValue@{getValue}|hyperpage}{130}
+\indexentry{getValue@{getValue}!JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{130}
+\indexentry{JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!getValue@{getValue}|hyperpage}{130}
+\indexentry{getValue@{getValue}!JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{130}
+\indexentry{JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!setValue@{setValue}|hyperpage}{130}
+\indexentry{setValue@{setValue}!JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{130}
+\indexentry{JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!setValue@{setValue}|hyperpage}{130}
+\indexentry{setValue@{setValue}!JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{130}
+\indexentry{JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!isStub@{isStub}|hyperpage}{130}
+\indexentry{isStub@{isStub}!JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{130}
+\indexentry{JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!display@{display}|hyperpage}{130}
+\indexentry{display@{display}!JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{130}
+\indexentry{JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}!value@{value}|hyperpage}{131}
+\indexentry{value@{value}!JGTL::QuadTreeStub@{JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}|hyperpage}{131}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}|hyperpage}{132}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!Ray2@{Ray2}|hyperpage}{134}
+\indexentry{Ray2@{Ray2}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!Ray2@{Ray2}|hyperpage}{134}
+\indexentry{Ray2@{Ray2}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!getDirection@{getDirection}|hyperpage}{134}
+\indexentry{getDirection@{getDirection}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!getBase@{getBase}|hyperpage}{134}
+\indexentry{getBase@{getBase}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!getEndPoint@{getEndPoint}|hyperpage}{134}
+\indexentry{getEndPoint@{getEndPoint}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!setBase@{setBase}|hyperpage}{134}
+\indexentry{setBase@{setBase}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!setDirection@{setDirection}|hyperpage}{134}
+\indexentry{setDirection@{setDirection}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!getProjectionTVal@{getProjectionTVal}|hyperpage}{134}
+\indexentry{getProjectionTVal@{getProjectionTVal}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!getProjectionVector@{getProjectionVector}|hyperpage}{134}
+\indexentry{getProjectionVector@{getProjectionVector}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!normalize@{normalize}|hyperpage}{134}
+\indexentry{normalize@{normalize}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!getIntersection@{getIntersection}|hyperpage}{134}
+\indexentry{getIntersection@{getIntersection}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!within@{within}|hyperpage}{134}
+\indexentry{within@{within}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!putwhere@{putwhere}|hyperpage}{134}
+\indexentry{putwhere@{putwhere}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!base@{base}|hyperpage}{134}
+\indexentry{base@{base}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray2@{JGTL::Ray2}!direction@{direction}|hyperpage}{134}
+\indexentry{direction@{direction}!JGTL::Ray2@{JGTL::Ray2}|hyperpage}{134}
+\indexentry{JGTL::Ray3@{JGTL::Ray3}|hyperpage}{136}
+\indexentry{JGTL::Ray3@{JGTL::Ray3}!Ray3@{Ray3}|hyperpage}{137}
+\indexentry{Ray3@{Ray3}!JGTL::Ray3@{JGTL::Ray3}|hyperpage}{137}
+\indexentry{JGTL::Ray3@{JGTL::Ray3}!Ray3@{Ray3}|hyperpage}{137}
+\indexentry{Ray3@{Ray3}!JGTL::Ray3@{JGTL::Ray3}|hyperpage}{137}
+\indexentry{JGTL::Ray3@{JGTL::Ray3}!getDirection@{getDirection}|hyperpage}{137}
+\indexentry{getDirection@{getDirection}!JGTL::Ray3@{JGTL::Ray3}|hyperpage}{137}
+\indexentry{JGTL::Ray3@{JGTL::Ray3}!getBase@{getBase}|hyperpage}{137}
+\indexentry{getBase@{getBase}!JGTL::Ray3@{JGTL::Ray3}|hyperpage}{137}
+\indexentry{JGTL::Ray3@{JGTL::Ray3}!setBase@{setBase}|hyperpage}{137}
+\indexentry{setBase@{setBase}!JGTL::Ray3@{JGTL::Ray3}|hyperpage}{137}
+\indexentry{JGTL::Ray3@{JGTL::Ray3}!setDirection@{setDirection}|hyperpage}{137}
+\indexentry{setDirection@{setDirection}!JGTL::Ray3@{JGTL::Ray3}|hyperpage}{137}
+\indexentry{JGTL::Ray3@{JGTL::Ray3}!getProjectionTVal@{getProjectionTVal}|hyperpage}{137}
+\indexentry{getProjectionTVal@{getProjectionTVal}!JGTL::Ray3@{JGTL::Ray3}|hyperpage}{137}
+\indexentry{JGTL::Ray3@{JGTL::Ray3}!getProjectionVector@{getProjectionVector}|hyperpage}{137}
+\indexentry{getProjectionVector@{getProjectionVector}!JGTL::Ray3@{JGTL::Ray3}|hyperpage}{137}
+\indexentry{JGTL::Ray3@{JGTL::Ray3}!normalize@{normalize}|hyperpage}{137}
+\indexentry{normalize@{normalize}!JGTL::Ray3@{JGTL::Ray3}|hyperpage}{137}
+\indexentry{JGTL::Ray3@{JGTL::Ray3}!base@{base}|hyperpage}{137}
+\indexentry{base@{base}!JGTL::Ray3@{JGTL::Ray3}|hyperpage}{137}
+\indexentry{JGTL::Ray3@{JGTL::Ray3}!direction@{direction}|hyperpage}{137}
+\indexentry{direction@{direction}!JGTL::Ray3@{JGTL::Ray3}|hyperpage}{137}
+\indexentry{JGTL::Rectangle3@{JGTL::Rectangle3}|hyperpage}{138}
+\indexentry{JGTL::Rectangle3@{JGTL::Rectangle3}!Rectangle3@{Rectangle3}|hyperpage}{139}
+\indexentry{Rectangle3@{Rectangle3}!JGTL::Rectangle3@{JGTL::Rectangle3}|hyperpage}{139}
+\indexentry{JGTL::Rectangle3@{JGTL::Rectangle3}!Rectangle3@{Rectangle3}|hyperpage}{139}
+\indexentry{Rectangle3@{Rectangle3}!JGTL::Rectangle3@{JGTL::Rectangle3}|hyperpage}{139}
+\indexentry{JGTL::Rectangle3@{JGTL::Rectangle3}!contains@{contains}|hyperpage}{139}
+\indexentry{contains@{contains}!JGTL::Rectangle3@{JGTL::Rectangle3}|hyperpage}{139}
+\indexentry{JGTL::Rectangle3@{JGTL::Rectangle3}!getFirstPoint@{getFirstPoint}|hyperpage}{139}
+\indexentry{getFirstPoint@{getFirstPoint}!JGTL::Rectangle3@{JGTL::Rectangle3}|hyperpage}{139}
+\indexentry{JGTL::Rectangle3@{JGTL::Rectangle3}!getNextDiscretePoint@{getNextDiscretePoint}|hyperpage}{139}
+\indexentry{getNextDiscretePoint@{getNextDiscretePoint}!JGTL::Rectangle3@{JGTL::Rectangle3}|hyperpage}{139}
+\indexentry{JGTL::Rectangle3@{JGTL::Rectangle3}!topLeft@{topLeft}|hyperpage}{139}
+\indexentry{topLeft@{topLeft}!JGTL::Rectangle3@{JGTL::Rectangle3}|hyperpage}{139}
+\indexentry{JGTL::Rectangle3@{JGTL::Rectangle3}!size@{size}|hyperpage}{139}
+\indexentry{size@{size}!JGTL::Rectangle3@{JGTL::Rectangle3}|hyperpage}{139}
+\indexentry{JGTL::RectangleIndex3@{JGTL::RectangleIndex3}|hyperpage}{140}
+\indexentry{JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}!RectangleIndex3@{RectangleIndex3}|hyperpage}{141}
+\indexentry{RectangleIndex3@{RectangleIndex3}!JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}|hyperpage}{141}
+\indexentry{JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}!RectangleIndex3@{RectangleIndex3}|hyperpage}{141}
+\indexentry{RectangleIndex3@{RectangleIndex3}!JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}|hyperpage}{141}
+\indexentry{JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}!RectangleIndex3@{RectangleIndex3}|hyperpage}{141}
+\indexentry{RectangleIndex3@{RectangleIndex3}!JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}|hyperpage}{141}
+\indexentry{JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}!contains@{contains}|hyperpage}{141}
+\indexentry{contains@{contains}!JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}|hyperpage}{141}
+\indexentry{JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}!contains@{contains}|hyperpage}{141}
+\indexentry{contains@{contains}!JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}|hyperpage}{141}
+\indexentry{JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}!getFirstPoint@{getFirstPoint}|hyperpage}{141}
+\indexentry{getFirstPoint@{getFirstPoint}!JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}|hyperpage}{141}
+\indexentry{JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}!getNextPoint@{getNextPoint}|hyperpage}{141}
+\indexentry{getNextPoint@{getNextPoint}!JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}|hyperpage}{141}
+\indexentry{JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}!getArea@{getArea}|hyperpage}{141}
+\indexentry{getArea@{getArea}!JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}|hyperpage}{141}
+\indexentry{JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}!topLeft@{topLeft}|hyperpage}{141}
+\indexentry{topLeft@{topLeft}!JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}|hyperpage}{141}
+\indexentry{JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}!size@{size}|hyperpage}{141}
+\indexentry{size@{size}!JGTL::RectangleIndex3@{JGTL::Rectangle\discretionary {-}{}{}Index3}|hyperpage}{141}
+\indexentry{JGTL::SetInterface@{JGTL::SetInterface}|hyperpage}{142}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!iterator@{iterator}|hyperpage}{143}
+\indexentry{iterator@{iterator}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{143}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!const_iterator@{const\_\discretionary {-}{}{}iterator}|hyperpage}{143}
+\indexentry{const_iterator@{const\_\discretionary {-}{}{}iterator}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{143}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!SetInterface@{SetInterface}|hyperpage}{143}
+\indexentry{SetInterface@{SetInterface}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{143}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!\nobreakspace  {}SetInterface@{$\sim $SetInterface}|hyperpage}{143}
+\indexentry{\nobreakspace  {}SetInterface@{$\sim $SetInterface}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{143}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!operator==@{operator==}|hyperpage}{143}
+\indexentry{operator==@{operator==}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{143}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!resize@{resize}|hyperpage}{143}
+\indexentry{resize@{resize}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{143}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!insert@{insert}|hyperpage}{143}
+\indexentry{insert@{insert}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{143}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!size@{size}|hyperpage}{145}
+\indexentry{size@{size}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!empty@{empty}|hyperpage}{145}
+\indexentry{empty@{empty}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!clear@{clear}|hyperpage}{145}
+\indexentry{clear@{clear}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!begin@{begin}|hyperpage}{145}
+\indexentry{begin@{begin}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!begin@{begin}|hyperpage}{145}
+\indexentry{begin@{begin}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!end@{end}|hyperpage}{145}
+\indexentry{end@{end}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!end@{end}|hyperpage}{145}
+\indexentry{end@{end}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!hasData@{hasData}|hyperpage}{145}
+\indexentry{hasData@{hasData}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!find@{find}|hyperpage}{145}
+\indexentry{find@{find}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!erase@{erase}|hyperpage}{145}
+\indexentry{erase@{erase}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!erase@{erase}|hyperpage}{145}
+\indexentry{erase@{erase}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!eraseIndex@{eraseIndex}|hyperpage}{145}
+\indexentry{eraseIndex@{eraseIndex}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!getIndex@{getIndex}|hyperpage}{145}
+\indexentry{getIndex@{getIndex}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!getIndexRef@{getIndexRef}|hyperpage}{145}
+\indexentry{getIndexRef@{getIndexRef}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!getIndexPtr@{getIndexPtr}|hyperpage}{145}
+\indexentry{getIndexPtr@{getIndexPtr}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!getIndexPtr@{getIndexPtr}|hyperpage}{145}
+\indexentry{getIndexPtr@{getIndexPtr}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!numElements@{numElements}|hyperpage}{145}
+\indexentry{numElements@{numElements}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!maxElements@{maxElements}|hyperpage}{145}
+\indexentry{maxElements@{maxElements}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}!dataList@{dataList}|hyperpage}{145}
+\indexentry{dataList@{dataList}!JGTL::SetInterface@{JGTL::Set\discretionary {-}{}{}Interface}|hyperpage}{145}
+\indexentry{JGTL::Singleton@{JGTL::Singleton}|hyperpage}{147}
+\indexentry{JGTL::Singleton@{JGTL::Singleton}!Singleton@{Singleton}|hyperpage}{148}
+\indexentry{Singleton@{Singleton}!JGTL::Singleton@{JGTL::Singleton}|hyperpage}{148}
+\indexentry{JGTL::Singleton@{JGTL::Singleton}!\nobreakspace  {}Singleton@{$\sim $Singleton}|hyperpage}{148}
+\indexentry{\nobreakspace  {}Singleton@{$\sim $Singleton}!JGTL::Singleton@{JGTL::Singleton}|hyperpage}{148}
+\indexentry{JGTL::Singleton@{JGTL::Singleton}!getInstance@{getInstance}|hyperpage}{148}
+\indexentry{getInstance@{getInstance}!JGTL::Singleton@{JGTL::Singleton}|hyperpage}{148}
+\indexentry{JGTL::Singleton@{JGTL::Singleton}!destroyInstance@{destroyInstance}|hyperpage}{148}
+\indexentry{destroyInstance@{destroyInstance}!JGTL::Singleton@{JGTL::Singleton}|hyperpage}{148}
+\indexentry{JGTL::Singleton@{JGTL::Singleton}!instance@{instance}|hyperpage}{148}
+\indexentry{instance@{instance}!JGTL::Singleton@{JGTL::Singleton}|hyperpage}{148}
+\indexentry{JGTL::SortedList@{JGTL::SortedList}|hyperpage}{149}
+\indexentry{JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}!SortedList@{SortedList}|hyperpage}{150}
+\indexentry{SortedList@{SortedList}!JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}|hyperpage}{150}
+\indexentry{JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}!\nobreakspace  {}SortedList@{$\sim $SortedList}|hyperpage}{150}
+\indexentry{\nobreakspace  {}SortedList@{$\sim $SortedList}!JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}|hyperpage}{150}
+\indexentry{JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}!addData@{addData}|hyperpage}{150}
+\indexentry{addData@{addData}!JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}|hyperpage}{150}
+\indexentry{JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}!getDataSize@{getDataSize}|hyperpage}{150}
+\indexentry{getDataSize@{getDataSize}!JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}|hyperpage}{150}
+\indexentry{JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}!hasData@{hasData}|hyperpage}{150}
+\indexentry{hasData@{hasData}!JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}|hyperpage}{150}
+\indexentry{JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}!getData@{getData}|hyperpage}{150}
+\indexentry{getData@{getData}!JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}|hyperpage}{150}
+\indexentry{JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}!getDataPtr@{getDataPtr}|hyperpage}{150}
+\indexentry{getDataPtr@{getDataPtr}!JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}|hyperpage}{150}
+\indexentry{JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}!numElements@{numElements}|hyperpage}{150}
+\indexentry{numElements@{numElements}!JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}|hyperpage}{150}
+\indexentry{JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}!maxElements@{maxElements}|hyperpage}{150}
+\indexentry{maxElements@{maxElements}!JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}|hyperpage}{150}
+\indexentry{JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}!dataList@{dataList}|hyperpage}{150}
+\indexentry{dataList@{dataList}!JGTL::SortedList@{JGTL::Sorted\discretionary {-}{}{}List}|hyperpage}{150}
+\indexentry{JGTL::StackCircularBuffer@{JGTL::StackCircularBuffer}|hyperpage}{151}
+\indexentry{JGTL::StackCircularBuffer@{JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}!StackCircularBuffer@{StackCircularBuffer}|hyperpage}{152}
+\indexentry{StackCircularBuffer@{StackCircularBuffer}!JGTL::StackCircularBuffer@{JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}|hyperpage}{152}
+\indexentry{JGTL::StackCircularBuffer@{JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}!StackCircularBuffer@{StackCircularBuffer}|hyperpage}{152}
+\indexentry{StackCircularBuffer@{StackCircularBuffer}!JGTL::StackCircularBuffer@{JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}|hyperpage}{152}
+\indexentry{JGTL::StackCircularBuffer@{JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}!\nobreakspace  {}StackCircularBuffer@{$\sim $StackCircularBuffer}|hyperpage}{152}
+\indexentry{\nobreakspace  {}StackCircularBuffer@{$\sim $StackCircularBuffer}!JGTL::StackCircularBuffer@{JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}|hyperpage}{152}
+\indexentry{JGTL::StackCircularBuffer@{JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}!operator=@{operator=}|hyperpage}{152}
+\indexentry{operator=@{operator=}!JGTL::StackCircularBuffer@{JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}|hyperpage}{152}
+\indexentry{JGTL::StackCircularBuffer@{JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}!resize@{resize}|hyperpage}{152}
+\indexentry{resize@{resize}!JGTL::StackCircularBuffer@{JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}|hyperpage}{152}
+\indexentry{JGTL::StackCircularBuffer@{JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}!copyFrom@{copyFrom}|hyperpage}{152}
+\indexentry{copyFrom@{copyFrom}!JGTL::StackCircularBuffer@{JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}|hyperpage}{152}
+\indexentry{JGTL::StackCircularBuffer@{JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}!data@{data}|hyperpage}{152}
+\indexentry{data@{data}!JGTL::StackCircularBuffer@{JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}|hyperpage}{152}
+\indexentry{JGTL::StackMap@{JGTL::StackMap}|hyperpage}{154}
+\indexentry{JGTL::StackMap@{JGTL::Stack\discretionary {-}{}{}Map}!StackMap@{StackMap}|hyperpage}{155}
+\indexentry{StackMap@{StackMap}!JGTL::StackMap@{JGTL::Stack\discretionary {-}{}{}Map}|hyperpage}{155}
+\indexentry{JGTL::StackMap@{JGTL::Stack\discretionary {-}{}{}Map}!StackMap@{StackMap}|hyperpage}{155}
+\indexentry{StackMap@{StackMap}!JGTL::StackMap@{JGTL::Stack\discretionary {-}{}{}Map}|hyperpage}{155}
+\indexentry{JGTL::StackMap@{JGTL::Stack\discretionary {-}{}{}Map}!\nobreakspace  {}StackMap@{$\sim $StackMap}|hyperpage}{155}
+\indexentry{\nobreakspace  {}StackMap@{$\sim $StackMap}!JGTL::StackMap@{JGTL::Stack\discretionary {-}{}{}Map}|hyperpage}{155}
+\indexentry{JGTL::StackMap@{JGTL::Stack\discretionary {-}{}{}Map}!operator=@{operator=}|hyperpage}{155}
+\indexentry{operator=@{operator=}!JGTL::StackMap@{JGTL::Stack\discretionary {-}{}{}Map}|hyperpage}{155}
+\indexentry{JGTL::StackMap@{JGTL::Stack\discretionary {-}{}{}Map}!resize@{resize}|hyperpage}{155}
+\indexentry{resize@{resize}!JGTL::StackMap@{JGTL::Stack\discretionary {-}{}{}Map}|hyperpage}{155}
+\indexentry{JGTL::StackMap@{JGTL::Stack\discretionary {-}{}{}Map}!copyFrom@{copyFrom}|hyperpage}{155}
+\indexentry{copyFrom@{copyFrom}!JGTL::StackMap@{JGTL::Stack\discretionary {-}{}{}Map}|hyperpage}{155}
+\indexentry{JGTL::StackMap@{JGTL::Stack\discretionary {-}{}{}Map}!data@{data}|hyperpage}{156}
+\indexentry{data@{data}!JGTL::StackMap@{JGTL::Stack\discretionary {-}{}{}Map}|hyperpage}{156}
+\indexentry{JGTL::StackSet@{JGTL::StackSet}|hyperpage}{157}
+\indexentry{JGTL::StackSet@{JGTL::Stack\discretionary {-}{}{}Set}!StackSet@{StackSet}|hyperpage}{158}
+\indexentry{StackSet@{StackSet}!JGTL::StackSet@{JGTL::Stack\discretionary {-}{}{}Set}|hyperpage}{158}
+\indexentry{JGTL::StackSet@{JGTL::Stack\discretionary {-}{}{}Set}!StackSet@{StackSet}|hyperpage}{158}
+\indexentry{StackSet@{StackSet}!JGTL::StackSet@{JGTL::Stack\discretionary {-}{}{}Set}|hyperpage}{158}
+\indexentry{JGTL::StackSet@{JGTL::Stack\discretionary {-}{}{}Set}!\nobreakspace  {}StackSet@{$\sim $StackSet}|hyperpage}{158}
+\indexentry{\nobreakspace  {}StackSet@{$\sim $StackSet}!JGTL::StackSet@{JGTL::Stack\discretionary {-}{}{}Set}|hyperpage}{158}
+\indexentry{JGTL::StackSet@{JGTL::Stack\discretionary {-}{}{}Set}!operator=@{operator=}|hyperpage}{158}
+\indexentry{operator=@{operator=}!JGTL::StackSet@{JGTL::Stack\discretionary {-}{}{}Set}|hyperpage}{158}
+\indexentry{JGTL::StackSet@{JGTL::Stack\discretionary {-}{}{}Set}!copyFrom@{copyFrom}|hyperpage}{158}
+\indexentry{copyFrom@{copyFrom}!JGTL::StackSet@{JGTL::Stack\discretionary {-}{}{}Set}|hyperpage}{158}
+\indexentry{JGTL::StackSet@{JGTL::Stack\discretionary {-}{}{}Set}!data@{data}|hyperpage}{158}
+\indexentry{data@{data}!JGTL::StackSet@{JGTL::Stack\discretionary {-}{}{}Set}|hyperpage}{158}
+\indexentry{JGTL::STATIC_MAX_SIZE@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE}|hyperpage}{159}
+\indexentry{JGTL::STATIC_MAX_SIZE@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE}!RESULT@{RESULT}|hyperpage}{159}
+\indexentry{RESULT@{RESULT}!JGTL::STATIC_MAX_SIZE@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE}|hyperpage}{159}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, One, One, One, Two >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, One, One, Two $>$}|hyperpage}{160}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, One, One, One, Two >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, One, One, Two $>$}!RESULT@{RESULT}|hyperpage}{160}
+\indexentry{RESULT@{RESULT}!JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, One, One, One, Two >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, One, One, Two $>$}|hyperpage}{160}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, One, One, Two, Three >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, One, Two, Three $>$}|hyperpage}{161}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, One, One, Two, Three >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, One, Two, Three $>$}!RESULT@{RESULT}|hyperpage}{161}
+\indexentry{RESULT@{RESULT}!JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, One, One, Two, Three >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, One, Two, Three $>$}|hyperpage}{161}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, One, Two, Three, Four >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, Two, Three, Four $>$}|hyperpage}{162}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, One, Two, Three, Four >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, Two, Three, Four $>$}!RESULT@{RESULT}|hyperpage}{162}
+\indexentry{RESULT@{RESULT}!JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, One, Two, Three, Four >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, Two, Three, Four $>$}|hyperpage}{162}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, Two, Three, Four, Five >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, Two, Three, Four, Five $>$}|hyperpage}{163}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, Two, Three, Four, Five >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, Two, Three, Four, Five $>$}!RESULT@{RESULT}|hyperpage}{163}
+\indexentry{RESULT@{RESULT}!JGTL::STATIC_MAX_SIZE< One, One, One, One, One, One, Two, Three, Four, Five >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, Two, Three, Four, Five $>$}|hyperpage}{163}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, One, One, One, Two, Three, Four, Five, Six >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, Two, Three, Four, Five, Six $>$}|hyperpage}{164}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, One, One, One, Two, Three, Four, Five, Six >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, Two, Three, Four, Five, Six $>$}!RESULT@{RESULT}|hyperpage}{164}
+\indexentry{RESULT@{RESULT}!JGTL::STATIC_MAX_SIZE< One, One, One, One, One, Two, Three, Four, Five, Six >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, Two, Three, Four, Five, Six $>$}|hyperpage}{164}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, One, One, Two, Three, Four, Five, Six, Seven >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, Two, Three, Four, Five, Six, Seven $>$}|hyperpage}{165}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, One, One, Two, Three, Four, Five, Six, Seven >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, Two, Three, Four, Five, Six, Seven $>$}!RESULT@{RESULT}|hyperpage}{165}
+\indexentry{RESULT@{RESULT}!JGTL::STATIC_MAX_SIZE< One, One, One, One, Two, Three, Four, Five, Six, Seven >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, Two, Three, Four, Five, Six, Seven $>$}|hyperpage}{165}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, One, Two, Three, Four, Five, Six, Seven, Eight >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, Two, Three, Four, Five, Six, Seven, Eight $>$}|hyperpage}{166}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, One, Two, Three, Four, Five, Six, Seven, Eight >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, Two, Three, Four, Five, Six, Seven, Eight $>$}!RESULT@{RESULT}|hyperpage}{166}
+\indexentry{RESULT@{RESULT}!JGTL::STATIC_MAX_SIZE< One, One, One, Two, Three, Four, Five, Six, Seven, Eight >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, Two, Three, Four, Five, Six, Seven, Eight $>$}|hyperpage}{166}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, Two, Three, Four, Five, Six, Seven, Eight, Nine >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, Two, Three, Four, Five, Six, Seven, Eight, Nine $>$}|hyperpage}{167}
+\indexentry{JGTL::STATIC_MAX_SIZE< One, One, Two, Three, Four, Five, Six, Seven, Eight, Nine >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, Two, Three, Four, Five, Six, Seven, Eight, Nine $>$}!RESULT@{RESULT}|hyperpage}{167}
+\indexentry{RESULT@{RESULT}!JGTL::STATIC_MAX_SIZE< One, One, Two, Three, Four, Five, Six, Seven, Eight, Nine >@{JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, Two, Three, Four, Five, Six, Seven, Eight, Nine $>$}|hyperpage}{167}
+\indexentry{JGTL::STATIC_MOD@{JGTL::STATIC\_\discretionary {-}{}{}MOD}|hyperpage}{168}
+\indexentry{JGTL::STATIC_MOD@{JGTL::STATIC\_\discretionary {-}{}{}MOD}!VALUE@{VALUE}|hyperpage}{168}
+\indexentry{VALUE@{VALUE}!JGTL::STATIC_MOD@{JGTL::STATIC\_\discretionary {-}{}{}MOD}|hyperpage}{168}
+\indexentry{JGTL::TreeList@{JGTL::TreeList}|hyperpage}{169}
+\indexentry{JGTL::TreeList@{JGTL::Tree\discretionary {-}{}{}List}!TreeList@{TreeList}|hyperpage}{169}
+\indexentry{TreeList@{TreeList}!JGTL::TreeList@{JGTL::Tree\discretionary {-}{}{}List}|hyperpage}{169}
+\indexentry{JGTL::TreeList@{JGTL::Tree\discretionary {-}{}{}List}!\nobreakspace  {}TreeList@{$\sim $TreeList}|hyperpage}{169}
+\indexentry{\nobreakspace  {}TreeList@{$\sim $TreeList}!JGTL::TreeList@{JGTL::Tree\discretionary {-}{}{}List}|hyperpage}{169}
+\indexentry{JGTL::TreeList@{JGTL::Tree\discretionary {-}{}{}List}!root@{root}|hyperpage}{169}
+\indexentry{root@{root}!JGTL::TreeList@{JGTL::Tree\discretionary {-}{}{}List}|hyperpage}{169}
+\indexentry{JGTL::TreeListNode@{JGTL::TreeListNode}|hyperpage}{170}
+\indexentry{JGTL::TreeListNode@{JGTL::Tree\discretionary {-}{}{}List\discretionary {-}{}{}Node}!sibling@{sibling}|hyperpage}{170}
+\indexentry{sibling@{sibling}!JGTL::TreeListNode@{JGTL::Tree\discretionary {-}{}{}List\discretionary {-}{}{}Node}|hyperpage}{170}
+\indexentry{JGTL::TreeListNode@{JGTL::Tree\discretionary {-}{}{}List\discretionary {-}{}{}Node}!child@{child}|hyperpage}{170}
+\indexentry{child@{child}!JGTL::TreeListNode@{JGTL::Tree\discretionary {-}{}{}List\discretionary {-}{}{}Node}|hyperpage}{170}
+\indexentry{JGTL::TYPEIF@{JGTL::TYPEIF}|hyperpage}{171}
+\indexentry{JGTL::TYPEIF@{JGTL::TYPEIF}!RESULT@{RESULT}|hyperpage}{171}
+\indexentry{RESULT@{RESULT}!JGTL::TYPEIF@{JGTL::TYPEIF}|hyperpage}{171}
+\indexentry{JGTL::TYPEIF< Type, false, Then, Else >@{JGTL::TYPEIF$<$ Type, false, Then, Else $>$}|hyperpage}{172}
+\indexentry{JGTL::TYPEIF< Type, false, Then, Else >@{JGTL::TYPEIF$<$ Type, false, Then, Else $>$}!RESULT@{RESULT}|hyperpage}{172}
+\indexentry{RESULT@{RESULT}!JGTL::TYPEIF< Type, false, Then, Else >@{JGTL::TYPEIF$<$ Type, false, Then, Else $>$}|hyperpage}{172}
+\indexentry{JGTL::Variant@{JGTL::Variant}|hyperpage}{173}
+\indexentry{JGTL::Variant@{JGTL::Variant}!Variant@{Variant}|hyperpage}{174}
+\indexentry{Variant@{Variant}!JGTL::Variant@{JGTL::Variant}|hyperpage}{174}
+\indexentry{JGTL::Variant@{JGTL::Variant}!isOfType@{isOfType}|hyperpage}{174}
+\indexentry{isOfType@{isOfType}!JGTL::Variant@{JGTL::Variant}|hyperpage}{174}
+\indexentry{JGTL::Variant@{JGTL::Variant}!getValue@{getValue}|hyperpage}{174}
+\indexentry{getValue@{getValue}!JGTL::Variant@{JGTL::Variant}|hyperpage}{174}
+\indexentry{JGTL::Variant@{JGTL::Variant}!getValueRef@{getValueRef}|hyperpage}{174}
+\indexentry{getValueRef@{getValueRef}!JGTL::Variant@{JGTL::Variant}|hyperpage}{174}
+\indexentry{JGTL::Variant@{JGTL::Variant}!getValueRef@{getValueRef}|hyperpage}{174}
+\indexentry{getValueRef@{getValueRef}!JGTL::Variant@{JGTL::Variant}|hyperpage}{174}
+\indexentry{JGTL::Variant@{JGTL::Variant}!getValuePtr@{getValuePtr}|hyperpage}{174}
+\indexentry{getValuePtr@{getValuePtr}!JGTL::Variant@{JGTL::Variant}|hyperpage}{174}
+\indexentry{JGTL::Variant@{JGTL::Variant}!getValuePtr@{getValuePtr}|hyperpage}{174}
+\indexentry{getValuePtr@{getValuePtr}!JGTL::Variant@{JGTL::Variant}|hyperpage}{174}
+\indexentry{JGTL::Variant@{JGTL::Variant}!clearValue@{clearValue}|hyperpage}{174}
+\indexentry{clearValue@{clearValue}!JGTL::Variant@{JGTL::Variant}|hyperpage}{174}
+\indexentry{JGTL::Variant@{JGTL::Variant}!setValue@{setValue}|hyperpage}{174}
+\indexentry{setValue@{setValue}!JGTL::Variant@{JGTL::Variant}|hyperpage}{174}
+\indexentry{JGTL::Variant@{JGTL::Variant}!data@{data}|hyperpage}{174}
+\indexentry{data@{data}!JGTL::Variant@{JGTL::Variant}|hyperpage}{174}
+\indexentry{JGTL::Variant@{JGTL::Variant}!typeOfData@{typeOfData}|hyperpage}{174}
+\indexentry{typeOfData@{typeOfData}!JGTL::Variant@{JGTL::Variant}|hyperpage}{174}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}|hyperpage}{176}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!Vector2@{Vector2}|hyperpage}{179}
+\indexentry{Vector2@{Vector2}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!Vector2@{Vector2}|hyperpage}{179}
+\indexentry{Vector2@{Vector2}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!Vector2@{Vector2}|hyperpage}{179}
+\indexentry{Vector2@{Vector2}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!fromMagnitudeAngle@{fromMagnitudeAngle}|hyperpage}{179}
+\indexentry{fromMagnitudeAngle@{fromMagnitudeAngle}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!operator=@{operator=}|hyperpage}{179}
+\indexentry{operator=@{operator=}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!operator==@{operator==}|hyperpage}{179}
+\indexentry{operator==@{operator==}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!operator"!=@{operator"!=}|hyperpage}{179}
+\indexentry{operator"!=@{operator"!=}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!operator<@{operator$<$}|hyperpage}{179}
+\indexentry{operator<@{operator$<$}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!operator/@{operator/}|hyperpage}{179}
+\indexentry{operator/@{operator/}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!operator/=@{operator/=}|hyperpage}{179}
+\indexentry{operator/=@{operator/=}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!operator-@{operator-}|hyperpage}{179}
+\indexentry{operator-@{operator-}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!operator-@{operator-}|hyperpage}{179}
+\indexentry{operator-@{operator-}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!operator+@{operator+}|hyperpage}{179}
+\indexentry{operator+@{operator+}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!operator *@{operator $\ast $}|hyperpage}{179}
+\indexentry{operator *@{operator $\ast $}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!operator+=@{operator+=}|hyperpage}{179}
+\indexentry{operator+=@{operator+=}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!operator-=@{operator-=}|hyperpage}{179}
+\indexentry{operator-=@{operator-=}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!operator *=@{operator $\ast $=}|hyperpage}{179}
+\indexentry{operator *=@{operator $\ast $=}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!dot@{dot}|hyperpage}{179}
+\indexentry{dot@{dot}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!cross@{cross}|hyperpage}{179}
+\indexentry{cross@{cross}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!rightHandNormal@{rightHandNormal}|hyperpage}{179}
+\indexentry{rightHandNormal@{rightHandNormal}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!magnitudeSquared@{magnitudeSquared}|hyperpage}{179}
+\indexentry{magnitudeSquared@{magnitudeSquared}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!normalize@{normalize}|hyperpage}{179}
+\indexentry{normalize@{normalize}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!normalizeCopy@{normalizeCopy}|hyperpage}{179}
+\indexentry{normalizeCopy@{normalizeCopy}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!projectOn@{projectOn}|hyperpage}{179}
+\indexentry{projectOn@{projectOn}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!distance@{distance}|hyperpage}{179}
+\indexentry{distance@{distance}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!distance@{distance}|hyperpage}{179}
+\indexentry{distance@{distance}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!distanceSquared@{distanceSquared}|hyperpage}{179}
+\indexentry{distanceSquared@{distanceSquared}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!chessDistance@{chessDistance}|hyperpage}{179}
+\indexentry{chessDistance@{chessDistance}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!angleTo@{angleTo}|hyperpage}{179}
+\indexentry{angleTo@{angleTo}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!rotate@{rotate}|hyperpage}{179}
+\indexentry{rotate@{rotate}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!rotateCopy@{rotateCopy}|hyperpage}{179}
+\indexentry{rotateCopy@{rotateCopy}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!getAngle@{getAngle}|hyperpage}{179}
+\indexentry{getAngle@{getAngle}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!isContainedIn@{isContainedIn}|hyperpage}{179}
+\indexentry{isContainedIn@{isContainedIn}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!x@{x}|hyperpage}{179}
+\indexentry{x@{x}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector2@{JGTL::Vector2}!y@{y}|hyperpage}{179}
+\indexentry{y@{y}!JGTL::Vector2@{JGTL::Vector2}|hyperpage}{179}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}|hyperpage}{181}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!Vector3@{Vector3}|hyperpage}{183}
+\indexentry{Vector3@{Vector3}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!Vector3@{Vector3}|hyperpage}{183}
+\indexentry{Vector3@{Vector3}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!Vector3@{Vector3}|hyperpage}{183}
+\indexentry{Vector3@{Vector3}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!operator=@{operator=}|hyperpage}{183}
+\indexentry{operator=@{operator=}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!operator==@{operator==}|hyperpage}{183}
+\indexentry{operator==@{operator==}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!operator"!=@{operator"!=}|hyperpage}{183}
+\indexentry{operator"!=@{operator"!=}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!operator<@{operator$<$}|hyperpage}{183}
+\indexentry{operator<@{operator$<$}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!operator/@{operator/}|hyperpage}{183}
+\indexentry{operator/@{operator/}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!operator/=@{operator/=}|hyperpage}{183}
+\indexentry{operator/=@{operator/=}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!operator-@{operator-}|hyperpage}{183}
+\indexentry{operator-@{operator-}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!operator-@{operator-}|hyperpage}{183}
+\indexentry{operator-@{operator-}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!operator+@{operator+}|hyperpage}{183}
+\indexentry{operator+@{operator+}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!operator *@{operator $\ast $}|hyperpage}{183}
+\indexentry{operator *@{operator $\ast $}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!operator+=@{operator+=}|hyperpage}{183}
+\indexentry{operator+=@{operator+=}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!operator-=@{operator-=}|hyperpage}{183}
+\indexentry{operator-=@{operator-=}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!operator *=@{operator $\ast $=}|hyperpage}{183}
+\indexentry{operator *=@{operator $\ast $=}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!dot@{dot}|hyperpage}{183}
+\indexentry{dot@{dot}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!cross@{cross}|hyperpage}{183}
+\indexentry{cross@{cross}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!magnitude@{magnitude}|hyperpage}{183}
+\indexentry{magnitude@{magnitude}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!magnitudeSquared@{magnitudeSquared}|hyperpage}{183}
+\indexentry{magnitudeSquared@{magnitudeSquared}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!normalize@{normalize}|hyperpage}{183}
+\indexentry{normalize@{normalize}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!normalizeCopy@{normalizeCopy}|hyperpage}{183}
+\indexentry{normalizeCopy@{normalizeCopy}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!projectOn@{projectOn}|hyperpage}{183}
+\indexentry{projectOn@{projectOn}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!distance@{distance}|hyperpage}{183}
+\indexentry{distance@{distance}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!distance@{distance}|hyperpage}{183}
+\indexentry{distance@{distance}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!distanceSquared@{distanceSquared}|hyperpage}{183}
+\indexentry{distanceSquared@{distanceSquared}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!distanceSquared@{distanceSquared}|hyperpage}{183}
+\indexentry{distanceSquared@{distanceSquared}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!chessDistance@{chessDistance}|hyperpage}{183}
+\indexentry{chessDistance@{chessDistance}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!manhatDistance@{manhatDistance}|hyperpage}{183}
+\indexentry{manhatDistance@{manhatDistance}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!x@{x}|hyperpage}{183}
+\indexentry{x@{x}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!y@{y}|hyperpage}{183}
+\indexentry{y@{y}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector3@{JGTL::Vector3}!z@{z}|hyperpage}{183}
+\indexentry{z@{z}!JGTL::Vector3@{JGTL::Vector3}|hyperpage}{183}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}|hyperpage}{185}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!Vector4@{Vector4}|hyperpage}{186}
+\indexentry{Vector4@{Vector4}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!Vector4@{Vector4}|hyperpage}{186}
+\indexentry{Vector4@{Vector4}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!operator/@{operator/}|hyperpage}{186}
+\indexentry{operator/@{operator/}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!operator/=@{operator/=}|hyperpage}{186}
+\indexentry{operator/=@{operator/=}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!operator-@{operator-}|hyperpage}{186}
+\indexentry{operator-@{operator-}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!operator-@{operator-}|hyperpage}{186}
+\indexentry{operator-@{operator-}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!operator+@{operator+}|hyperpage}{186}
+\indexentry{operator+@{operator+}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!operator *@{operator $\ast $}|hyperpage}{186}
+\indexentry{operator *@{operator $\ast $}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!operator+=@{operator+=}|hyperpage}{186}
+\indexentry{operator+=@{operator+=}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!operator-=@{operator-=}|hyperpage}{186}
+\indexentry{operator-=@{operator-=}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!operator *=@{operator $\ast $=}|hyperpage}{186}
+\indexentry{operator *=@{operator $\ast $=}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!dot@{dot}|hyperpage}{186}
+\indexentry{dot@{dot}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!getMagnitudeSquared@{getMagnitudeSquared}|hyperpage}{186}
+\indexentry{getMagnitudeSquared@{getMagnitudeSquared}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!x1@{x1}|hyperpage}{186}
+\indexentry{x1@{x1}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!y1@{y1}|hyperpage}{186}
+\indexentry{y1@{y1}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!x2@{x2}|hyperpage}{186}
+\indexentry{x2@{x2}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::Vector4@{JGTL::Vector4}!y2@{y2}|hyperpage}{186}
+\indexentry{y2@{y2}!JGTL::Vector4@{JGTL::Vector4}|hyperpage}{186}
+\indexentry{JGTL::WrappedInterpolatedValue@{JGTL::WrappedInterpolatedValue}|hyperpage}{188}
+\indexentry{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}!WrappedInterpolatedValue@{WrappedInterpolatedValue}|hyperpage}{189}
+\indexentry{WrappedInterpolatedValue@{WrappedInterpolatedValue}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}|hyperpage}{189}
+\indexentry{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}!WrappedInterpolatedValue@{WrappedInterpolatedValue}|hyperpage}{189}
+\indexentry{WrappedInterpolatedValue@{WrappedInterpolatedValue}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}|hyperpage}{189}
+\indexentry{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}!WrappedInterpolatedValue@{WrappedInterpolatedValue}|hyperpage}{189}
+\indexentry{WrappedInterpolatedValue@{WrappedInterpolatedValue}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}|hyperpage}{189}
+\indexentry{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}!operator=@{operator=}|hyperpage}{189}
+\indexentry{operator=@{operator=}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}|hyperpage}{189}
+\indexentry{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}!setValue@{setValue}|hyperpage}{189}
+\indexentry{setValue@{setValue}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}|hyperpage}{189}
+\indexentry{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}!update@{update}|hyperpage}{189}
+\indexentry{update@{update}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}|hyperpage}{189}
+\indexentry{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}!clampValues@{clampValues}|hyperpage}{190}
+\indexentry{clampValues@{clampValues}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}|hyperpage}{190}
+\indexentry{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}!minValue@{minValue}|hyperpage}{190}
+\indexentry{minValue@{minValue}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}|hyperpage}{190}
+\indexentry{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}!maxValue@{maxValue}|hyperpage}{190}
+\indexentry{maxValue@{maxValue}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}|hyperpage}{190}
+\indexentry{JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}!spread@{spread}|hyperpage}{190}
+\indexentry{spread@{spread}!JGTL::WrappedInterpolatedValue@{JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}|hyperpage}{190}
+\indexentry{JGTL::XorSpace@{JGTL::XorSpace}|hyperpage}{191}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!SpaceIterator@{SpaceIterator}|hyperpage}{192}
+\indexentry{SpaceIterator@{SpaceIterator}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{192}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!ConstSpaceIterator@{ConstSpaceIterator}|hyperpage}{192}
+\indexentry{ConstSpaceIterator@{ConstSpaceIterator}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{192}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!XorSpace@{XorSpace}|hyperpage}{192}
+\indexentry{XorSpace@{XorSpace}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{192}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!XorSpace@{XorSpace}|hyperpage}{192}
+\indexentry{XorSpace@{XorSpace}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{192}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!addSpace@{addSpace}|hyperpage}{192}
+\indexentry{addSpace@{addSpace}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{192}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!removeSpace@{removeSpace}|hyperpage}{192}
+\indexentry{removeSpace@{removeSpace}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{192}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!contains@{contains}|hyperpage}{193}
+\indexentry{contains@{contains}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{193}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!getTopLeft@{getTopLeft}|hyperpage}{193}
+\indexentry{getTopLeft@{getTopLeft}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{193}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!getBottomRight@{getBottomRight}|hyperpage}{193}
+\indexentry{getBottomRight@{getBottomRight}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{193}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!getSize@{getSize}|hyperpage}{193}
+\indexentry{getSize@{getSize}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{193}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!getFirstPoint@{getFirstPoint}|hyperpage}{193}
+\indexentry{getFirstPoint@{getFirstPoint}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{193}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!getNextPoint@{getNextPoint}|hyperpage}{193}
+\indexentry{getNextPoint@{getNextPoint}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{193}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!pack@{pack}|hyperpage}{193}
+\indexentry{pack@{pack}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{193}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!spaces@{spaces}|hyperpage}{194}
+\indexentry{spaces@{spaces}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{194}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!topLeft@{topLeft}|hyperpage}{194}
+\indexentry{topLeft@{topLeft}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{194}
+\indexentry{JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}!bottomRight@{bottomRight}|hyperpage}{194}
+\indexentry{bottomRight@{bottomRight}!JGTL::XorSpace@{JGTL::Xor\discretionary {-}{}{}Space}|hyperpage}{194}
+\indexentry{JGTL::XorSpaceRect@{JGTL::XorSpaceRect}|hyperpage}{195}
+\indexentry{JGTL::XorSpaceRect@{JGTL::Xor\discretionary {-}{}{}Space\discretionary {-}{}{}Rect}!XorSpaceRect@{XorSpaceRect}|hyperpage}{196}
+\indexentry{XorSpaceRect@{XorSpaceRect}!JGTL::XorSpaceRect@{JGTL::Xor\discretionary {-}{}{}Space\discretionary {-}{}{}Rect}|hyperpage}{196}
+\indexentry{JGTL::XorSpaceRect@{JGTL::Xor\discretionary {-}{}{}Space\discretionary {-}{}{}Rect}!XorSpaceRect@{XorSpaceRect}|hyperpage}{196}
+\indexentry{XorSpaceRect@{XorSpaceRect}!JGTL::XorSpaceRect@{JGTL::Xor\discretionary {-}{}{}Space\discretionary {-}{}{}Rect}|hyperpage}{196}
+\indexentry{JGTL::XorSpaceRect@{JGTL::Xor\discretionary {-}{}{}Space\discretionary {-}{}{}Rect}!rect@{rect}|hyperpage}{196}
+\indexentry{rect@{rect}!JGTL::XorSpaceRect@{JGTL::Xor\discretionary {-}{}{}Space\discretionary {-}{}{}Rect}|hyperpage}{196}
+\indexentry{JGTL::XorSpaceRect@{JGTL::Xor\discretionary {-}{}{}Space\discretionary {-}{}{}Rect}!positive@{positive}|hyperpage}{196}
+\indexentry{positive@{positive}!JGTL::XorSpaceRect@{JGTL::Xor\discretionary {-}{}{}Space\discretionary {-}{}{}Rect}|hyperpage}{196}
+\indexentry{JGTL_Bar.h@{JGTL\_\discretionary {-}{}{}Bar.h}|hyperpage}{197}
+\indexentry{JGTL_CircularBuffer.h@{JGTL\_\discretionary {-}{}{}CircularBuffer.h}|hyperpage}{198}
+\indexentry{JGTL_CircularBuffer.h@{JGTL\_\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h}!DEBUG_CIRCULAR_BUFFER@{DEBUG\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}|hyperpage}{198}
+\indexentry{DEBUG_CIRCULAR_BUFFER@{DEBUG\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}!JGTL_CircularBuffer.h@{JGTL\_\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h}|hyperpage}{198}
+\indexentry{JGTL_CircularBufferInterface.h@{JGTL\_\discretionary {-}{}{}CircularBufferInterface.h}|hyperpage}{199}
+\indexentry{JGTL_CircularBufferInterface.h@{JGTL\_\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface.h}!DEBUG_CIRCULAR_BUFFER_INTERFACE@{DEBUG\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER\_\discretionary {-}{}{}INTERFACE}|hyperpage}{199}
+\indexentry{DEBUG_CIRCULAR_BUFFER_INTERFACE@{DEBUG\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER\_\discretionary {-}{}{}INTERFACE}!JGTL_CircularBufferInterface.h@{JGTL\_\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface.h}|hyperpage}{199}
+\indexentry{JGTL_CommandLineParser.h@{JGTL\_\discretionary {-}{}{}CommandLineParser.h}|hyperpage}{200}
+\indexentry{JGTL_CommandLineParser.h@{JGTL\_\discretionary {-}{}{}Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser.h}!StringType@{StringType}|hyperpage}{200}
+\indexentry{StringType@{StringType}!JGTL_CommandLineParser.h@{JGTL\_\discretionary {-}{}{}Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser.h}|hyperpage}{200}
+\indexentry{JGTL_DataManager.h@{JGTL\_\discretionary {-}{}{}DataManager.h}|hyperpage}{201}
+\indexentry{JGTL_DataManager.h@{JGTL\_\discretionary {-}{}{}Data\discretionary {-}{}{}Manager.h}!DEBUG_DATA_MANAGER@{DEBUG\_\discretionary {-}{}{}DATA\_\discretionary {-}{}{}MANAGER}|hyperpage}{201}
+\indexentry{DEBUG_DATA_MANAGER@{DEBUG\_\discretionary {-}{}{}DATA\_\discretionary {-}{}{}MANAGER}!JGTL_DataManager.h@{JGTL\_\discretionary {-}{}{}Data\discretionary {-}{}{}Manager.h}|hyperpage}{201}
+\indexentry{JGTL_DataPool_delete.h@{JGTL\_\discretionary {-}{}{}DataPool\_\discretionary {-}{}{}delete.h}|hyperpage}{202}
+\indexentry{JGTL_DataPool_delete.h@{JGTL\_\discretionary {-}{}{}Data\discretionary {-}{}{}Pool\_\discretionary {-}{}{}delete.h}!DEBUG_DATA_POOL@{DEBUG\_\discretionary {-}{}{}DATA\_\discretionary {-}{}{}POOL}|hyperpage}{202}
+\indexentry{DEBUG_DATA_POOL@{DEBUG\_\discretionary {-}{}{}DATA\_\discretionary {-}{}{}POOL}!JGTL_DataPool_delete.h@{JGTL\_\discretionary {-}{}{}Data\discretionary {-}{}{}Pool\_\discretionary {-}{}{}delete.h}|hyperpage}{202}
+\indexentry{JGTL_DynamicCircularBuffer.h@{JGTL\_\discretionary {-}{}{}DynamicCircularBuffer.h}|hyperpage}{203}
+\indexentry{JGTL_DynamicCircularBuffer.h@{JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h}!DEBUG_DYNAMIC_CIRCULAR_BUFFER@{DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}|hyperpage}{203}
+\indexentry{DEBUG_DYNAMIC_CIRCULAR_BUFFER@{DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}!JGTL_DynamicCircularBuffer.h@{JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h}|hyperpage}{203}
+\indexentry{JGTL_DynamicPoolMap.h@{JGTL\_\discretionary {-}{}{}DynamicPoolMap.h}|hyperpage}{204}
+\indexentry{JGTL_DynamicPoolMap.h@{JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map.h}!DEBUG_DYNAMIC_POOL_MAP@{DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}MAP}|hyperpage}{204}
+\indexentry{DEBUG_DYNAMIC_POOL_MAP@{DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}MAP}!JGTL_DynamicPoolMap.h@{JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map.h}|hyperpage}{204}
+\indexentry{JGTL_DynamicPoolSet.h@{JGTL\_\discretionary {-}{}{}DynamicPoolSet.h}|hyperpage}{205}
+\indexentry{JGTL_DynamicPoolSet.h@{JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set.h}!DEBUG_DYNAMIC_POOL_SET@{DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}SET}|hyperpage}{205}
+\indexentry{DEBUG_DYNAMIC_POOL_SET@{DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}SET}!JGTL_DynamicPoolSet.h@{JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set.h}|hyperpage}{205}
+\indexentry{JGTL_FloatingUnits.h@{JGTL\_\discretionary {-}{}{}FloatingUnits.h}|hyperpage}{206}
+\indexentry{JGTL_HexTree.h@{JGTL\_\discretionary {-}{}{}HexTree.h}|hyperpage}{207}
+\indexentry{JGTL_Index2.h@{JGTL\_\discretionary {-}{}{}Index2.h}|hyperpage}{208}
+\indexentry{JGTL_Index3.h@{JGTL\_\discretionary {-}{}{}Index3.h}|hyperpage}{209}
+\indexentry{JGTL_IntegralUnits.h@{JGTL\_\discretionary {-}{}{}IntegralUnits.h}|hyperpage}{210}
+\indexentry{JGTL_InterpolatedValue.h@{JGTL\_\discretionary {-}{}{}InterpolatedValue.h}|hyperpage}{211}
+\indexentry{JGTL_LocatedException.h@{JGTL\_\discretionary {-}{}{}LocatedException.h}|hyperpage}{212}
+\indexentry{JGTL_LocatedException.h@{JGTL\_\discretionary {-}{}{}Located\discretionary {-}{}{}Exception.h}!CREATE_LOCATEDEXCEPTION_INFO@{CREATE\_\discretionary {-}{}{}LOCATEDEXCEPTION\_\discretionary {-}{}{}INFO}|hyperpage}{212}
+\indexentry{CREATE_LOCATEDEXCEPTION_INFO@{CREATE\_\discretionary {-}{}{}LOCATEDEXCEPTION\_\discretionary {-}{}{}INFO}!JGTL_LocatedException.h@{JGTL\_\discretionary {-}{}{}Located\discretionary {-}{}{}Exception.h}|hyperpage}{212}
+\indexentry{JGTL_LocatedException.h@{JGTL\_\discretionary {-}{}{}Located\discretionary {-}{}{}Exception.h}!CREATE_PAUSE@{CREATE\_\discretionary {-}{}{}PAUSE}|hyperpage}{212}
+\indexentry{CREATE_PAUSE@{CREATE\_\discretionary {-}{}{}PAUSE}!JGTL_LocatedException.h@{JGTL\_\discretionary {-}{}{}Located\discretionary {-}{}{}Exception.h}|hyperpage}{212}
+\indexentry{JGTL_MapInterface.h@{JGTL\_\discretionary {-}{}{}MapInterface.h}|hyperpage}{213}
+\indexentry{JGTL_MapInterface.h@{JGTL\_\discretionary {-}{}{}Map\discretionary {-}{}{}Interface.h}!DEBUG_MAP_INTERFACE@{DEBUG\_\discretionary {-}{}{}MAP\_\discretionary {-}{}{}INTERFACE}|hyperpage}{213}
+\indexentry{DEBUG_MAP_INTERFACE@{DEBUG\_\discretionary {-}{}{}MAP\_\discretionary {-}{}{}INTERFACE}!JGTL_MapInterface.h@{JGTL\_\discretionary {-}{}{}Map\discretionary {-}{}{}Interface.h}|hyperpage}{213}
+\indexentry{JGTL_PolyVariant.h@{JGTL\_\discretionary {-}{}{}PolyVariant.h}|hyperpage}{214}
+\indexentry{JGTL_PoolMap_delete.h@{JGTL\_\discretionary {-}{}{}PoolMap\_\discretionary {-}{}{}delete.h}|hyperpage}{215}
+\indexentry{JGTL_PoolMap_delete.h@{JGTL\_\discretionary {-}{}{}Pool\discretionary {-}{}{}Map\_\discretionary {-}{}{}delete.h}!DEBUG_POOL_MAP@{DEBUG\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}MAP}|hyperpage}{215}
+\indexentry{DEBUG_POOL_MAP@{DEBUG\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}MAP}!JGTL_PoolMap_delete.h@{JGTL\_\discretionary {-}{}{}Pool\discretionary {-}{}{}Map\_\discretionary {-}{}{}delete.h}|hyperpage}{215}
+\indexentry{JGTL_QuadTree.h@{JGTL\_\discretionary {-}{}{}QuadTree.h}|hyperpage}{216}
+\indexentry{JGTL_QuickProf.h@{JGTL\_\discretionary {-}{}{}QuickProf.h}|hyperpage}{217}
+\indexentry{JGTL_QuickProf.h@{JGTL\_\discretionary {-}{}{}Quick\discretionary {-}{}{}Prof.h}!PROFILER@{PROFILER}|hyperpage}{218}
+\indexentry{PROFILER@{PROFILER}!JGTL_QuickProf.h@{JGTL\_\discretionary {-}{}{}Quick\discretionary {-}{}{}Prof.h}|hyperpage}{218}
+\indexentry{JGTL_Ray2.h@{JGTL\_\discretionary {-}{}{}Ray2.h}|hyperpage}{219}
+\indexentry{JGTL_Ray3.h@{JGTL\_\discretionary {-}{}{}Ray3.h}|hyperpage}{220}
+\indexentry{JGTL_Rectangle3.h@{JGTL\_\discretionary {-}{}{}Rectangle3.h}|hyperpage}{221}
+\indexentry{JGTL_Serialization.h@{JGTL\_\discretionary {-}{}{}Serialization.h}|hyperpage}{222}
+\indexentry{JGTL_SetInterface.h@{JGTL\_\discretionary {-}{}{}SetInterface.h}|hyperpage}{223}
+\indexentry{JGTL_SetInterface.h@{JGTL\_\discretionary {-}{}{}Set\discretionary {-}{}{}Interface.h}!DEBUG_SET_INTERFACE@{DEBUG\_\discretionary {-}{}{}SET\_\discretionary {-}{}{}INTERFACE}|hyperpage}{223}
+\indexentry{DEBUG_SET_INTERFACE@{DEBUG\_\discretionary {-}{}{}SET\_\discretionary {-}{}{}INTERFACE}!JGTL_SetInterface.h@{JGTL\_\discretionary {-}{}{}Set\discretionary {-}{}{}Interface.h}|hyperpage}{223}
+\indexentry{JGTL_Singleton.h@{JGTL\_\discretionary {-}{}{}Singleton.h}|hyperpage}{224}
+\indexentry{JGTL_SortedList_delete.h@{JGTL\_\discretionary {-}{}{}SortedList\_\discretionary {-}{}{}delete.h}|hyperpage}{225}
+\indexentry{JGTL_SortedList_delete.h@{JGTL\_\discretionary {-}{}{}Sorted\discretionary {-}{}{}List\_\discretionary {-}{}{}delete.h}!DEBUG_SORTED_LIST@{DEBUG\_\discretionary {-}{}{}SORTED\_\discretionary {-}{}{}LIST}|hyperpage}{225}
+\indexentry{DEBUG_SORTED_LIST@{DEBUG\_\discretionary {-}{}{}SORTED\_\discretionary {-}{}{}LIST}!JGTL_SortedList_delete.h@{JGTL\_\discretionary {-}{}{}Sorted\discretionary {-}{}{}List\_\discretionary {-}{}{}delete.h}|hyperpage}{225}
+\indexentry{JGTL_StackCircularBuffer.h@{JGTL\_\discretionary {-}{}{}StackCircularBuffer.h}|hyperpage}{226}
+\indexentry{JGTL_StackCircularBuffer.h@{JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h}!DEBUG_STACK_CIRCULAR_BUFFER@{DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}|hyperpage}{226}
+\indexentry{DEBUG_STACK_CIRCULAR_BUFFER@{DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}!JGTL_StackCircularBuffer.h@{JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h}|hyperpage}{226}
+\indexentry{JGTL_StackMap.h@{JGTL\_\discretionary {-}{}{}StackMap.h}|hyperpage}{227}
+\indexentry{JGTL_StackMap.h@{JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Map.h}!DEBUG_STACK_MAP@{DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}MAP}|hyperpage}{227}
+\indexentry{DEBUG_STACK_MAP@{DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}MAP}!JGTL_StackMap.h@{JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Map.h}|hyperpage}{227}
+\indexentry{JGTL_StackSet.h@{JGTL\_\discretionary {-}{}{}StackSet.h}|hyperpage}{228}
+\indexentry{JGTL_StackSet.h@{JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Set.h}!DEBUG_STACK_SET@{DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}SET}|hyperpage}{228}
+\indexentry{DEBUG_STACK_SET@{DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}SET}!JGTL_StackSet.h@{JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Set.h}|hyperpage}{228}
+\indexentry{JGTL_StringConverter.h@{JGTL\_\discretionary {-}{}{}StringConverter.h}|hyperpage}{229}
+\indexentry{JGTL_TreeList.h@{JGTL\_\discretionary {-}{}{}TreeList.h}|hyperpage}{230}
+\indexentry{JGTL_UnorderedDynamicPoolMap.h@{JGTL\_\discretionary {-}{}{}UnorderedDynamicPoolMap.h}|hyperpage}{231}
+\indexentry{JGTL_UnorderedDynamicPoolMap.h@{JGTL\_\discretionary {-}{}{}Unordered\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map.h}!DEBUG_DYNAMIC_POOL_MAP@{DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}MAP}|hyperpage}{231}
+\indexentry{DEBUG_DYNAMIC_POOL_MAP@{DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}MAP}!JGTL_UnorderedDynamicPoolMap.h@{JGTL\_\discretionary {-}{}{}Unordered\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map.h}|hyperpage}{231}
+\indexentry{JGTL_UnorderedMapInterface.h@{JGTL\_\discretionary {-}{}{}UnorderedMapInterface.h}|hyperpage}{232}
+\indexentry{JGTL_UnorderedMapInterface.h@{JGTL\_\discretionary {-}{}{}Unordered\discretionary {-}{}{}Map\discretionary {-}{}{}Interface.h}!DEBUG_MAP_INTERFACE@{DEBUG\_\discretionary {-}{}{}MAP\_\discretionary {-}{}{}INTERFACE}|hyperpage}{232}
+\indexentry{DEBUG_MAP_INTERFACE@{DEBUG\_\discretionary {-}{}{}MAP\_\discretionary {-}{}{}INTERFACE}!JGTL_UnorderedMapInterface.h@{JGTL\_\discretionary {-}{}{}Unordered\discretionary {-}{}{}Map\discretionary {-}{}{}Interface.h}|hyperpage}{232}
+\indexentry{JGTL_Variant.h@{JGTL\_\discretionary {-}{}{}Variant.h}|hyperpage}{233}
+\indexentry{JGTL_Vector2.h@{JGTL\_\discretionary {-}{}{}Vector2.h}|hyperpage}{234}
+\indexentry{JGTL_Vector3.h@{JGTL\_\discretionary {-}{}{}Vector3.h}|hyperpage}{235}
+\indexentry{JGTL_Vector4.h@{JGTL\_\discretionary {-}{}{}Vector4.h}|hyperpage}{236}
+\indexentry{JGTL_WrappedInterpolatedValue.h@{JGTL\_\discretionary {-}{}{}WrappedInterpolatedValue.h}|hyperpage}{237}
+\indexentry{JGTL_XorSpace.h@{JGTL\_\discretionary {-}{}{}XorSpace.h}|hyperpage}{238}

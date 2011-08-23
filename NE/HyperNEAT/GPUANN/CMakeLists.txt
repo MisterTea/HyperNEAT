@@ -1,0 +1,125 @@
+Project(NEAT)
+
+ADD_DEFINITIONS(
+    -DBUILD_NEAT_DLL 
+    -DTIXML_USE_STL
+	-DNOMINMAX
+	-DBOOST_ALL_NO_LIB
+	-DBOOST_PYTHON_STATIC_LIB
+)
+
+IF(CMAKE_COMPILER_IS_GNUCC OR CMAKE_COMPILER_IS_GNUCXX)
+	ADD_DEFINITIONS(-fPIC)
+ENDIF(CMAKE_COMPILER_IS_GNUCC OR CMAKE_COMPILER_IS_GNUCXX)
+
+SET(CMAKE_CXX_FLAGS "${CMAKE_WX_CXX_FLAGS}")
+SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -D__WXDEBUG__ -DWXDEBUG=1")
+
+INCLUDE_REGULAR_EXPRESSION( "^.*([Hh][Cc][Uu][Bb][Ee]|[Nn][Ee][Aa][Tt]|main).*$" )
+
+SET(
+OPENCL_INCLUDE
+"C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK/OpenCL/common/inc"
+CACHE
+PATH 
+"OpenCL include directory"
+) 
+
+
+INCLUDE_DIRECTORIES(
+	include
+	../NEAT/include
+	${TINYXMLDLL_INCLUDE}
+	${BOOST_ROOT}
+	${JGTL_INCLUDE}
+	${ZLIB_INCLUDE}
+	${OPENCL_INCLUDE}
+	)
+	
+SET(
+OPENCL_LIB
+"C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK/OpenCL/common/lib/x64"
+CACHE
+PATH 
+"OpenCL Library Directory"
+) 
+
+LINK_DIRECTORIES(
+	${TINYXMLDLL_LIB}
+	${ZLIB_LIB}
+	${BOOST_STAGE}
+	${OPENCL_LIB}
+	${LIBRARY_OUTPUT_PATH}
+)
+
+ADD_EXECUTABLE(
+	GPUANN
+	MACOSX_BUNDLE
+	#STATIC
+
+	src/NEAT_OpenCLInterface.cpp
+	src/NEAT_GPUANN.cpp
+	src/NEAT_Playground.cpp
+
+	include/NEAT_OpenCLInterface.h
+	include/NEAT_GPUANN.h
+	
+	../out/OpenCL/VectorAdd.cl
+	../out/OpenCL/IteratedDotProduct.cl
+	../out/OpenCL/ANN.cl
+	)
+
+TARGET_LINK_LIBRARIES(
+	GPUANN
+
+	debug
+	${BOOST_LIB_PREFIX_NAME}boost_filesystem-${BOOST_LIB_EXT_NAME_DEBUG}
+
+	optimized
+	${BOOST_LIB_PREFIX_NAME}boost_filesystem-${BOOST_LIB_EXT_NAME_RELEASE}
+
+	debug
+	${BOOST_LIB_PREFIX_NAME}boost_system-${BOOST_LIB_EXT_NAME_DEBUG}
+
+	optimized
+	${BOOST_LIB_PREFIX_NAME}boost_system-${BOOST_LIB_EXT_NAME_RELEASE}
+
+	debug
+	NEATLib_d
+
+	optimized
+	NEATLib
+	
+	debug
+	tinyxmlpluslib_d
+
+	optimized
+	tinyxmlpluslib
+
+	debug
+	zlib_d
+
+	optimized
+	zlib
+)
+
+IF(APPLE)
+TARGET_LINK_LIBRARIES(
+	GPUANN
+
+	general
+	"-framework OpenCL"
+)
+ELSE(APPLE)
+TARGET_LINK_LIBRARIES(
+	GPUANN
+
+	general
+	OpenCL
+)
+ENDIF(APPLE)
+
+ADD_DEPENDENCIES(GPUANN NEATLib)
+
+SET_TARGET_PROPERTIES(GPUANN PROPERTIES DEBUG_POSTFIX _d)
+

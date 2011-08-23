@@ -1,0 +1,1298 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_default_family rmdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+HyperNEAT C++ Version 3.0 Manual
+\end_layout
+
+\begin_layout Section
+License
+\end_layout
+
+\begin_layout Standard
+This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License version 2 as published
+ by the Free Software Foundation (LGPL may be granted upon request).
+ This program is distributed in the hope that it will be useful, but without
+ any warranty; without even the implied warranty of merchantability or fitness
+ for a particular purpose.
+ See the GNU General Public License for more details.
+\end_layout
+
+\begin_layout Section
+Usage and Support
+\end_layout
+
+\begin_layout Standard
+We hope that this software will be a useful starting point for your own
+ explorations in interactive evolution with NEAT.
+ The software is provided as is; however, we will do our best to maintain
+ it and accommodate suggestions.
+ If you want to be notified of future releases of the software or have questions
+, comments, bug reports or suggestions, send an email to jgauci@cs.ucf.edu
+\end_layout
+
+\begin_layout Standard
+Alternatively, you may post your questions on the NEAT Users Group at :
+\end_layout
+
+\begin_layout Standard
+http://tech.groups.yahoo.com/group/neat/.
+\end_layout
+
+\begin_layout Section
+Introduction to HyperNEAT
+\end_layout
+
+\begin_layout Standard
+HyperNEAT is an extension of NEAT (NeuroEvolution of Augmenting Topologies)
+ that evolves CPPNs (Compositional Pattern Producing Networks) that encode
+ large-scale neural network connectivity patterns.
+ A complete explanation of HyperNEAT is available here:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+@inproceedings{Gauci:NeuralComp10,
+\end_layout
+
+\begin_layout Plain Layout
+author = {Gauci, Jason and Stanley, Kenneth O.},
+\end_layout
+
+\begin_layout Plain Layout
+title = {Autonomous Evolution of Topographic Regularities in Artificial
+ Neural Networks },
+\end_layout
+
+\begin_layout Plain Layout
+booktitle = {Neural Computation},
+\end_layout
+
+\begin_layout Plain Layout
+year = {2009},
+\end_layout
+
+\begin_layout Plain Layout
+publisher = {MIT Press},
+\end_layout
+
+\begin_layout Plain Layout
+address = {Cambridge, MA, USA},
+\end_layout
+
+\begin_layout Plain Layout
+note = {To appear},
+\end_layout
+
+\begin_layout Plain Layout
+url = "http://eplex.cs.ucf.edu/publications/2010/gauci.nc10.html",
+\end_layout
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\begin_layout Plain Layout
+@inproceedings{Stanley:ALife09,
+\end_layout
+
+\begin_layout Plain Layout
+author = {Stanley, Kenneth O.
+ and D'Ambrosio, David B.
+ and Gauci, Jason},
+\end_layout
+
+\begin_layout Plain Layout
+title = {A hypercube-based encoding for evolving large-scale neural networks},
+\end_layout
+
+\begin_layout Plain Layout
+booktitle = {Artificial Life},
+\end_layout
+
+\begin_layout Plain Layout
+volume = {15},
+\end_layout
+
+\begin_layout Plain Layout
+number = {2},
+\end_layout
+
+\begin_layout Plain Layout
+year = {2009},
+\end_layout
+
+\begin_layout Plain Layout
+issn = {1064-5462},
+\end_layout
+
+\begin_layout Plain Layout
+pages = {185--212},
+\end_layout
+
+\begin_layout Plain Layout
+publisher = {MIT Press},
+\end_layout
+
+\begin_layout Plain Layout
+address = {Cambridge, MA, USA},
+\end_layout
+
+\begin_layout Plain Layout
+url = "http://eplex.cs.ucf.edu/publications/2009/stanley.alife09.html",
+\end_layout
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\begin_layout Plain Layout
+@InProceedings{gauci:aaai08,
+\end_layout
+
+\begin_layout Plain Layout
+author = "Jason Gauci and Kenneth O.
+ Stanley",
+\end_layout
+
+\begin_layout Plain Layout
+title = "A Case Study on the Critical Role of Geometric Regularity in Machine
+ Learning",
+\end_layout
+
+\begin_layout Plain Layout
+booktitle = "Proceedings of the Twenty-Third AAAI Conference on Artificial
+ Intelligence (AAAI-2008).",
+\end_layout
+
+\begin_layout Plain Layout
+year = 2008,
+\end_layout
+
+\begin_layout Plain Layout
+publisher = "AAAI Press",
+\end_layout
+
+\begin_layout Plain Layout
+address = "Menlo Park, CA",
+\end_layout
+
+\begin_layout Plain Layout
+site = "Chicago",
+\end_layout
+
+\begin_layout Plain Layout
+url = "http://eplex.cs.ucf.edu/publications/2008/gauci.aaai08.html",
+\end_layout
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\begin_layout Plain Layout
+@InProceedings{gauci:gecco07,
+\end_layout
+
+\begin_layout Plain Layout
+author = "Jason Gauci and Kenneth O.
+ Stanley",
+\end_layout
+
+\begin_layout Plain Layout
+title = "Generating Large-Scale Neural Networks Through Discovering Geo
+\end_layout
+
+\begin_layout Plain Layout
+metric Regularities",
+\end_layout
+
+\begin_layout Plain Layout
+booktitle = "Proceedings of the Genetic and Evolutionary
+\end_layout
+
+\begin_layout Plain Layout
+Computation Conference (GECCO 2007)",
+\end_layout
+
+\begin_layout Plain Layout
+year = 2007,
+\end_layout
+
+\begin_layout Plain Layout
+publisher = "ACM Press",
+\end_layout
+
+\begin_layout Plain Layout
+address = "New York, NY",
+\end_layout
+
+\begin_layout Plain Layout
+site = "London",
+\end_layout
+
+\begin_layout Plain Layout
+url = 
+\end_layout
+
+\begin_layout Plain Layout
+"http://eplex.cs.ucf.edu/publications/2007/gauci.gecco07.html",
+\end_layout
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The version of HyperNEAT distributed in this package executed the experiments
+ in the above papers.
+ For more information, please visit the EPlex website at: http://eplex.cs.ucf.edu/
+ or see more of our publications on HyperNEAT and CPPNs at: http://eplex.cs.ucf.edu
+/publications.html
+\end_layout
+
+\begin_layout Section
+Compiling HyperNEAT
+\end_layout
+
+\begin_layout Standard
+To compile HyperNEAT, the dependencies must be installed or built, then
+ cmake must be run to generate project files, and finally the HyperNEAT
+ project files must be compiled into the executables.
+\end_layout
+
+\begin_layout Subsection
+Required Programs & Libraries
+\end_layout
+
+\begin_layout Description
+
+\series bold
+CMake
+\series default
+: This program generates project files from the HyperNEAT source code.
+ It is possible to generate project files for most common development environmen
+ts including visual studio, makefiles, eclipse, codeblocks, and xcode.
+\end_layout
+
+\begin_layout Description
+Zlib: Zlib allows TinyXMLPlus (see below) to create gzip files and save
+ space on the disk.
+\end_layout
+
+\begin_layout Description
+
+\series bold
+TinyXMLPlus
+\series default
+: This library is based on the original TinyXML Library from Grinning Lizard,
+ but includes support for creating .xml.gz files.
+ Because HyperNEAT populations tend to be quite large, this library saves
+ disk space by compressing the xml files into an xml.gz.
+ This library is included in the HyperNEAT distribution.
+\end_layout
+
+\begin_layout Description
+
+\series bold
+JG Template Library
+\series default
+: This library includes a set of utilities and base classes useful for any
+ C++ program.
+ This library is also included in the HyperNEAT distribution.
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Boost C++ libraries
+\series default
+: The boost libraries are used for the python bindings, threading, filesystem
+ managemnt, and several other features.
+ These libraries are available from a package management system (apt-get
+ on debian, opkg on OE, MacPorts on OS/X) or can be downloaded from the
+ internet ( www.boost.org ).
+\end_layout
+
+\begin_layout Description
+
+\series bold
+WxWidgets
+\series default
+: This library is only needed if compiling with the USE_GUI option set to
+ TRUE.
+ It provides a cross-platform API for writing GUI code that is used by the
+ HyperNEAT GUI.
+\end_layout
+
+\begin_layout Description
+OpenMPI: This library is only needed if compiling with the BUILD_MPI option.
+ This enables HyperNEAT runs to be performed on a cluster environment using
+ the Message Passing Interface 2 (MPI2) interface.
+\end_layout
+
+\begin_layout Description
+Python: The HyperNEAT visualizer and several other tools are written in
+ Python.
+ If HyperNEAT is built with the BUILD_PYTHON flag set, these tools can use
+ the core HyperNEAT API to function.
+\end_layout
+
+\begin_layout Description
+OpenCL: This library is only used when the BUILD_GPU flag is enabled.
+ It allows Artifical Neural Networks (ANNs) to use the Graphics Processing
+ Unit (GPU) instead of the CPU.
+\end_layout
+
+\begin_layout Description
+libBoard: This library creates the vector graphics representations of HyperNEAT
+ substrates.
+ It is included in the zip or can be found here: (
+\begin_inset CommandInset href
+LatexCommand href
+target "http://libboard.sourceforge.net/"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsection
+Building TinyXMLPlus and JGTL
+\end_layout
+
+\begin_layout Standard
+To build TinyXMLPlus, enter the /tinyxmldll/build directory and create two
+ subdirectories, one for debug and one for release:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+mkdir build/debug 
+\end_layout
+
+\begin_layout Plain Layout
+
+mkdir build/release 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now, run cmake on each of those directories with the -i option, and put
+ the appropriate configuration (debug for */debug, release for */release):
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+cmake -i ../../
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If you are running Windows or OS/X, you can use the cmake GUI.
+ Set the build directory to /tinyxmldll/build/debug and the source directory
+ to /tinyxmldll and click 
+\begin_inset Quotes eld
+\end_inset
+
+configure
+\begin_inset Quotes erd
+\end_inset
+
+, then put in the appropriate configuration (debug for */debug, release
+ for */release), hit 
+\begin_inset Quotes eld
+\end_inset
+
+configure
+\begin_inset Quotes erd
+\end_inset
+
+ again, and then 
+\begin_inset Quotes eld
+\end_inset
+
+generate
+\begin_inset Quotes erd
+\end_inset
+
+ to generate the solution.
+\end_layout
+
+\begin_layout Standard
+Finally, run "make" on the build/*/ directories and the libraries should
+ be created in the out/ folder
+\end_layout
+
+\begin_layout Standard
+To build JGTL, perform these same steps in the /JGTL/build directory.
+ 
+\series bold
+NOTE:
+\series default
+ JGTL is a header-only library.
+ Building the library only gives access to the example and test programs.
+ As a result, this step is entirely 
+\series bold
+optional
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+Building HyperNEAT
+\end_layout
+
+\begin_layout Standard
+To build HyperNEAT, follow the same instructions for building tinyxmldll,
+ but in the /NE/HyperNEAT directory.
+ There are some additional settings that can be controlled from within cmake
+ to influence the build process:
+\end_layout
+
+\begin_layout Description
+USE_GUI: Setting this to TRUE enables the HyperNEAT GUI interface.
+ This is recommended for most builds, and requires the WxWidgets library.
+ Turning this option off is useful for running on a 
+\begin_inset Quotes eld
+\end_inset
+
+headless
+\begin_inset Quotes erd
+\end_inset
+
+ environment such as a cluster, where no graphical framework is running.
+\end_layout
+
+\begin_layout Description
+BUILD_PYTHON: This setting determines whether the python bindings will be
+ built or not.
+ The HyperNEAT visualizer requires python bindings.
+\end_layout
+
+\begin_layout Description
+BUILD_MPI: This flag controls the building of the HyperNEAT MPI interface.
+ The MPI interface allows HyperNEAT to be run on a cluster of machines.
+\end_layout
+
+\begin_layout Description
+BUILD_GPU: This flag enables the OpenCL Artifical Neural Network (ANN) implement
+ation.
+ This implementation uses the Graphics Processing Unit (GPU) and is faster
+ than the CPU implementation, but consumes the GPU.
+\end_layout
+
+\begin_layout Section
+Running existing experiments
+\end_layout
+
+\begin_layout Standard
+Once HyperNEAT has been compiled, the existing experiments can be run using
+ the command line or (if compiled with the USE_GUI cmake variable set) with
+ the GUI.
+\end_layout
+
+\begin_layout Subsection
+Comand Line
+\end_layout
+
+\begin_layout Standard
+To use the command line interface, simply pass the data file and the output
+ file as parameters to the HyperNEAT executable, and it will process the
+ data file and put the resulting population as an XML file in the output
+ file location.
+\end_layout
+
+\begin_layout Standard
+As an example, here is a command line for running the Checkers experiment:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+./Hypercube_NEAT -I ./data/CheckersExperiment.dat 
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+-O CheckersOutputPopulation.xml -R 1000
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The -I switch controls the input parameter file (typically a .dat file).
+ The -O switch controls the output XML file containing the population.
+ Note that HyperNEAT outputs files in the format *.xml.gz, so HyperNEAT will
+ append 
+\begin_inset Quotes eld
+\end_inset
+
+.gz
+\begin_inset Quotes erd
+\end_inset
+
+ to the end of the output automatically.
+ Use a program like gunzip to convert the .xml.gz back into a .xml file.
+ The -R switch contains the random seed for the population.
+ Omitting a -R switch will make HyperNEAT use the current time in milliseconds
+ as the random seed.
+\end_layout
+
+\begin_layout Subsection
+GUI
+\end_layout
+
+\begin_layout Standard
+To load an experiment, go to file->load_experiment and then select the .dat
+ file that corresponds to the experiment you would like to load.
+\end_layout
+
+\begin_layout Standard
+When the experiment is loaded, go to file->run_experiment to begin the experimen
+t.
+ In the console, you can see the results for each generation.
+\end_layout
+
+\begin_layout Standard
+If you wish to pause the experiment, go to file->pause_experiment.
+ This command will finish the current generation and then halt the experiment.
+ You can continue by going to file->continue_experiment.
+\end_layout
+
+\begin_layout Standard
+At the moment, the restart_experiment function has not been implemented
+ and you can't load another experiment without first closing the program
+ (although you may "continue experiment" after you have paused).
+\end_layout
+
+\begin_layout Standard
+It is possible to view an individual interactively by choosing the individual
+ you want from the spinners and then clicking "view".
+ This brings up a separate window where you can interact with the individual
+ (if the experiment supports it) and you can also see the CPPN that created
+ the individual.
+\end_layout
+
+\begin_layout Standard
+Some experiments contain a post-hoc analysis that does a more complete test
+ of an individual.
+ This analysis can be achieved by clicking the "Analyze" button and the
+ results are typically displayed in the console.
+\end_layout
+
+\begin_layout Section
+How to create a new experiment
+\end_layout
+
+\begin_layout Standard
+The following sections describe how to create a new experiment with the
+ HyperNEAT C++ Source code.
+\end_layout
+
+\begin_layout Subsection
+Copy existing experiment files
+\end_layout
+
+\begin_layout Standard
+Make a copy of an existing experiment or start with the HCUBE_EmptyExperiment.h/c
+pp
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Note that the Empty Experiment purposely has compiler errors in areas of
+ the code that require user customization and the experiment will not compile
+ without addressing those areas.
+\end_layout
+
+\end_inset
+
+ files in the doc directory:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Command Line:
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+---Start with an existing experiment---
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+cp NE/HyperNEAT/include/Experiments/HCUBE_CheckersExperiment.h 
+\end_layout
+
+\begin_layout Plain Layout
+
+   NE/HyperNEAT/include/experiments/HCUBE_MyNewExperiment.h
+\end_layout
+
+\begin_layout Plain Layout
+
+cp NE/HyperNEAT/src/Experiments/HCUBE_CheckersExperiment.cpp
+\end_layout
+
+\begin_layout Plain Layout
+
+   NE/HyperNEAT/src/experiments/HCUBE_MyNewExperiment.cpp
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+---OR use the EmptyExperiment---
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+cp NE/HyperNEAT/doc/HCUBE_EmptyExperiment.h 
+\end_layout
+
+\begin_layout Plain Layout
+
+   NE/HyperNEAT/include/experiments/HCUBE_MyNewExperiment.h
+\end_layout
+
+\begin_layout Plain Layout
+
+cp NE/HyperNEAT/doc/HCUBE_EmptyExperiment.cpp
+\end_layout
+
+\begin_layout Plain Layout
+
+   NE/HyperNEAT/src/experiments/HCUBE_MyNewExperiment.cpp
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now, add the new files to the cmake project.
+ Open NE/HyperNEAT/CMakeLists.txt and add two lines:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+CMakeLists.txt:
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+...
+\end_layout
+
+\begin_layout Plain Layout
+
+	src/Experiments/HCUBE_CheckersCommon.cpp
+\end_layout
+
+\begin_layout Plain Layout
+
+	src/Experiments/HCUBE_CheckersExperiment.cpp 
+\end_layout
+
+\begin_layout Plain Layout
+
+    src/Experiments/HCUBE_MyNewExperiment.cpp     <--- NEW LINE
+\end_layout
+
+\begin_layout Plain Layout
+
+...
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+...
+\end_layout
+
+\begin_layout Plain Layout
+
+	include/Experiments/HCUBE_CheckersCommon.h
+\end_layout
+
+\begin_layout Plain Layout
+
+	include/Experiments/HCUBE_CheckersExperiment.h 
+\end_layout
+
+\begin_layout Plain Layout
+
+    include/Experiments/HCUBE_MyNewExperiment.h     <--- NEW LINE
+\end_layout
+
+\begin_layout Plain Layout
+
+...
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After this step, rerun cmake to regenerate new project files with your files
+ added.
+ If cmake fails, it probably means that the new files do not exist in the
+ correct location.
+\end_layout
+
+\begin_layout Subsection
+Define the New Experiment Type
+\end_layout
+
+\begin_layout Standard
+All HyperNEAT experiments are defined with an ID in HCUBE_Defines.h.
+ At the time of writing, the following defines are present:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+enum ExperimentType
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+    EXPERIMENT_XOR=0,                                   //0
+\end_layout
+
+\begin_layout Plain Layout
+
+    EXPERIMENT_TIC_TAC_TOE=6,                           //6
+\end_layout
+
+\begin_layout Plain Layout
+
+    EXPERIMENT_TIC_TAC_TOE_GAME=9,                      //9
+\end_layout
+
+\begin_layout Plain Layout
+
+    EXPERIMENT_TIC_TAC_TOE_NO_GEOM_GAME=10,             //10
+\end_layout
+
+\begin_layout Plain Layout
+
+    EXPERIMENT_FIND_POINT_EXPERIMENT=11,                //11
+\end_layout
+
+\begin_layout Plain Layout
+
+    EXPERIMENT_FIND_CLUSTER_EXPERIMENT=12,              //12
+\end_layout
+
+\begin_layout Plain Layout
+
+    EXPERIMENT_FIND_CLUSTER_NO_GEOM_EXPERIMENT=13,      //13
+\end_layout
+
+\begin_layout Plain Layout
+
+    EXPERIMENT_CHECKERS=15,                             //15
+\end_layout
+
+\begin_layout Plain Layout
+
+    EXPERIMENT_CHECKERS_NO_GEOM=16,                     //16
+\end_layout
+
+\begin_layout Plain Layout
+
+    EXPERIMENT_CHECKERS_ORIGINAL_FOGEL=24,              //24
+\end_layout
+
+\begin_layout Plain Layout
+
+    EXPERIMENT_CHECKERS_SUBSTRATE_GEOM=28,              //28
+\end_layout
+
+\begin_layout Plain Layout
+
+    EXPERIMENT_END
+\end_layout
+
+\begin_layout Plain Layout
+
+};
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Add a new entry at the end of the list for your new experiment.
+\end_layout
+
+\begin_layout Subsection
+Add the Experiment to ExperimentRun
+\end_layout
+
+\begin_layout Standard
+At the top of the ExperimentRun.cpp file, add a #include for your experiment
+ header file.
+\end_layout
+
+\begin_layout Standard
+The setupExperiment(...) function inside the ExperimentRun class is resposible
+ for creating experiments.
+ There is a large switch statement which creates a new experiment based
+ on the ExperimentType enum.
+ Add an entry here for your experiment.
+\end_layout
+
+\begin_layout Subsection
+Create a new parameters file
+\end_layout
+
+\begin_layout Standard
+In the NE/HyperNEAT/out/data/ folder there are many .dat files.
+ Each of them provides parameters for a single experiment.
+ Copy the CheckersExperiment.dat file to a new file (in this case, MyNewExperimen
+t.dat), then open it and change the experiment ID to match the new entry
+ you created in the ExperimentType enum:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+MyNewExperiment.dat:
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+...
+\end_layout
+
+\begin_layout Plain Layout
+
+SignedActivation 1.0
+\end_layout
+
+\begin_layout Plain Layout
+
+ExtraActivationUpdates 9.0
+\end_layout
+
+\begin_layout Plain Layout
+
+OnlyGaussianHiddenNodes 0.0
+\end_layout
+
+\begin_layout Plain Layout
+
+ExperimentType XX.0         <--- REPLACE "XX" with new experiment ID
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Test the Cloned Experiment
+\end_layout
+
+\begin_layout Standard
+As a sanity check, run the cloned experiment for a few generations to make
+ sure there are no errors:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+./Hypercube_NEAT -I ./data/MyNewExperiment.dat 
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+-O TestOutputPopulation.xml -R 1000
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Modify the Cloned Experiment to Do What You Want
+\end_layout
+
+\begin_layout Standard
+This is entirely up to you :-)
+\end_layout
+
+\begin_layout Section
+Running the Visualizer
+\end_layout
+
+\begin_layout Standard
+There are a few steps to running the visualizer and they can vary depending
+ on your OS & setup.
+ If you have trouble, please contact Jason Gauci or Kenneth Stanley using
+ one of the aformentioned media.
+\end_layout
+
+\begin_layout Subsection
+Setting paths
+\end_layout
+
+\begin_layout Standard
+Depending on where your PyHyperNEAT shared library is, you might have to
+ adjust the relative path to this library:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+sys.path.append('../../out/release')  
+\end_layout
+
+\begin_layout Plain Layout
+
+^-- Assumes your PyHyperNEAT.dll or .so file is in /NE/HyperNEAT/out/release
+\end_layout
+
+\begin_layout Plain Layout
+
+from PyHyperNEAT import *   
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If python cannot find the PyHyperNEAT module after you've built the source
+ with BUILD_PYTHON, it's because this directory is incorrect.
+\end_layout
+
+\begin_layout Standard
+Next, you must set the paths for your input and output files.
+ The visualizer takes .xml.gz files containing a HyperNEAT population, and
+ can output images ready for publication.
+ At the top of HyperNEATVisualizer.py file, change the populationFileName
+ and outputDirName to match your population file and output directory:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+populationFileName = "C:/.../Run$RUN_NUMBER$_best.xml.gz"
+\end_layout
+
+\begin_layout Plain Layout
+
+#populationFileName = "/Users/pawn/.../Run$RUN_NUMBER$_best.xml.gz"
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+outputDirName = "C:/Programming/NE/HyperNEAT/out/images"
+\end_layout
+
+\begin_layout Plain Layout
+
+#outputDirName = "/Users/pawn/Programming/NE/HyperNEAT/out/images"
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that you can put $RUN_NUMBER$ in the string and the visualizer will
+ automatically substitute the current run number.
+ This allows you to view several runs without modifying the code.
+\end_layout
+
+\begin_layout Subsection
+Visualizing activation levels and link weights
+\end_layout
+
+\begin_layout Standard
+When you start the visualizer, you will be presented with a screen like
+ this:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename ManualImages/Visualizer1.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As long as the mouse is not on a square, the color of the squares determines
+ the current activation level.
+ Red squares denote negative activation and white squares denote positive
+ activation.
+ When you move the mouse over a square like so:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename ManualImages/Visualizer2.jpg
+	width 100col%
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+the colors will change and now represent the connection weights from the
+ square the mouse is pointing at to that square.
+ If a square is white, it means that there is a positive connection emanating
+ from the square under the cursor to that square.
+ If a square is red, it signifies a negative connection.
+\end_layout
+
+\begin_layout Standard
+Left-Clicking on an input square will add 0.5 positive activation to that
+ square.
+ The other squares will update automatically.
+ Right-Clicking on a square will subtract 0.5 activation (i.e.
+ add 0.5 negative activation) to that square.
+\end_layout
+
+\begin_layout Subsection
+Camera controls
+\end_layout
+
+\begin_layout Standard
+The arrow keys orbit the camera around the origin, while the 'q' and 'e'
+ keys zoom in and out, respectively.
+\end_layout
+
+\begin_layout Subsection
+Changing individuals
+\end_layout
+
+\begin_layout Standard
+The '-' and '=' keys will move backwards and forwards through the runs,
+ respectively.
+ The '[' and ']' keys will backtrack/advance the current run by one generation,
+ while the '{' and '}' keys will backtrack/advance the run by ten generations.
+ The ',' and '.' keys will backtrack/advance the current individual by one,
+ and the '<' and '>' keys will backtrack/advance the current individual
+ by ten.
+\end_layout
+
+\begin_layout Subsection
+Dumping images
+\end_layout
+
+\begin_layout Standard
+The 'a' key will dump images to the output directory.
+ It will dump connection weights from the node that the mouse is currently
+ pointing to (if the mouse is pointing to one) and it will dump activation
+ levels of all sheets.
+\end_layout
+
+\begin_layout Section
+Contact Info
+\end_layout
+
+\begin_layout Standard
+Please post comments/questions to the NEAT users group:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+http://tech.groups.yahoo.com/group/neat/
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The best way to reach Jason Gauci or Kenneth Stanley is through email (jgauci@ee
+cs.ucf.edu and kstanley@eecs.ucf.edu respectively).
+\end_layout
+
+\end_body
+\end_document

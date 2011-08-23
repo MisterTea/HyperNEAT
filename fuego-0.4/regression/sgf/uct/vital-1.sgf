@@ -1,0 +1,5 @@
+(;FF[4]CA[UTF8]AP[GoGui:0.9.x]SZ[9]KM[6.5]
+AB[ah][af][ad][ab][bh][bf][be][bd][bc][bb][ba][ch][cf][cd][cb][di][dh][df][de][dd][dc][db][da][ef][ee][ed][ec][eb][ea][fc][fb][fa][gc][gb][hb][ha][ib]
+AW[ag][bg][cg][dg][ei][eh][eg][fi][fh][fg][ff][fe][fd][gh][gf][gd][hi][hh][hg][hf][he][hd][hc][ih][if][id][ic]
+C[Whoever plays B1, wins the game. A resonable UCT player should only generate the moves A1, B1, C1 and detect that B1 is the only win even with a very low number of simulations (<500 ?)]
+PL[B])

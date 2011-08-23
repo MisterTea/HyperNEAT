@@ -1,0 +1,53 @@
+#
+# cliche - command line interface checkers
+# Makefile for macosx
+# Mon Jul 11 16:35:19 CEST 2005
+#
+VERSION=1.2
+
+# install paths
+DESTDIR=/usr/local
+BIN_DIR=$(DESTDIR)/games/
+LIB_DIR=$(DESTDIR)/share/games/cliche/
+
+# installed files
+BIN=cliche
+LIB=dama.so simplech.so
+
+# compiler flags
+CFLAGS=-g -O3
+LDFLAGS=-g
+APP_CFLAGS=-DLIB_DIR=\"$(LIB_DIR)\"
+APP_LDFLAGS=-ldl
+LIB_CFLAGS=-fPIC
+LIB_LDFLAGS=-bundle -bundle_loader cliche
+
+# TARGETS
+all: $(BIN) $(LIB)
+
+dummy.o: dummy.c
+	$(CC) $(CFLAGS) $(LIB_CFLAGS) -o $@ -c $<
+dama.o: dama.c
+	$(CC) $(CFLAGS) $(LIB_CFLAGS) -o $@ -c $<
+simplech.o: simplech.c
+	$(CC) $(CFLAGS) $(LIB_CFLAGS) -o $@ -c $<
+pdnplay.o: pdnplay.c
+	$(CC) $(CFLAGS) $(LIB_CFLAGS) -o $@ -c $<
+cliche.o: cliche.c
+	$(CC) -Wall $(CFLAGS) $(APP_CFLAGS) -o $@ -c $<
+
+dummy.so: dummy.o
+	$(CC) $(LDFLAGS) $(LIB_LDFLAGS) -o $@ $<
+dama.so: dama.o
+	$(CC) $(LDFLAGS) $(LIB_LDFLAGS) -o $@ $<
+simplech.so: simplech.o
+	$(CC) $(LDFLAGS) $(LIB_LDFLAGS) -o $@ $<
+cliche: cliche.o
+	$(CC) $(LDFLAGS) $(APP_LDFLAGS) -o $@ $<
+
+clean:
+	rm -f *.o *.out *~ tags *.pdn *-stamp
+	rm -f *.so cliche
+	rm -rf tmp
+
+.PHONY: install clean

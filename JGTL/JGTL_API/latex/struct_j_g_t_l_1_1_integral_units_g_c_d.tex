@@ -1,0 +1,45 @@
+\hypertarget{struct_j_g_t_l_1_1_integral_units_g_c_d}{
+\section{JGTL::Integral\-Units\-GCD$<$ i, j $>$ Struct Template Reference}
+\label{struct_j_g_t_l_1_1_integral_units_g_c_d}\index{JGTL::IntegralUnitsGCD@{JGTL::IntegralUnitsGCD}}
+}
+{\tt \#include $<$JGTL\_\-Integral\-Units.h$>$}
+
+\subsection*{Static Public Attributes}
+\begin{CompactItemize}
+\item 
+static const \hyperlink{namespace_j_g_t_l_1924d6fd42e2d9661bc0b5a5063b99b3}{units\_\-internal\_\-ulong} \hyperlink{struct_j_g_t_l_1_1_integral_units_g_c_d_ac0b8330d1fad96221c65bace9f042b5}{VALUE}
+\end{CompactItemize}
+\subsubsection*{template$<$units\_\-internal\_\-ulong i, units\_\-internal\_\-ulong j$>$ struct JGTL::Integral\-Units\-GCD$<$ i, j $>$}
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{struct_j_g_t_l_1_1_integral_units_g_c_d_ac0b8330d1fad96221c65bace9f042b5}{
+\index{JGTL::IntegralUnitsGCD@{JGTL::Integral\-Units\-GCD}!VALUE@{VALUE}}
+\index{VALUE@{VALUE}!JGTL::IntegralUnitsGCD@{JGTL::Integral\-Units\-GCD}}
+\subsubsection[VALUE]{\setlength{\rightskip}{0pt plus 5cm}template$<$units\_\-internal\_\-ulong i, units\_\-internal\_\-ulong j$>$ const \hyperlink{namespace_j_g_t_l_1924d6fd42e2d9661bc0b5a5063b99b3}{units\_\-internal\_\-ulong} \hyperlink{struct_j_g_t_l_1_1_integral_units_g_c_d}{JGTL::Integral\-Units\-GCD}$<$ i, j $>$::\hyperlink{struct_j_g_t_l_1_1_integral_units_g_c_d_ac0b8330d1fad96221c65bace9f042b5}{VALUE}\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{struct_j_g_t_l_1_1_integral_units_g_c_d_ac0b8330d1fad96221c65bace9f042b5}
+
+
+\textbf{Initial value:}
+
+\begin{Code}\begin{verbatim} TYPEIF< 
+                        units_internal_ulong,
+                        STATIC_MOD<units_internal_ulong,i,j>::VALUE==0, 
+                        (j), 
+                        TYPEIF< 
+                        units_internal_ulong,
+                        STATIC_MOD<units_internal_ulong,j,STATIC_MOD<units_internal_ulong,i,j>::VALUE>::VALUE==0,
+                        STATIC_MOD<units_internal_ulong,i,j>::VALUE,
+                        IntegralUnitsGCD<
+                        STATIC_MOD<units_internal_ulong,i,j>::VALUE,
+                        STATIC_MOD<units_internal_ulong,j,STATIC_MOD<units_internal_ulong,i,j>::VALUE>::VALUE
+                        >::VALUE
+                        >::RESULT 
+                >::RESULT
+\end{verbatim}\end{Code}
+
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___integral_units_8h}{JGTL\_\-Integral\-Units.h}\end{CompactItemize}

@@ -1,0 +1,87 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Chinese]SZ[9]KM[6.50]TM[1800]
+PW[MoGoTiTan]PB[teytaud]DT[2008-09-27]PC[The KGS Go Server at http://www.gokgs.com/]C[MoGoTiTan [-\]: GTP Engine for MoGoTiTan (white): MoGo version 3.0.0: I'll resign if you win and playing until you pass if I win. If you passed and I did not, it often means that the status of some stones are not clear enough for me (I want to be sure we will agree on dead stones). Clarify them. Maybe I am losing, but have not enough time to be sure I should resign. In this case play until the end :'( (very rare cases)
+]RE[B+Resign]
+;B[de]BL[1790.567]
+;W[fe]WL[1794.27]
+;B[ff]BL[1777.37]
+;W[gf]WL[1794.075]
+;B[fg]BL[1764.925]
+;W[ge]WL[1793.836]C[jnr [-\]: this is opening move ^^
+]
+;B[ee]BL[1734.206]C[twojastara: isn't 6.5 komi too big for 9x9?
+yoyoma [1d\]: what do you think komi should be for 5x5?
+twojastara: 25
+LapinBlanc [2d?\]: 6.5 is most probably too small
+]
+;W[ec]WL[1655.351]C[LapinBlanc [2d?\]: and 7.5 maybe too big
+]
+;B[gg]BL[1665.675]
+;W[cc]WL[1518.873]
+;B[cd]BL[1644.777]C[twojastara: interesting, I read somewhere that 4 is expected to be proper komi on 9x9 board
+yoyoma [1d\]: it was, people changed their mind
+]
+;W[bd]WL[1394.005]
+;B[ed]BL[1576.07]
+;W[fc]WL[1279.369]
+;B[fd]BL[1566.166]C[mstarsup5 [6d?\]: difficult for mogo
+mstarsup5 [6d?\]: B launches the ko next
+]
+;W[ce]WL[1174.385]
+;B[dd]BL[1549.878]
+;W[gd]WL[1077.331]
+;B[dc]BL[1430.856]C[LapinBlanc [2d?\]: White found something else it seems
+fotland [?\]: doesn't look good for mogo ...
+fotland [?\]: maybe c4 live on both sides
+]
+;W[df]WL[978.462]C[fotland [?\]: MFGO likes b4
+jnr [-\]: wow
+jnr [-\]: mogo scare me sometimes
+mstarsup5 [6d?\]: d8?
+jnr [-\]: *s
+mstarsup5 [6d?\]: hmmm
+mstarsup5 [6d?\]: maybe not
+fotland [?\]: MFGO likes B7 now for black
+fotland [?\]: 54%
+]
+;B[be]BL[1104.151]C[fotland [?\]: mogo on how many cores?  800?
+]
+;W[db]WL[896.705]
+;B[cf]BL[1093.46]
+;W[ef]WL[822.963]
+;B[ce]BL[1084.891]
+;W[eh]WL[756.057]C[fotland [?\]: MFGO thinks B will win now
+]
+;B[dh]BL[1055.652]C[fotland [?\]: Now MFOG thinks c3 can win for white
+]
+;W[hg]WL[694.605]
+;B[hh]BL[1045.481]C[mstarsup5 [6d?\]: black won
+mstarsup5 [6d?\]: C3 D3
+]
+;W[eg]WL[638.307]C[fotland [?\]: yes, black will win
+]
+;B[fh]BL[1032.52]
+;W[fi]WL[580.531]
+;B[gh]BL[1022.695]
+;W[cg]WL[524.263]
+;B[dg]BL[1011.205]C[tanguo [?\]: resign
+]
+;W[bc]WL[474.401]C[mstarsup5 [6d?\]: mogo is going to try E1, and then resign
+mstarsup5 [6d?\]: oh
+]
+;B[gc]BL[997.264]C[mstarsup5 [6d?\]: i read it loses by 2.5 points thi way earlier
+]
+;W[ei]WL[431.884]
+;B[di]BL[983.767]
+;W[gb]WL[393.985]C[tanguo [?\]: zhoujunxun win
+]
+;B[hc]BL[972.648]C[LapinBlanc [2d?\]: Yes
+LapinBlanc [2d?\]: Interesting game though
+]
+;W[he]WL[357.37]
+;B[hb]BL[956.368]C[tanguo [?\]: whit 崩溃了
+mstarsup5 [6d?\]: i feel like white lost already after black E5
+mstarsup5 [6d?\]: nice game, thanks to the players
+fotland [?\]: MF still thinks B can win after e5, but mogo looks much deeper on its big cluster
+fotland [?\]: I mean W can win.
+])

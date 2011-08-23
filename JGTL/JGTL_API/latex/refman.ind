@@ -1,0 +1,2136 @@
+\begin{theindex}
+
+  \item {$\sim $CircularBuffer}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+  \item {$\sim $CircularBufferInterface}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{36}
+  \item {$\sim $Clock}
+    \subitem {JGTL::Clock}, \hyperpage{40}
+  \item {$\sim $DataManager}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+  \item {$\sim $DataPool}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+  \item {$\sim $DynamicCircularBuffer}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{51}
+  \item {$\sim $DynamicPoolMap}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}, 
+		\hyperpage{53}
+  \item {$\sim $DynamicPoolSet}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}, 
+		\hyperpage{56}
+  \item {$\sim $HexTree}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree}, \hyperpage{61}
+  \item {$\sim $HexTreeBranch}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{64}
+  \item {$\sim $HexTreeNode}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{67}
+  \item {$\sim $HexTreeStub}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{70}
+  \item {$\sim $MapInterface}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{97}
+  \item {$\sim $PoolMap}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+  \item {$\sim $ProfileBlockHandler}
+    \subitem {JGTL::Profile\discretionary {-}{}{}Block\discretionary {-}{}{}Handler}, 
+		\hyperpage{111}
+  \item {$\sim $Profiler}
+    \subitem {JGTL::Profiler}, \hyperpage{114}
+  \item {$\sim $QuadTree}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree}, \hyperpage{121}
+  \item {$\sim $QuadTreeBranch}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{124}
+  \item {$\sim $QuadTreeNode}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{127}
+  \item {$\sim $QuadTreeStub}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{130}
+  \item {$\sim $SetInterface}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{143}
+  \item {$\sim $Singleton}
+    \subitem {JGTL::Singleton}, \hyperpage{148}
+  \item {$\sim $SortedList}
+    \subitem {JGTL::Sorted\discretionary {-}{}{}List}, \hyperpage{150}
+  \item {$\sim $StackCircularBuffer}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{152}
+  \item {$\sim $StackMap}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Map}, \hyperpage{155}
+  \item {$\sim $StackSet}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Set}, \hyperpage{158}
+  \item {$\sim $TreeList}
+    \subitem {JGTL::Tree\discretionary {-}{}{}List}, \hyperpage{169}
+  \item {\_\discretionary {-}{}{}CommandLineParser}
+    \subitem {JGTL}, \hyperpage{18}
+
+  \indexspace
+
+  \item {actualValue}
+    \subitem {JGTL::Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{92}
+  \item {addData}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+    \subitem {JGTL::Sorted\discretionary {-}{}{}List}, \hyperpage{150}
+  \item {addSpace}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{192}
+  \item {alloc}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+  \item {angleTo}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+  \item {avgCycleTotalMicroseconds}
+    \subitem {JGTL::Profile\discretionary {-}{}{}Block}, 
+		\hyperpage{110}
+
+  \indexspace
+
+  \item {Bar}
+    \subitem {JGTL::Bar}, \hyperpage{26}
+  \item {base}
+    \subitem {JGTL::Poly\discretionary {-}{}{}Variant}, \hyperpage{105}
+    \subitem {JGTL::Ray2}, \hyperpage{134}
+    \subitem {JGTL::Ray3}, \hyperpage{137}
+  \item {begin}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+  \item {beginBlock}
+    \subitem {JGTL::Profiler}, \hyperpage{115}
+  \item {beginCycle}
+    \subitem {JGTL::Profiler}, \hyperpage{115}
+  \item {BinaryTreeNode}
+    \subitem {JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{28}
+  \item {blockName}
+    \subitem {JGTL::Profile\discretionary {-}{}{}Block\discretionary {-}{}{}Handler}, 
+		\hyperpage{111}
+  \item {boolAlloc}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+  \item {bottomLeft}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{125}
+  \item {bottomRight}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{125}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{194}
+  \item {branchPool}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree}, \hyperpage{61}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree}, \hyperpage{121}
+
+  \indexspace
+
+  \item {capacity}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+  \item {changeScale}
+    \subitem {JGTL::Floating\discretionary {-}{}{}Units}, 
+		\hyperpage{58}
+    \subitem {JGTL::Integral\discretionary {-}{}{}Units}, 
+		\hyperpage{81}
+  \item {chessDistance}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {child}
+    \subitem {JGTL::Tree\discretionary {-}{}{}List\discretionary {-}{}{}Node}, 
+		\hyperpage{170}
+  \item {children}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{65}
+  \item {CircularBuffer}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+  \item {CircularBufferInterface}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{36}
+  \item {clampValues}
+    \subitem {JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{190}
+  \item {clear}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}, 
+		\hyperpage{101}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+  \item {clearValue}
+    \subitem {JGTL::Variant}, \hyperpage{174}
+  \item {Clock}
+    \subitem {JGTL::Clock}, \hyperpage{40}
+  \item {CommandLineParser}
+    \subitem {JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}, 
+		\hyperpage{43}
+  \item {const\_\discretionary {-}{}{}iterator}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{97}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{143}
+  \item {ConstSpaceIterator}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{192}
+  \item {contains}
+    \subitem {JGTL::Rectangle3}, \hyperpage{139}
+    \subitem {JGTL::Rectangle\discretionary {-}{}{}Index3}, 
+		\hyperpage{141}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{193}
+  \item {convertVector2}
+    \subitem {JGTL}, \hyperpage{21}
+  \item {convertVector3}
+    \subitem {JGTL}, \hyperpage{21}
+  \item {copyFrom}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{51}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}, 
+		\hyperpage{53, 54}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}, 
+		\hyperpage{56}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree}, \hyperpage{61}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree}, \hyperpage{121}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{152}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Map}, \hyperpage{155}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Set}, \hyperpage{158}
+  \item {CREATE\_\discretionary {-}{}{}LOCATEDEXCEPTION\_\discretionary {-}{}{}INFO}
+    \subitem {JGTL\_\discretionary {-}{}{}Located\discretionary {-}{}{}Exception.h}, 
+		\hyperpage{212}
+  \item {CREATE\_\discretionary {-}{}{}PAUSE}
+    \subitem {JGTL\_\discretionary {-}{}{}Located\discretionary {-}{}{}Exception.h}, 
+		\hyperpage{212}
+  \item {createInstance}
+    \subitem {JGTL::Profiler}, \hyperpage{114}
+  \item {cross}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {currentBlockStartMicroseconds}
+    \subitem {JGTL::Profile\discretionary {-}{}{}Block}, 
+		\hyperpage{109}
+  \item {currentCycleTotalMicroseconds}
+    \subitem {JGTL::Profile\discretionary {-}{}{}Block}, 
+		\hyperpage{109}
+  \item {currentValue}
+    \subitem {JGTL::Bar}, \hyperpage{26}
+
+  \indexspace
+
+  \item {data}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{152}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Map}, \hyperpage{156}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Set}, \hyperpage{158}
+    \subitem {JGTL::Variant}, \hyperpage{174}
+  \item {dataCaseInsensitiveMap}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+  \item {dataList}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, 
+		\hyperpage{101}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+    \subitem {JGTL::Sorted\discretionary {-}{}{}List}, \hyperpage{150}
+  \item {DataManager}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+  \item {dataMap}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+  \item {DataPool}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+  \item {DEBUG\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}
+    \subitem {JGTL\_\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h}, 
+		\hyperpage{198}
+  \item {DEBUG\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER\_\discretionary {-}{}{}INTERFACE}
+    \subitem {JGTL\_\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface.h}, 
+		\hyperpage{199}
+  \item {DEBUG\_\discretionary {-}{}{}DATA\_\discretionary {-}{}{}MANAGER}
+    \subitem {JGTL\_\discretionary {-}{}{}Data\discretionary {-}{}{}Manager.h}, 
+		\hyperpage{201}
+  \item {DEBUG\_\discretionary {-}{}{}DATA\_\discretionary {-}{}{}POOL}
+    \subitem {JGTL\_\discretionary {-}{}{}Data\discretionary {-}{}{}Pool\_\discretionary {-}{}{}delete.h}, 
+		\hyperpage{202}
+  \item {DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}
+    \subitem {JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h}, 
+		\hyperpage{203}
+  \item {DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}MAP}
+    \subitem {JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map.h}, 
+		\hyperpage{204}
+    \subitem {JGTL\_\discretionary {-}{}{}Unordered\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map.h}, 
+		\hyperpage{231}
+  \item {DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}SET}
+    \subitem {JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set.h}, 
+		\hyperpage{205}
+  \item {DEBUG\_\discretionary {-}{}{}MAP\_\discretionary {-}{}{}INTERFACE}
+    \subitem {JGTL\_\discretionary {-}{}{}Map\discretionary {-}{}{}Interface.h}, 
+		\hyperpage{213}
+    \subitem {JGTL\_\discretionary {-}{}{}Unordered\discretionary {-}{}{}Map\discretionary {-}{}{}Interface.h}, 
+		\hyperpage{232}
+  \item {DEBUG\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}MAP}
+    \subitem {JGTL\_\discretionary {-}{}{}Pool\discretionary {-}{}{}Map\_\discretionary {-}{}{}delete.h}, 
+		\hyperpage{215}
+  \item {DEBUG\_\discretionary {-}{}{}SET\_\discretionary {-}{}{}INTERFACE}
+    \subitem {JGTL\_\discretionary {-}{}{}Set\discretionary {-}{}{}Interface.h}, 
+		\hyperpage{223}
+  \item {DEBUG\_\discretionary {-}{}{}SORTED\_\discretionary {-}{}{}LIST}
+    \subitem {JGTL\_\discretionary {-}{}{}Sorted\discretionary {-}{}{}List\_\discretionary {-}{}{}delete.h}, 
+		\hyperpage{225}
+  \item {DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}
+    \subitem {JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h}, 
+		\hyperpage{226}
+  \item {DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}MAP}
+    \subitem {JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Map.h}, 
+		\hyperpage{227}
+  \item {DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}SET}
+    \subitem {JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Set.h}, 
+		\hyperpage{228}
+  \item {dequeue}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+  \item {destroy}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{64}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{67}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{124}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{127}
+  \item {destroyInstance}
+    \subitem {JGTL::Profiler}, \hyperpage{114}
+    \subitem {JGTL::Singleton}, \hyperpage{148}
+  \item {direction}
+    \subitem {JGTL::Ray2}, \hyperpage{134}
+    \subitem {JGTL::Ray3}, \hyperpage{137}
+  \item {display}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree}, \hyperpage{61}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{64}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{67}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{70}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree}, \hyperpage{121}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{124}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{127}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{130}
+  \item {distance}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {distanceSquared}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {dot}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+  \item {DynamicCircularBuffer}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{51}
+  \item {DynamicPoolMap}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}, 
+		\hyperpage{53}
+  \item {DynamicPoolSet}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}, 
+		\hyperpage{56}
+
+  \indexspace
+
+  \item {elementEnd}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+  \item {elementStart}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+  \item {empty}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+  \item {end}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+  \item {endBlock}
+    \subitem {JGTL::Profiler}, \hyperpage{115}
+  \item {endCycle}
+    \subitem {JGTL::Profiler}, \hyperpage{115}
+  \item {enqueue}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{36}
+  \item {enqueueLast}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+  \item {erase}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}, 
+		\hyperpage{101}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+  \item {eraseIndex}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+
+  \indexspace
+
+  \item {find}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}, 
+		\hyperpage{101}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+  \item {FloatingUnits}
+    \subitem {JGTL::Floating\discretionary {-}{}{}Units}, 
+		\hyperpage{58}
+  \item {forceValue}
+    \subitem {JGTL::Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{92}
+  \item {fromMagnitudeAngle}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+  \item {front}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{36}
+  \item {frontPtr}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+  \item {frontRef}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+  \item {full}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+
+  \indexspace
+
+  \item {GCD}
+    \subitem {JGTL}, \hyperpage{21}
+  \item {getActualValue}
+    \subitem {JGTL::Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{92}
+  \item {getAngle}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+  \item {getArea}
+    \subitem {JGTL::Rectangle\discretionary {-}{}{}Index3}, 
+		\hyperpage{141}
+  \item {GetArgument}
+    \subitem {JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}, 
+		\hyperpage{43}
+  \item {GetArgumentCount}
+    \subitem {JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}, 
+		\hyperpage{43}
+  \item {getAvgDuration}
+    \subitem {JGTL::Profiler}, \hyperpage{115}
+  \item {getBase}
+    \subitem {JGTL::Ray2}, \hyperpage{134}
+    \subitem {JGTL::Ray3}, \hyperpage{137}
+  \item {getBlockMaxTime}
+    \subitem {JGTL::Profiler}, \hyperpage{117}
+  \item {getBlockMinTime}
+    \subitem {JGTL::Profiler}, \hyperpage{116}
+  \item {getBlockTotalTime}
+    \subitem {JGTL::Profiler}, \hyperpage{117}
+  \item {getBottomRight}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{193}
+  \item {getChildIndex}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{64}
+  \item {getData}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}, 
+		\hyperpage{101}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+    \subitem {JGTL::Sorted\discretionary {-}{}{}List}, \hyperpage{150}
+  \item {getDataPtr}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+    \subitem {JGTL::Sorted\discretionary {-}{}{}List}, \hyperpage{150}
+  \item {getDataRef}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}, 
+		\hyperpage{101}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+  \item {getDataSize}
+    \subitem {JGTL::Sorted\discretionary {-}{}{}List}, \hyperpage{150}
+  \item {getDirection}
+    \subitem {JGTL::Ray2}, \hyperpage{134}
+    \subitem {JGTL::Ray3}, \hyperpage{137}
+  \item {getEndPoint}
+    \subitem {JGTL::Ray2}, \hyperpage{134}
+  \item {getFirstPoint}
+    \subitem {JGTL::Rectangle3}, \hyperpage{139}
+    \subitem {JGTL::Rectangle\discretionary {-}{}{}Index3}, 
+		\hyperpage{141}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{193}
+  \item {getIndex}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+  \item {getIndexData}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}, 
+		\hyperpage{101}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+  \item {getIndexDataPtr}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}, 
+		\hyperpage{101}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+  \item {getIndexFromName}
+    \subitem {JGTL}, \hyperpage{21}
+  \item {getIndexPtr}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+  \item {getIndexRef}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+  \item {getInstance}
+    \subitem {JGTL::Singleton}, \hyperpage{148}
+  \item {getInterpolationCoeff}
+    \subitem {JGTL::Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{91}
+  \item {getIntersection}
+    \subitem {JGTL::Ray2}, \hyperpage{134}
+  \item {getMagnitudeSquared}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+  \item {getMemUsage}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree}, \hyperpage{61}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{65}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{68}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{70}
+  \item {getMicrosecondsSinceInit}
+    \subitem {JGTL::Profiler}, \hyperpage{117}
+  \item {getNextDiscretePoint}
+    \subitem {JGTL::Rectangle3}, \hyperpage{139}
+  \item {getNextPoint}
+    \subitem {JGTL::Rectangle\discretionary {-}{}{}Index3}, 
+		\hyperpage{141}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{193}
+  \item {getPotentialValue}
+    \subitem {JGTL::Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{92}
+  \item {getProfileBlock}
+    \subitem {JGTL::Profiler}, \hyperpage{116}
+  \item {getProjectionTVal}
+    \subitem {JGTL::Ray2}, \hyperpage{134}
+    \subitem {JGTL::Ray3}, \hyperpage{137}
+  \item {getProjectionVector}
+    \subitem {JGTL::Ray2}, \hyperpage{134}
+    \subitem {JGTL::Ray3}, \hyperpage{137}
+  \item {GetSafeArgument}
+    \subitem {JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}, 
+		\hyperpage{43}
+  \item {getScale}
+    \subitem {JGTL::Floating\discretionary {-}{}{}Units}, 
+		\hyperpage{58}
+    \subitem {JGTL::Integral\discretionary {-}{}{}Units}, 
+		\hyperpage{81}
+  \item {getSize}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{193}
+  \item {getSuffixString}
+    \subitem {JGTL::Profiler}, \hyperpage{117}
+  \item {getSummary}
+    \subitem {JGTL::Profiler}, \hyperpage{115}
+  \item {getTimeMicroseconds}
+    \subitem {JGTL::Clock}, \hyperpage{40}
+  \item {getTimeMilliseconds}
+    \subitem {JGTL::Clock}, \hyperpage{40}
+  \item {getTopLeft}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{193}
+  \item {getValue}
+    \subitem {JGTL::Floating\discretionary {-}{}{}Units}, 
+		\hyperpage{58}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree}, \hyperpage{61}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{64}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{67}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{70}
+    \subitem {JGTL::Integral\discretionary {-}{}{}Units}, 
+		\hyperpage{81}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree}, \hyperpage{121}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{124}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{127}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{130}
+    \subitem {JGTL::Variant}, \hyperpage{174}
+  \item {getValuePtr}
+    \subitem {JGTL::Variant}, \hyperpage{174}
+  \item {getValueRef}
+    \subitem {JGTL::Variant}, \hyperpage{174}
+  \item {getVector2}
+    \subitem {JGTL::Index2}, \hyperpage{75}
+
+  \indexspace
+
+  \item {hasData}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+    \subitem {JGTL::Sorted\discretionary {-}{}{}List}, \hyperpage{150}
+  \item {hasKey}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}, 
+		\hyperpage{101}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+  \item {HasSwitch}
+    \subitem {JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}, 
+		\hyperpage{43}
+  \item {HexTree}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree}, \hyperpage{61}
+  \item {HexTreeBranch}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{64}
+  \item {HexTreeNode}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{67}
+  \item {HexTreeStub}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{70}
+
+  \indexspace
+
+  \item {incCounter}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+  \item {Index2}
+    \subitem {JGTL::Index2}, \hyperpage{75}
+  \item {Index3}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+  \item {init}
+    \subitem {JGTL::Profiler}, \hyperpage{114}
+  \item {insert}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{97}, 
+		\hyperpage{99}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{143}
+  \item {instance}
+    \subitem {JGTL::Singleton}, \hyperpage{148}
+  \item {IntegralUnits}
+    \subitem {JGTL::Integral\discretionary {-}{}{}Units}, 
+		\hyperpage{81}
+  \item {InterpolatedValue}
+    \subitem {JGTL::Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{91}
+  \item {interpolationCoeff}
+    \subitem {JGTL::Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{92}
+  \item {IntersectionState}
+    \subitem {JGTL}, \hyperpage{18}
+  \item {IS\_\-INFINITE}
+    \subitem {JGTL}, \hyperpage{18}
+  \item {IS\_\-NONE}
+    \subitem {JGTL}, \hyperpage{18}
+  \item {IS\_\-ONE}
+    \subitem {JGTL}, \hyperpage{18}
+  \item {isContainedIn}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+  \item {isOfType}
+    \subitem {JGTL::Variant}, \hyperpage{174}
+  \item {isStub}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{67}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{70}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{127}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{130}
+  \item {IsSwitch}
+    \subitem {JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}, 
+		\hyperpage{43}
+  \item {iterator}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{97}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{143}
+
+  \indexspace
+
+  \item {JGTL}, \hyperpage{13}
+    \subitem {\_\discretionary {-}{}{}CommandLineParser}, 
+		\hyperpage{18}
+    \subitem {convertVector2}, \hyperpage{21}
+    \subitem {convertVector3}, \hyperpage{21}
+    \subitem {GCD}, \hyperpage{21}
+    \subitem {getIndexFromName}, \hyperpage{21}
+    \subitem {IntersectionState}, \hyperpage{18}
+    \subitem {IS\_\-INFINITE}, \hyperpage{18}
+    \subitem {IS\_\-NONE}, \hyperpage{18}
+    \subitem {IS\_\-ONE}, \hyperpage{18}
+    \subitem {MICROSECONDS}, \hyperpage{19}
+    \subitem {MILLISECONDS}, \hyperpage{19}
+    \subitem {operator$<$$<$}, \hyperpage{21}
+    \subitem {operator$>$$>$}, \hyperpage{21}
+    \subitem {packBuffer}, \hyperpage{21}
+    \subitem {packBufferStack}, \hyperpage{21}
+    \subitem {packBufferString}, \hyperpage{21}
+    \subitem {PERCENT}, \hyperpage{19}
+    \subitem {SECONDS}, \hyperpage{19}
+    \subitem {stringTo}, \hyperpage{21}
+    \subitem {TimeFormat}, \hyperpage{18}
+    \subitem {toString}, \hyperpage{21}
+    \subitem {uchar}, \hyperpage{18}
+    \subitem {units\_\discretionary {-}{}{}internal\_\discretionary {-}{}{}ulong}, 
+		\hyperpage{18}
+    \subitem {unpackBuffer}, \hyperpage{22}
+    \subitem {unpackBufferStack}, \hyperpage{22}
+    \subitem {unpackBufferString}, \hyperpage{22}
+  \item {JGTL::Bar}, \hyperpage{25}
+    \subitem {Bar}, \hyperpage{26}
+    \subitem {currentValue}, \hyperpage{26}
+    \subitem {maxValue}, \hyperpage{26}
+  \item {JGTL::BinaryTreeNode}, \hyperpage{27}
+  \item {JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}
+    \subitem {BinaryTreeNode}, \hyperpage{28}
+    \subitem {left}, \hyperpage{28}
+    \subitem {operator=}, \hyperpage{28}
+    \subitem {parent}, \hyperpage{28}
+    \subitem {right}, \hyperpage{28}
+  \item {JGTL::CCmdParam}, \hyperpage{29}
+  \item {JGTL::CCmd\discretionary {-}{}{}Param}
+    \subitem {m\_\discretionary {-}{}{}strings}, \hyperpage{29}
+  \item {JGTL::CircularBuffer}, \hyperpage{30}
+  \item {JGTL::Circular\discretionary {-}{}{}Buffer}
+    \subitem {$\sim $CircularBuffer}, \hyperpage{33}
+    \subitem {capacity}, \hyperpage{33}
+    \subitem {CircularBuffer}, \hyperpage{33}
+    \subitem {clear}, \hyperpage{33}
+    \subitem {copyFrom}, \hyperpage{33}
+    \subitem {dataList}, \hyperpage{33}
+    \subitem {dequeue}, \hyperpage{33}
+    \subitem {elementEnd}, \hyperpage{33}
+    \subitem {elementStart}, \hyperpage{33}
+    \subitem {empty}, \hyperpage{33}
+    \subitem {enqueue}, \hyperpage{33}
+    \subitem {enqueueLast}, \hyperpage{33}
+    \subitem {front}, \hyperpage{33}
+    \subitem {frontPtr}, \hyperpage{33}
+    \subitem {frontRef}, \hyperpage{33}
+    \subitem {full}, \hyperpage{33}
+    \subitem {getIndex}, \hyperpage{33}
+    \subitem {getIndexRef}, \hyperpage{33}
+    \subitem {incCounter}, \hyperpage{33}
+    \subitem {maxElements}, \hyperpage{33}
+    \subitem {operator=}, \hyperpage{33}
+    \subitem {size}, \hyperpage{33}
+  \item {JGTL::CircularBufferInterface}, \hyperpage{35}
+  \item {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}
+    \subitem {$\sim $CircularBufferInterface}, \hyperpage{36}
+    \subitem {capacity}, \hyperpage{38}
+    \subitem {CircularBufferInterface}, \hyperpage{36}
+    \subitem {clear}, \hyperpage{38}
+    \subitem {dataList}, \hyperpage{38}
+    \subitem {dequeue}, \hyperpage{38}
+    \subitem {elementEnd}, \hyperpage{38}
+    \subitem {elementStart}, \hyperpage{38}
+    \subitem {empty}, \hyperpage{38}
+    \subitem {enqueue}, \hyperpage{36}
+    \subitem {enqueueLast}, \hyperpage{38}
+    \subitem {front}, \hyperpage{36}
+    \subitem {frontPtr}, \hyperpage{38}
+    \subitem {frontRef}, \hyperpage{38}
+    \subitem {full}, \hyperpage{38}
+    \subitem {getIndex}, \hyperpage{38}
+    \subitem {getIndexRef}, \hyperpage{38}
+    \subitem {incCounter}, \hyperpage{38}
+    \subitem {maxElements}, \hyperpage{38}
+    \subitem {resize}, \hyperpage{36}
+    \subitem {size}, \hyperpage{38}
+  \item {JGTL::Clock}, \hyperpage{40}
+    \subitem {$\sim $Clock}, \hyperpage{40}
+    \subitem {Clock}, \hyperpage{40}
+    \subitem {getTimeMicroseconds}, \hyperpage{40}
+    \subitem {getTimeMilliseconds}, \hyperpage{40}
+    \subitem {mStartTime}, \hyperpage{41}
+    \subitem {reset}, \hyperpage{40}
+  \item {JGTL::CommandLineParser}, \hyperpage{42}
+  \item {JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}
+    \subitem {CommandLineParser}, \hyperpage{43}
+    \subitem {GetArgument}, \hyperpage{43}
+    \subitem {GetArgumentCount}, \hyperpage{43}
+    \subitem {GetSafeArgument}, \hyperpage{43}
+    \subitem {HasSwitch}, \hyperpage{43}
+    \subitem {IsSwitch}, \hyperpage{43}
+    \subitem {SplitLine}, \hyperpage{43}
+  \item {JGTL::DataManager}, \hyperpage{44}
+  \item {JGTL::Data\discretionary {-}{}{}Manager}
+    \subitem {$\sim $DataManager}, \hyperpage{45}
+    \subitem {addData}, \hyperpage{45}
+    \subitem {begin}, \hyperpage{45}
+    \subitem {dataCaseInsensitiveMap}, \hyperpage{45}
+    \subitem {dataList}, \hyperpage{45}
+    \subitem {DataManager}, \hyperpage{45}
+    \subitem {dataMap}, \hyperpage{45}
+    \subitem {end}, \hyperpage{45}
+    \subitem {getData}, \hyperpage{45}
+    \subitem {getDataPtr}, \hyperpage{45}
+    \subitem {getIndex}, \hyperpage{45}
+    \subitem {getSize}, \hyperpage{45}
+    \subitem {maxElements}, \hyperpage{45}
+    \subitem {numElements}, \hyperpage{45}
+    \subitem {refreshNames}, \hyperpage{45}
+  \item {JGTL::DataPool}, \hyperpage{47}
+  \item {JGTL::Data\discretionary {-}{}{}Pool}
+    \subitem {$\sim $DataPool}, \hyperpage{48}
+    \subitem {addData}, \hyperpage{48}
+    \subitem {alloc}, \hyperpage{48}
+    \subitem {begin}, \hyperpage{48}
+    \subitem {boolAlloc}, \hyperpage{48}
+    \subitem {dataCaseInsensitiveMap}, \hyperpage{48}
+    \subitem {dataList}, \hyperpage{48}
+    \subitem {dataMap}, \hyperpage{48}
+    \subitem {DataPool}, \hyperpage{48}
+    \subitem {end}, \hyperpage{48}
+    \subitem {getData}, \hyperpage{48}
+    \subitem {getDataPtr}, \hyperpage{48}
+    \subitem {getSize}, \hyperpage{48}
+    \subitem {maxElements}, \hyperpage{48}
+    \subitem {numElements}, \hyperpage{48}
+    \subitem {used}, \hyperpage{48}
+  \item {JGTL::DynamicCircularBuffer}, \hyperpage{50}
+  \item {JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}
+    \subitem {$\sim $DynamicCircularBuffer}, \hyperpage{51}
+    \subitem {copyFrom}, \hyperpage{51}
+    \subitem {DynamicCircularBuffer}, \hyperpage{51}
+    \subitem {operator=}, \hyperpage{51}
+    \subitem {resize}, \hyperpage{51}
+  \item {JGTL::DynamicPoolMap}, \hyperpage{52}
+  \item {JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}
+    \subitem {$\sim $DynamicPoolMap}, \hyperpage{53}
+    \subitem {copyFrom}, \hyperpage{53, 54}
+    \subitem {DynamicPoolMap}, \hyperpage{53}
+    \subitem {operator=}, \hyperpage{53, 54}
+    \subitem {reserve}, \hyperpage{54}
+    \subitem {resize}, \hyperpage{53}
+  \item {JGTL::DynamicPoolSet}, \hyperpage{55}
+  \item {JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}
+    \subitem {$\sim $DynamicPoolSet}, \hyperpage{56}
+    \subitem {copyFrom}, \hyperpage{56}
+    \subitem {DynamicPoolSet}, \hyperpage{56}
+    \subitem {operator=}, \hyperpage{56}
+    \subitem {operator==}, \hyperpage{56}
+    \subitem {resize}, \hyperpage{56}
+  \item {JGTL::FloatingUnits}, \hyperpage{57}
+  \item {JGTL::Floating\discretionary {-}{}{}Units}
+    \subitem {changeScale}, \hyperpage{58}
+    \subitem {FloatingUnits}, \hyperpage{58}
+    \subitem {getScale}, \hyperpage{58}
+    \subitem {getValue}, \hyperpage{58}
+    \subitem {operator=}, \hyperpage{58}
+    \subitem {setValue}, \hyperpage{58}
+    \subitem {value}, \hyperpage{58}
+  \item {JGTL::HexTree}, \hyperpage{60}
+  \item {JGTL::Hex\discretionary {-}{}{}Tree}
+    \subitem {$\sim $HexTree}, \hyperpage{61}
+    \subitem {branchPool}, \hyperpage{61}
+    \subitem {copyFrom}, \hyperpage{61}
+    \subitem {display}, \hyperpage{61}
+    \subitem {getMemUsage}, \hyperpage{61}
+    \subitem {getValue}, \hyperpage{61}
+    \subitem {HexTree}, \hyperpage{61}
+    \subitem {operator()}, \hyperpage{61}
+    \subitem {operator=}, \hyperpage{61}
+    \subitem {root}, \hyperpage{61}
+    \subitem {setAll}, \hyperpage{61}
+    \subitem {setValue}, \hyperpage{61}
+    \subitem {size}, \hyperpage{61}
+    \subitem {stubPool}, \hyperpage{61}
+  \item {JGTL::HexTreeBranch}, \hyperpage{63}
+  \item {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}
+    \subitem {$\sim $HexTreeBranch}, \hyperpage{64}
+    \subitem {children}, \hyperpage{65}
+    \subitem {destroy}, \hyperpage{64}
+    \subitem {display}, \hyperpage{64}
+    \subitem {getChildIndex}, \hyperpage{64}
+    \subitem {getMemUsage}, \hyperpage{65}
+    \subitem {getValue}, \hyperpage{64}
+    \subitem {HexTreeBranch}, \hyperpage{64}
+    \subitem {setAll}, \hyperpage{64}
+    \subitem {setValue}, \hyperpage{64}
+  \item {JGTL::HexTreeNode}, \hyperpage{66}
+  \item {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}
+    \subitem {$\sim $HexTreeNode}, \hyperpage{67}
+    \subitem {destroy}, \hyperpage{67}
+    \subitem {display}, \hyperpage{67}
+    \subitem {getMemUsage}, \hyperpage{68}
+    \subitem {getValue}, \hyperpage{67}
+    \subitem {HexTreeNode}, \hyperpage{67}
+    \subitem {isStub}, \hyperpage{67}
+    \subitem {setValue}, \hyperpage{67}
+  \item {JGTL::HexTreeStub}, \hyperpage{69}
+  \item {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}
+    \subitem {$\sim $HexTreeStub}, \hyperpage{70}
+    \subitem {display}, \hyperpage{70}
+    \subitem {getMemUsage}, \hyperpage{70}
+    \subitem {getValue}, \hyperpage{70}
+    \subitem {HexTreeStub}, \hyperpage{70}
+    \subitem {isStub}, \hyperpage{70}
+    \subitem {setValue}, \hyperpage{70}
+    \subitem {value}, \hyperpage{71}
+  \item {JGTL::IF}, \hyperpage{72}
+    \subitem {RET}, \hyperpage{72}
+  \item {JGTL::IF$<$ false, Then, Else $>$}, \hyperpage{73}
+    \subitem {RET}, \hyperpage{73}
+  \item {JGTL::Index2}, \hyperpage{74}
+    \subitem {getVector2}, \hyperpage{75}
+    \subitem {Index2}, \hyperpage{75}
+    \subitem {operator!=}, \hyperpage{75}
+    \subitem {operator==}, \hyperpage{75}
+    \subitem {toString}, \hyperpage{75}
+    \subitem {x}, \hyperpage{75}
+    \subitem {y}, \hyperpage{75}
+  \item {JGTL::Index3}, \hyperpage{76}
+    \subitem {chessDistance}, \hyperpage{78}
+    \subitem {distanceSquared}, \hyperpage{78}
+    \subitem {Index3}, \hyperpage{78}
+    \subitem {magnitude}, \hyperpage{78}
+    \subitem {magnitudeSquared}, \hyperpage{78}
+    \subitem {manhatDistance}, \hyperpage{78}
+    \subitem {operator $\ast $}, \hyperpage{78}
+    \subitem {operator!=}, \hyperpage{78}
+    \subitem {operator+}, \hyperpage{78}
+    \subitem {operator+=}, \hyperpage{78}
+    \subitem {operator-}, \hyperpage{78}
+    \subitem {operator-=}, \hyperpage{78}
+    \subitem {operator/}, \hyperpage{78}
+    \subitem {operator$<$}, \hyperpage{78}
+    \subitem {operator==}, \hyperpage{78}
+    \subitem {x}, \hyperpage{78}
+    \subitem {y}, \hyperpage{78}
+    \subitem {z}, \hyperpage{78}
+  \item {JGTL::IntegralUnits}, \hyperpage{80}
+  \item {JGTL::Integral\discretionary {-}{}{}Units}
+    \subitem {changeScale}, \hyperpage{81}
+    \subitem {getScale}, \hyperpage{81}
+    \subitem {getValue}, \hyperpage{81}
+    \subitem {IntegralUnits}, \hyperpage{81}
+    \subitem {operator=}, \hyperpage{81}
+    \subitem {setValue}, \hyperpage{81}
+    \subitem {value}, \hyperpage{81}
+  \item {JGTL::IntegralUnitsGCD}, \hyperpage{83}
+  \item {JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD}
+    \subitem {VALUE}, \hyperpage{83}
+  \item {JGTL::IntegralUnitsGCD$<$ 0, 0 $>$}, \hyperpage{84}
+  \item {JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 0, 0 $>$}
+    \subitem {VALUE}, \hyperpage{84}
+  \item {JGTL::IntegralUnitsGCD$<$ 0, j $>$}, \hyperpage{85}
+  \item {JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 0, j $>$}
+    \subitem {VALUE}, \hyperpage{85}
+  \item {JGTL::IntegralUnitsGCD$<$ 1, 1 $>$}, \hyperpage{86}
+  \item {JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 1, 1 $>$}
+    \subitem {VALUE}, \hyperpage{86}
+  \item {JGTL::IntegralUnitsGCD$<$ 1, j $>$}, \hyperpage{87}
+  \item {JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 1, j $>$}
+    \subitem {VALUE}, \hyperpage{87}
+  \item {JGTL::IntegralUnitsGCD$<$ i, 0 $>$}, \hyperpage{88}
+  \item {JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ i, 0 $>$}
+    \subitem {VALUE}, \hyperpage{88}
+  \item {JGTL::IntegralUnitsGCD$<$ i, 1 $>$}, \hyperpage{89}
+  \item {JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ i, 1 $>$}
+    \subitem {VALUE}, \hyperpage{89}
+  \item {JGTL::InterpolatedValue}, \hyperpage{90}
+  \item {JGTL::Interpolated\discretionary {-}{}{}Value}
+    \subitem {actualValue}, \hyperpage{92}
+    \subitem {forceValue}, \hyperpage{92}
+    \subitem {getActualValue}, \hyperpage{92}
+    \subitem {getInterpolationCoeff}, \hyperpage{91}
+    \subitem {getPotentialValue}, \hyperpage{92}
+    \subitem {InterpolatedValue}, \hyperpage{91}
+    \subitem {interpolationCoeff}, \hyperpage{92}
+    \subitem {operator+=}, \hyperpage{91}
+    \subitem {operator-=}, \hyperpage{92}
+    \subitem {operator=}, \hyperpage{91}
+    \subitem {potentialValue}, \hyperpage{92}
+    \subitem {setCoeff}, \hyperpage{91}
+    \subitem {setValue}, \hyperpage{91}
+    \subitem {update}, \hyperpage{92}
+  \item {JGTL::LocatedException}, \hyperpage{93}
+  \item {JGTL::Located\discretionary {-}{}{}Exception}
+    \subitem {LocatedException}, \hyperpage{94}
+    \subitem {text}, \hyperpage{94}
+    \subitem {what}, \hyperpage{94}
+  \item {JGTL::MapInterface}, \hyperpage{95}
+  \item {JGTL::Map\discretionary {-}{}{}Interface}
+    \subitem {$\sim $MapInterface}, \hyperpage{97}
+    \subitem {begin}, \hyperpage{99}
+    \subitem {clear}, \hyperpage{99}, \hyperpage{101}
+    \subitem {const\_\discretionary {-}{}{}iterator}, \hyperpage{97}
+    \subitem {dataList}, \hyperpage{101}
+    \subitem {empty}, \hyperpage{99}
+    \subitem {end}, \hyperpage{99}
+    \subitem {erase}, \hyperpage{99}, \hyperpage{101}
+    \subitem {eraseIndex}, \hyperpage{99}
+    \subitem {find}, \hyperpage{99}, \hyperpage{101}
+    \subitem {getData}, \hyperpage{99}, \hyperpage{101}
+    \subitem {getDataRef}, \hyperpage{99}, \hyperpage{101}
+    \subitem {getIndex}, \hyperpage{99}
+    \subitem {getIndexData}, \hyperpage{99}, \hyperpage{101}
+    \subitem {getIndexDataPtr}, \hyperpage{99}, \hyperpage{101}
+    \subitem {getIndexPtr}, \hyperpage{99}
+    \subitem {hasKey}, \hyperpage{99}, \hyperpage{101}
+    \subitem {insert}, \hyperpage{97}, \hyperpage{99}
+    \subitem {iterator}, \hyperpage{97}
+    \subitem {MapInterface}, \hyperpage{97}
+    \subitem {maxElements}, \hyperpage{101}
+    \subitem {nodeList}, \hyperpage{101}
+    \subitem {numElements}, \hyperpage{101}
+    \subitem {operator==}, \hyperpage{97}, \hyperpage{99}
+    \subitem {reserve}, \hyperpage{99}
+    \subitem {resize}, \hyperpage{97}
+    \subitem {rootIndex}, \hyperpage{101}
+    \subitem {size}, \hyperpage{99}, \hyperpage{101}
+    \subitem {TreeItem}, \hyperpage{97}
+    \subitem {TreeNode}, \hyperpage{97}
+  \item {JGTL::NullVariantClass}, \hyperpage{103}
+  \item {JGTL::PolyVariant}, \hyperpage{104}
+  \item {JGTL::Poly\discretionary {-}{}{}Variant}
+    \subitem {base}, \hyperpage{105}
+    \subitem {operator-$>$}, \hyperpage{105}
+    \subitem {PolyVariant}, \hyperpage{105}
+  \item {JGTL::PoolMap}, \hyperpage{106}
+  \item {JGTL::Pool\discretionary {-}{}{}Map}
+    \subitem {$\sim $PoolMap}, \hyperpage{107}
+    \subitem {begin}, \hyperpage{107}
+    \subitem {clear}, \hyperpage{107}
+    \subitem {const\_\discretionary {-}{}{}iterator}, \hyperpage{107}
+    \subitem {copyFrom}, \hyperpage{107}
+    \subitem {dataList}, \hyperpage{107}
+    \subitem {end}, \hyperpage{107}
+    \subitem {find}, \hyperpage{107}
+    \subitem {getData}, \hyperpage{107}
+    \subitem {getDataRef}, \hyperpage{107}
+    \subitem {getIndexData}, \hyperpage{107}
+    \subitem {getIndexDataPtr}, \hyperpage{107}
+    \subitem {hasKey}, \hyperpage{107}
+    \subitem {insert}, \hyperpage{107}
+    \subitem {iterator}, \hyperpage{107}
+    \subitem {maxElements}, \hyperpage{107}
+    \subitem {numElements}, \hyperpage{107}
+    \subitem {operator=}, \hyperpage{107}
+    \subitem {PoolMap}, \hyperpage{107}
+    \subitem {size}, \hyperpage{107}
+  \item {JGTL::ProfileBlock}, \hyperpage{109}
+  \item {JGTL::Profile\discretionary {-}{}{}Block}
+    \subitem {avgCycleTotalMicroseconds}, \hyperpage{110}
+    \subitem {currentBlockStartMicroseconds}, \hyperpage{109}
+    \subitem {currentCycleTotalMicroseconds}, \hyperpage{109}
+    \subitem {largestCycleMicroseconds}, \hyperpage{110}
+    \subitem {largestCyclePercent}, \hyperpage{110}
+    \subitem {ProfileBlock}, \hyperpage{109}
+    \subitem {smallestCycleMicroseconds}, \hyperpage{110}
+    \subitem {smallestCyclePercent}, \hyperpage{110}
+    \subitem {totalMicroseconds}, \hyperpage{110}
+  \item {JGTL::ProfileBlockHandler}, \hyperpage{111}
+  \item {JGTL::Profile\discretionary {-}{}{}Block\discretionary {-}{}{}Handler}
+    \subitem {$\sim $ProfileBlockHandler}, \hyperpage{111}
+    \subitem {blockName}, \hyperpage{111}
+    \subitem {ProfileBlockHandler}, \hyperpage{111}
+  \item {JGTL::Profiler}, \hyperpage{112}
+    \subitem {$\sim $Profiler}, \hyperpage{114}
+    \subitem {beginBlock}, \hyperpage{115}
+    \subitem {beginCycle}, \hyperpage{115}
+    \subitem {createInstance}, \hyperpage{114}
+    \subitem {destroyInstance}, \hyperpage{114}
+    \subitem {endBlock}, \hyperpage{115}
+    \subitem {endCycle}, \hyperpage{115}
+    \subitem {getAvgDuration}, \hyperpage{115}
+    \subitem {getBlockMaxTime}, \hyperpage{117}
+    \subitem {getBlockMinTime}, \hyperpage{116}
+    \subitem {getBlockTotalTime}, \hyperpage{117}
+    \subitem {getMicrosecondsSinceInit}, \hyperpage{117}
+    \subitem {getProfileBlock}, \hyperpage{116}
+    \subitem {getSuffixString}, \hyperpage{117}
+    \subitem {getSummary}, \hyperpage{115}
+    \subitem {init}, \hyperpage{114}
+    \subitem {mClock}, \hyperpage{118}
+    \subitem {mCurrentCycleStartMicroseconds}, \hyperpage{118}
+    \subitem {mCycleCounter}, \hyperpage{119}
+    \subitem {mEnabled}, \hyperpage{118}
+    \subitem {mFirstCycle}, \hyperpage{119}
+    \subitem {mFirstFileOutput}, \hyperpage{118}
+    \subitem {microsecondsSinceInit}, \hyperpage{119}
+    \subitem {mLastCycleDurationMicroseconds}, \hyperpage{118}
+    \subitem {mMovingAvgScalar}, \hyperpage{118}
+    \subitem {mOutputFile}, \hyperpage{118}
+    \subitem {mPrintFormat}, \hyperpage{119}
+    \subitem {mPrintPeriod}, \hyperpage{119}
+    \subitem {mProfileBlocks}, \hyperpage{118}
+    \subitem {printError}, \hyperpage{116}
+    \subitem {Profiler}, \hyperpage{114}
+    \subitem {reset}, \hyperpage{114}
+  \item {JGTL::QuadTree}, \hyperpage{120}
+  \item {JGTL::Quad\discretionary {-}{}{}Tree}
+    \subitem {$\sim $QuadTree}, \hyperpage{121}
+    \subitem {branchPool}, \hyperpage{121}
+    \subitem {copyFrom}, \hyperpage{121}
+    \subitem {display}, \hyperpage{121}
+    \subitem {getValue}, \hyperpage{121}
+    \subitem {operator()}, \hyperpage{121}
+    \subitem {operator=}, \hyperpage{121}
+    \subitem {QuadTree}, \hyperpage{121}
+    \subitem {root}, \hyperpage{121}
+    \subitem {setAll}, \hyperpage{121}
+    \subitem {setValue}, \hyperpage{121}
+    \subitem {size}, \hyperpage{121}
+    \subitem {stubPool}, \hyperpage{121}
+  \item {JGTL::QuadTreeBranch}, \hyperpage{123}
+  \item {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}
+    \subitem {$\sim $QuadTreeBranch}, \hyperpage{124}
+    \subitem {bottomLeft}, \hyperpage{125}
+    \subitem {bottomRight}, \hyperpage{125}
+    \subitem {destroy}, \hyperpage{124}
+    \subitem {display}, \hyperpage{124}
+    \subitem {getValue}, \hyperpage{124}
+    \subitem {QuadTreeBranch}, \hyperpage{124}
+    \subitem {setAll}, \hyperpage{124}
+    \subitem {setValue}, \hyperpage{124}
+    \subitem {topLeft}, \hyperpage{125}
+    \subitem {topRight}, \hyperpage{125}
+  \item {JGTL::QuadTreeNode}, \hyperpage{126}
+  \item {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}
+    \subitem {$\sim $QuadTreeNode}, \hyperpage{127}
+    \subitem {destroy}, \hyperpage{127}
+    \subitem {display}, \hyperpage{127}
+    \subitem {getValue}, \hyperpage{127}
+    \subitem {isStub}, \hyperpage{127}
+    \subitem {QuadTreeNode}, \hyperpage{127}
+    \subitem {setValue}, \hyperpage{127}
+  \item {JGTL::QuadTreeStub}, \hyperpage{129}
+  \item {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}
+    \subitem {$\sim $QuadTreeStub}, \hyperpage{130}
+    \subitem {display}, \hyperpage{130}
+    \subitem {getValue}, \hyperpage{130}
+    \subitem {isStub}, \hyperpage{130}
+    \subitem {QuadTreeStub}, \hyperpage{130}
+    \subitem {setValue}, \hyperpage{130}
+    \subitem {value}, \hyperpage{131}
+  \item {JGTL::Ray2}, \hyperpage{132}
+    \subitem {base}, \hyperpage{134}
+    \subitem {direction}, \hyperpage{134}
+    \subitem {getBase}, \hyperpage{134}
+    \subitem {getDirection}, \hyperpage{134}
+    \subitem {getEndPoint}, \hyperpage{134}
+    \subitem {getIntersection}, \hyperpage{134}
+    \subitem {getProjectionTVal}, \hyperpage{134}
+    \subitem {getProjectionVector}, \hyperpage{134}
+    \subitem {normalize}, \hyperpage{134}
+    \subitem {putwhere}, \hyperpage{134}
+    \subitem {Ray2}, \hyperpage{134}
+    \subitem {setBase}, \hyperpage{134}
+    \subitem {setDirection}, \hyperpage{134}
+    \subitem {within}, \hyperpage{134}
+  \item {JGTL::Ray3}, \hyperpage{136}
+    \subitem {base}, \hyperpage{137}
+    \subitem {direction}, \hyperpage{137}
+    \subitem {getBase}, \hyperpage{137}
+    \subitem {getDirection}, \hyperpage{137}
+    \subitem {getProjectionTVal}, \hyperpage{137}
+    \subitem {getProjectionVector}, \hyperpage{137}
+    \subitem {normalize}, \hyperpage{137}
+    \subitem {Ray3}, \hyperpage{137}
+    \subitem {setBase}, \hyperpage{137}
+    \subitem {setDirection}, \hyperpage{137}
+  \item {JGTL::Rectangle3}, \hyperpage{138}
+    \subitem {contains}, \hyperpage{139}
+    \subitem {getFirstPoint}, \hyperpage{139}
+    \subitem {getNextDiscretePoint}, \hyperpage{139}
+    \subitem {Rectangle3}, \hyperpage{139}
+    \subitem {size}, \hyperpage{139}
+    \subitem {topLeft}, \hyperpage{139}
+  \item {JGTL::RectangleIndex3}, \hyperpage{140}
+  \item {JGTL::Rectangle\discretionary {-}{}{}Index3}
+    \subitem {contains}, \hyperpage{141}
+    \subitem {getArea}, \hyperpage{141}
+    \subitem {getFirstPoint}, \hyperpage{141}
+    \subitem {getNextPoint}, \hyperpage{141}
+    \subitem {RectangleIndex3}, \hyperpage{141}
+    \subitem {size}, \hyperpage{141}
+    \subitem {topLeft}, \hyperpage{141}
+  \item {JGTL::SetInterface}, \hyperpage{142}
+  \item {JGTL::Set\discretionary {-}{}{}Interface}
+    \subitem {$\sim $SetInterface}, \hyperpage{143}
+    \subitem {begin}, \hyperpage{145}
+    \subitem {clear}, \hyperpage{145}
+    \subitem {const\_\discretionary {-}{}{}iterator}, \hyperpage{143}
+    \subitem {dataList}, \hyperpage{145}
+    \subitem {empty}, \hyperpage{145}
+    \subitem {end}, \hyperpage{145}
+    \subitem {erase}, \hyperpage{145}
+    \subitem {eraseIndex}, \hyperpage{145}
+    \subitem {find}, \hyperpage{145}
+    \subitem {getIndex}, \hyperpage{145}
+    \subitem {getIndexPtr}, \hyperpage{145}
+    \subitem {getIndexRef}, \hyperpage{145}
+    \subitem {hasData}, \hyperpage{145}
+    \subitem {insert}, \hyperpage{143}
+    \subitem {iterator}, \hyperpage{143}
+    \subitem {maxElements}, \hyperpage{145}
+    \subitem {numElements}, \hyperpage{145}
+    \subitem {operator==}, \hyperpage{143}
+    \subitem {resize}, \hyperpage{143}
+    \subitem {SetInterface}, \hyperpage{143}
+    \subitem {size}, \hyperpage{145}
+  \item {JGTL::Singleton}, \hyperpage{147}
+    \subitem {$\sim $Singleton}, \hyperpage{148}
+    \subitem {destroyInstance}, \hyperpage{148}
+    \subitem {getInstance}, \hyperpage{148}
+    \subitem {instance}, \hyperpage{148}
+    \subitem {Singleton}, \hyperpage{148}
+  \item {JGTL::SortedList}, \hyperpage{149}
+  \item {JGTL::Sorted\discretionary {-}{}{}List}
+    \subitem {$\sim $SortedList}, \hyperpage{150}
+    \subitem {addData}, \hyperpage{150}
+    \subitem {dataList}, \hyperpage{150}
+    \subitem {getData}, \hyperpage{150}
+    \subitem {getDataPtr}, \hyperpage{150}
+    \subitem {getDataSize}, \hyperpage{150}
+    \subitem {hasData}, \hyperpage{150}
+    \subitem {maxElements}, \hyperpage{150}
+    \subitem {numElements}, \hyperpage{150}
+    \subitem {SortedList}, \hyperpage{150}
+  \item {JGTL::StackCircularBuffer}, \hyperpage{151}
+  \item {JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}
+    \subitem {$\sim $StackCircularBuffer}, \hyperpage{152}
+    \subitem {copyFrom}, \hyperpage{152}
+    \subitem {data}, \hyperpage{152}
+    \subitem {operator=}, \hyperpage{152}
+    \subitem {resize}, \hyperpage{152}
+    \subitem {StackCircularBuffer}, \hyperpage{152}
+  \item {JGTL::StackMap}, \hyperpage{154}
+  \item {JGTL::Stack\discretionary {-}{}{}Map}
+    \subitem {$\sim $StackMap}, \hyperpage{155}
+    \subitem {copyFrom}, \hyperpage{155}
+    \subitem {data}, \hyperpage{156}
+    \subitem {operator=}, \hyperpage{155}
+    \subitem {resize}, \hyperpage{155}
+    \subitem {StackMap}, \hyperpage{155}
+  \item {JGTL::StackSet}, \hyperpage{157}
+  \item {JGTL::Stack\discretionary {-}{}{}Set}
+    \subitem {$\sim $StackSet}, \hyperpage{158}
+    \subitem {copyFrom}, \hyperpage{158}
+    \subitem {data}, \hyperpage{158}
+    \subitem {operator=}, \hyperpage{158}
+    \subitem {StackSet}, \hyperpage{158}
+  \item {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE}, 
+		\hyperpage{159}
+    \subitem {RESULT}, \hyperpage{159}
+  \item {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, One, One, Two $>$}, 
+		\hyperpage{160}
+    \subitem {RESULT}, \hyperpage{160}
+  \item {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, One, Two, Three $>$}, 
+		\hyperpage{161}
+    \subitem {RESULT}, \hyperpage{161}
+  \item {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, Two, Three, Four $>$}, 
+		\hyperpage{162}
+    \subitem {RESULT}, \hyperpage{162}
+  \item {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, Two, Three, Four, Five $>$}, 
+		\hyperpage{163}
+    \subitem {RESULT}, \hyperpage{163}
+  \item {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, Two, Three, Four, Five, Six $>$}, 
+		\hyperpage{164}
+    \subitem {RESULT}, \hyperpage{164}
+  \item {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, Two, Three, Four, Five, Six, Seven $>$}, 
+		\hyperpage{165}
+    \subitem {RESULT}, \hyperpage{165}
+  \item {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, Two, Three, Four, Five, Six, Seven, Eight $>$}, 
+		\hyperpage{166}
+    \subitem {RESULT}, \hyperpage{166}
+  \item {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, Two, Three, Four, Five, Six, Seven, Eight, Nine $>$}, 
+		\hyperpage{167}
+    \subitem {RESULT}, \hyperpage{167}
+  \item {JGTL::STATIC\_\discretionary {-}{}{}MOD}, \hyperpage{168}
+    \subitem {VALUE}, \hyperpage{168}
+  \item {JGTL::TreeList}, \hyperpage{169}
+  \item {JGTL::Tree\discretionary {-}{}{}List}
+    \subitem {$\sim $TreeList}, \hyperpage{169}
+    \subitem {root}, \hyperpage{169}
+    \subitem {TreeList}, \hyperpage{169}
+  \item {JGTL::TreeListNode}, \hyperpage{170}
+  \item {JGTL::Tree\discretionary {-}{}{}List\discretionary {-}{}{}Node}
+    \subitem {child}, \hyperpage{170}
+    \subitem {sibling}, \hyperpage{170}
+  \item {JGTL::TYPEIF}, \hyperpage{171}
+    \subitem {RESULT}, \hyperpage{171}
+  \item {JGTL::TYPEIF$<$ Type, false, Then, Else $>$}, \hyperpage{172}
+    \subitem {RESULT}, \hyperpage{172}
+  \item {JGTL::Variant}, \hyperpage{173}
+    \subitem {clearValue}, \hyperpage{174}
+    \subitem {data}, \hyperpage{174}
+    \subitem {getValue}, \hyperpage{174}
+    \subitem {getValuePtr}, \hyperpage{174}
+    \subitem {getValueRef}, \hyperpage{174}
+    \subitem {isOfType}, \hyperpage{174}
+    \subitem {setValue}, \hyperpage{174}
+    \subitem {typeOfData}, \hyperpage{174}
+    \subitem {Variant}, \hyperpage{174}
+  \item {JGTL::Vector2}, \hyperpage{176}
+    \subitem {angleTo}, \hyperpage{179}
+    \subitem {chessDistance}, \hyperpage{179}
+    \subitem {cross}, \hyperpage{179}
+    \subitem {distance}, \hyperpage{179}
+    \subitem {distanceSquared}, \hyperpage{179}
+    \subitem {dot}, \hyperpage{179}
+    \subitem {fromMagnitudeAngle}, \hyperpage{179}
+    \subitem {getAngle}, \hyperpage{179}
+    \subitem {isContainedIn}, \hyperpage{179}
+    \subitem {magnitudeSquared}, \hyperpage{179}
+    \subitem {normalize}, \hyperpage{179}
+    \subitem {normalizeCopy}, \hyperpage{179}
+    \subitem {operator $\ast $}, \hyperpage{179}
+    \subitem {operator $\ast $=}, \hyperpage{179}
+    \subitem {operator!=}, \hyperpage{179}
+    \subitem {operator+}, \hyperpage{179}
+    \subitem {operator+=}, \hyperpage{179}
+    \subitem {operator-}, \hyperpage{179}
+    \subitem {operator-=}, \hyperpage{179}
+    \subitem {operator/}, \hyperpage{179}
+    \subitem {operator/=}, \hyperpage{179}
+    \subitem {operator$<$}, \hyperpage{179}
+    \subitem {operator=}, \hyperpage{179}
+    \subitem {operator==}, \hyperpage{179}
+    \subitem {projectOn}, \hyperpage{179}
+    \subitem {rightHandNormal}, \hyperpage{179}
+    \subitem {rotate}, \hyperpage{179}
+    \subitem {rotateCopy}, \hyperpage{179}
+    \subitem {Vector2}, \hyperpage{179}
+    \subitem {x}, \hyperpage{179}
+    \subitem {y}, \hyperpage{179}
+  \item {JGTL::Vector3}, \hyperpage{181}
+    \subitem {chessDistance}, \hyperpage{183}
+    \subitem {cross}, \hyperpage{183}
+    \subitem {distance}, \hyperpage{183}
+    \subitem {distanceSquared}, \hyperpage{183}
+    \subitem {dot}, \hyperpage{183}
+    \subitem {magnitude}, \hyperpage{183}
+    \subitem {magnitudeSquared}, \hyperpage{183}
+    \subitem {manhatDistance}, \hyperpage{183}
+    \subitem {normalize}, \hyperpage{183}
+    \subitem {normalizeCopy}, \hyperpage{183}
+    \subitem {operator $\ast $}, \hyperpage{183}
+    \subitem {operator $\ast $=}, \hyperpage{183}
+    \subitem {operator!=}, \hyperpage{183}
+    \subitem {operator+}, \hyperpage{183}
+    \subitem {operator+=}, \hyperpage{183}
+    \subitem {operator-}, \hyperpage{183}
+    \subitem {operator-=}, \hyperpage{183}
+    \subitem {operator/}, \hyperpage{183}
+    \subitem {operator/=}, \hyperpage{183}
+    \subitem {operator$<$}, \hyperpage{183}
+    \subitem {operator=}, \hyperpage{183}
+    \subitem {operator==}, \hyperpage{183}
+    \subitem {projectOn}, \hyperpage{183}
+    \subitem {Vector3}, \hyperpage{183}
+    \subitem {x}, \hyperpage{183}
+    \subitem {y}, \hyperpage{183}
+    \subitem {z}, \hyperpage{183}
+  \item {JGTL::Vector4}, \hyperpage{185}
+    \subitem {dot}, \hyperpage{186}
+    \subitem {getMagnitudeSquared}, \hyperpage{186}
+    \subitem {operator $\ast $}, \hyperpage{186}
+    \subitem {operator $\ast $=}, \hyperpage{186}
+    \subitem {operator+}, \hyperpage{186}
+    \subitem {operator+=}, \hyperpage{186}
+    \subitem {operator-}, \hyperpage{186}
+    \subitem {operator-=}, \hyperpage{186}
+    \subitem {operator/}, \hyperpage{186}
+    \subitem {operator/=}, \hyperpage{186}
+    \subitem {Vector4}, \hyperpage{186}
+    \subitem {x1}, \hyperpage{186}
+    \subitem {x2}, \hyperpage{186}
+    \subitem {y1}, \hyperpage{186}
+    \subitem {y2}, \hyperpage{186}
+  \item {JGTL::WrappedInterpolatedValue}, \hyperpage{188}
+  \item {JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}
+    \subitem {clampValues}, \hyperpage{190}
+    \subitem {maxValue}, \hyperpage{190}
+    \subitem {minValue}, \hyperpage{190}
+    \subitem {operator=}, \hyperpage{189}
+    \subitem {setValue}, \hyperpage{189}
+    \subitem {spread}, \hyperpage{190}
+    \subitem {update}, \hyperpage{189}
+    \subitem {WrappedInterpolatedValue}, \hyperpage{189}
+  \item {JGTL::XorSpace}, \hyperpage{191}
+  \item {JGTL::Xor\discretionary {-}{}{}Space}
+    \subitem {addSpace}, \hyperpage{192}
+    \subitem {bottomRight}, \hyperpage{194}
+    \subitem {ConstSpaceIterator}, \hyperpage{192}
+    \subitem {contains}, \hyperpage{193}
+    \subitem {getBottomRight}, \hyperpage{193}
+    \subitem {getFirstPoint}, \hyperpage{193}
+    \subitem {getNextPoint}, \hyperpage{193}
+    \subitem {getSize}, \hyperpage{193}
+    \subitem {getTopLeft}, \hyperpage{193}
+    \subitem {pack}, \hyperpage{193}
+    \subitem {removeSpace}, \hyperpage{192}
+    \subitem {SpaceIterator}, \hyperpage{192}
+    \subitem {spaces}, \hyperpage{194}
+    \subitem {topLeft}, \hyperpage{194}
+    \subitem {XorSpace}, \hyperpage{192}
+  \item {JGTL::XorSpaceRect}, \hyperpage{195}
+  \item {JGTL::Xor\discretionary {-}{}{}Space\discretionary {-}{}{}Rect}
+    \subitem {positive}, \hyperpage{196}
+    \subitem {rect}, \hyperpage{196}
+    \subitem {XorSpaceRect}, \hyperpage{196}
+  \item {JGTL\_\discretionary {-}{}{}Bar.h}, \hyperpage{197}
+  \item {JGTL\_\discretionary {-}{}{}CircularBuffer.h}, \hyperpage{198}
+  \item {JGTL\_\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}, 
+		\hyperpage{198}
+  \item {JGTL\_\discretionary {-}{}{}CircularBufferInterface.h}, 
+		\hyperpage{199}
+  \item {JGTL\_\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER\_\discretionary {-}{}{}INTERFACE}, 
+		\hyperpage{199}
+  \item {JGTL\_\discretionary {-}{}{}CommandLineParser.h}, 
+		\hyperpage{200}
+  \item {JGTL\_\discretionary {-}{}{}Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser.h}
+    \subitem {StringType}, \hyperpage{200}
+  \item {JGTL\_\discretionary {-}{}{}DataManager.h}, \hyperpage{201}
+  \item {JGTL\_\discretionary {-}{}{}Data\discretionary {-}{}{}Manager.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}DATA\_\discretionary {-}{}{}MANAGER}, 
+		\hyperpage{201}
+  \item {JGTL\_\discretionary {-}{}{}DataPool\_\discretionary {-}{}{}delete.h}, 
+		\hyperpage{202}
+  \item {JGTL\_\discretionary {-}{}{}Data\discretionary {-}{}{}Pool\_\discretionary {-}{}{}delete.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}DATA\_\discretionary {-}{}{}POOL}, 
+		\hyperpage{202}
+  \item {JGTL\_\discretionary {-}{}{}DynamicCircularBuffer.h}, 
+		\hyperpage{203}
+  \item {JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}, 
+		\hyperpage{203}
+  \item {JGTL\_\discretionary {-}{}{}DynamicPoolMap.h}, \hyperpage{204}
+  \item {JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}MAP}, 
+		\hyperpage{204}
+  \item {JGTL\_\discretionary {-}{}{}DynamicPoolSet.h}, \hyperpage{205}
+  \item {JGTL\_\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}SET}, 
+		\hyperpage{205}
+  \item {JGTL\_\discretionary {-}{}{}FloatingUnits.h}, \hyperpage{206}
+  \item {JGTL\_\discretionary {-}{}{}HexTree.h}, \hyperpage{207}
+  \item {JGTL\_\discretionary {-}{}{}Index2.h}, \hyperpage{208}
+  \item {JGTL\_\discretionary {-}{}{}Index3.h}, \hyperpage{209}
+  \item {JGTL\_\discretionary {-}{}{}IntegralUnits.h}, \hyperpage{210}
+  \item {JGTL\_\discretionary {-}{}{}InterpolatedValue.h}, 
+		\hyperpage{211}
+  \item {JGTL\_\discretionary {-}{}{}LocatedException.h}, 
+		\hyperpage{212}
+  \item {JGTL\_\discretionary {-}{}{}Located\discretionary {-}{}{}Exception.h}
+    \subitem {CREATE\_\discretionary {-}{}{}LOCATEDEXCEPTION\_\discretionary {-}{}{}INFO}, 
+		\hyperpage{212}
+    \subitem {CREATE\_\discretionary {-}{}{}PAUSE}, \hyperpage{212}
+  \item {JGTL\_\discretionary {-}{}{}MapInterface.h}, \hyperpage{213}
+  \item {JGTL\_\discretionary {-}{}{}Map\discretionary {-}{}{}Interface.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}MAP\_\discretionary {-}{}{}INTERFACE}, 
+		\hyperpage{213}
+  \item {JGTL\_\discretionary {-}{}{}PolyVariant.h}, \hyperpage{214}
+  \item {JGTL\_\discretionary {-}{}{}PoolMap\_\discretionary {-}{}{}delete.h}, 
+		\hyperpage{215}
+  \item {JGTL\_\discretionary {-}{}{}Pool\discretionary {-}{}{}Map\_\discretionary {-}{}{}delete.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}MAP}, 
+		\hyperpage{215}
+  \item {JGTL\_\discretionary {-}{}{}QuadTree.h}, \hyperpage{216}
+  \item {JGTL\_\discretionary {-}{}{}QuickProf.h}, \hyperpage{217}
+  \item {JGTL\_\discretionary {-}{}{}Quick\discretionary {-}{}{}Prof.h}
+    \subitem {PROFILER}, \hyperpage{218}
+  \item {JGTL\_\discretionary {-}{}{}Ray2.h}, \hyperpage{219}
+  \item {JGTL\_\discretionary {-}{}{}Ray3.h}, \hyperpage{220}
+  \item {JGTL\_\discretionary {-}{}{}Rectangle3.h}, \hyperpage{221}
+  \item {JGTL\_\discretionary {-}{}{}Serialization.h}, \hyperpage{222}
+  \item {JGTL\_\discretionary {-}{}{}SetInterface.h}, \hyperpage{223}
+  \item {JGTL\_\discretionary {-}{}{}Set\discretionary {-}{}{}Interface.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}SET\_\discretionary {-}{}{}INTERFACE}, 
+		\hyperpage{223}
+  \item {JGTL\_\discretionary {-}{}{}Singleton.h}, \hyperpage{224}
+  \item {JGTL\_\discretionary {-}{}{}SortedList\_\discretionary {-}{}{}delete.h}, 
+		\hyperpage{225}
+  \item {JGTL\_\discretionary {-}{}{}Sorted\discretionary {-}{}{}List\_\discretionary {-}{}{}delete.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}SORTED\_\discretionary {-}{}{}LIST}, 
+		\hyperpage{225}
+  \item {JGTL\_\discretionary {-}{}{}StackCircularBuffer.h}, 
+		\hyperpage{226}
+  \item {JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}CIRCULAR\_\discretionary {-}{}{}BUFFER}, 
+		\hyperpage{226}
+  \item {JGTL\_\discretionary {-}{}{}StackMap.h}, \hyperpage{227}
+  \item {JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Map.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}MAP}, 
+		\hyperpage{227}
+  \item {JGTL\_\discretionary {-}{}{}StackSet.h}, \hyperpage{228}
+  \item {JGTL\_\discretionary {-}{}{}Stack\discretionary {-}{}{}Set.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}STACK\_\discretionary {-}{}{}SET}, 
+		\hyperpage{228}
+  \item {JGTL\_\discretionary {-}{}{}StringConverter.h}, 
+		\hyperpage{229}
+  \item {JGTL\_\discretionary {-}{}{}TreeList.h}, \hyperpage{230}
+  \item {JGTL\_\discretionary {-}{}{}UnorderedDynamicPoolMap.h}, 
+		\hyperpage{231}
+  \item {JGTL\_\discretionary {-}{}{}Unordered\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}DYNAMIC\_\discretionary {-}{}{}POOL\_\discretionary {-}{}{}MAP}, 
+		\hyperpage{231}
+  \item {JGTL\_\discretionary {-}{}{}UnorderedMapInterface.h}, 
+		\hyperpage{232}
+  \item {JGTL\_\discretionary {-}{}{}Unordered\discretionary {-}{}{}Map\discretionary {-}{}{}Interface.h}
+    \subitem {DEBUG\_\discretionary {-}{}{}MAP\_\discretionary {-}{}{}INTERFACE}, 
+		\hyperpage{232}
+  \item {JGTL\_\discretionary {-}{}{}Variant.h}, \hyperpage{233}
+  \item {JGTL\_\discretionary {-}{}{}Vector2.h}, \hyperpage{234}
+  \item {JGTL\_\discretionary {-}{}{}Vector3.h}, \hyperpage{235}
+  \item {JGTL\_\discretionary {-}{}{}Vector4.h}, \hyperpage{236}
+  \item {JGTL\_\discretionary {-}{}{}WrappedInterpolatedValue.h}, 
+		\hyperpage{237}
+  \item {JGTL\_\discretionary {-}{}{}XorSpace.h}, \hyperpage{238}
+
+  \indexspace
+
+  \item {largestCycleMicroseconds}
+    \subitem {JGTL::Profile\discretionary {-}{}{}Block}, 
+		\hyperpage{110}
+  \item {largestCyclePercent}
+    \subitem {JGTL::Profile\discretionary {-}{}{}Block}, 
+		\hyperpage{110}
+  \item {left}
+    \subitem {JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{28}
+  \item {LocatedException}
+    \subitem {JGTL::Located\discretionary {-}{}{}Exception}, 
+		\hyperpage{94}
+
+  \indexspace
+
+  \item {m\_\discretionary {-}{}{}strings}
+    \subitem {JGTL::CCmd\discretionary {-}{}{}Param}, \hyperpage{29}
+  \item {magnitude}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {magnitudeSquared}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {manhatDistance}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {MapInterface}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{97}
+  \item {maxElements}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, 
+		\hyperpage{101}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+    \subitem {JGTL::Sorted\discretionary {-}{}{}List}, \hyperpage{150}
+  \item {maxValue}
+    \subitem {JGTL::Bar}, \hyperpage{26}
+    \subitem {JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{190}
+  \item {mClock}
+    \subitem {JGTL::Profiler}, \hyperpage{118}
+  \item {mCurrentCycleStartMicroseconds}
+    \subitem {JGTL::Profiler}, \hyperpage{118}
+  \item {mCycleCounter}
+    \subitem {JGTL::Profiler}, \hyperpage{119}
+  \item {mEnabled}
+    \subitem {JGTL::Profiler}, \hyperpage{118}
+  \item {mFirstCycle}
+    \subitem {JGTL::Profiler}, \hyperpage{119}
+  \item {mFirstFileOutput}
+    \subitem {JGTL::Profiler}, \hyperpage{118}
+  \item {MICROSECONDS}
+    \subitem {JGTL}, \hyperpage{19}
+  \item {microsecondsSinceInit}
+    \subitem {JGTL::Profiler}, \hyperpage{119}
+  \item {MILLISECONDS}
+    \subitem {JGTL}, \hyperpage{19}
+  \item {minValue}
+    \subitem {JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{190}
+  \item {mLastCycleDurationMicroseconds}
+    \subitem {JGTL::Profiler}, \hyperpage{118}
+  \item {mMovingAvgScalar}
+    \subitem {JGTL::Profiler}, \hyperpage{118}
+  \item {mOutputFile}
+    \subitem {JGTL::Profiler}, \hyperpage{118}
+  \item {mPrintFormat}
+    \subitem {JGTL::Profiler}, \hyperpage{119}
+  \item {mPrintPeriod}
+    \subitem {JGTL::Profiler}, \hyperpage{119}
+  \item {mProfileBlocks}
+    \subitem {JGTL::Profiler}, \hyperpage{118}
+  \item {mStartTime}
+    \subitem {JGTL::Clock}, \hyperpage{41}
+
+  \indexspace
+
+  \item {nodeList}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, 
+		\hyperpage{101}
+  \item {normalize}
+    \subitem {JGTL::Ray2}, \hyperpage{134}
+    \subitem {JGTL::Ray3}, \hyperpage{137}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {normalizeCopy}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {numElements}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, 
+		\hyperpage{101}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+    \subitem {JGTL::Sorted\discretionary {-}{}{}List}, \hyperpage{150}
+
+  \indexspace
+
+  \item {operator $\ast $}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+  \item {operator $\ast $=}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+  \item {operator!=}
+    \subitem {JGTL::Index2}, \hyperpage{75}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {operator()}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree}, \hyperpage{61}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree}, \hyperpage{121}
+  \item {operator+}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+  \item {operator+=}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{91}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+  \item {operator-}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+  \item {operator-=}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{92}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+  \item {operator-$>$}
+    \subitem {JGTL::Poly\discretionary {-}{}{}Variant}, \hyperpage{105}
+  \item {operator/}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+  \item {operator/=}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+  \item {operator$<$}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {operator$<$$<$}
+    \subitem {JGTL}, \hyperpage{21}
+  \item {operator=}
+    \subitem {JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{28}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{51}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}, 
+		\hyperpage{53, 54}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}, 
+		\hyperpage{56}
+    \subitem {JGTL::Floating\discretionary {-}{}{}Units}, 
+		\hyperpage{58}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree}, \hyperpage{61}
+    \subitem {JGTL::Integral\discretionary {-}{}{}Units}, 
+		\hyperpage{81}
+    \subitem {JGTL::Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{91}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree}, \hyperpage{121}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{152}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Map}, \hyperpage{155}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Set}, \hyperpage{158}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+    \subitem {JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{189}
+  \item {operator==}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}, 
+		\hyperpage{56}
+    \subitem {JGTL::Index2}, \hyperpage{75}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{97}, 
+		\hyperpage{99}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{143}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {operator$>$$>$}
+    \subitem {JGTL}, \hyperpage{21}
+
+  \indexspace
+
+  \item {pack}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{193}
+  \item {packBuffer}
+    \subitem {JGTL}, \hyperpage{21}
+  \item {packBufferStack}
+    \subitem {JGTL}, \hyperpage{21}
+  \item {packBufferString}
+    \subitem {JGTL}, \hyperpage{21}
+  \item {parent}
+    \subitem {JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{28}
+  \item {PERCENT}
+    \subitem {JGTL}, \hyperpage{19}
+  \item {PolyVariant}
+    \subitem {JGTL::Poly\discretionary {-}{}{}Variant}, \hyperpage{105}
+  \item {PoolMap}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+  \item {positive}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space\discretionary {-}{}{}Rect}, 
+		\hyperpage{196}
+  \item {potentialValue}
+    \subitem {JGTL::Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{92}
+  \item {printError}
+    \subitem {JGTL::Profiler}, \hyperpage{116}
+  \item {ProfileBlock}
+    \subitem {JGTL::Profile\discretionary {-}{}{}Block}, 
+		\hyperpage{109}
+  \item {ProfileBlockHandler}
+    \subitem {JGTL::Profile\discretionary {-}{}{}Block\discretionary {-}{}{}Handler}, 
+		\hyperpage{111}
+  \item {PROFILER}
+    \subitem {JGTL\_\discretionary {-}{}{}Quick\discretionary {-}{}{}Prof.h}, 
+		\hyperpage{218}
+  \item {Profiler}
+    \subitem {JGTL::Profiler}, \hyperpage{114}
+  \item {projectOn}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {putwhere}
+    \subitem {JGTL::Ray2}, \hyperpage{134}
+
+  \indexspace
+
+  \item {QuadTree}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree}, \hyperpage{121}
+  \item {QuadTreeBranch}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{124}
+  \item {QuadTreeNode}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{127}
+  \item {QuadTreeStub}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{130}
+
+  \indexspace
+
+  \item {Ray2}
+    \subitem {JGTL::Ray2}, \hyperpage{134}
+  \item {Ray3}
+    \subitem {JGTL::Ray3}, \hyperpage{137}
+  \item {rect}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space\discretionary {-}{}{}Rect}, 
+		\hyperpage{196}
+  \item {Rectangle3}
+    \subitem {JGTL::Rectangle3}, \hyperpage{139}
+  \item {RectangleIndex3}
+    \subitem {JGTL::Rectangle\discretionary {-}{}{}Index3}, 
+		\hyperpage{141}
+  \item {refreshNames}
+    \subitem {JGTL::Data\discretionary {-}{}{}Manager}, \hyperpage{45}
+  \item {removeSpace}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{192}
+  \item {reserve}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}, 
+		\hyperpage{54}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}
+  \item {reset}
+    \subitem {JGTL::Clock}, \hyperpage{40}
+    \subitem {JGTL::Profiler}, \hyperpage{114}
+  \item {resize}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{36}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{51}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Map}, 
+		\hyperpage{53}
+    \subitem {JGTL::Dynamic\discretionary {-}{}{}Pool\discretionary {-}{}{}Set}, 
+		\hyperpage{56}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{97}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{143}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{152}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Map}, \hyperpage{155}
+  \item {RESULT}
+    \subitem {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE}, 
+		\hyperpage{159}
+    \subitem {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, One, One, Two $>$}, 
+		\hyperpage{160}
+    \subitem {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, One, Two, Three $>$}, 
+		\hyperpage{161}
+    \subitem {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, One, Two, Three, Four $>$}, 
+		\hyperpage{162}
+    \subitem {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, One, Two, Three, Four, Five $>$}, 
+		\hyperpage{163}
+    \subitem {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, One, Two, Three, Four, Five, Six $>$}, 
+		\hyperpage{164}
+    \subitem {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, One, Two, Three, Four, Five, Six, Seven $>$}, 
+		\hyperpage{165}
+    \subitem {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, One, Two, Three, Four, Five, Six, Seven, Eight $>$}, 
+		\hyperpage{166}
+    \subitem {JGTL::STATIC\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}SIZE$<$ One, One, Two, Three, Four, Five, Six, Seven, Eight, Nine $>$}, 
+		\hyperpage{167}
+    \subitem {JGTL::TYPEIF}, \hyperpage{171}
+    \subitem {JGTL::TYPEIF$<$ Type, false, Then, Else $>$}, 
+		\hyperpage{172}
+  \item {RET}
+    \subitem {JGTL::IF}, \hyperpage{72}
+    \subitem {JGTL::IF$<$ false, Then, Else $>$}, \hyperpage{73}
+  \item {right}
+    \subitem {JGTL::Binary\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{28}
+  \item {rightHandNormal}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+  \item {root}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree}, \hyperpage{61}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree}, \hyperpage{121}
+    \subitem {JGTL::Tree\discretionary {-}{}{}List}, \hyperpage{169}
+  \item {rootIndex}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, 
+		\hyperpage{101}
+  \item {rotate}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+  \item {rotateCopy}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+
+  \indexspace
+
+  \item {SECONDS}
+    \subitem {JGTL}, \hyperpage{19}
+  \item {setAll}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree}, \hyperpage{61}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{64}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree}, \hyperpage{121}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{124}
+  \item {setBase}
+    \subitem {JGTL::Ray2}, \hyperpage{134}
+    \subitem {JGTL::Ray3}, \hyperpage{137}
+  \item {setCoeff}
+    \subitem {JGTL::Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{91}
+  \item {setDirection}
+    \subitem {JGTL::Ray2}, \hyperpage{134}
+    \subitem {JGTL::Ray3}, \hyperpage{137}
+  \item {SetInterface}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{143}
+  \item {setValue}
+    \subitem {JGTL::Floating\discretionary {-}{}{}Units}, 
+		\hyperpage{58}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree}, \hyperpage{61}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{64}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{67}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{70}
+    \subitem {JGTL::Integral\discretionary {-}{}{}Units}, 
+		\hyperpage{81}
+    \subitem {JGTL::Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{91}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree}, \hyperpage{121}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{124}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Node}, 
+		\hyperpage{127}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{130}
+    \subitem {JGTL::Variant}, \hyperpage{174}
+    \subitem {JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{189}
+  \item {sibling}
+    \subitem {JGTL::Tree\discretionary {-}{}{}List\discretionary {-}{}{}Node}, 
+		\hyperpage{170}
+  \item {Singleton}
+    \subitem {JGTL::Singleton}, \hyperpage{148}
+  \item {size}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{33}
+    \subitem {JGTL::Circular\discretionary {-}{}{}Buffer\discretionary {-}{}{}Interface}, 
+		\hyperpage{38}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree}, \hyperpage{61}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{99}, 
+		\hyperpage{101}
+    \subitem {JGTL::Pool\discretionary {-}{}{}Map}, \hyperpage{107}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree}, \hyperpage{121}
+    \subitem {JGTL::Rectangle3}, \hyperpage{139}
+    \subitem {JGTL::Rectangle\discretionary {-}{}{}Index3}, 
+		\hyperpage{141}
+    \subitem {JGTL::Set\discretionary {-}{}{}Interface}, 
+		\hyperpage{145}
+  \item {smallestCycleMicroseconds}
+    \subitem {JGTL::Profile\discretionary {-}{}{}Block}, 
+		\hyperpage{110}
+  \item {smallestCyclePercent}
+    \subitem {JGTL::Profile\discretionary {-}{}{}Block}, 
+		\hyperpage{110}
+  \item {SortedList}
+    \subitem {JGTL::Sorted\discretionary {-}{}{}List}, \hyperpage{150}
+  \item {SpaceIterator}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{192}
+  \item {spaces}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{194}
+  \item {SplitLine}
+    \subitem {JGTL::Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser}, 
+		\hyperpage{43}
+  \item {spread}
+    \subitem {JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{190}
+  \item {StackCircularBuffer}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Circular\discretionary {-}{}{}Buffer}, 
+		\hyperpage{152}
+  \item {StackMap}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Map}, \hyperpage{155}
+  \item {StackSet}
+    \subitem {JGTL::Stack\discretionary {-}{}{}Set}, \hyperpage{158}
+  \item {std}, \hyperpage{23}
+  \item {stringTo}
+    \subitem {JGTL}, \hyperpage{21}
+  \item {StringType}
+    \subitem {JGTL\_\discretionary {-}{}{}Command\discretionary {-}{}{}Line\discretionary {-}{}{}Parser.h}, 
+		\hyperpage{200}
+  \item {stubPool}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree}, \hyperpage{61}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree}, \hyperpage{121}
+
+  \indexspace
+
+  \item {text}
+    \subitem {JGTL::Located\discretionary {-}{}{}Exception}, 
+		\hyperpage{94}
+  \item {TimeFormat}
+    \subitem {JGTL}, \hyperpage{18}
+  \item {topLeft}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{125}
+    \subitem {JGTL::Rectangle3}, \hyperpage{139}
+    \subitem {JGTL::Rectangle\discretionary {-}{}{}Index3}, 
+		\hyperpage{141}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{194}
+  \item {topRight}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Branch}, 
+		\hyperpage{125}
+  \item {toString}
+    \subitem {JGTL}, \hyperpage{21}
+    \subitem {JGTL::Index2}, \hyperpage{75}
+  \item {totalMicroseconds}
+    \subitem {JGTL::Profile\discretionary {-}{}{}Block}, 
+		\hyperpage{110}
+  \item {TreeItem}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{97}
+  \item {TreeList}
+    \subitem {JGTL::Tree\discretionary {-}{}{}List}, \hyperpage{169}
+  \item {TreeNode}
+    \subitem {JGTL::Map\discretionary {-}{}{}Interface}, \hyperpage{97}
+  \item {typeOfData}
+    \subitem {JGTL::Variant}, \hyperpage{174}
+
+  \indexspace
+
+  \item {uchar}
+    \subitem {JGTL}, \hyperpage{18}
+  \item {units\_\discretionary {-}{}{}internal\_\discretionary {-}{}{}ulong}
+    \subitem {JGTL}, \hyperpage{18}
+  \item {unpackBuffer}
+    \subitem {JGTL}, \hyperpage{22}
+  \item {unpackBufferStack}
+    \subitem {JGTL}, \hyperpage{22}
+  \item {unpackBufferString}
+    \subitem {JGTL}, \hyperpage{22}
+  \item {update}
+    \subitem {JGTL::Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{92}
+    \subitem {JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{189}
+  \item {used}
+    \subitem {JGTL::Data\discretionary {-}{}{}Pool}, \hyperpage{48}
+
+  \indexspace
+
+  \item {VALUE}
+    \subitem {JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD}, 
+		\hyperpage{83}
+    \subitem {JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 0, 0 $>$}, 
+		\hyperpage{84}
+    \subitem {JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 0, j $>$}, 
+		\hyperpage{85}
+    \subitem {JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 1, 1 $>$}, 
+		\hyperpage{86}
+    \subitem {JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ 1, j $>$}, 
+		\hyperpage{87}
+    \subitem {JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ i, 0 $>$}, 
+		\hyperpage{88}
+    \subitem {JGTL::Integral\discretionary {-}{}{}Units\discretionary {-}{}{}GCD$<$ i, 1 $>$}, 
+		\hyperpage{89}
+    \subitem {JGTL::STATIC\_\discretionary {-}{}{}MOD}, \hyperpage{168}
+  \item {value}
+    \subitem {JGTL::Floating\discretionary {-}{}{}Units}, 
+		\hyperpage{58}
+    \subitem {JGTL::Hex\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{71}
+    \subitem {JGTL::Integral\discretionary {-}{}{}Units}, 
+		\hyperpage{81}
+    \subitem {JGTL::Quad\discretionary {-}{}{}Tree\discretionary {-}{}{}Stub}, 
+		\hyperpage{131}
+  \item {Variant}
+    \subitem {JGTL::Variant}, \hyperpage{174}
+  \item {Vector2}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+  \item {Vector3}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {Vector4}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+
+  \indexspace
+
+  \item {what}
+    \subitem {JGTL::Located\discretionary {-}{}{}Exception}, 
+		\hyperpage{94}
+  \item {within}
+    \subitem {JGTL::Ray2}, \hyperpage{134}
+  \item {WrappedInterpolatedValue}
+    \subitem {JGTL::Wrapped\discretionary {-}{}{}Interpolated\discretionary {-}{}{}Value}, 
+		\hyperpage{189}
+
+  \indexspace
+
+  \item {x}
+    \subitem {JGTL::Index2}, \hyperpage{75}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {x1}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+  \item {x2}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+  \item {XorSpace}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space}, \hyperpage{192}
+  \item {XorSpaceRect}
+    \subitem {JGTL::Xor\discretionary {-}{}{}Space\discretionary {-}{}{}Rect}, 
+		\hyperpage{196}
+
+  \indexspace
+
+  \item {y}
+    \subitem {JGTL::Index2}, \hyperpage{75}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Vector2}, \hyperpage{179}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+  \item {y1}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+  \item {y2}
+    \subitem {JGTL::Vector4}, \hyperpage{186}
+
+  \indexspace
+
+  \item {z}
+    \subitem {JGTL::Index3}, \hyperpage{78}
+    \subitem {JGTL::Vector3}, \hyperpage{183}
+
+\end{theindex}

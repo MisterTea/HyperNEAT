@@ -1,0 +1,93 @@
+\hypertarget{class_j_g_t_l_1_1_clock}{
+\section{JGTL::Clock Class Reference}
+\label{class_j_g_t_l_1_1_clock}\index{JGTL::Clock@{JGTL::Clock}}
+}
+{\tt \#include $<$JGTL\_\-Quick\-Prof.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_clock_385fd701e33bd79081cbf24e4711ab1f}{Clock} ()
+\item 
+\hyperlink{class_j_g_t_l_1_1_clock_acafb81561e1443d61ca479a68958ba6}{$\sim$Clock} ()
+\item 
+void \hyperlink{class_j_g_t_l_1_1_clock_3a08f80094f489adc52bf1f2ca92ded6}{reset} ()
+\item 
+unsigned long int \hyperlink{class_j_g_t_l_1_1_clock_a0719596dc560b7a09304f939bcb1577}{get\-Time\-Milliseconds} ()
+\item 
+unsigned long int \hyperlink{class_j_g_t_l_1_1_clock_d7b56e96fa0b80d1fa8bc98de34e5c4a}{get\-Time\-Microseconds} ()
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+timeval \hyperlink{class_j_g_t_l_1_1_clock_b966f80f2c6e5201f2791b1872b2db7d}{m\-Start\-Time}
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+A cross-platform clock class inspired by the Timer classes in Ogre (\href{http://www.ogre3d.org}{\tt http://www.ogre3d.org}). 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_clock_385fd701e33bd79081cbf24e4711ab1f}{
+\index{JGTL::Clock@{JGTL::Clock}!Clock@{Clock}}
+\index{Clock@{Clock}!JGTL::Clock@{JGTL::Clock}}
+\subsubsection[Clock]{\setlength{\rightskip}{0pt plus 5cm}JGTL::Clock::Clock ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_clock_385fd701e33bd79081cbf24e4711ab1f}
+
+
+\hypertarget{class_j_g_t_l_1_1_clock_acafb81561e1443d61ca479a68958ba6}{
+\index{JGTL::Clock@{JGTL::Clock}!~Clock@{$\sim$Clock}}
+\index{~Clock@{$\sim$Clock}!JGTL::Clock@{JGTL::Clock}}
+\subsubsection[$\sim$Clock]{\setlength{\rightskip}{0pt plus 5cm}JGTL::Clock::$\sim$Clock ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_clock_acafb81561e1443d61ca479a68958ba6}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_clock_3a08f80094f489adc52bf1f2ca92ded6}{
+\index{JGTL::Clock@{JGTL::Clock}!reset@{reset}}
+\index{reset@{reset}!JGTL::Clock@{JGTL::Clock}}
+\subsubsection[reset]{\setlength{\rightskip}{0pt plus 5cm}void JGTL::Clock::reset ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_clock_3a08f80094f489adc52bf1f2ca92ded6}
+
+
+Resets the initial reference time. \hypertarget{class_j_g_t_l_1_1_clock_a0719596dc560b7a09304f939bcb1577}{
+\index{JGTL::Clock@{JGTL::Clock}!getTimeMilliseconds@{getTimeMilliseconds}}
+\index{getTimeMilliseconds@{getTimeMilliseconds}!JGTL::Clock@{JGTL::Clock}}
+\subsubsection[getTimeMilliseconds]{\setlength{\rightskip}{0pt plus 5cm}unsigned long int JGTL::Clock::get\-Time\-Milliseconds ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_clock_a0719596dc560b7a09304f939bcb1577}
+
+
+Returns the time in us since the last call to reset or since the \hyperlink{class_j_g_t_l_1_1_clock}{Clock} was created.
+
+\begin{Desc}
+\item[Returns:]The requested time in milliseconds. \end{Desc}
+\hypertarget{class_j_g_t_l_1_1_clock_d7b56e96fa0b80d1fa8bc98de34e5c4a}{
+\index{JGTL::Clock@{JGTL::Clock}!getTimeMicroseconds@{getTimeMicroseconds}}
+\index{getTimeMicroseconds@{getTimeMicroseconds}!JGTL::Clock@{JGTL::Clock}}
+\subsubsection[getTimeMicroseconds]{\setlength{\rightskip}{0pt plus 5cm}unsigned long int JGTL::Clock::get\-Time\-Microseconds ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_clock_d7b56e96fa0b80d1fa8bc98de34e5c4a}
+
+
+Returns the time in us since the last call to reset or since the \hyperlink{class_j_g_t_l_1_1_clock}{Clock} was created.
+
+\begin{Desc}
+\item[Returns:]The requested time in microseconds. \end{Desc}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_clock_b966f80f2c6e5201f2791b1872b2db7d}{
+\index{JGTL::Clock@{JGTL::Clock}!mStartTime@{mStartTime}}
+\index{mStartTime@{mStartTime}!JGTL::Clock@{JGTL::Clock}}
+\subsubsection[mStartTime]{\setlength{\rightskip}{0pt plus 5cm}struct timeval \hyperlink{class_j_g_t_l_1_1_clock_b966f80f2c6e5201f2791b1872b2db7d}{JGTL::Clock::m\-Start\-Time}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_j_g_t_l_1_1_clock_b966f80f2c6e5201f2791b1872b2db7d}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___quick_prof_8h}{JGTL\_\-Quick\-Prof.h}\end{CompactItemize}

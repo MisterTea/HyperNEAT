@@ -1,0 +1,18 @@
+(;FF[4]CA[UTF-8]AP[TwoGtp:1.0.2]SZ[9]
+KM[7.5]PB[GNU Go:3.6]PW[GoUctGlobalSearchPlayer]DT[2008-05-22]RE[B+R]
+C[Black: /compsci/brule2/cshome/mmueller/gnugo-3.6/interface/gnugo --mode gtp --never-resign --chinese-rules --capture-all-dead --score aftermath
+White: /usr/scratch/mmueller/project_explorer/linux/build/release/explorer_uct -config config-book3K.gtp
+Result[Black\]: B+R
+Result[White\]: B+R
+Referee: /compsci/brule2/cshome/mmueller/gnugo-3.6/interface/gnugo --mode gtp --never-resign --chinese-rules --capture-all-dead --score aftermath
+Result[Referee\]: B+R
+Host: vilna (AMD Athlon(tm) MP 2400+)
+Date: May 22, 2008 1:36:35 PM MDT]
+;B[gc];W[cf];B[fg];W[dc];B[ed];W[cd];B[ch];W[dg];B[dh];W[gb]
+;B[hc];W[fc];B[fd];W[eg];B[eh];W[ec];B[hb];W[ff];B[gf];W[bg]
+;B[fb];W[gg];B[fh];W[ge];B[hf];W[fe];B[gd];W[he];B[hg];W[ee]
+;B[eb];W[cb];B[db];W[bh];B[ca];W[ba];B[da];W[bc];B[dd];W[de]
+;B[cc];W[dc];B[ec];W[if];B[gh];W[ci];B[ig];W[ie];B[di];W[cc]
+;B[bi];W[ic];B[ib];W[cg];B[id];W[hd];B[ic];W[ai];B[ah];W[ag]
+;B[ci];W[ai];B[bb];W[ab];B[ah];W[ih];B[ai];W[hh];B[gg];W[hi]
+;B[gi];W[fi];B[ii])

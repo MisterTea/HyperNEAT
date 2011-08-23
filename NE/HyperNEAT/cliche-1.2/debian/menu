@@ -1,0 +1,2 @@
+?package(cliche):needs=text section=Games/Board\
+  title="cliche" command="/usr/bin/cliche"

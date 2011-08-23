@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Hypercube_NEAT" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="msvc8" />
+		<Build>
+			<Target title="Debug_MSVS">
+				<Option output=".\Hypercube_NEAT_d.exe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug_MSVS\" />
+				<Option external_deps="..\NEAT\lib\NEAT_d.lib;..\NEAT\lib\NEAT.lib;" />
+				<Option additional_output="Hypercube_NEAT.exe;Hypercube_NEAT_d.exe;" />
+				<Option type="1" />
+				<Option compiler="msvc8" />
+				<Compiler>
+					<Add option="/MDd" />
+					<Add option="/TP" />
+					<Add option="/Gd" />
+					<Add option="/RTC1" />
+					<Add option="/Gm" />
+					<Add option="/fp:precise" />
+					<Add option="/EHc" />
+					<Add option="/EHs" />
+					<Add option="/Od" />
+					<Add option="/W3" />
+					<Add option="/ZI" />
+					<Add option="/Zi /D_DEBUG" />
+					<Add option="/D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="/DEBUG" />
+					<Add library="NEAT_d" />
+					<Add library="wxmsw28d_core" />
+					<Add library="wxbase28d" />
+					<Add library="tinyxmldll_d" />
+				</Linker>
+			</Target>
+			<Target title="Release_MSVS">
+				<Option output=".\Hypercube_NEAT.exe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release_MSVS\" />
+				<Option type="1" />
+				<Option compiler="msvc8" />
+				<Compiler>
+					<Add option="/MD" />
+					<Add option="/Gd" />
+					<Add option="/GL" />
+					<Add option="/fp:fast" />
+					<Add option="/EHc" />
+					<Add option="/EHs" />
+					<Add option="/Ob" />
+					<Add option="/Ot" />
+					<Add option="/O2" />
+					<Add option="/Ox" />
+					<Add option="/W3" />
+					<Add option="/DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add library="NEAT" />
+					<Add library="wxmsw28_core" />
+					<Add library="wxbase28" />
+					<Add library="tinyxmldll" />
+				</Linker>
+			</Target>
+			<Target title="Debug_GCC">
+				<Option output=".\Hypercube_NEAT_gcc_d.exe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug_GCC\" />
+				<Option external_deps="..\NEAT\lib\NEAT_d.lib;..\NEAT\lib\NEAT.lib;" />
+				<Option additional_output="Hypercube_NEAT.exe;Hypercube_NEAT_d.exe;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Option projectLibDirsRelation="1" />
+				<Compiler>
+					<Add option="-march=pentium-m" />
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-ggdb" />
+					<Add option="-DTIXML_USE_STL" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D__WXGTK__" />
+					<Add option="-DWXUSINGDLL" />
+					<Add option="-DNOPCH" />
+					<Add directory="include" />
+					<Add directory="..\NEAT\include" />
+					<Add directory="..\..\..\wxGTK-2.8.0\build-debug-gcc\lib\wx\include\gtk2-ansi-debug-2.8" />
+					<Add directory="..\..\..\wxGTK-2.8.0\include" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg" />
+					<Add library="NEAT_gcc_d" />
+					<Add library="tinyxmldll_gcc_d" />
+					<Add library="boost_thread" />
+					<Add library="wx_gtk2d-2.8" />
+					<Add directory="..\..\..\wxGTK-2.8.0\build-debug-gcc\lib" />
+					<Add directory="..\NEAT\lib_GCC" />
+				</Linker>
+			</Target>
+			<Target title="Release_GCC">
+				<Option output=".\Hypercube_NEAT_gcc.exe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release_GCC\" />
+				<Option external_deps="..\NEAT\lib\NEAT_d.lib;..\NEAT\lib\NEAT.lib;" />
+				<Option additional_output="Hypercube_NEAT.exe;Hypercube_NEAT_d.exe;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Option projectLibDirsRelation="1" />
+				<Compiler>
+					<Add option="-march=pentium-m" />
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add option="-ggdb" />
+					<Add option="-DTIXML_USE_STL" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D__WXGTK__" />
+					<Add option="-DWXUSINGDLL" />
+					<Add option="-DNOPCH" />
+					<Add directory="include" />
+					<Add directory="..\NEAT\include" />
+					<Add directory="..\..\..\wxGTK-2.8.0\build-release-gcc\lib\wx\include\gtk2-ansi-release-2.8" />
+					<Add directory="..\..\..\wxGTK-2.8.0\include" />
+				</Compiler>
+				<Linker>
+					<Add library="NEAT_gcc" />
+					<Add library="tinyxmldll_gcc" />
+					<Add library="boost_thread" />
+					<Add library="wx_gtk2-2.8" />
+					<Add directory="..\..\..\..\Libraries\wxMSW-2.8.0-rc1\build-release-mingw\lib" />
+					<Add directory="..\NEAT\lib_GCC" />
+				</Linker>
+			</Target>
+			<Target title="Release_GCC_NoGUI">
+				<Option output=".\Hypercube_NEAT_gcc_NoGUI.exe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release_GCC_NoGUI\" />
+				<Option external_deps="..\NEAT\lib\NEAT_d.lib;..\NEAT\lib\NEAT.lib;" />
+				<Option additional_output="Hypercube_NEAT.exe;Hypercube_NEAT_d.exe;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Option projectLibDirsRelation="1" />
+				<Compiler>
+					<Add option="-march=pentium-m" />
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add option="-DTIXML_USE_STL" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DHCUBE_NOGUI" />
+					<Add directory="include" />
+					<Add directory="..\NEAT\include" />
+					<Add directory="..\..\..\wxGTK-2.8.0\build-release-gcc\lib\wx\include\gtk2-ansi-release-2.8" />
+					<Add directory="..\..\..\wxGTK-2.8.0\include" />
+				</Compiler>
+				<Linker>
+					<Add library="NEAT_gcc" />
+					<Add library="tinyxmldll_gcc" />
+					<Add library="boost_thread" />
+					<Add directory="..\..\..\..\Libraries\wxMSW-2.8.0-rc1\build-release-mingw\lib" />
+					<Add directory="..\NEAT\lib_GCC" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Debug_MSVS;Release_MSVS;" />
+			<Add alias="All_GCC" targets="Debug_GCC;Release_GCC;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="/W3" />
+			<Add option="/DTIXML_USE_STL" />
+			<Add option="/DWIN32" />
+			<Add option="/D_CONSOLE" />
+			<Add option="/D__WXMSW__" />
+			<Add option="/DWXUSINGDLL" />
+			<Add option="/DNOPCH" />
+			<Add directory="include" />
+			<Add directory="..\..\..\..\Libraries\wxWidgets-2.8.0\lib\vc_dll\mswd" />
+			<Add directory="..\..\..\..\Libraries\wxWidgets-2.8.0\include" />
+			<Add directory="..\NEAT\include" />
+		</Compiler>
+		<Linker>
+			<Add directory="..\..\..\..\Libraries\wxWidgets-2.8.0\lib\vc_dll" />
+			<Add directory="..\NEAT\lib" />
+		</Linker>
+		<Unit filename="include\Experiments\HCUBE_CheckersCommon.h" />
+		<Unit filename="include\Experiments\HCUBE_CheckersExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_CheckersExperimentFogel.h" />
+		<Unit filename="include\Experiments\HCUBE_CheckersExperimentNoGeom.h" />
+		<Unit filename="include\Experiments\HCUBE_ChessExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_CoCheckersExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_Experiment.h" />
+		<Unit filename="include\Experiments\HCUBE_FindClusterBiasExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_FindClusterExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_FindClusterNoGeomExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_FindPointExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_OthelloCoExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_OthelloCommon.h" />
+		<Unit filename="include\Experiments\HCUBE_OthelloExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_RobotArmExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_RobotArmLatticeExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_SimpleImageExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_SpatialCasinoExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_SpatialExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_TicTacToeExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_TicTacToeGameExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_TicTacToeGameNoGeomExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_TicTacToeGameTreeSearch.h" />
+		<Unit filename="include\Experiments\HCUBE_TicTacToeShared.h" />
+		<Unit filename="include\Experiments\HCUBE_XorCoExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_XorExperiment.h" />
+		<Unit filename="include\Experiments\HCUBE_chcommon.h" />
+		<Unit filename="include\Experiments\HCUBE_cliche.h" />
+		<Unit filename="include\Experiments\HCUBE_simplech.h" />
+		<Unit filename="include\HCUBE_Boost.h" />
+		<Unit filename="include\HCUBE_Defines.h" />
+		<Unit filename="include\HCUBE_EvaluationPanel.h" />
+		<Unit filename="include\HCUBE_EvaluationSet.h" />
+		<Unit filename="include\HCUBE_ExperimentPanel.h" />
+		<Unit filename="include\HCUBE_ExperimentRun.h" />
+		<Unit filename="include\HCUBE_GUITemplate.h" />
+		<Unit filename="include\HCUBE_MPIEvaluationSet.h" />
+		<Unit filename="include\HCUBE_MPIExperimentRun.h" />
+		<Unit filename="include\HCUBE_MainApp.h" />
+		<Unit filename="include\HCUBE_MainFrame.h" />
+		<Unit filename="include\HCUBE_NetworkPanel.h" />
+		<Unit filename="include\HCUBE_NeuralNetworkPanel.h" />
+		<Unit filename="include\HCUBE_NeuralNetworkWeightGrid.h" />
+		<Unit filename="include\HCUBE_STL.h" />
+		<Unit filename="include\HCUBE_SubstratePanel.h" />
+		<Unit filename="include\HCUBE_UserEvaluationFrame.h" />
+		<Unit filename="include\HCUBE_Vector3.h" />
+		<Unit filename="include\HCUBE_ViewIndividualFrame.h" />
+		<Unit filename="include\PoolMap.h" />
+		<Unit filename="include\StringConverter.h" />
+		<Unit filename="src\Experiments\HCUBE_CheckersCommon.cpp" />
+		<Unit filename="src\Experiments\HCUBE_CheckersExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_CheckersExperimentFogel.cpp" />
+		<Unit filename="src\Experiments\HCUBE_CheckersExperimentNoGeom.cpp" />
+		<Unit filename="src\Experiments\HCUBE_ChessExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_CoCheckersExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_FindClusterBiasExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_FindClusterExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_FindClusterNoGeomExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_FindPointExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_OthelloCoExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_OthelloCommon.cpp" />
+		<Unit filename="src\Experiments\HCUBE_OthelloExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_RobotArmExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_RobotArmLatticeExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_SimpleImageExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_SpatialCasinoExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_SpatialExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_TicTacToeExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_TicTacToeGameExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_TicTacToeGameNoGeomExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_TicTacToeGameTreeSearch.cpp" />
+		<Unit filename="src\Experiments\HCUBE_XorCoExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_XorExperiment.cpp" />
+		<Unit filename="src\Experiments\HCUBE_cliche.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Experiments\HCUBE_simplech.cpp" />
+		<Unit filename="src\HCUBE_Defines.cpp" />
+		<Unit filename="src\HCUBE_EvaluationPanel.cpp" />
+		<Unit filename="src\HCUBE_EvaluationSet.cpp" />
+		<Unit filename="src\HCUBE_ExperimentPanel.cpp" />
+		<Unit filename="src\HCUBE_ExperimentRun.cpp" />
+		<Unit filename="src\HCUBE_GUITemplate.cpp" />
+		<Unit filename="src\HCUBE_MPIEvaluationSet.cpp" />
+		<Unit filename="src\HCUBE_MPIExperimentRun.cpp" />
+		<Unit filename="src\HCUBE_MainApp.cpp" />
+		<Unit filename="src\HCUBE_MainFrame.cpp" />
+		<Unit filename="src\HCUBE_NetworkPanel.cpp" />
+		<Unit filename="src\HCUBE_NeuralNetworkPanel.cpp" />
+		<Unit filename="src\HCUBE_NeuralNetworkWeightGrid.cpp" />
+		<Unit filename="src\HCUBE_SubstratePanel.cpp" />
+		<Unit filename="src\HCUBE_UserEvaluationFrame.cpp" />
+		<Unit filename="src\HCUBE_ViewIndividualFrame.cpp" />
+		<Unit filename="src\main.cpp" />
+		<Unit filename="src\mpimain.cpp" />
+		<Extensions>
+			<code_completion />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,83 @@
+This file contains information about Fuego releases. It also contains a
+(probably incomplete) list of the most important changes or of all
+critical bugfixes in releases from a bugfix branch. For a detailed changelog
+of changes in the main development branch, consult the version control
+history.
+
+
+Current development version
+===========================
+
+Version 0.4.1 - 2009 Dec 23
+===========================
+
+* Replaced linked list SgList and related functions by SgVector - a wrapper
+  around std:vector with the same interface as SgList. Changed implementations
+  that added or removed from front of list for efficiency.
+* Added hooks for supporting MPI distributed memory implementations
+* Add small opening book for 5x5
+* Improved 9x9 opening book
+* Added link to optional big 19x19 opening books at Ben Lambrechts' site
+* Fixed several bugs in static safety solver
+* Updated to compile with gcc 4.4.0
+* Implemented SgBalancer to achieve roughly equal number of Black and White 
+  moves of a specific type in playouts
+* Implemented randomized use of RAVE for SelectChild
+* Support for proven nodes in SgUctSearch
+* Support for kgs-time_settings and different KGS overtime modes
+* Refactored SgSearch, reduce size of huge functions. 
+* In SgSearch::SearchEngine, use a stack instead of a vector for efficiency
+* New max_memory option to uct_param_search makes Fuego easier to configure
+* Implement forced opening moves in GoUctPlayer
+* Set bias term constant to 0 by default on all boardsizes
+
+Version 0.4 - 2009 May 22
+=========================
+
+* Remove SgStreamFmtRestorer; use Boost IO State Savers instead 
+* Remove SgUctPriorKnowledge; Derived thread state class will supply knowledge
+  values through the GenerateAllMoves() function.
+* Change move count type in SgUctNode from float to size_t
+* Add support for knowledge in the core of the uct tree
+
+Version 0.3 - 2008 Dec 17
+=========================
+
+* Change some default settings to be more friendly to end users (e.g.
+  automatic loading of opening book, set ignore_clock to 0)
+* New parameter GoUctPlayer::ResignMinGames
+* Filter moves on empty edge in GoUctDefaultRootFilter
+* Added fillboard and nakade heuristic as described in recent MoGo paper
+  (not enabled by default)
+* reg_genmove uses now the time limit set with go_param timelimit
+* Use weighted RAVE updates in SgUctSearch
+* Prune nodes with low visit counts if the tree runs out of memory
+* Use different counts in the prior knowledge for small and large board sizes
+* New command go_sentinel_file
+* Use float type for counts in SgUctNode to allow fractional counts in prior
+  knowledge
+* Add a locality bonus in prior knowledge (caused a big playing strength
+  increase on 19x19)
+* New parameter SgUctSearch::VirtualLoss
+* New parameter GoUctGlobalSearchStateParam::m_lengthModification (used on
+  19x19)
+* Use real time as default mode for SgTime
+* Don't use SgTimeControl::ReserveMoveConstant anymore
+* Other improvements and fixes
+
+
+Version 0.2 - 2008 Aug 28
+=========================
+
+* Declare data members of UCT nodes and signature statistis as volatile.
+  This avoids that the compiler reorders writes, which could cause crashes
+  if the UCT search is used in lock-free mode.
+* Fix bug that caused reusing the subtree not to work (if options
+  reuse_subtree or ponder were used)
+
+
+Version 0.1 - 2008 May 30
+=========================
+
+Initial release. Compilation and functionality are tested on current Linux
+distributions (Fedora 8, Ubuntu 8.04 LTS) and Mac OS X.

@@ -1,0 +1,49 @@
+.TH "cake" "6" "Oct 6, 2000" "Games" "Games"
+.SH NAME
+cake \- lets you play at draughts against the computer.
+.SH SYNOPSIS
+.B cake
+.SH DESCRIPTION
+.I cake
+first asks, whether you want to load a previously saved game or
+play a new game, whether you want to play the black or the white
+stones and how long the program may compute its moves. It then
+starts a game; When its your move, enter the standard notation, eg.
+\fB11-15\fP, with no blanks inside.  If you must jump, you can also
+write a cross between the numbers, eg. \fB15x22\fP.  It is a vicious
+circle. At the end of the game, everything starts over from the
+beginning.
+.PP
+At \fIany\fP prompt, entering \fBquit\fP returns you to the shell.
+When asked for a \fImove\fP, you can also \fBpart\fP or \fBsave\fP
+the current game, or \fBload\fP a game.
+.PP
+The letters used to draw the board are: \fB-\fP for an empty node,
+\fBb\fP for a black man, \fBB\fP a black king, \fBw\fP a white man,
+\fBW\fP a white king.  As a substitute for a board editor, open
+~/cakegame in your text editor, replace some or all of these letters
+and then \fBload\fP the board.
+.SH HISTORY
+.I cake
+is basically a negamax-based program along with the usual enhancements:
+.IP - 2
+Transposition table
+.IP - 2
+Move Ordering, static and dynamic with transposition table moves,
+killer moves and history heuristic
+.IP - 2
+Selective extensions on forced moves and quiescence search,
+forward pruning in hopeless-looking positions
+.IP - 2
+Tree size reduction with enhanced transposition cutoffs
+.SH FILES
+.I $(HOME)/cakegame
+- ascii saved game
+.SH "SEE ALSO"
+.BR simplech (1),
+.BR xcheckers (1),
+.BR http://www.fierz.ch/checkers/
+.SH AUTHORS
+Martin Fierz - cake checkers engine,
+Jonathan Schaeffer - database access,
+Peter Chiocchetti - commandline interface

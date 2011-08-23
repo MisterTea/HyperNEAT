@@ -1,0 +1,104 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Chinese]SZ[9]KM[7.50]TM[600]
+PW[Newou]PB[Fuego9]WR[6k]DT[2008-07-26]PC[The KGS Go Server at http://www.gokgs.com/]C[Fuego9 [-\]: GTP Engine for Fuego9 (black): Fuego version 0.1.SVN332
+]RE[W+Resign]
+;B[ee]BL[599.746]
+;W[gf]WL[597.108]
+;B[gd]BL[599.592]
+;W[dc]WL[590.582]
+;B[eg]BL[599.43]
+;W[fg]WL[587.484]
+;B[eh]BL[582.133]
+;W[fh]WL[584.686]
+;B[fd]BL[565.712]
+;W[ce]WL[581.101]
+;B[fi]BL[547.151]
+;W[gh]WL[576.363]
+;B[hg]BL[530.709]
+;W[hf]WL[570.231]
+;B[cg]BL[512.271]
+;W[fb]WL[537.645]
+;B[he]BL[496.813]
+;W[if]WL[529.93]
+;B[cc]BL[481]
+;W[cd]WL[505.863]
+;B[db]BL[467.761]
+;W[cb]WL[491.123]
+;B[ec]BL[452.36]
+;W[bc]WL[488.103]
+;B[eb]BL[439.954]
+;W[bf]WL[473.194]
+;B[hh]BL[428.315]
+;W[hi]WL[453.44]
+;B[ih]BL[416.963]
+;W[ig]WL[435.953]
+;B[ie]BL[399.004]
+;W[ge]WL[412.735]
+;B[hd]BL[388.515]
+;W[ef]WL[402.306]
+;B[ff]BL[378.397]
+;W[fe]WL[384.997]
+;B[df]BL[368.506]
+;W[ff]WL[348.395]
+;B[de]BL[358.758]
+;W[bh]WL[338.137]
+;B[bg]BL[349.084]
+;W[ag]WL[335.873]
+;B[ah]BL[339.588]
+;W[ai]WL[330.575]
+;B[af]BL[329.104]
+;W[ae]WL[326.644]
+;B[ch]BL[320.396]C[xaero [1k\]: seki?
+xaero [1k\]: how is it about it?
+]
+;W[dd]WL[262.691]
+;B[ed]BL[312.006]C[MatroidX [1d\]: yes, is weak on seki
+]
+;W[cf]WL[250.54]
+;B[ei]BL[299.165]C[MatroidX [1d\]: thinks half of time black will die, half of time white will
+]
+;W[gi]WL[238.223]C[MatroidX [1d\]: roughly speaking
+MatroidX [1d\]: so this biases it to look bad for white
+]
+;B[gb]BL[283.975]C[MatroidX [1d\]: so will think it is ahead and play poorly
+]
+;W[da]WL[233.068]
+;B[ca]BL[275.634]
+;W[ba]WL[228.785]
+;B[ea]BL[268.377]
+;W[ca]WL[226.195]
+;B[dg]BL[257.762]
+;W[ci]WL[202.475]
+;B[ad]BL[248.177]
+;W[af]WL[194.241]
+;B[hb]BL[236.345]
+;W[ah]WL[177.742]C[xaero [1k\]: will it play g3 or j1 at last?
+]
+;B[ac]BL[228.688]
+;W[bd]WL[170.513]
+;B[id]BL[219.005]
+;W[di]WL[166.539]C[MatroidX [1d\]: no, it will let that part be played out randomly, because that looks better to it
+]
+;B[aa]BL[210.111]C[MatroidX [1d\]: do you know how MoGo works?
+]
+;W[bi]WL[150.296]C[xaero [1k\]: yes
+]
+;B[bb]BL[197.933]
+;W[ab]WL[147.51]C[MatroidX [1d\]: basically, tries a move, and then plays out a near-random game
+xaero [1k\]: not all details
+]
+;B[fc]BL[186.612]C[xaero [1k\]: but MC part
+]
+;W[dh]WL[142.296]C[MatroidX [1d\]: okay, good, that helps :)
+]
+;B[fa]BL[174.791]
+;W[]WL[142.296]C[MatroidX [1d\]: basically, it learns the initial sequence, and rest is random
+]
+;B[ic]BL[164.013]
+;W[]WL[142.296]
+;B[ia]BL[154.281]
+;W[]WL[142.296]C[MatroidX [1d\]: if it tries playing out the seki sequence, it won't like the outcome
+xaero [1k\]: that's why it play first moves very fast and than thinks
+Newou [6k\]: thks
+MatroidX [1d\]: no, initialy moves are hard-coded... using an opening book developed by martin mueller
+])

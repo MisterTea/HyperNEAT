@@ -1,0 +1,60 @@
+
+README - Fri Oct  6 09:53:27 MEST 2000 - Don Dez 16 15:42:13 CET 2004
+
+cake is a fork of version 1.4 of Martin Fierz' checkers program by
+the same name. its not as strong as current versions available from
+his site, but it will be a challenge to most casual players.
+
+cake uses the Chinook database for perfect endgame information and
+also makes use of this in interior nodes. It uses the same bitboard
+representation for the position as the Chinook endgame database.
+
+The 4-piece database is included in this distribution. It can also
+use the 6-piece database, but you will have to get it separately
+(eg. http://www.cs.ualberta.ca/~chinook/Software/software.html.)
+
+For the curious: Cake++ is basically a negamax-based program along
+with the usual enhancements:
+
+* Transposition table
+* Move Ordering, static and dynamic with transposition table moves,
+  killer moves and history heuristic
+* Selective extensions on forced moves and quiescence search,
+  forward pruning in hopeless-looking positions
+* Tree size reduction with enhanced transposition cutoffs
+
+
+                                INSTALLATION
+     _________________________________________________________________   
+
+To compile the sources, install binaries and run the application type
+(if you are on a big endian system, look at the Makefile first,)
+
+    make                   #     start compilation
+    ./cake                 #     test binaries
+    su (yr.secret)         #     get root privileges
+    make install           #     install binaries, database
+                           #       \ and man pages
+    exit                   #       \ for systemwide execution
+    cake                   #     run the application
+
+and cake will prompt you several things. Type p<enter>b<enter>1<enter>
+to play a new game with you on the black side, giving cake about as 
+little as a second time to compute its moves. You will have to be a
+good player though, in order to win.
+
+     _________________________________________________________________
+
+http://arton.cunst.net/xcheckers/ holds a source distribution suitable
+to compile on a number of *nix like operating environments.
+
+It also works on win32 with at least the free Borland compiler
+(http://www.inprise.com/bcppbuilder/freecompiler/) or alternately
+the minimalist set of gnu tools: http://www.mingw.org/
+
+     _________________________________________________________________   
+
+cake is free software, for details see accompanying file COPYING.
+cake is the work of Martin Fierz. http://www.fierz.ch/checkers has
+the latest details on it.
+

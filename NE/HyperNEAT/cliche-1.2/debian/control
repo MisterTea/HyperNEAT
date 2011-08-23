@@ -1,0 +1,17 @@
+Source: cliche
+Section: main/games
+Priority: optional
+Maintainer: Peter Chiocchetti <pch12@myzel.net>
+Build-Depends: debhelper (>= 4.0.0)
+Standards-Version: 3.6.0
+
+Package: cliche
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: command line interface checkers
+ .
+ cliche is short for "command line interface checkers". it
+ doesnt itself know how to play, but instead loads shared
+ objects, that search a given board for valid/good moves.
+ these modules have to conform to the API of Martin Fierz'
+ CheckerBoard application.

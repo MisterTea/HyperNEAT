@@ -1,0 +1,89 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Chinese]SZ[9]KM[7.50]TM[900]
+PW[Fuego9]PB[MonteGNU]DT[2008-08-06]PC[The KGS Go Server at http://www.gokgs.com/]C[MonteGNU [-\]: GTP Engine for MonteGNU (black): GNU Go version 3.7.12
+Fuego9 [-\]: GTP Engine for Fuego9 (white): Fuego version 0.1.EGC2008.1
+]RE[W+16.50]
+;B[ee]BL[899.742]
+;W[dg]WL[899.792]
+;B[eg]BL[898.624]
+;W[eh]WL[899.563]
+;B[fg]BL[896.892]
+;W[fc]WL[899.306]
+;B[dd]BL[895.198]
+;W[fh]WL[899.094]
+;B[gg]BL[893.552]
+;W[db]WL[855.391]
+;B[cc]BL[891.802]
+;W[cg]WL[813.865]C[gunnar [?\]: First move outside of book.
+]
+;B[cb]BL[860.626]C[gunnar [?\]: For black.
+gunnar [?\]: 55.2% to win
+]
+;W[hc]WL[791.269]C[enz: who wrote the book
+]
+;B[gh]BL[829.189]
+;W[bf]WL[767.303]C[gunnar [?\]: Nobody, it learnt it by playing on CGOS.
+gunnar [?\]: But this looks good for white.
+]
+;B[gd]BL[799.095]C[enz: do you know by how much the self-learned book makes MonteGNU stronger?
+]
+;W[eb]WL[746.045]C[gunnar [?\]: No, I haven't tested that but the thought has been on my mind.
+]
+;B[gc]BL[770.983]
+;W[gb]WL[725.847]C[enz: I am wondering if there is too much noise, because some move may be good only against weak opponents
+gunnar [?\]: While the MoGo version with opening book and nakade weaknesses played on CGOS it was probably worth a lot.
+]
+;B[ec]BL[742.858]C[gunnar [?\]: It regularly got 20 moves from the book then.
+]
+;W[bd]WL[701.425]
+;B[hb]BL[711.894]C[gunnar [?\]: It only learns from losses against any player and wins against stronger players.
+]
+;W[ha]WL[682.339]C[gunnar [?\]: So no noise from weak players.
+enz: I see
+]
+;B[ib]BL[680.915]C[gunnar [?\]: Only noise from strong players. :-)
+]
+;W[ic]WL[663.967]
+;B[df]BL[653.269]
+;W[ch]WL[645.562]
+;B[cf]BL[626.226]
+;W[be]WL[626.914]
+;B[bg]BL[599.902]
+;W[bh]WL[609.927]
+;B[fa]BL[571.773]C[gunnar [?\]: Actually this game may have shown some residual from overfitting to a certain MoGo version because it got out of fuseki very badly and it started with a typical MoGo line.
+]
+;W[fb]WL[593.463]
+;B[ea]BL[543.944]
+;W[da]WL[574.902]
+;B[dc]BL[515.161]C[enz: do you still work on MonteGNU?
+]
+;W[ia]WL[547.117]
+;B[he]BL[510.091]C[gunnar [?\]: Yes, but very slowly. My time is badly limited.
+]
+;W[ag]WL[526.815]
+;B[fd]BL[500.512]
+;W[bc]WL[503.969]
+;B[hg]BL[490.09]
+;W[ie]WL[477.276]
+;B[if]BL[488.662]
+;W[bb]WL[453.798]
+;B[fi]BL[486.239]
+;W[ei]WL[430.901]
+;B[gi]BL[483.462]
+;W[ce]WL[411.334]
+;B[de]BL[481.993]
+;W[hf]WL[391.12]
+;B[id]BL[480.908]
+;W[ca]WL[372.366]
+;B[hd]BL[479.616]
+;W[cd]WL[354.948]
+;B[ih]BL[479.359]
+;W[ga]WL[336.8]
+;B[hi]BL[479.121]
+;W[ef]WL[318.753]
+;B[fe]BL[478.859]
+;W[gf]WL[302.099]
+;B[]BL[478.859]
+;W[dh]WL[285.791]
+;B[]BL[478.859]
+;W[]WL[270.566]TW[aa][ba][ea][fa][ab][hb][ib][ac][ad][ae][af][bg][ah][ai][bi][ci][di]TB[ed][ge][ie][ef][ff][gf][hf][ig][hh][ii])

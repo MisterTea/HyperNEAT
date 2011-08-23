@@ -1,0 +1,36 @@
+\hypertarget{_j_g_t_l___serialization_8h}{
+\section{JGTL\_\-Serialization.h File Reference}
+\label{_j_g_t_l___serialization_8h}\index{JGTL_Serialization.h@{JGTL\_\-Serialization.h}}
+}
+{\tt \#include \char`\"{}JGTL\_\-Located\-Exception.h\char`\"{}}\par
+{\tt \#include $<$iostream$>$}\par
+{\tt \#include $<$fstream$>$}\par
+{\tt \#include $<$string$>$}\par
+{\tt \#include $<$string.h$>$}\par
+\subsection*{Namespaces}
+\begin{CompactItemize}
+\item 
+namespace \hyperlink{namespace_j_g_t_l}{JGTL}
+\end{CompactItemize}
+\subsection*{Typedefs}
+\begin{CompactItemize}
+\item 
+typedef unsigned char \hyperlink{namespace_j_g_t_l_16d84383f2c4546df4385d012e588239}{JGTL::uchar}
+\end{CompactItemize}
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+template$<$class Data$>$ void \hyperlink{namespace_j_g_t_l_b04f627a23eb9d82666a9b82385365dc}{JGTL::pack\-Buffer} (uchar $\ast$\&buffer, int \&buffer\-Size, const Data \&data)
+\item 
+template$<$class Data$>$ void \hyperlink{namespace_j_g_t_l_b9e062cddc8e923d7c30e2b79560eced}{JGTL::unpack\-Buffer} (uchar $\ast$\&buffer, int \&buffer\-Size, Data \&data)
+\item 
+template$<$class Data$>$ void \hyperlink{namespace_j_g_t_l_5a10f965c64c24619d6a7db5db42750a}{JGTL::pack\-Buffer\-Stack} (uchar $\ast$\&buffer, int \&buffer\-Size, const Data \&data)
+\item 
+template$<$class Data$>$ void \hyperlink{namespace_j_g_t_l_c6ee2959d8b1b74adf7177c3066513a0}{JGTL::unpack\-Buffer\-Stack} (uchar $\ast$\&buffer, int \&buffer\-Size, Data \&data)
+\item 
+void \hyperlink{namespace_j_g_t_l_0f1a14885672c043d37fe1c2870e5fd5}{JGTL::pack\-Buffer\-String} (uchar $\ast$\&buffer, int \&buffer\-Size, const char $\ast$s)
+\item 
+void \hyperlink{namespace_j_g_t_l_10113799bfd8b9221337e9eb1db3e2ec}{JGTL::pack\-Buffer\-String} (uchar $\ast$\&buffer, int \&buffer\-Size, const std::string \&s)
+\item 
+void \hyperlink{namespace_j_g_t_l_34dd4000293ca4b9c6fff41b43614e3c}{JGTL::unpack\-Buffer\-String} (uchar $\ast$\&buffer, int \&buffer\-Size, string \&s)
+\end{CompactItemize}

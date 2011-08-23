@@ -1,0 +1,290 @@
+\hypertarget{class_j_g_t_l_1_1_set_interface}{
+\section{JGTL::Set\-Interface$<$ Data $>$ Class Template Reference}
+\label{class_j_g_t_l_1_1_set_interface}\index{JGTL::SetInterface@{JGTL::SetInterface}}
+}
+This class acts as a base class for the Set construct.  
+
+
+{\tt \#include $<$JGTL\_\-Set\-Interface.h$>$}
+
+Inheritance diagram for JGTL::Set\-Interface$<$ Data $>$::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{class_j_g_t_l_1_1_set_interface}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{CompactItemize}
+\item 
+typedef Data $\ast$ \hyperlink{class_j_g_t_l_1_1_set_interface_1f4b953e9a9adb5d463b6abb24623372}{iterator}
+\item 
+typedef const Data $\ast$ \hyperlink{class_j_g_t_l_1_1_set_interface_1e545e77790db36de24904dc70054225}{const\_\-iterator}
+\end{CompactItemize}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_set_interface_fd2b06e95eef00ac46b778e1c96a13e4}{Set\-Interface} ()
+\item 
+virtual \hyperlink{class_j_g_t_l_1_1_set_interface_bf1ec172c20daa413de2a36764454245}{$\sim$Set\-Interface} ()
+\item 
+bool \hyperlink{class_j_g_t_l_1_1_set_interface_1c8272ceef57740200d7080b5b5ae2e4}{operator==} (const \hyperlink{class_j_g_t_l_1_1_set_interface}{Set\-Interface} \&other) const 
+\item 
+virtual bool \hyperlink{class_j_g_t_l_1_1_set_interface_136d868ffd3695632c16e4f88b84352b}{resize} (int new\-Size)
+\item 
+virtual void \hyperlink{class_j_g_t_l_1_1_set_interface_e49dab84e130a87f82f05f77d065508a}{insert} (const Data \&data)
+\item 
+int \hyperlink{class_j_g_t_l_1_1_set_interface_a3929a2e9a3ef83cd20b6c4d6470c207}{size} () const
+\item 
+bool \hyperlink{class_j_g_t_l_1_1_set_interface_3d41a7f025824693499be8a252460dc5}{empty} () const
+\item 
+void \hyperlink{class_j_g_t_l_1_1_set_interface_62ad8783677fdbfdca6e133574c384de}{clear} ()
+\item 
+\hyperlink{class_j_g_t_l_1_1_set_interface_1f4b953e9a9adb5d463b6abb24623372}{iterator} \hyperlink{class_j_g_t_l_1_1_set_interface_d00e33172d553f527abdb53795fbe9da}{begin} ()
+\item 
+\hyperlink{class_j_g_t_l_1_1_set_interface_1e545e77790db36de24904dc70054225}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_set_interface_cffbe1ad98d710b21c676f146359884c}{begin} () const
+\item 
+\hyperlink{class_j_g_t_l_1_1_set_interface_1f4b953e9a9adb5d463b6abb24623372}{iterator} \hyperlink{class_j_g_t_l_1_1_set_interface_0d17cba0219448c6119c31374b983e76}{end} ()
+\item 
+\hyperlink{class_j_g_t_l_1_1_set_interface_1e545e77790db36de24904dc70054225}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_set_interface_6675901f9ae1bb5c35bd45d33bb22a12}{end} () const
+\item 
+const bool \hyperlink{class_j_g_t_l_1_1_set_interface_8dbec0353ff7027964473366508a417d}{has\-Data} (const Data \&data) const 
+\item 
+\hyperlink{class_j_g_t_l_1_1_set_interface_1f4b953e9a9adb5d463b6abb24623372}{iterator} \hyperlink{class_j_g_t_l_1_1_set_interface_fef4fa91516c191180d9854eb2cc4f9a}{find} (const Data \&data)
+\item 
+void \hyperlink{class_j_g_t_l_1_1_set_interface_13066581738f291b78b56d20022dfd2a}{erase} (const Data \&data)
+\item 
+void \hyperlink{class_j_g_t_l_1_1_set_interface_63afc2fbaf7a446bcbf5b082aab99a27}{erase} (\hyperlink{class_j_g_t_l_1_1_set_interface_1e545e77790db36de24904dc70054225}{const\_\-iterator} iter)
+\item 
+void \hyperlink{class_j_g_t_l_1_1_set_interface_9ac2a0584d9ba0cf45d4591949d72ed6}{erase\-Index} (int index)
+\item 
+Data \hyperlink{class_j_g_t_l_1_1_set_interface_26e49dd3a87be1ec6a5961711e0324be}{get\-Index} (int index) const
+\item 
+const Data \& \hyperlink{class_j_g_t_l_1_1_set_interface_2e19833f67c42d4b83b26ae61f9bfb0c}{get\-Index\-Ref} (int index) const
+\item 
+\hyperlink{class_j_g_t_l_1_1_set_interface_1f4b953e9a9adb5d463b6abb24623372}{iterator} \hyperlink{class_j_g_t_l_1_1_set_interface_a55fad0448297a2946f29cf3e3915af7}{get\-Index\-Ptr} (int index)
+\item 
+\hyperlink{class_j_g_t_l_1_1_set_interface_1e545e77790db36de24904dc70054225}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_set_interface_acf7a261d06754d70004ed676c90d4e9}{get\-Index\-Ptr} (int index) const
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+int \hyperlink{class_j_g_t_l_1_1_set_interface_3c8282b939324cb187d18825105433fa}{num\-Elements}
+\item 
+int \hyperlink{class_j_g_t_l_1_1_set_interface_df4c40ad8cc969a8c3b11a93d8bb25c2}{max\-Elements}
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_set_interface_67a7d6bcf8d20f0eeb668daad040bd86}{data\-List}
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class Data$>$ class JGTL::Set\-Interface$<$ Data $>$}
+
+This class acts as a base class for the Set construct. 
+
+\begin{Desc}
+\item[Author:]Jason Gauci \end{Desc}
+\begin{Desc}
+\item[Date:]2008 \end{Desc}
+
+
+
+
+\subsection{Member Typedef Documentation}
+\hypertarget{class_j_g_t_l_1_1_set_interface_1f4b953e9a9adb5d463b6abb24623372}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!iterator@{iterator}}
+\index{iterator@{iterator}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[iterator]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ typedef Data$\ast$ \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_set_interface_1f4b953e9a9adb5d463b6abb24623372}{iterator}}}
+\label{class_j_g_t_l_1_1_set_interface_1f4b953e9a9adb5d463b6abb24623372}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_1e545e77790db36de24904dc70054225}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!const_iterator@{const\_\-iterator}}
+\index{const_iterator@{const\_\-iterator}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[const\_\-iterator]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ typedef const Data$\ast$ \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_set_interface_1e545e77790db36de24904dc70054225}{const\_\-iterator}}}
+\label{class_j_g_t_l_1_1_set_interface_1e545e77790db36de24904dc70054225}
+
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_set_interface_fd2b06e95eef00ac46b778e1c96a13e4}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!SetInterface@{SetInterface}}
+\index{SetInterface@{SetInterface}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[SetInterface]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_set_interface}{Set\-Interface} ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_fd2b06e95eef00ac46b778e1c96a13e4}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_bf1ec172c20daa413de2a36764454245}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!~SetInterface@{$\sim$SetInterface}}
+\index{~SetInterface@{$\sim$SetInterface}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[$\sim$SetInterface]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ virtual \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::$\sim$\hyperlink{class_j_g_t_l_1_1_set_interface}{Set\-Interface} ()\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_bf1ec172c20daa413de2a36764454245}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_set_interface_1c8272ceef57740200d7080b5b5ae2e4}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!operator==@{operator==}}
+\index{operator==@{operator==}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[operator==]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ bool \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::operator== (const \hyperlink{class_j_g_t_l_1_1_set_interface}{Set\-Interface}$<$ Data $>$ \& {\em other}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_1c8272ceef57740200d7080b5b5ae2e4}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_136d868ffd3695632c16e4f88b84352b}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!resize@{resize}}
+\index{resize@{resize}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[resize]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ virtual bool \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::resize (int {\em new\-Size})\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_136d868ffd3695632c16e4f88b84352b}
+
+
+
+
+Reimplemented in \hyperlink{class_j_g_t_l_1_1_dynamic_pool_set_f9c2b0ebc042c33dca8fee5af6583446}{JGTL::Dynamic\-Pool\-Set$<$ Data $>$}.\hypertarget{class_j_g_t_l_1_1_set_interface_e49dab84e130a87f82f05f77d065508a}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!insert@{insert}}
+\index{insert@{insert}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[insert]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ virtual void \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::insert (const Data \& {\em data})\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_e49dab84e130a87f82f05f77d065508a}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_a3929a2e9a3ef83cd20b6c4d6470c207}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!size@{size}}
+\index{size@{size}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[size]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ int \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::size () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_a3929a2e9a3ef83cd20b6c4d6470c207}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_3d41a7f025824693499be8a252460dc5}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!empty@{empty}}
+\index{empty@{empty}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[empty]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ bool \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::empty () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_3d41a7f025824693499be8a252460dc5}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_62ad8783677fdbfdca6e133574c384de}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!clear@{clear}}
+\index{clear@{clear}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[clear]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ void \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::clear ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_62ad8783677fdbfdca6e133574c384de}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_d00e33172d553f527abdb53795fbe9da}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!begin@{begin}}
+\index{begin@{begin}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[begin]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ \hyperlink{class_j_g_t_l_1_1_set_interface_1f4b953e9a9adb5d463b6abb24623372}{iterator} \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::begin ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_d00e33172d553f527abdb53795fbe9da}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_cffbe1ad98d710b21c676f146359884c}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!begin@{begin}}
+\index{begin@{begin}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[begin]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ \hyperlink{class_j_g_t_l_1_1_set_interface_1e545e77790db36de24904dc70054225}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::begin () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_cffbe1ad98d710b21c676f146359884c}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_0d17cba0219448c6119c31374b983e76}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!end@{end}}
+\index{end@{end}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[end]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ \hyperlink{class_j_g_t_l_1_1_set_interface_1f4b953e9a9adb5d463b6abb24623372}{iterator} \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::end ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_0d17cba0219448c6119c31374b983e76}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_6675901f9ae1bb5c35bd45d33bb22a12}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!end@{end}}
+\index{end@{end}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[end]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ \hyperlink{class_j_g_t_l_1_1_set_interface_1e545e77790db36de24904dc70054225}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::end () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_6675901f9ae1bb5c35bd45d33bb22a12}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_8dbec0353ff7027964473366508a417d}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!hasData@{hasData}}
+\index{hasData@{hasData}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[hasData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ const bool \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::has\-Data (const Data \& {\em data}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_8dbec0353ff7027964473366508a417d}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_fef4fa91516c191180d9854eb2cc4f9a}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!find@{find}}
+\index{find@{find}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[find]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ \hyperlink{class_j_g_t_l_1_1_set_interface_1f4b953e9a9adb5d463b6abb24623372}{iterator} \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::find (const Data \& {\em data})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_fef4fa91516c191180d9854eb2cc4f9a}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_13066581738f291b78b56d20022dfd2a}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!erase@{erase}}
+\index{erase@{erase}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[erase]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ void \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::erase (const Data \& {\em data})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_13066581738f291b78b56d20022dfd2a}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_63afc2fbaf7a446bcbf5b082aab99a27}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!erase@{erase}}
+\index{erase@{erase}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[erase]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ void \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::erase (\hyperlink{class_j_g_t_l_1_1_set_interface_1e545e77790db36de24904dc70054225}{const\_\-iterator} {\em iter})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_63afc2fbaf7a446bcbf5b082aab99a27}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_9ac2a0584d9ba0cf45d4591949d72ed6}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!eraseIndex@{eraseIndex}}
+\index{eraseIndex@{eraseIndex}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[eraseIndex]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ void \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::erase\-Index (int {\em index})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_9ac2a0584d9ba0cf45d4591949d72ed6}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_26e49dd3a87be1ec6a5961711e0324be}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!getIndex@{getIndex}}
+\index{getIndex@{getIndex}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[getIndex]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::get\-Index (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_26e49dd3a87be1ec6a5961711e0324be}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_2e19833f67c42d4b83b26ae61f9bfb0c}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!getIndexRef@{getIndexRef}}
+\index{getIndexRef@{getIndexRef}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[getIndexRef]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ const Data\& \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::get\-Index\-Ref (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_2e19833f67c42d4b83b26ae61f9bfb0c}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_a55fad0448297a2946f29cf3e3915af7}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!getIndexPtr@{getIndexPtr}}
+\index{getIndexPtr@{getIndexPtr}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[getIndexPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ \hyperlink{class_j_g_t_l_1_1_set_interface_1f4b953e9a9adb5d463b6abb24623372}{iterator} \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::get\-Index\-Ptr (int {\em index})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_a55fad0448297a2946f29cf3e3915af7}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_acf7a261d06754d70004ed676c90d4e9}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!getIndexPtr@{getIndexPtr}}
+\index{getIndexPtr@{getIndexPtr}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[getIndexPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ \hyperlink{class_j_g_t_l_1_1_set_interface_1e545e77790db36de24904dc70054225}{const\_\-iterator} \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::get\-Index\-Ptr (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_acf7a261d06754d70004ed676c90d4e9}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_set_interface_3c8282b939324cb187d18825105433fa}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!numElements@{numElements}}
+\index{numElements@{numElements}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[numElements]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ int \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_set_interface_3c8282b939324cb187d18825105433fa}{num\-Elements}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_3c8282b939324cb187d18825105433fa}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_df4c40ad8cc969a8c3b11a93d8bb25c2}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!maxElements@{maxElements}}
+\index{maxElements@{maxElements}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[maxElements]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ int \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_set_interface_df4c40ad8cc969a8c3b11a93d8bb25c2}{max\-Elements}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_df4c40ad8cc969a8c3b11a93d8bb25c2}
+
+
+\hypertarget{class_j_g_t_l_1_1_set_interface_67a7d6bcf8d20f0eeb668daad040bd86}{
+\index{JGTL::SetInterface@{JGTL::Set\-Interface}!dataList@{dataList}}
+\index{dataList@{dataList}!JGTL::SetInterface@{JGTL::Set\-Interface}}
+\subsubsection[dataList]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_set_interface}{JGTL::Set\-Interface}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_set_interface_67a7d6bcf8d20f0eeb668daad040bd86}{data\-List}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_set_interface_67a7d6bcf8d20f0eeb668daad040bd86}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___set_interface_8h}{JGTL\_\-Set\-Interface.h}\end{CompactItemize}

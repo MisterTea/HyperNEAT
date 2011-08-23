@@ -1,0 +1,195 @@
+
+<html><head>
+<title>CheckerBoard API reference</title></head>
+
+<body bgcolor="#ffffff" text="#000000" topmargin="0" leftmargin="0">
+
+<table border="0" cellpadding="20" cellspacing="0" width="100%" bgcolor="#0080c0">
+<tbody><tr>
+<td>
+<font color="#ffffff" size="6" face="Ventura"><b>
+CheckerBoard API reference</b> </font>
+</td>
+</tr>
+</tbody></table>
+
+
+<table border="0" cellpadding="20" cellspacing="0" width="100%" bgcolor="#ffffff">
+<tbody><tr>
+<td>
+<font color="#000000" size="3" face="Ventura">
+</font><h4><font color="#000000" size="3" face="Ventura">Introduction</font></h4>
+<font color="#000000" size="3" face="Ventura">CheckerBoard is explicitly only designed as an interface to checkers engines, and CheckerBoard is free. 
+Therefore, CheckerBoard is a good choice for an interface if you want to develop a checkers engine, 
+because it relieves you from the  hassle of interface programming, and because it gives you the capability 
+to test your engine against other engines with the engine-engine mode. If you would like to program an engine
+for CheckerBoard or if you have already written a checkers program and want to adapt it to 
+run as engine in CheckerBoard, here is the documentation of the CheckerBoad API. The CheckerBoard API is
+currently the only standard communication protocol for checkers engines and interfaces, and is also supported
+by the commercial program Sage, and hopefully, in the future also by further checkers programs. 
+</font><h4><font color="#000000" size="3" face="Ventura">Limitations</font></h4>
+<font color="#000000" size="3" face="Ventura">The CheckerBoard API is not a well-designed protocol by a professional computer programmer. I know that it
+is far from perfect, and if you feel you have a suggestion for an improvement, feel free to tell me about it. 
+A big hole in the protocol is that pondering is not supported. Besides that, there is a number of minor limitations
+which I do not think are very important. However, if you think otherwise, please tell me about it.
+</font><h4><font color="#000000" size="3" face="Ventura">The CheckerBoard API</font></h4>
+
+<font color="#000000" size="3" face="Ventura">CheckerBoard expects your engine to compiled as a dll and to be in the working directory of checkerboard.exe - or in the path. 
+An engine must support 2 required functions. If your engine plays a different version than English 
+checkers, you must provide 2 more functions for multi-version support.  
+<b>The calling convention for all functions is __stdcall().</b>
+
+</font><h4><font color="#000000" size="3" face="Ventura">Required Functions</font></h4>
+<font color="#000000" size="3" face="Ventura">The current CheckerBoard API (version 2) requires the following 2 functions:</font><p><code>
+<font color="#000000" size="3" face="Ventura">int WINAPI getmove(int
+board[8][8], int color, double maxtime, char str[1024], int *playnow,
+int info, int moreinfo, struct CBmove *move);<br>
+int WINAPI enginecommand(char command[256], char reply[1024]);
+</font></code><font color="#000000" size="3" face="Ventura"><br>
+
+where struct CBmove is defined as follows:</font></p><p><code>
+
+<font color="#000000" size="3" face="Ventura">struct CBmove<br>
+            	{<br>
+   int ismove;   <br>
+   int newpiece;       <br>
+   int oldpiece;        <br>
+   struct coor from,to; <br>
+   struct coor path[12];<br>
+   struct coor del[12];<br>
+   int delpiece[12];   <br>
+}
+</font></code></p><p>
+<font color="#000000" size="3" face="Ventura">struct coor<br>
+{<br>
+  int x;<br>
+  int y;<br>
+}<br>
+
+If you plan to write an engine which plays English/American checkers, you can immediately forget about the
+struct CBmove again.</font></p><p>
+<font color="#000000" size="3" face="Ventura">The function getmove gets a move from the engine: <b>getmove</b> receives the current board position 
+in b[8][8]. The side to move is in color, and maxtime is the time your program should think <b>on average</b> 
+for its move. CheckerBoard does not check the time usage of an engine, which means you can take as much
+time as you like on your move if you want - but of course that's not what the user expects! The board position 
+and the side to move use the conventions:
+</font></p><p>
+<code>
+<font color="#000000" size="3" face="Ventura">#define WHITE 1<br>
+#define BLACK 2<br>
+#define MAN 4<br>
+#define KING 8<br>
+#define FREE 16
+</font></code></p><p>
+<font color="#000000" size="3" face="Ventura">so for instance if an array entry is 10 that means it is a black king. You can use statements like 
+<code>if b[i][j]==BLACK|KING...</code> to find out if there is a certain piece on a square.<br>
+ The 
+parameter color is either BLACK or WHITE and tells the engine which side is to move. <br>
+The next parameter is a pointer to a string. This string 
+is displayed in the status bar of CheckerBoard. You can use this to display search information. Just 
+write something like <code>sprintf(str,"i am winning");</code> and "i am winning" will be displayed 
+in the status bar. The status bar is updated every 0.1s in CheckerBoard. There is no defined format
+for the string you should display there, you are completely free. However, I suggest that you do something
+similar as Cake Sans Souci does.<br>
+
+The next parameter is a pointer to the integer playnow. You should monitor playnow and immediately return 
+if it is nonzero. This means that the user has chosen "Play" in the CheckerBoard menu. 
+<br>
+
+The next parameter, 
+info, is a bunch of flags which are used for some advanced stuff:<br>
+Bit 0 is set if the 'natural course' of the game has been interrupted, for instance with a take 
+back or new game command. you can use this parameter to check if the position is repeating itself; as long
+as this bit is not set, you are playing a normal game and can check for repetitions (and avoid them if you
+want). As soon as it is set, you must reset your repetition detection.<br>
+Bit 1 is set if 'exact' has been selected in the 'level' menu. In this case, your engine should return 
+a move exactly after the time that has been selected by maxtime, and not take any longer.<br>
+Bit 2 is set if an incremental time level is being used. In this case, the increment per move is
+passed to the engine in the parameter "moreinfo". Currently this is unused by CheckerBoard.<br>
+Bit 3 is set if the parameter maxtime is meant to be interpreted as a search depth. Also unused as of now.<br>
+The further bits are reserved for future extensions.<br>
+
+
+The parameter moreinfo is currently unused and also meant for further extensions. It is supposed to hold
+additional information to a set bit in the info parameter. </font></p><p>
+
+<font color="#000000" size="3" face="Ventura">The <b>enginecommand</b> function is used for all other communication between engine and CheckerBoard. 
+The interface uses enginecommand to send a command string to the engine, which should print a 
+reply into the reply string. Here's a list of the commands your engine should support:
+</font></p><ul>
+<li><font color="#000000" size="3" face="Ventura"><b>about</b>: print a short description of your program in the reply string. This will be displayed in a
+message box, so you must also provide the formatting with \n for new lines.
+</font></li><li><font color="#000000" size="3" face="Ventura"><b>get ...</b> asks for the value of an option:
+</font><ul>
+<li><font color="#000000" size="3" face="Ventura"><b>get protocolversion</b>: print the protocol version number in reply (currently "2"). This enables the interface
+to detect older engines and interact properly with them if the protocol is updated.
+</font></li><li><font color="#000000" size="3" face="Ventura"><b>get gametype</b>: print the game type number of the version of checkers your engine plays in the
+reply string. American/English: 21, Italian: 22, Spanish: 24, Russian: 25, Brazilian: 26.
+</font></li><li><font color="#000000" size="3" face="Ventura"><b>get book</b>: print the book strength in the reply. Currently, CheckerBoard supports values 0...3,
+meaning no book, all kinds of moves, good moves, best moves, respectively. How you want to interpret
+the book strength is your decision.
+</font></li><li><font color="#000000" size="3" face="Ventura"><b>get hashsize</b>: print the size of the hashtable in MB in reply.
+</font></li><li><font color="#000000" size="3" face="Ventura"><b>get dbmbytes</b>: print the size of the endgame database cache in MB in reply. 
+</font></li><li><font color="#000000" size="3" face="Ventura"><b>get allscores</b>: print 1 if you are in all scores mode (the engine displays a list of all moves with 
+their scores instead of the normal search info), 0 if you are in normal mode. The all scores mode is a good tool
+for a human to help in analysis.
+</font></li></ul>
+</li><li><font color="#000000" size="3" face="Ventura"><b>help</b>: print the name of a HTML help file in reply. CheckerBoard will invoke the default HTML 
+viewer to display the file. 
+</font></li><li><font color="#000000" size="3" face="Ventura"><b>hint</b>: print a hint in reply for novice players. Currently not supported by CheckerBoard.
+</font></li><li><font color="#000000" size="3" face="Ventura"><b>name</b>: print the name of your engine in the reply string. 
+</font></li><li><font color="#000000" size="3" face="Ventura"><b>set ... X</b> sets an option to X.
+</font><ul>
+<li><font color="#000000" size="3" face="Ventura"><b>set book X</b>: X = 0,1,2,3. meaning see above.
+</font></li><li><font color="#000000" size="3" face="Ventura"><b>set hashsize X</b>: set the hashtable size to X MB.
+</font></li><li><font color="#000000" size="3" face="Ventura"><b>set dbmbytes X</b>: set the endgame database cache to X MB.
+</font></li><li><font color="#000000" size="3" face="Ventura"><b>set allscores X</b>: X = 0,1. meaning see above.
+</font></li></ul>
+</li></ul>
+<font color="#000000" size="3" face="Ventura">Your engine may choose not to implement 
+some of the commands of the protocol.  If your enginecommand does not handle a command issued to 
+it by CheckerBoard, it should return 0 and print a question mark into reply. If you print the question
+mark on unhandled commands, CheckerBoard will gray out the corresponding options in the engine options
+dialog. Note that the 0 and the question mark are not synonyms: your engine may return a 0 if it is
+asked to use a huge hashtable, meaning that it did not change the hashtable size. As a general rule,
+you should print some acknowledgment in reply that you did handle a command. This is useful if you ever
+want to use the engine command dialog, which displays the reply of the engine.
+If it handles the command, it should return 1 to let CheckerBoard know that it understood and 
+processed the command.
+
+</font><h4><font color="#000000" size="3" face="Ventura">Multi-Version Support Functions</font></h4>
+<font color="#000000" size="3" face="Ventura">If you want to write an engine which plays a different version of checkers than English, must add another function to your dll:
+<code><br>
+int WINAPI islegal(int board[8][8], int color, int from, int to, struct CBmove *move);</code>
+</font><p>
+
+<font color="#000000" size="3" face="Ventura">In addition to this, your engine command function must recognize the command <b>get gametype</b>
+and return the appropriate number for your version of checkers.
+<br>
+
+
+<b>Islegal</b> tells CheckerBoard about the rules of your version of
+checkers. When the user wants to play a move from 'from' to 'to',
+islegal is called. You must use your move generator to find out if
+'color' can play this move on 'board'. If yes, return 1, else 0. If the
+move
+is legal, you must also tell CheckerBoard what it is, so that it can
+animate the move properly. You do this by filling in the CBmove struct.
+</font></p><p>
+<font color="#000000" size="3" face="Ventura">In case that this is not
+clear enough, study the code of simple checkers, which is included in
+the CheckerBoard installation. Simple Checkers is an example for an
+English engine. If you plan to play a different version, look at the
+source code for dama to see how this works.
+</font></p><p>
+<font color="#000000" size="3" face="Ventura">Once you have finished
+your engine, you must copy the dll into the CheckerBoard folder and
+select your engine with 'engine-&gt;select...'. Of course I would love
+to hear from you if you do write an engine for CheckerBoard. If you do,
+please <a href="mailto:checkers@fierz.ch">send me a mail</a>. I would like to link to your page, or, if you don't have one, I would put your engine on my server.
+</font></p><p>
+<font color="#000000" size="3" face="Ventura"><a href="http://www.fierz.ch/checkers.htm" target="_top">Back to main checkers page</a>
+
+</font></p><hr>
+<address><font color="#000000" size="3" face="Ventura">Last modified by Martin Fierz on January 12, 2003</font></address>
+</td></tr></tbody></table></body></html>

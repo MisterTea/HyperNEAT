@@ -1,0 +1,152 @@
+\hypertarget{class_j_g_t_l_1_1_quad_tree_branch}{
+\section{JGTL::Quad\-Tree\-Branch$<$ T $>$ Class Template Reference}
+\label{class_j_g_t_l_1_1_quad_tree_branch}\index{JGTL::QuadTreeBranch@{JGTL::QuadTreeBranch}}
+}
+{\tt \#include $<$JGTL\_\-Quad\-Tree.h$>$}
+
+Inheritance diagram for JGTL::Quad\-Tree\-Branch$<$ T $>$::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{class_j_g_t_l_1_1_quad_tree_branch}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_quad_tree_branch_621e0d6cca450c0dabc2f5e60310ac0c}{Quad\-Tree\-Branch} (boost::pool$<$$>$ \&branch\-Pool, boost::pool$<$$>$ \&stub\-Pool, const T \&value)
+\item 
+virtual \hyperlink{class_j_g_t_l_1_1_quad_tree_branch_57c133b54176b9b48bfab059cd194cb2}{$\sim$Quad\-Tree\-Branch} ()
+\item 
+virtual void \hyperlink{class_j_g_t_l_1_1_quad_tree_branch_ee97ca947b60a3cd9374f8decd1392d8}{destroy} (boost::pool$<$$>$ \&branch\-Pool, boost::pool$<$$>$ \&stub\-Pool)
+\item 
+virtual T \hyperlink{class_j_g_t_l_1_1_quad_tree_branch_4354d8a11f9092f3f189f0eef4d2ffff}{get\-Value} (\hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ int $>$ top\-Left\-Vector2, int size, const \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ int $>$ \&location) const 
+\item 
+virtual T \hyperlink{class_j_g_t_l_1_1_quad_tree_branch_131c37ee0dc66949927c62f9b438816d}{get\-Value} () const
+\item 
+void \hyperlink{class_j_g_t_l_1_1_quad_tree_branch_6c81dbe713996cf7ff82e8b093ede81e}{set\-All} (boost::pool$<$$>$ \&branch\-Pool, boost::pool$<$$>$ \&stub\-Pool, T \&value)
+\item 
+virtual bool \hyperlink{class_j_g_t_l_1_1_quad_tree_branch_82dcced1ba01d374ce25b8d67b27302c}{set\-Value} (boost::pool$<$$>$ \&branch\-Pool, boost::pool$<$$>$ \&stub\-Pool, \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ int $>$ top\-Left\-Vector2, int size, const \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ int $>$ \&location, const T \&value)
+\item 
+virtual void \hyperlink{class_j_g_t_l_1_1_quad_tree_branch_1a9cb0c814af012ad2a1a891b7223179}{display} (int level) const
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_quad_tree_node}{Quad\-Tree\-Node}$<$ T $>$ $\ast$ \hyperlink{class_j_g_t_l_1_1_quad_tree_branch_91e216c7605fc50b7174393eb7e70c0a}{top\-Left}
+\item 
+\hyperlink{class_j_g_t_l_1_1_quad_tree_node}{Quad\-Tree\-Node}$<$ T $>$ $\ast$ \hyperlink{class_j_g_t_l_1_1_quad_tree_branch_daedd4440e92bcf7159a0b879e5e028a}{top\-Right}
+\item 
+\hyperlink{class_j_g_t_l_1_1_quad_tree_node}{Quad\-Tree\-Node}$<$ T $>$ $\ast$ \hyperlink{class_j_g_t_l_1_1_quad_tree_branch_3359e420228b5e7fd9f272b85e7517d8}{bottom\-Left}
+\item 
+\hyperlink{class_j_g_t_l_1_1_quad_tree_node}{Quad\-Tree\-Node}$<$ T $>$ $\ast$ \hyperlink{class_j_g_t_l_1_1_quad_tree_branch_a297958fd688ab38cb43e12a24a17020}{bottom\-Right}
+\end{CompactItemize}
+\subsubsection*{template$<$class T$>$ class JGTL::Quad\-Tree\-Branch$<$ T $>$}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_quad_tree_branch_621e0d6cca450c0dabc2f5e60310ac0c}{
+\index{JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}!QuadTreeBranch@{QuadTreeBranch}}
+\index{QuadTreeBranch@{QuadTreeBranch}!JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}}
+\subsubsection[QuadTreeBranch]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_quad_tree_branch}{JGTL::Quad\-Tree\-Branch}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_quad_tree_branch}{Quad\-Tree\-Branch} (boost::pool$<$$>$ \& {\em branch\-Pool}, boost::pool$<$$>$ \& {\em stub\-Pool}, const T \& {\em value})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_quad_tree_branch_621e0d6cca450c0dabc2f5e60310ac0c}
+
+
+\hypertarget{class_j_g_t_l_1_1_quad_tree_branch_57c133b54176b9b48bfab059cd194cb2}{
+\index{JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}!~QuadTreeBranch@{$\sim$QuadTreeBranch}}
+\index{~QuadTreeBranch@{$\sim$QuadTreeBranch}!JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}}
+\subsubsection[$\sim$QuadTreeBranch]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ virtual \hyperlink{class_j_g_t_l_1_1_quad_tree_branch}{JGTL::Quad\-Tree\-Branch}$<$ T $>$::$\sim$\hyperlink{class_j_g_t_l_1_1_quad_tree_branch}{Quad\-Tree\-Branch} ()\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_quad_tree_branch_57c133b54176b9b48bfab059cd194cb2}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_quad_tree_branch_ee97ca947b60a3cd9374f8decd1392d8}{
+\index{JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}!destroy@{destroy}}
+\index{destroy@{destroy}!JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}}
+\subsubsection[destroy]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ virtual void \hyperlink{class_j_g_t_l_1_1_quad_tree_branch}{JGTL::Quad\-Tree\-Branch}$<$ T $>$::destroy (boost::pool$<$$>$ \& {\em branch\-Pool}, boost::pool$<$$>$ \& {\em stub\-Pool})\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_quad_tree_branch_ee97ca947b60a3cd9374f8decd1392d8}
+
+
+
+
+Reimplemented from \hyperlink{class_j_g_t_l_1_1_quad_tree_node_c73b9973bed0498532647bd3ebfdaddb}{JGTL::Quad\-Tree\-Node$<$ T $>$}.\hypertarget{class_j_g_t_l_1_1_quad_tree_branch_4354d8a11f9092f3f189f0eef4d2ffff}{
+\index{JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}!getValue@{getValue}}
+\index{getValue@{getValue}!JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}}
+\subsubsection[getValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ virtual T \hyperlink{class_j_g_t_l_1_1_quad_tree_branch}{JGTL::Quad\-Tree\-Branch}$<$ T $>$::get\-Value (\hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ int $>$ {\em top\-Left\-Vector2}, int {\em size}, const \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ int $>$ \& {\em location}) const\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_quad_tree_branch_4354d8a11f9092f3f189f0eef4d2ffff}
+
+
+
+
+Implements \hyperlink{class_j_g_t_l_1_1_quad_tree_node_bc249b527b146888c21dac71783f42b6}{JGTL::Quad\-Tree\-Node$<$ T $>$}.\hypertarget{class_j_g_t_l_1_1_quad_tree_branch_131c37ee0dc66949927c62f9b438816d}{
+\index{JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}!getValue@{getValue}}
+\index{getValue@{getValue}!JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}}
+\subsubsection[getValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ virtual T \hyperlink{class_j_g_t_l_1_1_quad_tree_branch}{JGTL::Quad\-Tree\-Branch}$<$ T $>$::get\-Value () const\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_quad_tree_branch_131c37ee0dc66949927c62f9b438816d}
+
+
+
+
+Implements \hyperlink{class_j_g_t_l_1_1_quad_tree_node_b92e9755284317f2d8102f028b0481c7}{JGTL::Quad\-Tree\-Node$<$ T $>$}.\hypertarget{class_j_g_t_l_1_1_quad_tree_branch_6c81dbe713996cf7ff82e8b093ede81e}{
+\index{JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}!setAll@{setAll}}
+\index{setAll@{setAll}!JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}}
+\subsubsection[setAll]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void \hyperlink{class_j_g_t_l_1_1_quad_tree_branch}{JGTL::Quad\-Tree\-Branch}$<$ T $>$::set\-All (boost::pool$<$$>$ \& {\em branch\-Pool}, boost::pool$<$$>$ \& {\em stub\-Pool}, T \& {\em value})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_quad_tree_branch_6c81dbe713996cf7ff82e8b093ede81e}
+
+
+\hypertarget{class_j_g_t_l_1_1_quad_tree_branch_82dcced1ba01d374ce25b8d67b27302c}{
+\index{JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}!setValue@{setValue}}
+\index{setValue@{setValue}!JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}}
+\subsubsection[setValue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ virtual bool \hyperlink{class_j_g_t_l_1_1_quad_tree_branch}{JGTL::Quad\-Tree\-Branch}$<$ T $>$::set\-Value (boost::pool$<$$>$ \& {\em branch\-Pool}, boost::pool$<$$>$ \& {\em stub\-Pool}, \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ int $>$ {\em top\-Left\-Vector2}, int {\em size}, const \hyperlink{class_j_g_t_l_1_1_vector2}{Vector2}$<$ int $>$ \& {\em location}, const T \& {\em value})\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_quad_tree_branch_82dcced1ba01d374ce25b8d67b27302c}
+
+
+
+
+Implements \hyperlink{class_j_g_t_l_1_1_quad_tree_node_8bf383a824c1b5dc7dc2fff05aeaaec9}{JGTL::Quad\-Tree\-Node$<$ T $>$}.\hypertarget{class_j_g_t_l_1_1_quad_tree_branch_1a9cb0c814af012ad2a1a891b7223179}{
+\index{JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}!display@{display}}
+\index{display@{display}!JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}}
+\subsubsection[display]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ virtual void \hyperlink{class_j_g_t_l_1_1_quad_tree_branch}{JGTL::Quad\-Tree\-Branch}$<$ T $>$::display (int {\em level}) const\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_quad_tree_branch_1a9cb0c814af012ad2a1a891b7223179}
+
+
+
+
+Implements \hyperlink{class_j_g_t_l_1_1_quad_tree_node_5d3e714f007be6a1ab507bcda173aede}{JGTL::Quad\-Tree\-Node$<$ T $>$}.
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_quad_tree_branch_91e216c7605fc50b7174393eb7e70c0a}{
+\index{JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}!topLeft@{topLeft}}
+\index{topLeft@{topLeft}!JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}}
+\subsubsection[topLeft]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_quad_tree_node}{Quad\-Tree\-Node}$<$T$>$$\ast$ \hyperlink{class_j_g_t_l_1_1_quad_tree_branch}{JGTL::Quad\-Tree\-Branch}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_quad_tree_branch_91e216c7605fc50b7174393eb7e70c0a}{top\-Left}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_j_g_t_l_1_1_quad_tree_branch_91e216c7605fc50b7174393eb7e70c0a}
+
+
+\hypertarget{class_j_g_t_l_1_1_quad_tree_branch_daedd4440e92bcf7159a0b879e5e028a}{
+\index{JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}!topRight@{topRight}}
+\index{topRight@{topRight}!JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}}
+\subsubsection[topRight]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_quad_tree_node}{Quad\-Tree\-Node}$<$T$>$ $\ast$ \hyperlink{class_j_g_t_l_1_1_quad_tree_branch}{JGTL::Quad\-Tree\-Branch}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_quad_tree_branch_daedd4440e92bcf7159a0b879e5e028a}{top\-Right}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_j_g_t_l_1_1_quad_tree_branch_daedd4440e92bcf7159a0b879e5e028a}
+
+
+\hypertarget{class_j_g_t_l_1_1_quad_tree_branch_3359e420228b5e7fd9f272b85e7517d8}{
+\index{JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}!bottomLeft@{bottomLeft}}
+\index{bottomLeft@{bottomLeft}!JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}}
+\subsubsection[bottomLeft]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_quad_tree_node}{Quad\-Tree\-Node}$<$T$>$ $\ast$ \hyperlink{class_j_g_t_l_1_1_quad_tree_branch}{JGTL::Quad\-Tree\-Branch}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_quad_tree_branch_3359e420228b5e7fd9f272b85e7517d8}{bottom\-Left}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_j_g_t_l_1_1_quad_tree_branch_3359e420228b5e7fd9f272b85e7517d8}
+
+
+\hypertarget{class_j_g_t_l_1_1_quad_tree_branch_a297958fd688ab38cb43e12a24a17020}{
+\index{JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}!bottomRight@{bottomRight}}
+\index{bottomRight@{bottomRight}!JGTL::QuadTreeBranch@{JGTL::Quad\-Tree\-Branch}}
+\subsubsection[bottomRight]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ \hyperlink{class_j_g_t_l_1_1_quad_tree_node}{Quad\-Tree\-Node}$<$T$>$ $\ast$ \hyperlink{class_j_g_t_l_1_1_quad_tree_branch}{JGTL::Quad\-Tree\-Branch}$<$ T $>$::\hyperlink{class_j_g_t_l_1_1_quad_tree_branch_a297958fd688ab38cb43e12a24a17020}{bottom\-Right}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_j_g_t_l_1_1_quad_tree_branch_a297958fd688ab38cb43e12a24a17020}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___quad_tree_8h}{JGTL\_\-Quad\-Tree.h}\end{CompactItemize}

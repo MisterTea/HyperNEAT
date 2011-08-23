@@ -1,0 +1,27 @@
+JG Template Library
+Jason Gauci
+
+This is a set of heavily templated C++ header files containing containers, data structures, & utilities not found in the STL.
+
+Features include:
+
+QuadTree
+
+CircularBuffer
+
+2-D and 3-D Vectors, Rays, Lines, Line Segments
+
+Stack-based version of several STL containers (StackVector, StackMap, etc.).  These are fixed-size versions of std::vector, std::map, etc. but designed for fast creation/deletion and minimal memory overhead.
+
+Pool-based verction of STL map and set.  These use a pool allocation scheme instead of a single-unit allocation scheme.
+
+Variant (Stack-based polymorphic varaint)
+
+Serialization: pack/unpack routines for serializing objects to and from a buffer
+
+Interpolated Value, CircularBuffer, Quadtree, Vector2, Vector3, Ray2, Ray3
+
+LocatedException: An extension of std::exception which also contains the line and file where the exception took place
+
+Units:  A unified class for handling relative units and the implicit conversion between types of units.
+

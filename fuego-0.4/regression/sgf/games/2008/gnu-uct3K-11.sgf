@@ -1,0 +1,19 @@
+(;FF[4]CA[UTF-8]AP[GoGuiTwoGtp:1.1pre1]SZ[9]
+KM[7.5]PB[GNU Go:3.6]PW[GoUctGlobalSearchPlayer]DT[2008-05-09]RE[B+R]
+C[Black command: /Applications/gnugo --mode gtp --never-resign --chinese-rules --capture-all-dead --score aftermath
+White command: /Users/mmueller/Projects/project_explorer/linux/build/release/explorer_uct -config config-book3K.gtp
+Black version: 3.6
+White version: 
+Result[Black\]: B+R
+Result[White\]: B+R
+Referee: /Applications/gnugo --mode gtp --never-resign --chinese-rules --capture-all-dead --score aftermath
+Result[Referee\]: B+R
+Host: Martin-M-llers-Laptop.local
+Date: May 9, 2008 10:41:17 PM MDT]
+;B[gc];W[cf];B[cd];W[ff];B[gg];W[dg];B[gf];W[db];B[bb];W[fe]
+;B[ec];W[ge];B[he];W[hd];B[hf];W[gd];B[hc];W[fc];B[fb];W[bd]
+;B[eb];W[cc];B[dc];W[dd];B[cb];W[fh];B[bc];W[hh];B[id];W[gh]
+;B[be];W[ie];B[ic];W[ed];B[ah];W[bf];B[af];W[ce];B[ad];W[bg]
+;B[ag];W[bh];B[fg];W[eg];B[fd];W[hg];B[if];W[ig];B[ie];W[fc]
+;B[bi];W[ci];B[fd];W[ee];B[fc];W[gi];B[ae];W[ai];B[de];W[df]
+;B[bi];W[ih];B[ai])

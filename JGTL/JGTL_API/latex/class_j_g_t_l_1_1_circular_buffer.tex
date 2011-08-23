@@ -1,0 +1,288 @@
+\hypertarget{class_j_g_t_l_1_1_circular_buffer}{
+\section{JGTL::Circular\-Buffer$<$ Data $>$ Class Template Reference}
+\label{class_j_g_t_l_1_1_circular_buffer}\index{JGTL::CircularBuffer@{JGTL::CircularBuffer}}
+}
+The \hyperlink{class_j_g_t_l_1_1_circular_buffer}{Circular\-Buffer} Class handles a Circular Buffer.  
+
+
+{\tt \#include $<$JGTL\_\-Circular\-Buffer.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_circular_buffer_31ecf77c576edebf19374d8f7add1966}{Circular\-Buffer} (int \_\-max\-Elements)
+\item 
+\hyperlink{class_j_g_t_l_1_1_circular_buffer_80c110bbff22c6b3f49fd62601b803f6}{Circular\-Buffer} (const \hyperlink{class_j_g_t_l_1_1_circular_buffer}{Circular\-Buffer} \&other)
+\item 
+const \hyperlink{class_j_g_t_l_1_1_circular_buffer}{Circular\-Buffer} \& \hyperlink{class_j_g_t_l_1_1_circular_buffer_dbe37093f8c1572f1bd05d2eb8de9be9}{operator=} (const \hyperlink{class_j_g_t_l_1_1_circular_buffer}{Circular\-Buffer} \&other)
+\item 
+virtual \hyperlink{class_j_g_t_l_1_1_circular_buffer_7b284dd4b559c45774cd46d2bd10c6d8}{$\sim$Circular\-Buffer} ()
+\item 
+void \hyperlink{class_j_g_t_l_1_1_circular_buffer_1f74d2cd67aa2c9db0b2ca389313dcff}{enqueue} (const Data \&data)
+\item 
+Data \hyperlink{class_j_g_t_l_1_1_circular_buffer_a428dabc69ba27d87402edeac3f45df9}{front} ()
+\item 
+Data \& \hyperlink{class_j_g_t_l_1_1_circular_buffer_22ac3344de0e92167193f4133156c117}{front\-Ref} ()
+\item 
+const Data \& \hyperlink{class_j_g_t_l_1_1_circular_buffer_1fc217fbac47f045aeb79de7a98bf6fb}{front\-Ref} () const
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_circular_buffer_9dd2e9b9f34e1aa2f09d2b9a8e756cad}{front\-Ptr} ()
+\item 
+const Data $\ast$ \hyperlink{class_j_g_t_l_1_1_circular_buffer_672e8efab885d22536a3c8b4c80abf07}{front\-Ptr} () const
+\item 
+void \hyperlink{class_j_g_t_l_1_1_circular_buffer_cd22f74b9be2e34fa6ac23358f0626d6}{dequeue} ()
+\item 
+int \hyperlink{class_j_g_t_l_1_1_circular_buffer_f107566d80cdecd1bd22af12cf9fe7e8}{size} () const
+\item 
+int \hyperlink{class_j_g_t_l_1_1_circular_buffer_1d45bb2d7be87cd4f64fdd687b4a8543}{capacity} () const
+\item 
+bool \hyperlink{class_j_g_t_l_1_1_circular_buffer_c810afb60a4a8ede12bd30640d4577c7}{empty} () const
+\item 
+bool \hyperlink{class_j_g_t_l_1_1_circular_buffer_29de08a95860346efcc84893aba71c73}{full} () const
+\item 
+void \hyperlink{class_j_g_t_l_1_1_circular_buffer_7c38e5b1c21dd3ab9c9e5b4f269ce3b8}{clear} ()
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_circular_buffer_88a8bd26b61f87b6e22c33c3d6d120fb}{get\-Index} (int index)
+\item 
+const Data $\ast$ \hyperlink{class_j_g_t_l_1_1_circular_buffer_2f71fdf80cac6914e0886ed2a2118f7a}{get\-Index} (int index) const
+\item 
+Data \& \hyperlink{class_j_g_t_l_1_1_circular_buffer_fd58c9a7ff4ead948244b1ebd673ead9}{get\-Index\-Ref} (int index)
+\item 
+const Data \& \hyperlink{class_j_g_t_l_1_1_circular_buffer_34d6bb82f81427c2a3109dae072a1004}{get\-Index\-Ref} (int index) const
+\end{CompactItemize}
+\subsection*{Protected Member Functions}
+\begin{CompactItemize}
+\item 
+void \hyperlink{class_j_g_t_l_1_1_circular_buffer_5dc9b80c3bcddc61b1c9cbcf88cf79bd}{copy\-From} (const \hyperlink{class_j_g_t_l_1_1_circular_buffer}{Circular\-Buffer} \&other)
+\item 
+void \hyperlink{class_j_g_t_l_1_1_circular_buffer_3fcdde5d44286f57f909b8e131eabe8b}{inc\-Counter} (int \&counter)
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+int \hyperlink{class_j_g_t_l_1_1_circular_buffer_1197f15f4384dc23698b8984866acaed}{element\-Start}
+\item 
+int \hyperlink{class_j_g_t_l_1_1_circular_buffer_a6d3e6bd25f2a41248e86791723c472b}{element\-End}
+\item 
+int \hyperlink{class_j_g_t_l_1_1_circular_buffer_8ea7004de2215b2ef442f8b408d4d0f1}{max\-Elements}
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_circular_buffer_83b02c98de53b41f01409b6404670283}{data\-List}
+\item 
+bool \hyperlink{class_j_g_t_l_1_1_circular_buffer_4f4fc63fe5f774cc8e5ab94e3e7177d4}{enqueue\-Last}
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class Data$>$ class JGTL::Circular\-Buffer$<$ Data $>$}
+
+The \hyperlink{class_j_g_t_l_1_1_circular_buffer}{Circular\-Buffer} Class handles a Circular Buffer. 
+
+\begin{Desc}
+\item[Author:]Jason Gauci \end{Desc}
+\begin{Desc}
+\item[Date:]2008 \end{Desc}
+
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_31ecf77c576edebf19374d8f7add1966}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!CircularBuffer@{CircularBuffer}}
+\index{CircularBuffer@{CircularBuffer}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[CircularBuffer]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_circular_buffer}{Circular\-Buffer} (int {\em \_\-max\-Elements})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_31ecf77c576edebf19374d8f7add1966}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_80c110bbff22c6b3f49fd62601b803f6}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!CircularBuffer@{CircularBuffer}}
+\index{CircularBuffer@{CircularBuffer}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[CircularBuffer]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_circular_buffer}{Circular\-Buffer} (const \hyperlink{class_j_g_t_l_1_1_circular_buffer}{Circular\-Buffer}$<$ Data $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_80c110bbff22c6b3f49fd62601b803f6}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_7b284dd4b559c45774cd46d2bd10c6d8}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!~CircularBuffer@{$\sim$CircularBuffer}}
+\index{~CircularBuffer@{$\sim$CircularBuffer}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[$\sim$CircularBuffer]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ virtual \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::$\sim$\hyperlink{class_j_g_t_l_1_1_circular_buffer}{Circular\-Buffer} ()\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_7b284dd4b559c45774cd46d2bd10c6d8}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_dbe37093f8c1572f1bd05d2eb8de9be9}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!operator=@{operator=}}
+\index{operator=@{operator=}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[operator=]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ const \hyperlink{class_j_g_t_l_1_1_circular_buffer}{Circular\-Buffer}\& \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::operator= (const \hyperlink{class_j_g_t_l_1_1_circular_buffer}{Circular\-Buffer}$<$ Data $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_dbe37093f8c1572f1bd05d2eb8de9be9}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_1f74d2cd67aa2c9db0b2ca389313dcff}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!enqueue@{enqueue}}
+\index{enqueue@{enqueue}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[enqueue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ void \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::enqueue (const Data \& {\em data})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_1f74d2cd67aa2c9db0b2ca389313dcff}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_a428dabc69ba27d87402edeac3f45df9}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!front@{front}}
+\index{front@{front}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[front]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::front ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_a428dabc69ba27d87402edeac3f45df9}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_22ac3344de0e92167193f4133156c117}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!frontRef@{frontRef}}
+\index{frontRef@{frontRef}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[frontRef]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data\& \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::front\-Ref ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_22ac3344de0e92167193f4133156c117}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_1fc217fbac47f045aeb79de7a98bf6fb}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!frontRef@{frontRef}}
+\index{frontRef@{frontRef}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[frontRef]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ const Data\& \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::front\-Ref () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_1fc217fbac47f045aeb79de7a98bf6fb}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_9dd2e9b9f34e1aa2f09d2b9a8e756cad}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!frontPtr@{frontPtr}}
+\index{frontPtr@{frontPtr}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[frontPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::front\-Ptr ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_9dd2e9b9f34e1aa2f09d2b9a8e756cad}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_672e8efab885d22536a3c8b4c80abf07}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!frontPtr@{frontPtr}}
+\index{frontPtr@{frontPtr}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[frontPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ const Data$\ast$ \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::front\-Ptr () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_672e8efab885d22536a3c8b4c80abf07}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_cd22f74b9be2e34fa6ac23358f0626d6}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!dequeue@{dequeue}}
+\index{dequeue@{dequeue}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[dequeue]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ void \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::dequeue ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_cd22f74b9be2e34fa6ac23358f0626d6}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_f107566d80cdecd1bd22af12cf9fe7e8}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!size@{size}}
+\index{size@{size}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[size]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ int \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::size () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_f107566d80cdecd1bd22af12cf9fe7e8}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_1d45bb2d7be87cd4f64fdd687b4a8543}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!capacity@{capacity}}
+\index{capacity@{capacity}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[capacity]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ int \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::capacity () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_1d45bb2d7be87cd4f64fdd687b4a8543}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_c810afb60a4a8ede12bd30640d4577c7}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!empty@{empty}}
+\index{empty@{empty}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[empty]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ bool \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::empty () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_c810afb60a4a8ede12bd30640d4577c7}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_29de08a95860346efcc84893aba71c73}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!full@{full}}
+\index{full@{full}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[full]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ bool \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::full () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_29de08a95860346efcc84893aba71c73}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_7c38e5b1c21dd3ab9c9e5b4f269ce3b8}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!clear@{clear}}
+\index{clear@{clear}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[clear]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ void \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::clear ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_7c38e5b1c21dd3ab9c9e5b4f269ce3b8}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_88a8bd26b61f87b6e22c33c3d6d120fb}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!getIndex@{getIndex}}
+\index{getIndex@{getIndex}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[getIndex]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::get\-Index (int {\em index})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_88a8bd26b61f87b6e22c33c3d6d120fb}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_2f71fdf80cac6914e0886ed2a2118f7a}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!getIndex@{getIndex}}
+\index{getIndex@{getIndex}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[getIndex]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ const Data$\ast$ \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::get\-Index (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_2f71fdf80cac6914e0886ed2a2118f7a}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_fd58c9a7ff4ead948244b1ebd673ead9}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!getIndexRef@{getIndexRef}}
+\index{getIndexRef@{getIndexRef}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[getIndexRef]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data\& \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::get\-Index\-Ref (int {\em index})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_fd58c9a7ff4ead948244b1ebd673ead9}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_34d6bb82f81427c2a3109dae072a1004}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!getIndexRef@{getIndexRef}}
+\index{getIndexRef@{getIndexRef}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[getIndexRef]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ const Data\& \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::get\-Index\-Ref (int {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_34d6bb82f81427c2a3109dae072a1004}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_5dc9b80c3bcddc61b1c9cbcf88cf79bd}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!copyFrom@{copyFrom}}
+\index{copyFrom@{copyFrom}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[copyFrom]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ void \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::copy\-From (const \hyperlink{class_j_g_t_l_1_1_circular_buffer}{Circular\-Buffer}$<$ Data $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline, protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_5dc9b80c3bcddc61b1c9cbcf88cf79bd}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_3fcdde5d44286f57f909b8e131eabe8b}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!incCounter@{incCounter}}
+\index{incCounter@{incCounter}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[incCounter]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ void \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::inc\-Counter (int \& {\em counter})\hspace{0.3cm}{\tt  \mbox{[}inline, protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_3fcdde5d44286f57f909b8e131eabe8b}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_1197f15f4384dc23698b8984866acaed}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!elementStart@{elementStart}}
+\index{elementStart@{elementStart}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[elementStart]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ int \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_circular_buffer_1197f15f4384dc23698b8984866acaed}{element\-Start}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_1197f15f4384dc23698b8984866acaed}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_a6d3e6bd25f2a41248e86791723c472b}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!elementEnd@{elementEnd}}
+\index{elementEnd@{elementEnd}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[elementEnd]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ int \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_circular_buffer_a6d3e6bd25f2a41248e86791723c472b}{element\-End}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_a6d3e6bd25f2a41248e86791723c472b}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_8ea7004de2215b2ef442f8b408d4d0f1}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!maxElements@{maxElements}}
+\index{maxElements@{maxElements}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[maxElements]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ int \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_circular_buffer_8ea7004de2215b2ef442f8b408d4d0f1}{max\-Elements}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_8ea7004de2215b2ef442f8b408d4d0f1}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_83b02c98de53b41f01409b6404670283}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!dataList@{dataList}}
+\index{dataList@{dataList}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[dataList]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_circular_buffer_83b02c98de53b41f01409b6404670283}{data\-List}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_83b02c98de53b41f01409b6404670283}
+
+
+\hypertarget{class_j_g_t_l_1_1_circular_buffer_4f4fc63fe5f774cc8e5ab94e3e7177d4}{
+\index{JGTL::CircularBuffer@{JGTL::Circular\-Buffer}!enqueueLast@{enqueueLast}}
+\index{enqueueLast@{enqueueLast}!JGTL::CircularBuffer@{JGTL::Circular\-Buffer}}
+\subsubsection[enqueueLast]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ bool \hyperlink{class_j_g_t_l_1_1_circular_buffer}{JGTL::Circular\-Buffer}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_circular_buffer_4f4fc63fe5f774cc8e5ab94e3e7177d4}{enqueue\-Last}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_circular_buffer_4f4fc63fe5f774cc8e5ab94e3e7177d4}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___circular_buffer_8h}{JGTL\_\-Circular\-Buffer.h}\end{CompactItemize}

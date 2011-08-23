@@ -1,0 +1,81 @@
+
+
+ABOUT:
+
+cliche is short for "command line interface checkers". it
+doesnt itself know how to play, but instead loads shared
+objects, that search a given board for valid/good moves.
+these modules have to conform to the API of Martin Fierz'
+CheckerBoard application.
+
+
+*NIX SETUP:
+
+building the sources in this directory creates the "cliche"
+executable and the "simplech", "dama" and "dummy" engine
+modules.
+
+
+WINDOWS SETUP:
+
+included project files [*.dev] are for the DEV-C++ IDE.
+it's available on http://www.bloodshed.net/devcpp.html
+
+
+USAGE:
+
+the executable loads engines at runtime. engines may be
+changed, without exiting the program. pass the name of an
+engine, without any path and suffix, on the commandline or
+enter it at the prompt. the search path is set at compile
+time - edit the Makefile to change the default from
+"/usr/local/share/cliche/". the current working directory is
+searched too.
+
+
+XCHECKERS:
+
+to tell xcheckers you want to have cliche load the engine,
+give the path to cliche and the name of the module in quotes
+as a value for the engine parameter.
+
+
+MANIFEST:
+
+dama.c     - Martin's italian rules engine
+simplech.c - Martin's british rules engine
+dummy.c    - minimal implementation of shared object
+cliche.c   - command line interface and dso/dll engine host
+
+
+COPYING:
+
+
+dummy.c - hereby put into the public domain
+cliche.c - Copyright (c) 2003 Peter Chiocchetti
+dama.c simplech.c cbdeveloper.htm - Copyright (c) 2003  Martin Fierz
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+-- 
+Peter Chiocchetti
+Mon Nov 24 13:17:40 CET 2003
+Mon Mar 29 21:51:07 CEST 2004

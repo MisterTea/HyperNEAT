@@ -1,0 +1,34 @@
+.TH CLICHE 6 "November 24, 2003"
+.SH NAME
+cliche \- command line interface checkers
+.SH SYNOPSIS
+.B cliche
+.RI [ module ]
+.SH DESCRIPTION
+.B cliche 
+is short for "command line interface checkers". It doesnt
+itself know how to play, but instead loads shared objects,
+that search a given board for valid/good moves.  These modules
+have to conform to the API of Martin Fierz' CheckerBoard
+application.
+.PP
+The executable loads engines at runtime. Engines may be
+changed at runtime. Pass the name of an engine, without any
+path and suffix, on the commandline or enter it at the prompt.
+The search path is set at compile time. The current working
+directory is searched too.
+.PP
+To tell xcheckers you want to have cliche load the engine,
+give the path to cliche and the name of the module in quotes
+as a value for the engine parameter.
+.SH OPTIONS
+There are no options. The name of a module may be appended at
+the command line.
+.SH COMMANDS
+These commands are executed by cliche:
+.I quit, part, new, save.
+Modules may provide additional commands.
+.SH SEE ALSO
+.BR xcheckers (6),
+.SH AUTHOR
+This manual page was written by hungerburg <pch12(a)myzel.net>

@@ -1,0 +1,926 @@
+(;GM[1]FF[4]SZ[9]
+PW[Fuego-640-8c(2479)]
+PB[Yogo_0.6(1860)]
+RE[B+Resign]
+DT[2008-11-12]BL[300.000000]WL[300.000000]TM[300.0]OM[0]OP[0.0]KM[7.5]
+;B[ee]BL[265.380494];W[dg]WL[299.941756]
+C[GoGtpEngine: Using move from opening book
+];B[fg]BL[264.770316];W[ce]WL[299.901682]
+C[GoGtpEngine: Using move from opening book
+];B[cf]BL[264.157977];W[df]WL[288.523338]
+C[SgDefaultTimeControl: timeLeft=300 remainingMoves=14 timeForMove=21.4286
+GoUctPlayer: Reusing 35264 nodes (3%)
+[2\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+Count          617379
+Nodes          31020906
+Time           11
+GameLen        92.8 dev=9.4 min=50.0 max=154.0
+InTree         11.2 dev=2.8 min=2.0 max=25.0
+Aborted        0%
+Games/s        54666.9
+Value          0.54
+Sequence       D4 D5 C6 C3 C2 D7 B3 H6 G3 F2 F4 E4 E3 G4 H4 F5 H3 G2 H2 G1 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[de]BL[263.454265];W[cd]WL[282.425484]
+C[SgDefaultTimeControl: timeLeft=289 remainingMoves=14 timeForMove=20.6429
+GoUctPlayer: Reusing 15631133 nodes (50%)
+[7\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+Count          807976
+Nodes          30698596
+Time           5.8
+GameLen        90.8 dev=9.1 min=50.0 max=142.0
+InTree         11.7 dev=2.6 min=3.0 max=22.0
+Aborted        0%
+Games/s        54547.4
+Value          0.55
+Sequence       C6 C3 C2 D7 B3 H6 F4 G4 E4 F5 C8 D8 C9 D9 B4 C7 B8 B7 A8 B6 
+TimeInitTree   0.68
+TimeRootFilter 0.00
+];B[cg]BL[262.805039];W[ch]WL[276.007037]
+C[SgDefaultTimeControl: timeLeft=283 remainingMoves=14 timeForMove=20.2143
+GoUctPlayer: Reusing 19832561 nodes (64%)
+[2\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+Count          995368
+Nodes          36273602
+Time           6.1
+GameLen        88.7 dev=9.4 min=46.0 max=142.0
+InTree         10.6 dev=2.4 min=2.0 max=22.0
+Aborted        0%
+Games/s        57535.4
+Value          0.53
+Sequence       C2 B2 E7 D7 B4 B3 D6 E6 C7 F7 D8 D2 G6 B5 B6 E8 D7 F8 E9 
+TimeInitTree   0.83
+TimeRootFilter 0.00
+];B[bh]BL[261.837621];W[dh]WL[264.306845]
+C[SgDefaultTimeControl: timeLeft=276 remainingMoves=14 timeForMove=19.7143
+GoUctPlayer: Reusing 11316639 nodes (31%)
+[1\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+Count          1006849
+Nodes          40181532
+Time           11
+GameLen        87.0 dev=9.4 min=40.0 max=148.0
+InTree         11.1 dev=3.3 min=2.0 max=28.0
+Aborted        0%
+Games/s        57750.0
+Value          0.50
+Sequence       D2 D7 B1 D6 F2 G3 C7 C8 B8 D8 G2 B5 H2 B7 G6 E4 C9 D9 B9 F1 
+TimeInitTree   0.49
+TimeRootFilter 0.00
+];B[eh]BL[261.224265];W[bi]WL[254.876013]
+C[SgDefaultTimeControl: timeLeft=265 remainingMoves=14 timeForMove=18.9286
+GoUctPlayer: Reusing 6635 nodes (0%)
+[7\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+Count          601835
+Nodes          25489088
+Time           10
+GameLen        85.1 dev=9.9 min=40.0 max=142.0
+InTree         10.4 dev=3.0 min=2.0 max=25.0
+Aborted        0%
+Games/s        60239.3
+Value          0.55
+Sequence       B1 E7 G7 G5 E8 C7 D8 B4 A2 D6 B3 F8 F7 B5 D7 G8 C8 B6 B8 A3 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[ah]BL[260.609854];W[bf]WL[237.932303]
+C[SgDefaultTimeControl: timeLeft=256 remainingMoves=14 timeForMove=18.2857
+GoUctPlayer: Reusing 64156 nodes (0%)
+[5\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+Count          1110770
+Nodes          46690932
+Time           18
+GameLen        83.1 dev=9.5 min=38.0 max=140.0
+InTree         10.5 dev=2.5 min=2.0 max=25.0
+Aborted        0%
+Games/s        62159.1
+Value          0.59
+Sequence       B4 B3 E4 F4 F5 D7 E7 D6 C7 D8 G5 E3 E8 A4 E1 F1 G1 F6 G2 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[bg]BL[259.997177];W[be]WL[225.628671]
+C[SgDefaultTimeControl: timeLeft=238 remainingMoves=14 timeForMove=17
+GoUctPlayer: Reusing 6926448 nodes (14%)
+[4\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+Count          997619
+Nodes          36891585
+Time           12
+GameLen        81.0 dev=9.8 min=38.0 max=139.0
+InTree         10.7 dev=2.5 min=2.0 max=24.0
+Aborted        0%
+Games/s        63108.2
+Value          0.55
+Sequence       B5 D7 G7 D6 C7 E8 F4 E4 E3 C1 D1 E1 F2 C1 F1 G2 A8 G1 
+TimeInitTree   0.31
+TimeRootFilter 0.00
+];B[dc]BL[246.224613];W[gc]WL[224.378153]
+C[SgDefaultTimeControl: timeLeft=227 remainingMoves=14 timeForMove=16.2143
+GoUctPlayer: Reusing 24100131 nodes (55%)
+[6\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+Count          1025216
+Nodes          27663017
+Time           1.5
+GameLen        79.9 dev=9.9 min=40.0 max=132.0
+InTree         10.1 dev=2.3 min=3.0 max=21.0
+Aborted        0%
+Games/s        63193.9
+Value          0.57
+Sequence       G7 D6 G5 C7 A3 H6 G6 H5 H4 G4 F4 G3 H7 J7 J8 H8 J6 G8 C8 
+TimeInitTree   1.04
+TimeRootFilter 0.00
+];B[eb]BL[232.767976];W[he]WL[216.747928]
+C[SgDefaultTimeControl: timeLeft=225 remainingMoves=14 timeForMove=16.0714
+GoUctPlayer: Reusing 766999 nodes (1%)
+[4\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+Count          548618
+Nodes          18933996
+Time           8.2
+GameLen        77.0 dev=10.4 min=34.0 max=130.0
+InTree         11.0 dev=3.6 min=2.0 max=28.0
+Aborted        0%
+Games/s        64397.7
+Value          0.62
+Sequence       H5 E4 A3 H4 G4 H3 G3 G2 G5 H9 G8 J2 G9 J5 J6 J4 H8 J7 H6 J8 J9 
+A4 H9 A5 A6 A7 A3 
+TimeInitTree   0.03
+TimeRootFilter 0.00
+];B[gd]BL[219.607366];W[hd]WL[209.001545]
+C[SgDefaultTimeControl: timeLeft=217 remainingMoves=14 timeForMove=15.5
+GoUctPlayer: Reusing 232426 nodes (0%)
+[2\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+Count          538179
+Nodes          18156623
+Time           7.9
+GameLen        73.6 dev=9.8 min=37.0 max=132.0
+InTree         10.4 dev=2.5 min=2.0 max=24.0
+Aborted        0%
+Games/s        67416.2
+Value          0.68
+Sequence       H6 H8 G8 D6 A3 H3 G4 F6 H4 C7 A5 E4 A4 A6 A1 
+TimeInitTree   0.01
+TimeRootFilter 0.00
+];B[gb]BL[206.698310];W[gh]WL[205.947474]
+C[SgDefaultTimeControl: timeLeft=210 remainingMoves=14 timeForMove=15
+GoUctPlayer: Reusing 10257089 nodes (27%)
+[3\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+Count          702508
+Nodes          16685384
+Time           3.5
+GameLen        69.5 dev=8.3 min=36.0 max=124.0
+InTree         16.1 dev=3.9 min=2.0 max=32.0
+Aborted        0%
+Games/s        58293.0
+Value          0.68
+Sequence       G2 G3 H3 H2 H1 H4 J2 E4 C8 J4 J3 E3 G4 C7 A3 A4 B7 C1 B8 G5 J5 
+H7 J7 H8 F6 F5 E6 F7 D6 A3 
+TimeInitTree   0.46
+TimeRootFilter 0.00
+];B[gi]BL[193.001678];W[fh]WL[197.349340]
+C[SgDefaultTimeControl: timeLeft=205 remainingMoves=14 timeForMove=14.6429
+GoUctPlayer: Reusing 50917 nodes (0%)
+[7\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+Count          516048
+Nodes          16156722
+Time           7.6
+GameLen        68.6 dev=8.1 min=33.0 max=122.0
+InTree         12.1 dev=3.3 min=2.0 max=26.0
+Aborted        0%
+Games/s        68650.5
+Value          0.79
+Sequence       F2 G3 H2 D1 C1 H3 E1 C7 F4 G5 B7 B8 G4 E4 H4 E3 J3 A7 B6 A4 A5 
+H7 F7 F6 E6 D6 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[ei]BL[180.696826];W[eg]WL[190.686832]
+C[SgDefaultTimeControl: timeLeft=198 remainingMoves=14 timeForMove=14.1429
+GoUctPlayer: Reusing 158846 nodes (0%)
+[0\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+Count          513918
+Nodes          15426984
+Time           7.2
+GameLen        66.0 dev=6.9 min=29.0 max=118.0
+InTree         12.1 dev=3.2 min=2.0 max=26.0
+Aborted        0%
+Games/s        70846.3
+Value          0.86
+Sequence       E3 G3 H2 H3 F4 J2 D1 E4 F1 C7 G4 F7 H7 H8 B7 B8 F6 F5 E6 D6 G5 
+A6 A7 A5 A8 
+TimeInitTree   0.01
+TimeRootFilter 0.00
+];B[gg]BL[168.668662];W[hh]WL[189.884106]
+C[SgDefaultTimeControl: timeLeft=192 remainingMoves=14 timeForMove=13.7143
+GoUctPlayer: Reusing 20383622 nodes (64%)
+[0\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+Count          1222762
+Nodes          22244551
+Time           1.1
+GameLen        64.2 dev=5.7 min=36.0 max=108.0
+InTree         18.2 dev=3.4 min=4.0 max=32.0
+Aborted        0%
+Games/s        57948.9
+Value          0.86
+Sequence       H2 H3 F4 E4 F1 C7 J3 D6 G5 H7 F7 J2 J1 H8 F6 F5 G4 C1 D1 A4 A5 
+B6 A3 A6 A1 B7 E6 
+TimeInitTree   0.91
+TimeRootFilter 0.00
+];B[hg]BL[155.885014];W[ff]WL[187.631515]
+C[SgDefaultTimeControl: timeLeft=190 remainingMoves=14 timeForMove=13.5714
+GoUctPlayer: Reusing 27545071 nodes (63%)
+[0\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+Count          1716470
+Nodes          29474986
+Time           1.1
+GameLen        61.9 dev=6.1 min=30.0 max=108.0
+InTree         16.2 dev=4.2 min=4.0 max=33.0
+Aborted        0%
+Games/s        65139.2
+Value          0.87
+Sequence       F4 E4 F1 C7 J3 D6 G5 H7 F7 C1 D1 H8 B7 B8 A4 J4 J2 H4 F6 J6 J5 
+J7 H1 E2 E1 F5 G4 A3 
+TimeInitTree   1.21
+TimeRootFilter 0.00
+];B[hc]BL[143.279242];W[cc]WL[179.815504]
+C[SgDefaultTimeControl: timeLeft=189 remainingMoves=14 timeForMove=13.5
+GoUctPlayer: Reusing 2717978 nodes (5%)
+[7\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+Count          848695
+Nodes          20542057
+Time           9
+GameLen        61.3 dev=6.2 min=24.0 max=112.0
+InTree         11.6 dev=2.9 min=2.0 max=25.0
+Aborted        0%
+Games/s        77815.3
+Value          0.88
+Sequence       C7 C8 B8 A8 B7 B9 E4 D6 H1 A6 F7 F5 G4 J8 A4 J5 D1 J6 J4 J7 J3 
+J1 
+TimeInitTree   0.12
+TimeRootFilter 0.00
+];B[ad]BL[132.228405];W[bb]WL[173.512448]
+C[SgDefaultTimeControl: timeLeft=180 remainingMoves=14 timeForMove=12.8571
+GoUctPlayer: Reusing 1189852 nodes (4%)
+[4\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+Count          565709
+Nodes          12957048
+Time           6.3
+GameLen        59.0 dev=7.4 min=27.0 max=107.0
+InTree         12.2 dev=2.7 min=2.0 max=23.0
+Aborted        0%
+Games/s        78255.0
+Value          0.90
+Sequence       B8 C8 B7 A4 F7 F5 F1 A5 H8 G4 C9 H1 J1 D9 D8 E9 G9 E7 F9 F8 J7 
+TimeInitTree   0.05
+TimeRootFilter 0.00
+];B[cb]BL[121.460722];W[bc]WL[172.121649]
+C[SgDefaultTimeControl: timeLeft=174 remainingMoves=14 timeForMove=12.4286
+GoUctPlayer: Reusing 15835710 nodes (58%)
+[1\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+Count          1166968
+Nodes          17748152
+Time           1.1
+GameLen        57.2 dev=7.4 min=28.0 max=104.0
+InTree         13.3 dev=2.7 min=4.0 max=24.0
+Aborted        0%
+Games/s        76994.0
+Value          0.91
+Sequence       B7 A4 F7 G5 G4 E4 J3 D6 H4 F3 C1 A5 H8 J6 H9 J8 G9 F8 F6 F5 G3 
+D1 
+TimeInitTree   0.72
+TimeRootFilter 0.00
+];B[ba]BL[110.976551];W[ab]WL[168.261963]
+C[SgDefaultTimeControl: timeLeft=173 remainingMoves=14 timeForMove=12.3571
+GoUctPlayer: Reusing 7541561 nodes (21%)
+[0\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+Count          890185
+Nodes          15599614
+Time           4.3
+GameLen        56.6 dev=6.0 min=24.0 max=98.0
+InTree         11.8 dev=2.6 min=2.0 max=26.0
+Aborted        0%
+Games/s        84167.3
+Value          0.92
+Sequence       A8 A5 A4 E4 F1 J2 D1 D6 J1 C9 G5 F7 J3 J4 J2 J5 H4 E1 
+TimeInitTree   0.34
+TimeRootFilter 0.00
+];B[dd]BL[100.771886];W[fi]WL[163.530462]
+C[SgDefaultTimeControl: timeLeft=169 remainingMoves=14 timeForMove=12.0714
+GoUctPlayer: Reusing 2440954 nodes (8%)
+[1\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+Count          634852
+Nodes          11999763
+Time           5.3
+GameLen        54.3 dev=5.9 min=22.0 max=102.0
+InTree         11.7 dev=2.9 min=2.0 max=27.0
+Aborted        0%
+Games/s        87968.5
+Value          0.93
+Sequence       F1 A5 A4 G5 J1 J2 J3 J4 H4 G4 F6 F5 E4 F7 J5 E6 J6 J7 A9 
+TimeInitTree   0.11
+TimeRootFilter 0.00
+];B[af]BL[90.818190];W[ae]WL[157.946705]
+C[SgDefaultTimeControl: timeLeft=164 remainingMoves=14 timeForMove=11.7143
+GoUctPlayer: Reusing 110657 nodes (0%)
+[4\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+Count          513761
+Nodes          10689803
+Time           6
+GameLen        52.5 dev=7.1 min=22.0 max=98.0
+InTree         12.9 dev=4.2 min=2.0 max=33.0
+Aborted        0%
+Games/s        85526.1
+Value          0.95
+Sequence       A5 C9 A3 J2 D1 A4 F7 A9 G5 J7 F8 F6 H8 F9 G9 J8 F5 E6 E4 D8 D9 
+E9 A3 G4 A4 J6 J5 H1 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+];B[ca]BL[81.165582];W[ag]WL[157.188306]
+C[SgDefaultTimeControl: timeLeft=159 remainingMoves=14 timeForMove=11.3571
+GoUctPlayer: Reusing 13352201 nodes (60%)
+[2\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+Count          1191345
+Nodes          15390431
+Time           1.1
+GameLen        48.2 dev=4.7 min=23.0 max=94.0
+InTree         12.0 dev=2.3 min=2.0 max=21.0
+Aborted        0%
+Games/s        85685.3
+Value          0.95
+Sequence       A3 J2 D1 A4 F7 A9 G5 J7 F8 F6 H8 J8 H9 E4 F5 E6 J6 G9 F9 E9 H1 
+PASS A3 J1 
+TimeInitTree   0.63
+TimeRootFilter 0.00
+];B[ef]BL[71.709412];W[ai]WL[146.750754]
+C[SgDefaultTimeControl: timeLeft=158 remainingMoves=14 timeForMove=11.2857
+GoUctPlayer: Reusing 6003068 nodes (20%)
+[1\] SgUctSearch: max time reached (early abort)
+[6\] SgUctSearch: max time reached (early abort)
+[2\] SgUctSearch: max time reached (early abort)
+[5\] SgUctSearch: max time reached (early abort)
+[3\] SgUctSearch: max time reached (early abort)
+[7\] SgUctSearch: max time reached (early abort)
+[0\] SgUctSearch: max time reached (early abort)
+[4\] SgUctSearch: max time reached (early abort)
+Count          838914
+Nodes          13372851
+Time           3.9
+GameLen        46.5 dev=4.7 min=21.0 max=88.0
+InTree         10.9 dev=2.2 min=2.0 max=21.0
+Aborted        0%
+Games/s        93372.7
+Value          0.96
+Sequence       A1 J2 H1 A9 D1 J3 J1 G4 F5 G5 F6 F7 D9 D8 E6 
+TimeInitTree   0.27
+TimeRootFilter 0.00
+GoUctPlayer: doing a search if early pass is possible
+[0\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: max time reached
+[2\] SgUctSearch: max time reached
+[7\] SgUctSearch: max time reached
+[5\] SgUctSearch: max time reached
+GoUctPlayer: no early pass possible (no win)
+];B[ih]BL[67.876924];W[di]WL[139.635464]
+C[SgDefaultTimeControl: timeLeft=147 remainingMoves=14 timeForMove=10.5
+GoUctPlayer: Reusing 3123935 nodes (41%)
+[2\] SgUctSearch: max time reached (early abort)
+[7\] SgUctSearch: max time reached (early abort)
+[6\] SgUctSearch: max time reached (early abort)
+[1\] SgUctSearch: max time reached (early abort)
+[4\] SgUctSearch: max time reached (early abort)
+[0\] SgUctSearch: max time reached (early abort)
+[3\] SgUctSearch: max time reached (early abort)
+[5\] SgUctSearch: max time reached (early abort)
+Count          607311
+Nodes          10211850
+Time           3.7
+GameLen        44.8 dev=5.1 min=19.0 max=92.0
+InTree         10.2 dev=2.4 min=2.0 max=22.0
+Aborted        0%
+Games/s        96227.8
+Value          0.97
+Sequence       D1 G4 J3 J4 H1 J3 J1 F7 F5 G5 A7 G7 B6 F6 F4 
+TimeInitTree   0.15
+TimeRootFilter 0.00
+GoUctPlayer: doing a search if early pass is possible
+[1\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+GoUctPlayer: no early pass possible (no win)
+];B[hi]BL[63.948750];W[hb]WL[133.037005]
+C[SgDefaultTimeControl: timeLeft=141 remainingMoves=14 timeForMove=10.0714
+GoUctPlayer: Reusing 55917 nodes (0%)
+[2\] SgUctSearch: max time reached (early abort)
+[1\] SgUctSearch: max time reached (early abort)
+[0\] SgUctSearch: max time reached (early abort)
+[5\] SgUctSearch: max time reached (early abort)
+[6\] SgUctSearch: max time reached (early abort)
+[7\] SgUctSearch: max time reached (early abort)
+[4\] SgUctSearch: max time reached (early abort)
+[3\] SgUctSearch: max time reached (early abort)
+Count          389104
+Nodes          7598123
+Time           3.6
+GameLen        41.3 dev=5.9 min=17.0 max=91.0
+InTree         7.8 dev=1.9 min=2.0 max=17.0
+Aborted        0%
+Games/s        108934.3
+Value          0.98
+Sequence       H8 E1 E2 F7 G4 J3 J7 G7 J8 H9 J6 G9 J1 G1 H1 J4 
+TimeInitTree   0.00
+TimeRootFilter 0.00
+GoUctPlayer: doing a search if early pass is possible
+[4\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+GoUctPlayer: no early pass possible (no win)
+];B[ge]BL[60.009564];W[gf]WL[124.906489]
+C[SgDefaultTimeControl: timeLeft=133 remainingMoves=14 timeForMove=9.5
+GoUctPlayer: Reusing 189643 nodes (2%)
+[6\] SgUctSearch: max time reached (early abort)
+[7\] SgUctSearch: max time reached (early abort)
+[5\] SgUctSearch: max time reached (early abort)
+[3\] SgUctSearch: max time reached (early abort)
+[0\] SgUctSearch: max time reached (early abort)
+[1\] SgUctSearch: max time reached (early abort)
+[4\] SgUctSearch: max time reached (early abort)
+[2\] SgUctSearch: max time reached (early abort)
+Count          378755
+Nodes          6907436
+Time           3.4
+GameLen        40.5 dev=6.6 min=13.0 max=82.0
+InTree         8.4 dev=2.0 min=2.0 max=18.0
+Aborted        0%
+Games/s        108065.6
+Value          0.98
+Sequence       G4 E2 E1 H4 F8 F7 G9 G7 F9 E9 H9 J8 J1 G1 H1 F5 J3 
+TimeInitTree   0.01
+TimeRootFilter 0.00
+GoUctPlayer: doing a search if early pass is possible
+[7\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+GoUctPlayer: no early pass possible (unsafe point)
+];B[hf]BL[56.076374];W[fd]WL[119.425578]
+C[SgDefaultTimeControl: timeLeft=126 remainingMoves=14 timeForMove=9
+GoUctPlayer: Reusing 103552 nodes (1%)
+[3\] SgUctSearch: max time reached (early abort)
+[6\] SgUctSearch: max time reached (early abort)
+[1\] SgUctSearch: max time reached (early abort)
+[2\] SgUctSearch: max time reached (early abort)
+[4\] SgUctSearch: max time reached (early abort)
+[7\] SgUctSearch: max time reached (early abort)
+[0\] SgUctSearch: max time reached (early abort)
+[5\] SgUctSearch: max time reached (early abort)
+Count          363266
+Nodes          6551128
+Time           3.2
+GameLen        39.2 dev=8.3 min=11.0 max=90.0
+InTree         8.2 dev=2.0 min=2.0 max=18.0
+Aborted        0%
+Games/s        111630.3
+Value          0.98
+Sequence       F6 E2 F5 E1 J7 H9 J5 J4 F8 G9 E9 E7 F7 
+TimeInitTree   0.01
+TimeRootFilter 0.00
+GoUctPlayer: doing a search if early pass is possible
+[1\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+GoUctPlayer: no early pass possible (no win)
+];B[fe]BL[52.088157];W[fb]WL[113.969527]
+C[SgDefaultTimeControl: timeLeft=120 remainingMoves=14 timeForMove=8.57143
+GoUctPlayer: Reusing 3289318 nodes (47%)
+[7\] SgUctSearch: max time reached (early abort)
+[6\] SgUctSearch: max time reached (early abort)
+[4\] SgUctSearch: max time reached (early abort)
+[5\] SgUctSearch: max time reached (early abort)
+[1\] SgUctSearch: max time reached (early abort)
+[3\] SgUctSearch: max time reached (early abort)
+[0\] SgUctSearch: max time reached (early abort)
+[2\] SgUctSearch: max time reached (early abort)
+Count          611182
+Nodes          8138207
+Time           3
+GameLen        42.0 dev=5.6 min=19.0 max=76.0
+InTree         14.8 dev=4.5 min=3.0 max=26.0
+Aborted        0%
+Games/s        88991.9
+Value          0.97
+Sequence       F8 G9 H9 J7 J3 J4 J8 J9 J1 H1 G1 E1 E2 J3 J1 B3 H1 F7 E9 E7 D9 
+C3 C4 E6 
+TimeInitTree   0.16
+TimeRootFilter 0.00
+GoUctPlayer: doing a search if early pass is possible
+[0\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+GoUctPlayer: no early pass possible (no win)
+];B[fc]BL[47.792599];W[ii]WL[110.617712]
+C[SgDefaultTimeControl: timeLeft=115 remainingMoves=14 timeForMove=8.21429
+GoUctPlayer: Reusing 3222528 nodes (43%)
+[4\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+Count          679564
+Nodes          9061235
+Time           4.2
+GameLen        45.6 dev=6.2 min=25.0 max=84.0
+InTree         19.1 dev=3.8 min=4.0 max=35.0
+Aborted        0%
+Games/s        79194.5
+Value          0.73
+Sequence       J1 H1 J3 J4 G1 J3 J1 E2 D9 E9 E7 H1 F9 D8 J1 J8 E1 H1 J7 G9 J1 
+B3 H1 H9 B2 G7 C3 J5 
+TimeInitTree   0.17
+TimeRootFilter 0.00
+];B[hi]BL[43.735337];W[ig]WL[109.537541]
+C[SgDefaultTimeControl: timeLeft=111 remainingMoves=14 timeForMove=7.92857
+GoUctPlayer: Reusing 5979220 nodes (68%)
+[0\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+Count          854012
+Nodes          7371909
+Time           1.1
+GameLen        45.4 dev=6.2 min=23.0 max=78.0
+InTree         20.2 dev=3.2 min=4.0 max=33.0
+Aborted        0%
+Games/s        76261.4
+Value          0.80
+Sequence       J3 J4 G1 J3 J1 E2 D9 E9 E7 H1 F9 D8 G7 E6 E1 J1 G9 J5 J7 F7 H9 
+J9 H7 A2 B2 C3 C4 B6 
+TimeInitTree   0.28
+TimeRootFilter 0.00
+];B[if]BL[39.628811];W[gi]WL[108.449498]
+C[SgDefaultTimeControl: timeLeft=110 remainingMoves=14 timeForMove=7.85714
+GoUctPlayer: Reusing 8045438 nodes (73%)
+[2\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+Count          1166589
+Nodes          9230242
+Time           1.1
+GameLen        44.4 dev=6.0 min=23.0 max=84.0
+InTree         22.9 dev=5.1 min=3.0 max=41.0
+Aborted        0%
+Games/s        77278.6
+Value          0.84
+Sequence       G1 J3 J1 E2 D9 E9 E7 H1 G7 J7 J1 D8 J8 G9 E1 H1 H9 J9 J1 B3 H1 
+C3 C4 H8 B2 F7 B6 G7 A7 E6 
+TimeInitTree   0.37
+TimeRootFilter 0.00
+];B[ig]BL[35.455292];W[ii]WL[107.326689]
+C[SgDefaultTimeControl: timeLeft=109 remainingMoves=14 timeForMove=7.78571
+GoUctPlayer: Reusing 10367858 nodes (74%)
+[6\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+Count          1528941
+Nodes          11844681
+Time           1.1
+GameLen        41.6 dev=5.5 min=24.0 max=72.0
+InTree         15.7 dev=3.4 min=6.0 max=29.0
+Aborted        0%
+Games/s        89387.0
+Value          0.77
+Sequence       J1 E1 E7 H1 G7 G9 J1 H9 D8 D9 E2 H1 F9 J1 J9 J6 J7 J5 H7 E9 F4 
+G4 A9 D8 E6 
+TimeInitTree   0.47
+TimeRootFilter 0.00
+];B[ei]BL[31.202994];W[ea]WL[103.994287]
+C[SgDefaultTimeControl: timeLeft=108 remainingMoves=14 timeForMove=7.71429
+GoUctPlayer: Reusing 8390203 nodes (52%)
+[0\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+Count          1526564
+Nodes          12766762
+Time           3.6
+GameLen        37.8 dev=5.7 min=19.0 max=82.0
+InTree         14.9 dev=2.9 min=3.0 max=31.0
+Aborted        0%
+Games/s        103760.3
+Value          0.76
+Sequence       E9 D8 G9 F4 J9 J7 J6 A7 A9 J5 H9 C4 H6 J6 E2 H1 B6 J1 C3 H5 
+TimeInitTree   0.38
+TimeRootFilter 0.00
+];B[hi]BL[26.963017];W[ec]WL[100.527220]
+C[SgDefaultTimeControl: timeLeft=105 remainingMoves=14 timeForMove=7.5
+GoUctPlayer: Reusing 307904 nodes (58%)
+[2\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+Count          438447
+Nodes          6023442
+Time           4.1
+GameLen        38.7 dev=6.4 min=15.0 max=84.0
+InTree         15.0 dev=4.5 min=2.0 max=34.0
+Aborted        0%
+Games/s        99962.0
+Value          0.86
+Sequence       E7 D8 J1 J7 J8 H1 J6 F9 J1 D9 E2 H1 G7 J1 F8 H9 G9 J7 G8 PASS 
+E9 E6 F7 F9 
+TimeInitTree   0.01
+TimeRootFilter 0.00
+];B[fa]BL[22.698069];W[db]WL[94.187328]
+C[SgDefaultTimeControl: timeLeft=101 remainingMoves=14 timeForMove=7.21429
+GoUctPlayer: Reusing 1113109 nodes (94%)
+[7\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+Count          823662
+Nodes          11185496
+Time           6.4
+GameLen        35.3 dev=6.4 min=19.0 max=72.0
+InTree         13.1 dev=2.7 min=2.0 max=26.0
+Aborted        0%
+Games/s        106135.7
+Value          0.12
+Sequence       D8 D9 J1 G4 J8 H1 J7 E2 G7 H9 F8 G9 J9 F7 H7 F8 F2 G2 F1 G1 E1 
+E6 A7 C3 B3 B2 
+TimeInitTree   0.05
+TimeRootFilter 0.00
+];B[da]BL[18.372021];W[ii]WL[93.604283]
+C[SgDefaultTimeControl: timeLeft=95 remainingMoves=14 timeForMove=6.78571
+GoUctPlayer: Reusing 4718427 nodes (56%)
+[5\] SgUctSearch: move cannot change anymore
+[2\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+Count          894362
+Nodes          6274297
+Time           1.1
+GameLen        36.8 dev=7.4 min=19.0 max=66.0
+InTree         13.7 dev=3.2 min=3.0 max=27.0
+Aborted        0%
+Games/s        100236.3
+Value          0.05
+Sequence       J1 G4 J7 H1 G7 E2 F8 G9 H9 F7 H7 J5 F8 E9 A9 D8 F2 G2 F1 G1 E1 
+F7 A4 E6 PASS 
+TimeInitTree   0.24
+TimeRootFilter 0.00
+];B[bh]BL[13.929894];W[id]WL[87.040847]
+C[SgDefaultTimeControl: timeLeft=94 remainingMoves=14 timeForMove=6.71429
+GoUctPlayer: Reusing 103802 nodes (44%)
+[2\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+Count          754636
+Nodes          11175822
+Time           6.6
+GameLen        32.6 dev=6.0 min=18.0 max=70.0
+InTree         10.6 dev=2.4 min=2.0 max=21.0
+Aborted        0%
+Games/s        115667.8
+Value          0.06
+Sequence       J6 H1 E2 J1 G4 F4 J8 H9 J7 G7 C1 E6 A4 J5 A7 J9 B6 
+TimeInitTree   0.01
+TimeRootFilter 0.00
+];B[hi]BL[9.097080];
+C[White resigned
+
+SgDefaultTimeControl: timeLeft=88 remainingMoves=14 timeForMove=6.28571
+GoUctPlayer: Reusing 3802050 nodes (45%)
+[2\] SgUctSearch: move cannot change anymore
+[4\] SgUctSearch: move cannot change anymore
+[6\] SgUctSearch: move cannot change anymore
+[0\] SgUctSearch: move cannot change anymore
+[5\] SgUctSearch: move cannot change anymore
+[3\] SgUctSearch: move cannot change anymore
+[7\] SgUctSearch: move cannot change anymore
+[1\] SgUctSearch: move cannot change anymore
+Count          944761
+Nodes          6514276
+Time           2.1
+GameLen        28.0 dev=2.8 min=20.0 max=47.0
+InTree         12.5 dev=1.7 min=5.0 max=21.0
+Aborted        0%
+Games/s        129230.2
+Value          0.02
+Sequence       E2 J1 J8 G7 F4 G4 A9 E6 H9 G9 J7 B3 A4 J5 B6 J9 J6 J7 
+TimeInitTree   0.21
+TimeRootFilter 0.00
+])

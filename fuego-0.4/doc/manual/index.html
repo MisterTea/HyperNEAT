@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>Fuego User Manual</title>
+</head>
+<body>
+
+<h1>Fuego User Manual</h1>
+
+<h2>Graphical User Interface</h2>
+
+<p>
+Fuego is a Go playing engine, which communicates with a user interface using
+the Go Text Protocol (GTP).
+You need a graphical user interface that supports GTP to play against Fuego.
+The recommended one is <a href="http://gogui.sf.net/">GoGui</a> because
+Fuego uses some of the special features of GoGui.
+The most important feature is the Analyze Command window, which makes
+engine-specific GTP extension commands accessible in the user interface.
+These commands allow to query and display internal information about the
+move generation and to set engine parameters.
+Some of these are only of interest to engine developers, some of them might
+also be useful for users.
+</p>
+
+<h2>Configuring Fuego for Your Machine</h2>
+
+<p>
+The default configuration for Fuego makes conservative assumptions about
+the available computing power and memory.
+You can increase the playing strength of Fuego by using parallel search
+on a multi-core or multi-CPU machine and by increasing the amount of memory
+to use.
+Parameters can be changed with certain commands in the analyze window of
+GoGui, but this will affect only the current session.
+To optimize the default configuration for a certain machine in a persistent
+way, you can write a text file with GTP commands (e.g. <tt>configfile</tt>)
+and change the command line for invocation of Fuego in the user interface to
+<tt>fuego -config configfile</tt>. Here is an example of such a configuration
+file:
+</p>
+
+<blockquote>
+<pre>
+uct_param_search number_threads 4
+uct_param_search lock_free 1
+uct_max_memory 6000000000
+uct_param_player reuse_subtree 1
+uct_param_player ponder 1
+</pre>
+</blockquote>
+
+<p>
+The meaning of these GTP commands is:
+</p>
+
+<dl>
+
+<dt><tt>uct_param_search number_threads</tt></dt>
+<dd>
+The number of threads to use.
+The default is 1.
+This should be set to the number of cores or CPUs available on the system
+for maximum performance. It has been tested with up to 8 cores.
+</dd>
+
+<dt><tt>uct_param_search lock_free</tt></dt>
+<dd>
+Whether to enable lock-free multithreading.
+The default is 0 (=no).
+You should enable this on modern Intel or AMD CPUs (with IA-32 and Intel-64
+architecture) if more than two threads are used.
+Note that without lock-free search the performance of Fuego can even decrease
+if you use more threads.
+The maximum number of threads that can be used without a decrease of
+performance, if the lock-free mode is not used, depends on the board size.
+</dd>
+
+<dt><tt>uct_max_memory</tt></dt>
+<dd>
+Determines the maximum amount of memory in the search tree, and thus the
+maximum memory to use.
+The default is 512MB. The example above is using 6GB.
+Fuego maintains two search trees internally, so setting max_memory to
+512MG gives 256MB to each tree. The second tree is used for work
+space if using reuse_subtree, or if the search tree fills up and nodes
+with small counts are removed.  </dd>
+
+<dt><tt>uct_param_player reuse_subtree</tt></dt>
+<dd>
+Whether to reuse the reusable part of the tree from a previous move
+generation.
+The default is 0 (=no).
+Setting this to 1 (=yes) is required if pondering is used, but it also gives
+a small improvement in playing strength if pondering is not used.
+</dd>
+
+<dt><tt>uct_param_player ponder</tt></dt>
+<dd>
+Whether to continue the search while waiting for the opponent's move.
+The default is 0 (=no).
+If this is set to 1, <tt>uct_param_player reuse_subtree</tt> must also be
+enabled.
+</dd>
+
+</dl>
+
+<h2>Game-specific Settings</h2>
+
+<p>
+This a list of some game-specific parameters, which can be changed in GoGui's
+analyze command window.
+</p>
+
+<dl>
+
+<dt>Go Param</dt>
+<dd>
+There is one parameter that is interesting to users:
+<em>Timelimit</em> is the fixed time limit in seconds to use for a move
+generation, if no time settings are used for the game.
+The default is 10.
+</dd>
+
+<dt>Go Param Rules</dt>
+<dd>
+Change the rules used in the game.
+Note that entering text in the rules text entry of GoGui's game info dialog
+is for storing this information in the file only.
+It is not transmitted to the Go program because there is no GTP standard
+command for setting the rules.
+What rules are used by Fuego depends only on the settings in Go Param Rules.
+</dd>
+
+</dl>
+
+<h2>Watching Fuego's Thinking Process</h2>
+
+<p>
+You can enable the display of Fuego's thinking process by setting
+<em>Live gfx</em> in the <em>Uct Param Search</em> analyze command to
+<em>Counts</em> or <em>Sequence</em>.
+Counts will show the current exploration counts of the moves as labels on the
+board and the currently best move using a half-transparent stone.
+Sequence will show the current best sequence of moves using half-transparent
+stones.
+The display interval can be configured with <em>Live gfx interval</em>.
+</p>
+
+<p>
+Another display mode is <em>Live gfx</em> in the
+<em>Uct Param GlobalSearch</em> analyze command.
+It shows the statistics for ownership of each point averaged over all end
+positions of the simulations.
+This command requires that <em>Territory statistics</em> in
+<em>Uct Param GlobalSearch</em> is also enabled.
+</p>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Chinese]SZ[19]KM[7.50]TM[1800]
+PW[valkyria19]PB[Fuego]DT[2008-08-06]PC[The KGS Go Server at http://www.gokgs.com/]C[valkyria19 [?\]: GTP Engine for valkyria19 (white): ValkyriaThread version 3.2.1
+Fuego [-\]: GTP Engine for Fuego (black): Fuego version 0.1.EGC2008.1
+]RE[W+Time]
+;B[pq]BL[1799.749]
+;W[cd]WL[1759.742]
+;B[pc]BL[1786.871]
+;W[cq]WL[1719.421]
+;B[cf]BL[1768.237]
+;W[hq]WL[1679.119]
+;B[ck]BL[1748.406]
+;W[pd]WL[1638.795]
+;B[od]BL[1735.813]
+;W[oc]WL[1598.401]
+;B[nc]BL[1722.095]
+;W[ob]WL[1595.139]
+;B[nb]BL[1708.691]
+;W[qc]WL[1583.972]
+;B[pb]BL[1698.041]
+;W[qk]WL[1543.622]
+;B[pe]BL[1679.235]C[zapp [?\]: I am the programmer of Valkyria if there are any questions. Although I will have to do some other stuff.
+]
+;W[qm]WL[1503.282]C[Micke [1d\]: nice extension
+]
+;B[hc]BL[1663.545]C[Micke [1d\]: solid move!
+]
+;W[hd]WL[1462.936]
+;B[gd]BL[1651.613]
+;W[gc]WL[1422.566]
+;B[fc]BL[1640.02]
+;W[gb]WL[1411.827]
+;B[fb]BL[1626.787]
+;W[fd]WL[1381.482]
+;B[ge]BL[1616.765]
+;W[hb]WL[1355.095]C[gunnar [?\]: Fuego will take a while to move. Its computer was hanging and has to be restarted.
+gunnar [?\]: For technical reasons it also needs to reinstall Java and kgsGtp as well.
+wealth [10k\]: yeaayy
+evdw [-\]: Any idea why it was hanging?
+evdw [-\]: Fried cpu?
+Fuego [-\]: GTP Engine for Fuego (black): Fuego version 0.1.EGC2008.1
+]
+;B[ic]BL[340.932]
+;W[ib]WL[1350.048]
+;B[ed]BL[338.199]
+;W[jc]WL[1344.418]
+;B[id]BL[334.823]
+;W[jd]WL[1314.047]
+;B[ie]BL[332.201]C[gunnar [?\]: Probably some kind of software failure. It's up and running on the same computer again now.
+]
+;W[fe]WL[1302.578]
+;B[ff]BL[329.846]
+;W[ee]WL[1292.667]
+;B[de]BL[327.494]
+;W[he]WL[1277.767]
+;B[hf]BL[325.228]
+;W[oe]WL[1247.399]
+;B[qd]BL[322.713]
+;W[qp]WL[1217.071]
+;B[nq]BL[319.889]
+;W[db]WL[1186.785]
+;B[kq]BL[315.762]
+;W[df]WL[1156.437]
+;B[ef]BL[313.351]
+;W[kp]WL[1126.044]
+;B[lq]BL[310.29]
+;W[jq]WL[1095.743]
+;B[jr]BL[301.325]
+;W[ir]WL[1065.436]C[zapp [?\]: For some reason Valkyria scales badly to 19x19. Maybe because it is tuned for 9x9 only.
+gunnar [?\]: Fuego's computer hang again. :-(
+evdw [-\]: Maybe a hardware problem?
+evdw [-\]: Guess these machines normally never have to work hard...
+sestir [2d\]: maybe
+])

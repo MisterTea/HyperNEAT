@@ -1,0 +1,112 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Chinese]SZ[9]KM[7.50]TM[600]
+PW[MatroidX]PB[Fuego9]WR[1d]DT[2008-07-26]PC[The KGS Go Server at http://www.gokgs.com/]C[Fuego9 [-\]: GTP Engine for Fuego9 (black): Fuego version 0.1.SVN332
+]RE[W+Resign]
+;B[ee]BL[599.785]
+;W[cg]WL[595.236]
+;B[eg]BL[599.623]
+;W[ce]WL[593.373]
+;B[ec]BL[599.447]
+;W[ge]WL[591.236]C[MatroidX [1d\]: this opening is one of its achilles heels
+MatroidX [1d\]: two groups no matter what, and with 3-3 should live...
+]
+;B[gg]BL[581.367]
+;W[gc]WL[589.212]C[MatroidX [1d\]: c7 is next
+MatroidX [1d\]: easy way to beat it :)
+]
+;B[cc]BL[564.435]
+;W[fb]WL[584.904]C[MatroidX [1d\]: b6
+]
+;B[bd]BL[547.017]
+;W[be]WL[582.074]C[MatroidX [1d\]: next h6
+MatroidX [1d\]: :)
+]
+;B[ae]BL[530.875]
+;W[af]WL[572.431]
+;B[hb]BL[522.499]C[MatroidX [1d\]: hmmm, stochasticity...
+MatroidX [1d\]: h8 is new... normally likes h6
+]
+;W[hc]WL[545.272]
+;B[df]BL[505.302]
+;W[cf]WL[537.957]
+;B[bh]BL[492.437]
+;W[ch]WL[527.054]
+;B[bg]BL[483.012]
+;W[bi]WL[505.308]
+;B[eb]BL[464.417]
+;W[ea]WL[498.407]
+;B[hf]BL[448.427]
+;W[he]WL[491.04]
+;B[ie]BL[435.669]
+;W[id]WL[489.139]
+;B[ag]BL[419.249]
+;W[ad]WL[484.975]
+;B[da]BL[398.47]
+;W[fa]WL[481.59]
+;B[gd]BL[381.458]
+;W[if]WL[464.486]
+;B[bc]BL[368.743]
+;W[hg]WL[455.472]
+;B[dh]BL[358.964]
+;W[ah]WL[427.516]
+(;B[gf]BL[348.537]C[xaero [1k\]: i guess
+]
+;W[bf]WL[421.917]
+;B[hh]BL[336.298]
+;W[hd]WL[418.588]
+;B[ha]BL[321.933]
+;W[ib]WL[414.433]
+;B[fd]BL[313.114]
+;W[gb]WL[411.014]
+;B[ig]BL[303.249]
+;W[fe]WL[403.854]
+;B[ff]BL[292.667]C[MatroidX [1d\]: after that is already my game
+xaero [1k\]: it thought your group is dead
+MatroidX [1d\]: two groups alive + komi
+MatroidX [1d\]: yes, I think so
+MatroidX [1d\]: at worst is seki for me though
+MatroidX [1d\]: I mean, if I ignore all approach moves
+]
+;W[db]WL[400.907]
+;B[dc]BL[284.681]
+;W[ca]WL[394.888]
+;B[ac]BL[276.29]
+;W[di]WL[390.755]
+;B[ei]BL[268.485]
+;W[dg]WL[388.194]
+;B[bh]BL[257.44]
+;W[eh]WL[384.088]
+;B[bb]BL[247.392]
+;W[fh]WL[374.127]
+;B[dd]BL[235.967]
+;W[de]WL[370.192]
+;B[ef]BL[229.666]
+;W[ba]WL[365.652]
+;B[gi]BL[220.066]C[xaero [1k\]: may be it thinks h7 is dead?
+]
+;W[gh]WL[359.238]
+;B[hi]BL[210.622]
+;W[fi]WL[357.831]
+;B[ie]BL[201.227]
+;W[fc]WL[340.893]
+;B[ag]BL[190.438]
+;W[bg]WL[338.914]
+;B[]BL[190.438]
+;W[ed]WL[333.74]
+;B[fd]BL[185.05]
+;W[if]WL[328.418]
+;B[aa]BL[175.525]C[MatroidX [1d\]: that's bad...
+]
+;W[da]WL[323.581]C[xaero [1k\]: if it is true, it's another weakness, it should have resigned by now
+]
+;B[ie]BL[165.743]
+;W[ga]WL[319.021]
+;B[if]BL[159.579]
+;W[ae]WL[314.289]
+;B[ed]BL[151.292]
+;W[ia]WL[311.726]C[xaero [1k\]: another weakness...
+MatroidX [1d\]: yes, I'll definitely flag this game
+])
+(;B[ai]C[MatroidX [1d\]: didn't even fight the ko
+xaero [1k\]: it doesn't like kos
+]))

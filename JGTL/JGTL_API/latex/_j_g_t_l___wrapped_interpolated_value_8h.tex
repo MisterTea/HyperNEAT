@@ -1,0 +1,22 @@
+\hypertarget{_j_g_t_l___wrapped_interpolated_value_8h}{
+\section{JGTL\_\-Wrapped\-Interpolated\-Value.h File Reference}
+\label{_j_g_t_l___wrapped_interpolated_value_8h}\index{JGTL_WrappedInterpolatedValue.h@{JGTL\_\-WrappedInterpolatedValue.h}}
+}
+{\tt \#include \char`\"{}JGTL\_\-Interpolated\-Value.h\char`\"{}}\par
+\subsection*{Namespaces}
+\begin{CompactItemize}
+\item 
+namespace \hyperlink{namespace_j_g_t_l}{JGTL}
+\end{CompactItemize}
+\subsection*{Classes}
+\begin{CompactItemize}
+\item 
+class \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{JGTL::Wrapped\-Interpolated\-Value$<$ T $>$}
+\begin{CompactList}\small\item\em The \hyperlink{class_j_g_t_l_1_1_wrapped_interpolated_value}{Wrapped\-Interpolated\-Value} Class handles values which approach a limit using the formula New\-Value = actual\-Value + (potential\-Value-actual\-Value)$\ast$interpolation\-Coeff; This special instance of an \hyperlink{class_j_g_t_l_1_1_interpolated_value}{Interpolated\-Value} is for values which wrap (angles, for example, which wrap around 2$\ast$PI). \item\end{CompactList}\end{CompactItemize}
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+template$<$class T$>$ std::ostream \& \hyperlink{namespace_j_g_t_l_5fdc2174e5f64c78281b0cb9223a4d2f}{JGTL::operator$<$$<$} (std::ostream \&stream, const Wrapped\-Interpolated\-Value$<$ T $>$ \&d)
+\item 
+template$<$class T$>$ std::istream \& \hyperlink{namespace_j_g_t_l_26e27f07434450b794de382d8b607b25}{JGTL::operator$>$$>$} (std::istream \&stream, Wrapped\-Interpolated\-Value$<$ T $>$ \&d)
+\end{CompactItemize}

@@ -1,0 +1,934 @@
+(;
+GM[1]FF[4]VW[]AP[Many Faces of Go version 12.001]
+SZ[9]
+HA[0]
+ST[0]
+PB[nutngo]
+PW[Mogo]
+DT[2009-02-10]
+PC[The KGS Go Server at http://www.gokgs.com/]
+KM[7.5]
+TM[3000]
+RU[Chinese]
+RE[B+Resign]
+C[Mogo [-\]: GTP Engine for Mogo (white): MoGo version 3.0.0: I'll \
+resign if you win and playing until you pass if I win. If you \
+passed and I did not, it often means that the status of some \
+stones are not clear enough for me (I want to be sure we will \
+agree on dead stones). Clarify them. Maybe I am losing, but have \
+not enough time to be sure I should resign. In this case play \
+until the end :'( (very rare cases)]
+CA[UTF-8];B[de]BL[2979.037];W[fe]WL[2999.781];B[ff]BL[2968.033];W[gf]WL[2999.576];B[ef]BL[2894.361];W[gg]WL[2999.389];B[fd]BL[2887.895];W[ge]
+C[mmueller [4d?\]: Hello. Is this the game against Zhou
+mmueller [4d?\]: ?
+Meepy [-\]: don't know]
+WL[2999.206]
+;B[ed]
+C[Meepy [-\]: long enough time setting]
+BL[2876.143];W[be]
+C[Meepy [-\]: still, SD can be tough]
+WL[2979.087];B[bf]
+C[Mogo [-\]: GTP Engine for Mogo (white): MoGo version 3.0.0: I'll \
+resign if you win and playing until you pass if I win. If you \
+passed and I did not, it often means that the status of some \
+stones are not clear enough for me (I want to be sure we will \
+agree on dead stones). Clarify them. Maybe I am losing, but have \
+not enough time to be sure I should resign. In this case play \
+until the end :'( (very rare cases)
+Gynn [13k?\]: lol
+Gynn [13k?\]: That's a lot of time
+NUTN309: yes ,  this is  the game against Zhou
+truespirit [8k\]: looks like this can take a while
+truespirit [8k\]: nice
+Archaic [1d\]: who's zhou
+pasky [-\]: MOGO  vs. Jun-Xun Zhou (Championship of 2007 LG World \
+Cup/ 2008 Taiwan Championship, 9P)]
+BL[2622.203];W[cf]
+C[NUTN309: yes]
+WL[2688.516];B[ce]
+C[Daeton [6k\]: atari?
+Archaic [1d\]: er
+truespirit [8k\]: how strong is mogo on 9x9?
+Archaic [1d\]: are computers good at 9x9
+sameoldG [-\]: mogo is 9p on 9x9
+Daeton [6k\]: better than 19x19
+truespirit [8k\]: O_o
+Accelerate [3k\]: how strong is nutngo? o.O
+Kirby [2k\]: the pro is black?
+Gynn [13k?\]: 9pro
+truespirit [8k\]: 9p
+Accelerate [3k\]: okay
+Archaic [1d\]: is this a performance test
+Archaic [1d\]: for computers
+Kirby [2k\]: bleh, 7.5 komi
+Archaic [1d\]: and algorithms
+Kirby [2k\]: that sucks
+pasky [-\]: kirby, why?
+truespirit [8k\]: i dont really like computer go
+truespirit [8k\]: but
+Kirby [2k\]: 7.5 komi seems inappropriate for a 9x9 board
+pasky [-\]: kirby, you might want to read tromp's excellent user \
+info ;)
+truespirit [8k\]: its interestin
+Archaic [1d\]: is this some sort of...
+Archaic [1d\]: anythin special about this
+truespirit [8k\]: 7.5 is chinese komi?
+Daeton [6k\]: other than it being a 9p vs. computer?
+Wasiqi [13k\]: Isn't this two computers playing each other?
+Kirby [2k\]: seems tromp's info is just about scoring methods
+mmueller [4d?\]: Fuego thinks 53% for White
+pasky [-\]: kirby: oh wait yes, i didn't read it carefully enough \
+before
+bolb [-\]: Zhou Junxun 9p vs MoGo
+LapinBlanc [2d?\]: Thanks for the evaluation Martin!
+Kirby [2k\]: are you the teacher, pasky?  some guy on kgs has \
+a website with quizzes that you can print out and give to students
+mmueller [4d?\]: On my old laptop :)
+pasky [-\]: i thought it also explains why even and odd komi is \
+equivalent in area scoring
+pasky [-\]: kirby: huh?
+Kirby [2k\]: ok nevermind
+yank [?\]: Is there a komi?
+Kirby [2k\]: maybe that was sabaki
+mmueller [4d?\]: B3.B6,A4 forced, then?]
+BL[2618.324];W[bg]
+C[truespirit [8k\]: woah]
+WL[2441.947];B[bd]
+C[yank [?\]: Hi! NUTN, is there a komi?
+tromp [-\]: Options->Rules
+ImABad13k: options->rules
+truespirit [8k\]: options-> rules
+truespirit [8k\]: lol
+ImABad13k: lol
+DanielFox [-\]: options->space potatoes
+truespirit [8k\]: lol
+truespirit [8k\]: >_>
+truespirit [8k\]: capture?
+tromp [-\]: yes, w will capture
+quasimoyo [2d\]: 100 minutes, its not too much for 9x9?
+Gynn [13k?\]:  How can you tell?
+truespirit [8k\]: so mogo is 0p on 9x9, thats pretty fantastic \
+i think
+truespirit [8k\]: 9p*
+DanielFox [-\]: mogo needs the time, quasi
+Oloril [2k\]: why not mogotitan?
+Gynn [13k?\]: lol
+mmueller [4d?\]: B needs to prevent D4 E5 E2
+Kirby [2k\]: it's staged so the computer can win
+Gynn [13k?\]: Why not Mogobot
+HateToWin [?\]: i would like to see how good the bot is at blitz \
+games ;)
+Gynn [13k?\]: xD
+DanielFox [-\]: not very!
+truespirit [8k\]: i won in 5sec blitz against mogo
+Archaic [1d\]: hi yank
+truespirit [8k\]: and mogo took 9
+DanielFox [-\]: rapyuta will be the last man standing against \
+the robots
+truespirit [8k\]: >_>
+pasky [-\]: czechbot plays 10:00 SD 9x9 on a home computer and \
+it's definitely kgs dan-level
+truespirit [8k\]: hey
+pasky [-\]: about 2d or 3d
+yank [?\]: Hi, Archaic.
+kuy30 [1d\]: what's hardware?
+pasky [-\]: though that's not too blitz still ;)
+truespirit [8k\]: the most awesome computer
+tromp [-\]: well, i gues white cld consider g7 too
+pasky [-\]: huy30: 600cpu huygens cluster]
+BL[2610.336];W[af]
+C[truespirit [8k\]: is a cellphone pprogram i had..]
+WL[2226.982];B[eh]
+C[HateToWin [?\]: it took it all that time to play the most obvious \
+move.....
+truespirit [8k\]: mogo needs to calculate no?
+pasky [-\]: hatetowin, it's hard to distinguish obvious and non-obvious \
+moves ;)
+truespirit [8k\]: how many variations does mogo read?
+Gynn [13k?\]: lol lets all guess what we thing the next move is: \
+e3 
+Kirby [2k\]: i would have played g6 instead of e2
+quasimoyo [2d\]: this is the strongest bot, right?
+HateToWin [?\]: thats why your 2k and he is 9p, kirby ;)
+Oloril [2k\]: mogo lost to many faces of go I believe
+XY0908 [-\]: So which one is the bot again?
+Gynn [13k?\]: Mogo
+pasky [-\]: kirby: did you count? :)
+Kirby [2k\]: by playing g6 black gets the upper side, and w doesn't \
+have much at bottom because he is split
+Kirby [2k\]: seems reasonable to me
+ketchup [4k\]: lol XY, best question asked so far
+Kirby [2k\]: now w can take some of b's potential top territory
+pasky [-\]: kirby: w has komi
+truespirit [8k\]: xy0907
+XY0908 [-\]: Kirby don't know how to count according to his wife.
+Kirby [2k\]: it's true
+truespirit [8k\]: is that graph coords xy?
+Kirby [2k\]: i can only win by killing
+pasky [-\]: kirby: b probably counted w would get enough points, \
+with yose options along a6 etc.
+ketchup [4k\]: komi..
+pasky [-\]: kirby: it's so easy to slip to tight loss with mogo \
+if you play the easy moves
+mmueller [4d?\]: 54% now
+Kirby [2k\]: however, maybe e2 is sente against the side so it's \
+not so bad
+XY0908 [-\]: let's predict what the bot would play next.
+Kirby [2k\]: unless i read it wrong
+XY0908 [-\]: I predict at D3
+ketchup [4k\]: d3, f2, g2, g6, h6, a6 go go
+pasky [-\]: i predict g7]
+BL[2602.069];W[gd]
+C[Kirby [2k\]: if g7 can't b c2?
+pasky [-\]: c2 e8 is ok exchange for w
+pasky [-\]: maybe even this is enough
+Archaic [1d\]: no way b can win
+kuy30 [1d\]: can b kill that group?
+Kirby [2k\]: i think so
+Kirby [2k\]: by c2 i think
+tromp [-\]: c2 b2 b1 c3 w lives
+Kirby [2k\]: c2 b2 c3
+kuy30 [1d\]: how?
+tromp [-\]: hmm
+kuy30 [1d\]: how lives?
+Archaic [1d\]: hey look
+Archaic [1d\]: white's dead
+LapinBlanc [2d?\]: White doesn't need to live, just to make 0.5 \
+points more than black :)
+ketchup [4k\]: yea why does it look like white's dead..
+Meepy [-\]: c2, then white can b7 maybe?
+ketchup [4k\]: in this case, needs to live to win lapinblanc :P
+mmueller [4d?\]: Fuego likes C2 F7 for W
+Kirby [2k\]: well if b kills this then w might get like 20ish \
+points plus 7.5 komi and b gets like 37 points or something
+Kirby [2k\]: i think
+pasky [-\]: ketchup, that's not clear
+kuy30 [1d\]: but there are questions about d4 e5 cut and c7 weakness
+ketchup [4k\]: nothing is, but this is 9p...
+pasky [-\]: depends on what magic w manages to pull off at the \
+top
+yank [?\]: Archaic, do you know how many points the komi is? 
+pasky [-\]: ketchup: this is 600cpu cluster
+Kirby [2k\]: how far can w go?  seems like f7 is the extent
+Archaic [1d\]: 7.5
+ketchup [4k\]: i put more faith in 9p :)
+Kirby [2k\]: or f8
+Kirby [2k\]: i think 9p has it
+kuy30 [1d\]: I believe in MoGo
+ketchup [4k\]: cant give up my humanity! :)
+qwazidan [5k\]: c1
+kuy30 [1d\]: future is not fir human
+pasky [-\]: we will all die horrible death
+mmueller [4d?\]: W can use aji of B3 group to get more at the \
+top
+DanielFox [-\]: what handicap will the 19x19 game be played at?
+DanielFox [-\]: or is that to be determined
+yank [?\]: I think 7.5 komi is too much for 9*9.
+pasky [-\]: i think that will be determined
+Kirby [2k\]: bleh, somebody pm me when the pro wins.  i'm going \
+to do some work
+ketchup [4k\]: lol
+pasky [-\]: yank, afaik 7.5 and 6.5 is equivalent with chinese \
+rules
+kuy30 [1d\]: what's b thinking? are there better ways to kill \
+than c2 ?
+Archaic [1d\]: it's chinese rules
+Archaic [1d\]: ?
+sleep [12k\]: just curious what country is the 9p from?
+ketchup [4k\]: b thinking, if i kill is it enough
+Archaic [1d\]: how is 6.5 the same as 7.5
+ketchup [4k\]: taiwan i believe
+qwazidan [5k\]: komi is identical for games 9x9 and larger
+ketchup [4k\]: http://go.nutn.edu.tw/2009/English/schedule_eng.htm
+Archaic [1d\]: your saying using both 6.5 and 7.5 is same for \
+chinese rules
+tromp [-\]: they're quite different]
+WL[2021.416]
+;B[gc]
+C[ketchup [4k\]: i think this is the site
+tromp [-\]: 6.5 is like 5.5
+mmueller [4d?\]: G7 is also strong
+tromp [-\]: and 7.5 like 8.5
+mmueller [4d?\]: oops :)
+yank [?\]: Ya, I am from Taiwan.
+Archaic [1d\]: what
+kuy30 [1d\]: that's the move
+tromp [-\]: since even area difference unlikely
+kuy30 [1d\]: he was thinking about
+mmueller [4d?\]: Fuego also likes G7 at longer search
+pasky [-\]: archaic, there is extensive discussion at http://senseis.xmp.net/?WhyChineseKomiShouldIncreaseBy2PointSteps
+pasky [-\]: tromp: oops, i did not realize that, thanks :)
+pasky [-\]: yeah, it's written there
+pasky [-\]: i should go to sleep :/]
+BL[2292.304];W[dg]
+C[tromp [-\]: h7]
+WL[1832.906];B[hc]
+C[Oloril [2k\]: looks bad for white?
+ketchup [4k\]: b+3! haha
+tromp [-\]: looks bleak for black
+tromp [-\]: for white i mean
+XY0908 [-\]: please do not give hints to 9p, tromp. ;-)
+mmueller [4d?\]: D3 losing move maybe
+kuy30 [1d\]: w will try to use e5 and c6 weaknesses
+ketchup [4k\]: isnt d3 only move there mmueller?
+Archaic [1d\]: f2
+pasky [-\]: do something crazy with the e5 cut?
+mmueller [4d?\]: 45% now
+mmueller [4d?\]: I think for D3, H7 was the natural move
+kuy30 [1d\]: for who?
+Archaic [1d\]: f222222
+ketchup [4k\]: no good
+sleep [12k\]: does anyone know how much time the 19x19 game will \
+have?
+kuy30 [1d\]: e3 now?]
+BL[2249.591];W[fh]
+C[Archaic [1d\]: haha
+ketchup [4k\]: white wil lget reduced from both sides..]
+WL[1664.276];B[eg]
+C[ketchup [4k\]: no way to get both h6 and d2?
+Archaic [1d\]: j6666
+Archaic [1d\]: a666
+yank [?\]: I guess b wins even if both w groups alive.
+pasky [-\]: so, c7 and make life ^^
+Archaic [1d\]: d2
+Archaic [1d\]: h6
+mmueller [4d?\]: 42%
+Archaic [1d\]: 42% success rate for who]
+BL[2246.497];W[dh]WL[1510.46];B[di]
+C[CHOWstyle [3k\]: %100 for b from what I count
+mmueller [4d?\]: Mogo has 42% according to Fuego
+Zvi [3k\]: is this a 9x9 tournament ?
+Zeid [2d\]: yeah
+Archaic [1d\]: h6 or j6 now
+Zvi [3k\]: cool. didn't know they had those
+maku [4d\]: B5 is toooo bad
+andrew [3d\]: nutngo is 9p?
+Zeid [2d\]: yeah
+tromp [-\]: a6
+Ukasuhs [1k\]: i count b + 1.5
+Zvi [3k\]: why doesn't kgs have 9x9 ranking then ?
+Zeid [2d\]: yeah
+iTengen [5k\]: 2ranks?
+flipflop [4k\]: Chess servers do it
+iTengen [5k\]: hmhm
+Zvi [3k\]: well, if they have tournaments for it, you should be \
+able to get a rank for it, don't you think ?]
+BL[2240.557];W[cd]
+C[Archaic [1d\]: what the heck is c6
+aware [2k\]: whoa
+Ukasuhs [1k\]: white is a bot
+Zvi [3k\]: :\\
+Ukasuhs [1k\]: so its more of an evaluation that a tournament
+Zvi [3k\]: looks like -1 point
+Zeid [2d\]: yeah]
+WL[1359.284];B[cc]
+C[arlefferts [23k\]: strange
+CHOWstyle [3k\]: I dont understand c6
+DanielFox [-\]: could mean mogo has given up
+andrew [3d\]: don't anthropomorphize robots
+Zvi [3k\]: i don't either. also i'd guess black would play b7 \
+instead of c7
+Meepy [-\]: c6 is a peep
+arlefferts [23k\]: how does a computer give up?
+Nefri89 [9k\]: yeah =)
+DanielFox [-\]: andrew, i am not
+Nefri89 [9k\]: hah
+lonsan [3k\]: yeah is b7 not better?
+bolb [-\]: when mogo is losing, it try weird moves
+fly [1k\]: when it can't see wins in any lines it plays crazy \
+chances
+Ukasuhs [1k\]: b7 is really not any better but not any worse
+DanielFox [-\]: mogo's moves get random because it is trying to \
+maximize a win for a losing proposition
+andrew [3d\]: first you anthropomorphize them, then next they're \
+enslaving our women, overthrowing our governments, relegating \
+us to lives of brutal slavery
+pasky [-\]: i wonder what the 9p is doing now
+blackdoor [6d\]: computer thinks so long?
+lonsan [3k\]: don't you earn one extra point due to a6?
+andrew [3d\]: I'm just warning you
+pasky [-\]: chatting with others? reading a newspaper?
+Archaic [1d\]: c6 has a certain complexity
+CHOWstyle [3k\]: so hard to count for bot?
+andrew [3d\]: beware the robot menace]
+BL[2213.843];W[ad]
+C[Zvi [3k\]: he's a lazy bot]
+WL[1247.243]
+;B[bc]
+C[BenMantle [3d\]: that would be two extra
+Gynn [13k?\]: lol
+Meepy [-\]: c6 makes d4 juicier
+Ukasuhs [1k\]: if b played b7 instead he still cant respond to \
+a6 with a7 or there will be a big ko
+lonsan [3k\]: yeah, two extra
+fly [1k\]: ah... counting is what these mogo bots are good at!
+BenMantle [3d\]: i dont think the pro's atari was good.  it's \
+clear..
+Ukasuhs [1k\]: so none extra and none lost
+Zvi [3k\]: d4 juice doesn't look like much :p
+lonsan [3k\]: ah true
+Ukasuhs [1k\]: unless b will risk like 18 points...
+lonsan [3k\]: no i think it's right ben
+Ukasuhs [1k\]: in ko
+blackdoor [6d\]: must be 386
+lonsan [3k\]: probably commodore 500
+blackdoor [6d\]: so slow
+lonsan [3k\]: my comm 500 lags when playing pac man
+Ukasuhs [1k\]: b is winning anyway, so he doesnt need to play \
+b7. b7 is only better if black has a lot more ko threats than \
+white
+Gynn [13k?\]: Dans don't play slow like this right?
+Ukasuhs [1k\]: otherwise black would end in the same result
+andrew [3d\]: well, the computer is calculating /every/ possible \
+sequence of moves;)
+Ukasuhs [1k\]: or chose to play a heavy ko
+andrew [3d\]: hehehe]
+BL[2210.852];W[hd]
+C[BenMantle [3d\]: good-a-move]
+WL[1138.496];B[ch]
+C[inte [?\]: nah it isn't
+Zvi [3k\]: again, this is chinese rules :\\ c6 is -1 points
+Mercury [5k?\]: is this bot vs bot?
+Ukasuhs [1k\]: no
+Ukasuhs [1k\]: b is 9p
+Zvi [3k\]: so this is a tough bot then ?
+Auro [?\]: your kidding
+Korlon [3k\]: Go Mogo go
+Ukasuhs [1k\]: wel bots are tough on 9x9
+Cleasha [5d?\]: Is Nutngo a current pro or retired?
+Auro [?\]: >.>
+Auro [?\]: a 9x9
+Auro [?\]: lol
+andrew [3d\]: b2 only move
+Gregory [2k?\]: 7.5 komi is high on 9x9, imho
+Mercury [5k?\]: dead b ot is dead
+Ukasuhs [1k\]: i think this is too much time for a 9x9
+NUTN309: http://go.nutn.edu.tw/2009/English/news_eng.php
+bolb [-\]: http://go.nutn.edu.tw/2009/English/schedule_eng.htm
+aware [2k\]: http://senseis.xmp.net/?ZhouJunxun
+Korlon [3k\]: If wite ever plays E5, that C6 would've been an \
+extra point
+Zvi [3k\]: whats about f1 before b2 ?
+tadanobu [10k\]: Jun-Xun Zhou  is a taiwan 9p, not retired at \
+all
+BenMantle [3d\]: b2............
+Zvi [3k\]: why not f1 first ?
+MonkehKid [-\]: its a 9x9, then another 9x9, then a 19x19, auro]
+BL[2204.441];W[bh]
+C[loveHER [6d\]: thi is so slow~_~
+blackdoor [6d\]: f1 c3]
+WL[1042.838];B[bi]
+C[Zvi [3k\]: oh sorry right
+Zvi [3k\]: thanks
+Ukasuhs [1k\]: now f1 maybe
+BenMantle [3d\]: w must respond, that's sad
+sedgwick [4d\]: and b get a7 sente:)
+andrew [3d\]: lol
+BenMantle [3d\]: f1 is not important because opponent wont go \
+there soon
+Ukasuhs [1k\]: this is very bad for w because a7 is sente for \
+b
+Ukasuhs [1k\]: so b will get a7 and j6
+Korlon [3k\]: Will the games be right after one another?
+MonkehKid [-\]: i think so
+Archaic [1d\]: tenuki
+BenMantle [3d\]: heh
+pasky [-\]: lol
+yank [?\]: b+1.5 or +0.5?
+blackdoor [6d\]: this mogo needs some experiences]
+BL[2198.17];W[cg]
+C[Archaic [1d\]: dumb bot doesn't know how to tenuki
+DonValley [5d?\]: ko or no?]
+WL[954.308];B[ci]
+C[Zvi [3k\]: err?
+BenMantle [3d\]: ko him haha
+Zvi [3k\]: c3 mistake ?
+Ukasuhs [1k\]: b is winning by 2.5 now i think
+pasky [-\]: e5
+Zvi [3k\]: oh
+blackdoor [6d\]: e5
+Zvi [3k\]: c3 miai
+MonkehKid [-\]: there werent any ko threats for b...
+Zvi [3k\]: nvm
+BenMantle [3d\]: w more k othreats
+jabbawocky [1k\]: 7.5 komi is crazy
+blackdoor [6d\]: what ko?
+tadanobu [10k\]: ( if respecting the planning, next game will \
+begin in about 1 hour )
+Archaic [1d\]: can anybody explain c3
+saimic [4k\]: yup. w wins because it has more ko threats.
+Archaic [1d\]: imo c3 for white gets rid of black's ko threats
+tromp [-\]: b +3.5
+Archaic [1d\]: but that's all i can see
+blackdoor [6d\]: c3 dumb bot move
+Zvi [3k\]: archaic, black would have played c1 before the ko
+shiranai [11k\]: will it be broadcasted on kgs?
+Zvi [3k\]: or am i wrong ?
+BenMantle [3d\]: or timesuji
+Zvi [3k\]: lol]
+BL[2191.963];W[fc]
+C[pasky [-\]: hoho
+Zvi [3k\]: :S???
+pasky [-\]: topmastercut
+loveHER [6d\]: why does this thing cut everything
+Archaic [1d\]: al i can see is that c3...gets rid of black's ko \
+threats]
+WL[872.576];B[ec]
+C[Archaic [1d\]: if there is a future ko
+blackdoor [6d\]: good move
+BenMantle [3d\]: move of god
+Zvi [3k\]: white wasting threats ?
+pasky [-\]: "thing":))
+DnFBlitz [1k\]: i counted w wins before that... 
+DnFBlitz [1k\]: i guess i missed
+DonValley [5d?\]: that was a good move :)
+Mercury [5k?\]: indeed
+saimic [4k\]: b needs ko threats to kill w on the left side.
+Ukasuhs [1k\]: and why would b play ko when he wins without it
+kuy30 [1d\]: trying to create adji
+Mercury [5k?\]: does white get 1 more pt for that?
+BenMantle [3d\]: since b atari this way, j 7 a bit stronger/more \
+sente
+blackdoor [6d\]: there is no ko
+saimic [4k\]: how strong in mogo?]
+BL[2177.694];W[ah]
+C[DonValley [5d?\]: mogo can beat pros in 9-9
+saimic [4k\]: not now.]
+WL[797.811]
+;B[id]
+C[Archaic [1d\]: did f7 raelly do anything
+Mercury [5k?\]: yes
+BenMantle [3d\]: it sorta did
+BenMantle [3d\]: liek i said
+Mercury [5k?\]: it has potential to make him kill it later
+Zvi [3k\]: :\\
+DonValley [5d?\]: yeah it did
+Mercury [5k?\]: i dono with j 6 havent read it no
+BenMantle [3d\]: b played here to prevent what i said
+BenMantle [3d\]: however...
+BenMantle [3d\]: a 7 sente..]
+BL[2165.69];W[ie]WL[729.707];B[ic]
+C[Archaic [1d\]: ?
+Ukasuhs [1k\]: whoah
+DonValley [5d?\]: a7 huge
+Archaic [1d\]: what does f7 do
+jabbawocky [1k\]: e5 first
+Mercury [5k?\]: f8
+jabbawocky [1k\]: e5
+pasky [-\]: i think half a point win is brewing for w
+Ukasuhs [1k\]: w + 0.5 if he gets a7 a8 a5 b8 
+Zvi [3k\]: f8 g8
+Mercury [5k?\]: then g 8 then
+Mercury [5k?\]: e 8
+jabbawocky [1k\]: e5 
+BenMantle [3d\]: f 7 made it so that white's j 7 would end in \
+sente for sure
+Zvi [3k\]: then d8 ..
+Mercury [5k?\]: then u push the e5
+Mercury [5k?\]: and u force black to kill that
+Zvi [3k\]: still doesn't work
+Zvi [3k\]: this isn't japanese scoring
+Mercury [5k?\]: it does]
+BL[2160.335];W[fb]
+C[Mercury [5k?\]: if bottom has no libirties]
+WL[669.884];B[gb]
+C[Zvi [3k\]: but it does has libs
+Zvi [3k\]: and it's chinese rules ..
+pasky [-\]: not soon
+Mercury [5k?\]: ya
+Zvi [3k\]: so white is losing points ..
+Ukasuhs [1k\]: w can win
+Ukasuhs [1k\]: a7
+slinky [-\]: poor mogo bot.
+Mercury [5k?\]: but it will not have libirties later
+DnFBlitz [1k\]: i wonder if w's endgame at this point is close \
+to perfect
+Mercury [5k?\]: and then its inevitable
+Mercury [5k?\]: what will happen
+Zvi [3k\]: :\\
+Zvi [3k\]: i'm explaining this isn't japanese rules
+jabbawocky [1k\]: e5 clearly best move
+Zvi [3k\]: it's chinese rules
+Ukasuhs [1k\]: i know
+Zvi [3k\]: so white is just losing points
+pasky [-\]: zvi: so what?]
+BL[2156.795];W[ga]
+C[Ukasuhs [1k\]: i counted using chinese]
+WL[613.656];B[eb]
+C[Mercury [5k?\]: what is chinese rules?
+DonValley [5d?\]: the rules chinese use
+jabbawocky [1k\]: w doesnt lose points if b responds
+Zvi [3k\]: well, mercury claims that the semidori will cost black \
+points
+frog [12k\]: why are so many people watc;hing this game
+quasimoyo [2d\]: rules from China
+Ukasuhs [1k\]: territory and live stones are each 1 point
+truman [3d\]: i count w wins by half
+Zvi [3k\]: and i'm explaining it wont
+Mercury [5k?\]: not now lol
+Ukasuhs [1k\]: dead stones are no points for either
+blackdoor [6d\]: w +1.5
+Troff [?\]: Why does EVERY kgs game's kibitz devolve into a debate \
+about Japanese and Chinese counting. WITHOUT FAIL.
+Ukasuhs [1k\]: 7.5 komi
+BenMantle [3d\]: b + 9 without komi at the end i think
+Zvi [3k\]: mercury, in chinese rules playing in your own territory \
+doesn't cost points
+BenMantle [3d\]: in japanese
+truman [3d\]: blackdoor's count is probably better :)
+Gynn [13k?\]: Unless Mogo rins out of time =s
+Gynn [13k?\]: runs*
+Mercury [5k?\]: i dont under stand g 9 tho ;p
+pasky [-\]: zvi: it will - w fills dame so gaining extra stones \
+on board, while b fills own territory, his score staying the \
+same
+arpad [?\]: i count b by a half because of A1]
+BL[2152.852];W[ac]
+C[Ukasuhs [1k\]: if w gets a7 in sente he wins by 0.5
+slinky [-\]: no he dont
+pasky [-\]: zvi: japanese and chinese rules are much more similar \
+point-wise than one would think]
+WL[561.493];B[ab]
+C[iTengen [5k\]: yeah but in semedori you get dame which is worth \
+points, while your opponent fills in her territory, which isnt
+Mercury [5k?\]: what is komi?
+Ukasuhs [1k\]: because e5 is sente and then after a1 e1 f1 b cant \
+play f3
+iTengen [5k\]: baby dont hurt me?
+jabbawocky [1k\]: chinese and jap scoring differ by a max of one \
+point, thats why the komi is one point higher
+Zvi [3k\]: but semidori still doesn't make one lose points pasky
+kuy30 [1d\]: b will try to kill
+CptObvious [?\]: Troff, that is new, actually there should be \
+a discussion, wether white is tartrate...
+slinky [-\]: komi is .5 points or 6.5 to white for going second
+blackdoor [6d\]: w should e5 f1 first
+slinky [-\]: and to prevent ties
+pasky [-\]: zvi: yes but w will _gain_ points
+Ukasuhs [1k\]: komi is 7.5...]
+BL[2142.556];W[ae]
+C[Mercury [5k?\]: 7.5]
+WL[516.16]
+;B[if]
+C[Mercury [5k?\]: lol
+jabbawocky [1k\]: hmm
+DonValley [5d?\]: lol chinese japanese rules might not matter \
+anymore
+pasky [-\]: zvi: in japanese rules w score is same but b loses \
+points - in chinese rules w score is gaining while b stays the \
+same - the end effect is the same
+truman [3d\]: it doesn't work.
+DnFBlitz [1k\]: seems w is desperate?
+truman [3d\]: correction shouldn't
+Zvi [3k\]: not here pasky
+Zvi [3k\]: err :\\
+Zvi [3k\]: read what mercury said]
+BL[2139.806];W[he]
+C[Zvi [3k\]: then you'll understand what i was talking about
+Mercury [5k?\]: k 5 should not work
+Archaic [1d\]: this is one big confusion pot
+Mercury [5k?\]: j 4
+Mercury [5k?\]: &|*
+Ukasuhs [1k\]: with japanese rules its b + 0.5. with chinese its \
+w + 0.5
+Mercury [5k?\]: im not 5 k btw ;p
+mmueller [4d?\]: h2
+saimic [4k\]: h2
+ketchup [4k\]: b8..
+Zvi [3k\]: doesn't matter if you are :\\ you could be 5d , what \
+you said is wrong]
+WL[472.149];B[hh]
+C[ozimandias [4k\]: and with taiwaneese ?
+iTengen [5k\]: awesome
+ozimandias [4k\]: ^^
+Archaic [1d\]: f1
+Mercury [5k?\]: no it was right but i think white made a  mistake
+fly [1k\]: b goes for the throat
+hiss [22k\]: why komi agains pro? that's unfair!
+Mercury [5k?\]: :P
+Zvi [3k\]: :/
+jabbawocky [1k\]: f1 ...
+iTengen [5k\]: lol
+pasky [-\]: so how much sente f1 is
+blackdoor [6d\]: f1 right move
+ketchup [4k\]: hiss.... pros are not invincible]
+BL[2099.327];W[gh]
+C[Zvi [3k\]: re-read, i'm pretty sure with what i said. in japanese \
+rules what you said it effective
+jabbawocky [1k\]: wow]
+WL[433.984];B[hg]
+C[Zvi [3k\]: lies ketchup :)
+Mercury [5k?\]: why doesnt he just play f1 e 5
+ketchup [4k\]: lol zvi
+Mercury [5k?\]: wierd stuff
+jabbawocky [1k\]: black makes points here
+Archaic [1d\]: kooooo
+DonValley [5d?\]: f1 might not be sente later
+blackdoor [6d\]: f1
+pasky [-\]: e5 loses a liberty now
+sefil3k [3k\]: f1 first
+Mercury [5k?\]: well before
+Mercury [5k?\]: he coulda done it
+ketchup [4k\]: i dont understand why bto continues to play
+sefil3k [3k\]: then h1 w
+ketchup [4k\]: isnt this over now?
+Mercury [5k?\]: and taken sente
+pasky [-\]: mercury, then he would lose a liberty before :)
+WBuffet [4d\]: if w can makes it right here, I really admire the \
+programmers, :)]
+BL[2091.232];W[gi]
+C[hiss [22k\]: that's weakness of MoGo!
+DonValley [5d?\]: lol
+fly [1k\]: ko!
+sefil3k [3k\]: woa ko
+pasky [-\]: hah
+Zvi [3k\]: :S
+iTengen [5k\]: no ko!
+sefil3k [3k\]: bot wants ko
+Mercury [5k?\]: he didnt need libertys b4
+saimic [4k\]: :P
+Ukasuhs [1k\]: g1 is a nice move
+Zvi [3k\]: does he have to ko?
+blackdoor [6d\]: this bot is dumb
+Mercury [5k?\]: he had eye shape b4 ;P
+slinky [-\]: I already saw this coming!]
+WL[396.485];B[ei]
+C[Archaic [1d\]: lol
+Mercury [5k?\]: g!
+Mercury [5k?\]: wtf
+sefil3k [3k\]: j2 ko to life
+Archaic [1d\]: j2
+blackdoor [6d\]: should f1 h1
+jabbawocky [1k\]: i am confused
+Archaic [1d\]: saves a point over h1
+Mercury [5k?\]: same ;p
+jabbawocky [1k\]: mogo is weak]
+BL[2075.103];W[bb]
+C[DonValley [5d?\]: lol
+fly [1k\]: ha ha ha
+Daeton [6k\]: ??]
+WL[364.975];B[cb]
+C[WBuffet [4d\]: hahaa
+Gynn [13k?\]: XD
+DonValley [5d?\]: lol
+Akagi316 [6k?\]: resign
+sefil3k [3k\]: seki?
+Zvi [3k\]: ko, it seems
+ketchup [4k\]: doesnt matter
+blackdoor [6d\]: ok may be bot wins
+ketchup [4k\]: count means black wins~
+DonValley [5d?\]: w can lie down there
+pasky [-\]: ;))
+DonValley [5d?\]: live]
+BL[2067.808];W[aa]WL[336.039]
+;B[ih]
+C[Zvi [3k\]: :S?
+Mercury [5k?\]: oh?
+DnFBlitz [1k\]: lol
+WBuffet [4d\]: w is so humourous
+Zvi [3k\]: did whtie simply die ?
+Akagi316 [6k?\]: yes
+Zvi [3k\]: lol
+Ukasuhs [1k\]: j1
+Mercury [5k?\]: but he will still lose
+pasky [-\]: j1
+Ukasuhs [1k\]: oh nvm
+jabbawocky [1k\]: j1 stupid
+pasky [-\]: vital point, no?
+blackdoor [6d\]: dead
+hiss [22k\]: seki enough for b
+ketchup [4k\]: j1 give eye?
+truman [3d\]: nice
+DonValley [5d?\]: j1 tenuki
+pasky [-\]: oh lol
+iTengen [5k\]: j1 super dumb surely
+jabbawocky [1k\]: j1 j3]
+BL[2061.002];W[fa]
+C[truman [3d\]: it's not a seki
+DnFBlitz [1k\]: just nothing]
+WL[309.355];B[ha]
+C[pasky [-\]: ok ok :))
+DnFBlitz [1k\]: just dead
+ketchup [4k\]: lol
+Ukasuhs [1k\]: j1 is just gote
+Gynn [13k?\]: lol
+Zvi [3k\]: bot is desperate? :O
+Korlon [3k\]: Resign time
+floss [5k\]: don't escape, bot!
+sefil3k [3k\]: what was g9?
+Mercury [5k?\]: lolol
+Gynn [13k?\]: bot is VERY desperate
+DonValley [5d?\]: haha
+blackdoor [6d\]: kick this bot out
+ketchup [4k\]: ah time problems
+Archaic [1d\]: what was f9 u mean]
+BL[2057.05];W[ii]
+C[Zvi [3k\]: bot should escape :p
+Mercury [5k?\]: get a new bot
+Zvi [3k\]: LOL
+Ukasuhs [1k\]: c9
+jabbawocky [1k\]: lolsuji]
+WL[284.196];B[ee]
+C[DnFBlitz [1k\]: it would be nice if the programmers could comment \
+on it :)
+Rakeliem [1d\]: lol lolsuji
+ketchup [4k\]: the time difference is a lot still..]
+BL[2050.94];W[dc]
+C[Archaic [1d\]: this is way complicated
+Zvi [3k\]: ??????????
+sefil3k [3k\]: d7?]
+WL[262.079];B[ca]
+C[truman [3d\]: yeah but it's not like b will suddenly start using \
+it.
+sefil3k [3k\]: 30k or what?
+Zvi [3k\]: this is sad
+truman [3d\]: (the time, i mean)
+Mercury [5k?\]: no its just noob now
+jabbawocky [1k\]: wait, w took 50 mintes??
+Mercury [5k?\]: was complicated then bot just failed hard]
+BL[2044.795];W[ab]
+C[Zvi [3k\]: lol
+Zvi [3k\]: ???
+ketchup [4k\]: truman, i mean for white, the amount of time it \
+takes is just too much..
+Ukasuhs [1k\]: bot is programmed to use all the time it is given
+Daeton [6k\]: heh
+Zvi [3k\]: what is a8? :\\
+Zeid [2d\]: w got 2 points =)
+tadanobu [10k\]: White is a bot with good time programming, it \
+had 50 minutes, it used them...]
+WL[241.768];B[df]
+C[pasky [-\]: does mogo still have problems with nakade?
+arpad [?\]: w has trouble seeing that G1 is dead
+pasky [-\]: maybe it doesn't actually recognize it's dead
+pasky [-\]: i've heard they were fixing this though]
+BL[2029.772];W[ea]
+C[tuerda [1k\]: mogo like kgs mascot
+Zvi [3k\]: ignore lol
+Ukasuhs [1k\]: Zeid, its chinese scoring, so w got 27.5 points
+sefil3k [3k\]: e9?
+Nefri89 [9k\]: =S]
+WL[223.102]
+;B[da]
+C[Archaic [1d\]: ??????????????????????
+ketchup [4k\]: what's e9?
+arpad [?\]: it still has trouble with the 5stones form
+Akagi316 [6k?\]: w is so good
+hiss [22k\]: w doesn't see it dead yet
+Akagi316 [6k?\]: lol lol
+Mercury [5k?\]: e9 is time using move
+Nefri89 [9k\]: yea
+truespirit [8k\]: O_o
+jabbawocky [1k\]: e9 is timesuji is SD
+Mercury [5k?\]: cuz it must use its time
+pasky [-\]: arpad, ouch :(
+Archaic [1d\]: no threats now for white
+Mercury [5k?\]: L:]
+BL[2023.888];W[db]
+C[ketchup [4k\]: lol jabbawocky
+Korlon [3k\]: o_O
+arpad [?\]: yep :(
+Archaic [1d\]: what?
+Gynn [13k?\]: XD]
+WL[206.135];B[dd]
+C[Zvi [3k\]: :(((
+Kirby [2k\]: behold, the power of computer go
+arlefferts [23k\]: ?
+MonkehKid [-\]: lol...
+Nefri89 [9k\]: yea he goes for it
+myongstu [-\]: it seems mojo got worse
+Zvi [3k\]: i can't watch this
+Mercury [5k?\]: WHITE NEEDS TO USE AL:L THE TIME or it will barke
+jabbawocky [1k\]: hahaha
+mmueller [4d?\]: Fuego also has trouble with this
+Archaic [1d\]: at first i was thinking there was some utter complexity \
+to this
+arlefferts [23k\]: bot gave up
+Archaic [1d\]: then i realize it's computer stupidity
+Archaic [1d\]: now
+Zvi [3k\]: white is playing "please resign" moves rofl
+DonValley [5d?\]: yay
+jabbawocky [1k\]: aww
+iTengen [5k\]: WOOP
+pasky [-\]: nice
+Gynn [13k?\]: lol
+jabbawocky [1k\]: dang
+pasky [-\]: it did notice it after all
+Zvi [3k\]: great game :)
+blackdoor [6d\]: wow it knows how to resign
+jabbawocky [1k\]: 9p the best
+Archaic [1d\]: i'll study this to see if the wierd moves were \
+actually insightful
+myongstu [-\]: after losing his group, mogo was like a desperate \
+20k
+Archaic [1d\]: or computer idiocy
+ShadowLink [9k\]: xD
+Mercury [5k?\]: yar
+Mercury [5k?\]: but he never lost it
+jabbawocky [1k\]: computer has feelings too
+Mercury [5k?\]: just lost the points
+jabbawocky [1k\]: dont be mean
+Kirby [2k\]: i'm sorry to the computer.  i only meant to be mean \
+to the programmers
+jabbawocky [1k\]: ah
+jabbawocky [1k\]: thats ok
+ozimandias [4k\]: no "thanks for the game" ?
+ozimandias [4k\]: xD
+jabbawocky [1k\]: he didnt even comment or review
+Archaic [1d\]: hmm
+Archaic [1d\]: j1 killed his group
+Korlon [3k\]: Was already dead
+jabbawocky [1k\]: his group was already dead no?
+jabbawocky [1k\]: yes
+nutn307: hi! everybody
+Archaic [1d\]: o yea
+jabbawocky [1k\]: bc white could h4 after libs were filled
+nutn307: we have oen website
+nutn307: http://go.nutn.edu.tw/2009
+Archaic [1d\]: so i guess
+Archaic [1d\]: i'll just look over f7 and c6
+Archaic [1d\]: to see what was special about it
+Archaic [1d\]: probably computer stupidity
+kuy30 [1d\]: I think MoGo won't be able to win pros stably until \
+they eliminate that weakness
+DanielFox [-\]: what would you do if you won a pro? I 'm not sure \
+what i'd feed him
+Archaic [1d\]: what weakness
+Archaic [1d\]: i'd feed him more processing power
+Archaic [1d\]: until he develops his own consciousness
+kuy30 [1d\]: 600 cpu is not enough for you?
+Archaic [1d\]: the b pro
+Archaic [1d\]: might've just played c7
+Archaic [1d\]: because
+Archaic [1d\]: he wanted to speed it up
+Archaic [1d\]: not for any particular reason
+kuy30 [1d\]: board is too small, cpu won't help is program has \
+weakness
+kuy30 [1d\]: mogo just didn't see kill
+Archaic [1d\]: o
+Archaic [1d\]: this game is way hard to program
+Archaic [1d\]: compared with chess
+kuy30 [1d\]: yes, it is
+Archaic [1d\]: okiee
+Archaic [1d\]: i'm gonna look at ..
+kuy30 [1d\]: though rules are simple
+Archaic [1d\]: c6 move now
+Archaic [1d\]: come see if u find anything special
+CHOWstyle [3k\]: computer needs some shape knowledge I guess
+aware [2k\]: is the rematch computer with bot b without komi? \
+- would be nice
+Archaic [1d\]: with c6 and f7 moves
+aware [2k\]: -computer:)
+pasky [-\]: well this seemed to be played evenly
+pasky [-\]: no need to drop the komi right away
+pasky [-\]: after two losses maybe
+aware [2k\]: k
+kuy30 [1d\]: I do not think mogo uses any knowladge at all
+pasky [-\]: what do you mean?
+pasky [-\]: mogo uses some patterns
+Archaic [1d\]: bleh
+kuy30 [1d\]: really?
+arpad [?\]: quite a lot actually
+kuy30 [1d\]: it has heavy playouts?
+arpad [?\]: yes]
+BL[2018.081])

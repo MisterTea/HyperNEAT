@@ -1,0 +1,127 @@
+\BOOKMARK [0][-]{chapter.1}{JGTL Namespace Index}{}
+\BOOKMARK [1][-]{section.1.1}{JGTL Namespace List}{chapter.1}
+\BOOKMARK [0][-]{chapter.2}{JGTL Hierarchical Index}{}
+\BOOKMARK [1][-]{section.2.1}{JGTL Class Hierarchy}{chapter.2}
+\BOOKMARK [0][-]{chapter.3}{JGTL Class Index}{}
+\BOOKMARK [1][-]{section.3.1}{JGTL Class List}{chapter.3}
+\BOOKMARK [0][-]{chapter.4}{JGTL File Index}{}
+\BOOKMARK [1][-]{section.4.1}{JGTL File List}{chapter.4}
+\BOOKMARK [0][-]{chapter.5}{JGTL Namespace Documentation}{}
+\BOOKMARK [1][-]{section.5.1}{JGTL Namespace Reference}{chapter.5}
+\BOOKMARK [1][-]{section.5.2}{std Namespace Reference}{chapter.5}
+\BOOKMARK [0][-]{chapter.6}{JGTL Class Documentation}{}
+\BOOKMARK [1][-]{section.6.1}{JGTL::Bar< BarValueType > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.2}{JGTL::BinaryTreeNode Class Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.3}{JGTL::CCmdParam Struct Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.4}{JGTL::CircularBuffer< Data > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.5}{JGTL::CircularBufferInterface< Data > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.6}{JGTL::Clock Class Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.7}{JGTL::CommandLineParser Class Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.8}{JGTL::DataManager< Data > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.9}{JGTL::DataPool< Data > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.10}{JGTL::DynamicCircularBuffer< Data > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.11}{JGTL::DynamicPoolMap< Key, Data > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.12}{JGTL::DynamicPoolSet< Data > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.13}{JGTL::FloatingUnits< ValueType, SCALE\137NUMERATOR, SCALE\137DENOMINATOR > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.14}{JGTL::HexTree< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.15}{JGTL::HexTreeBranch< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.16}{JGTL::HexTreeNode< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.17}{JGTL::HexTreeStub< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.18}{JGTL::IF< condition, Then, Else > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.19}{JGTL::IF< false, Then, Else > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.20}{JGTL::Index2 Class Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.21}{JGTL::Index3 Class Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.22}{JGTL::IntegralUnits< ValueType, SCALE, USEGCD > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.23}{JGTL::IntegralUnitsGCD< i, j > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.24}{JGTL::IntegralUnitsGCD< 0, 0 > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.25}{JGTL::IntegralUnitsGCD< 0, j > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.26}{JGTL::IntegralUnitsGCD< 1, 1 > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.27}{JGTL::IntegralUnitsGCD< 1, j > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.28}{JGTL::IntegralUnitsGCD< i, 0 > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.29}{JGTL::IntegralUnitsGCD< i, 1 > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.30}{JGTL::InterpolatedValue< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.31}{JGTL::LocatedException Class Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.32}{JGTL::MapInterface< Key, Data > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.33}{JGTL::NullVariantClass Class Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.34}{JGTL::PolyVariant< BaseClass, Class1, Class2, Class3, Class4, Class5, Class6, Class7, Class8, Class9, Class10 > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.35}{JGTL::PoolMap< Key, Data > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.36}{JGTL::ProfileBlock Struct Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.37}{JGTL::ProfileBlockHandler Class Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.38}{JGTL::Profiler Class Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.39}{JGTL::QuadTree< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.40}{JGTL::QuadTreeBranch< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.41}{JGTL::QuadTreeNode< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.42}{JGTL::QuadTreeStub< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.43}{JGTL::Ray2< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.44}{JGTL::Ray3< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.45}{JGTL::Rectangle3< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.46}{JGTL::RectangleIndex3 Class Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.47}{JGTL::SetInterface< Data > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.48}{JGTL::Singleton< Type > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.49}{JGTL::SortedList< Data > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.50}{JGTL::StackCircularBuffer< Data, MAX\137ELEMENTS > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.51}{JGTL::StackMap< Key, Data, MAX\137ELEMENTS > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.52}{JGTL::StackSet< Data, MAX\137ELEMENTS > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.53}{JGTL::STATIC\137MAX\137SIZE< One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.54}{JGTL::STATIC\137MAX\137SIZE< One, One, One, One, One, One, One, One, One, Two > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.55}{JGTL::STATIC\137MAX\137SIZE< One, One, One, One, One, One, One, One, Two, Three > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.56}{JGTL::STATIC\137MAX\137SIZE< One, One, One, One, One, One, One, Two, Three, Four > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.57}{JGTL::STATIC\137MAX\137SIZE< One, One, One, One, One, One, Two, Three, Four, Five > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.58}{JGTL::STATIC\137MAX\137SIZE< One, One, One, One, One, Two, Three, Four, Five, Six > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.59}{JGTL::STATIC\137MAX\137SIZE< One, One, One, One, Two, Three, Four, Five, Six, Seven > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.60}{JGTL::STATIC\137MAX\137SIZE< One, One, One, Two, Three, Four, Five, Six, Seven, Eight > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.61}{JGTL::STATIC\137MAX\137SIZE< One, One, Two, Three, Four, Five, Six, Seven, Eight, Nine > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.62}{JGTL::STATIC\137MOD< Type, a, b > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.63}{JGTL::TreeList< Data > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.64}{JGTL::TreeListNode< Data > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.65}{JGTL::TYPEIF< Type, condition, Then, Else > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.66}{JGTL::TYPEIF< Type, false, Then, Else > Struct Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.67}{JGTL::Variant< Class1, Class2, Class3, Class4, Class5, Class6, Class7, Class8, Class9, Class10 > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.68}{JGTL::Vector2< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.69}{JGTL::Vector3< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.70}{JGTL::Vector4< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.71}{JGTL::WrappedInterpolatedValue< T > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.72}{JGTL::XorSpace< Rectangle, Point > Class Template Reference}{chapter.6}
+\BOOKMARK [1][-]{section.6.73}{JGTL::XorSpaceRect< Rectangle, Point > Class Template Reference}{chapter.6}
+\BOOKMARK [0][-]{chapter.7}{JGTL File Documentation}{}
+\BOOKMARK [1][-]{section.7.1}{JGTL\137Bar.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.2}{JGTL\137CircularBuffer.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.3}{JGTL\137CircularBufferInterface.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.4}{JGTL\137CommandLineParser.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.5}{JGTL\137DataManager.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.6}{JGTL\137DataPool\137delete.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.7}{JGTL\137DynamicCircularBuffer.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.8}{JGTL\137DynamicPoolMap.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.9}{JGTL\137DynamicPoolSet.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.10}{JGTL\137FloatingUnits.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.11}{JGTL\137HexTree.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.12}{JGTL\137Index2.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.13}{JGTL\137Index3.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.14}{JGTL\137IntegralUnits.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.15}{JGTL\137InterpolatedValue.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.16}{JGTL\137LocatedException.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.17}{JGTL\137MapInterface.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.18}{JGTL\137PolyVariant.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.19}{JGTL\137PoolMap\137delete.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.20}{JGTL\137QuadTree.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.21}{JGTL\137QuickProf.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.22}{JGTL\137Ray2.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.23}{JGTL\137Ray3.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.24}{JGTL\137Rectangle3.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.25}{JGTL\137Serialization.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.26}{JGTL\137SetInterface.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.27}{JGTL\137Singleton.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.28}{JGTL\137SortedList\137delete.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.29}{JGTL\137StackCircularBuffer.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.30}{JGTL\137StackMap.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.31}{JGTL\137StackSet.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.32}{JGTL\137StringConverter.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.33}{JGTL\137TreeList.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.34}{JGTL\137UnorderedDynamicPoolMap.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.35}{JGTL\137UnorderedMapInterface.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.36}{JGTL\137Variant.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.37}{JGTL\137Vector2.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.38}{JGTL\137Vector3.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.39}{JGTL\137Vector4.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.40}{JGTL\137WrappedInterpolatedValue.h File Reference}{chapter.7}
+\BOOKMARK [1][-]{section.7.41}{JGTL\137XorSpace.h File Reference}{chapter.7}

@@ -1,0 +1,190 @@
+\hypertarget{class_j_g_t_l_1_1_data_pool}{
+\section{JGTL::Data\-Pool$<$ Data $>$ Class Template Reference}
+\label{class_j_g_t_l_1_1_data_pool}\index{JGTL::DataPool@{JGTL::DataPool}}
+}
+{\tt \#include $<$JGTL\_\-Data\-Pool\_\-delete.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_data_pool_31db1e354783d6464e3ee91f6844a115}{Data\-Pool} (size\_\-t \_\-max\-Elements)
+\item 
+virtual \hyperlink{class_j_g_t_l_1_1_data_pool_11db34789e06fa0adf25c904e7797242}{$\sim$Data\-Pool} ()
+\item 
+void \hyperlink{class_j_g_t_l_1_1_data_pool_8a1ee540cad394f557250cf68d1a54d5}{add\-Data} (const Data \&data)
+\item 
+Data \& \hyperlink{class_j_g_t_l_1_1_data_pool_6724b45cf27d9c1031dbbcc83bc0e24e}{get\-Data} (size\_\-t index) const
+\item 
+Data \& \hyperlink{class_j_g_t_l_1_1_data_pool_b45c619a2a490bc75cb3f558eb385210}{get\-Data} (const string \&key, bool case\-Sensitive=true) const 
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_data_pool_f4d1d2be96611b56b379ae8df2805f60}{get\-Data\-Ptr} (size\_\-t index) const
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_data_pool_a7705ab185a03a9637f7706a8e91b7d8}{begin} () const
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_data_pool_4161e2ff9fe92083b6541ba6a007254b}{end} () const
+\item 
+size\_\-t \hyperlink{class_j_g_t_l_1_1_data_pool_2a36203564f65a695c1ed9cae869f379}{get\-Size} () const
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_data_pool_324ce69513e59869e37f94c67285307f}{get\-Data\-Ptr} (const string \&key, bool case\-Sensitive=true)
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+size\_\-t \hyperlink{class_j_g_t_l_1_1_data_pool_9212d2d6361f7899c7466d283da57348}{num\-Elements}
+\item 
+size\_\-t \hyperlink{class_j_g_t_l_1_1_data_pool_719aa8582f73c25d5a8b2d99b965c108}{max\-Elements}
+\item 
+Data $\ast$ \hyperlink{class_j_g_t_l_1_1_data_pool_483eef3daa9591762461688b095698e9}{data\-List}
+\item 
+bool $\ast$ \hyperlink{class_j_g_t_l_1_1_data_pool_c9f0500553ee7ffc10d526738c2691f2}{used}
+\item 
+map$<$ string, Data $\ast$ $>$ \hyperlink{class_j_g_t_l_1_1_data_pool_1ae3a6d7344f663a81bd4b8f114943fa}{data\-Map}
+\item 
+map$<$ string, Data $\ast$ $>$ \hyperlink{class_j_g_t_l_1_1_data_pool_e317f4950f8e4327198cd55bd49445d8}{data\-Case\-Insensitive\-Map}
+\item 
+allocator$<$ Data $>$ \hyperlink{class_j_g_t_l_1_1_data_pool_659a9784d3dd8b8096d56f6e42403869}{alloc}
+\item 
+allocator$<$ bool $>$ \hyperlink{class_j_g_t_l_1_1_data_pool_24aa967e3f726dc688a089ac3ee2d3e5}{bool\-Alloc}
+\end{CompactItemize}
+\subsubsection*{template$<$class Data$>$ class JGTL::Data\-Pool$<$ Data $>$}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_data_pool_31db1e354783d6464e3ee91f6844a115}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!DataPool@{DataPool}}
+\index{DataPool@{DataPool}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[DataPool]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_pool}{Data\-Pool} (size\_\-t {\em \_\-max\-Elements})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_31db1e354783d6464e3ee91f6844a115}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_11db34789e06fa0adf25c904e7797242}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!~DataPool@{$\sim$DataPool}}
+\index{~DataPool@{$\sim$DataPool}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[$\sim$DataPool]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ virtual \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::$\sim$\hyperlink{class_j_g_t_l_1_1_data_pool}{Data\-Pool} ()\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_11db34789e06fa0adf25c904e7797242}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_data_pool_8a1ee540cad394f557250cf68d1a54d5}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!addData@{addData}}
+\index{addData@{addData}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[addData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ void \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::add\-Data (const Data \& {\em data})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_8a1ee540cad394f557250cf68d1a54d5}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_6724b45cf27d9c1031dbbcc83bc0e24e}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!getData@{getData}}
+\index{getData@{getData}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[getData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data\& \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::get\-Data (size\_\-t {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_6724b45cf27d9c1031dbbcc83bc0e24e}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_b45c619a2a490bc75cb3f558eb385210}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!getData@{getData}}
+\index{getData@{getData}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[getData]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data\& \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::get\-Data (const string \& {\em key}, bool {\em case\-Sensitive} = {\tt true}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_b45c619a2a490bc75cb3f558eb385210}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_f4d1d2be96611b56b379ae8df2805f60}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!getDataPtr@{getDataPtr}}
+\index{getDataPtr@{getDataPtr}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[getDataPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::get\-Data\-Ptr (size\_\-t {\em index}) const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_f4d1d2be96611b56b379ae8df2805f60}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_a7705ab185a03a9637f7706a8e91b7d8}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!begin@{begin}}
+\index{begin@{begin}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[begin]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::begin () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_a7705ab185a03a9637f7706a8e91b7d8}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_4161e2ff9fe92083b6541ba6a007254b}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!end@{end}}
+\index{end@{end}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[end]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::end () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_4161e2ff9fe92083b6541ba6a007254b}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_2a36203564f65a695c1ed9cae869f379}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!getSize@{getSize}}
+\index{getSize@{getSize}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[getSize]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ size\_\-t \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::get\-Size () const\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_2a36203564f65a695c1ed9cae869f379}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_324ce69513e59869e37f94c67285307f}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!getDataPtr@{getDataPtr}}
+\index{getDataPtr@{getDataPtr}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[getDataPtr]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::get\-Data\-Ptr (const string \& {\em key}, bool {\em case\-Sensitive} = {\tt true})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_324ce69513e59869e37f94c67285307f}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_data_pool_9212d2d6361f7899c7466d283da57348}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!numElements@{numElements}}
+\index{numElements@{numElements}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[numElements]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ size\_\-t \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_pool_9212d2d6361f7899c7466d283da57348}{num\-Elements}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_9212d2d6361f7899c7466d283da57348}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_719aa8582f73c25d5a8b2d99b965c108}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!maxElements@{maxElements}}
+\index{maxElements@{maxElements}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[maxElements]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ size\_\-t \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_pool_719aa8582f73c25d5a8b2d99b965c108}{max\-Elements}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_719aa8582f73c25d5a8b2d99b965c108}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_483eef3daa9591762461688b095698e9}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!dataList@{dataList}}
+\index{dataList@{dataList}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[dataList]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ Data$\ast$ \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_pool_483eef3daa9591762461688b095698e9}{data\-List}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_483eef3daa9591762461688b095698e9}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_c9f0500553ee7ffc10d526738c2691f2}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!used@{used}}
+\index{used@{used}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[used]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ bool$\ast$ \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_pool_c9f0500553ee7ffc10d526738c2691f2}{used}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_c9f0500553ee7ffc10d526738c2691f2}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_1ae3a6d7344f663a81bd4b8f114943fa}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!dataMap@{dataMap}}
+\index{dataMap@{dataMap}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[dataMap]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ map$<$string,Data $\ast$$>$ \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_pool_1ae3a6d7344f663a81bd4b8f114943fa}{data\-Map}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_1ae3a6d7344f663a81bd4b8f114943fa}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_e317f4950f8e4327198cd55bd49445d8}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!dataCaseInsensitiveMap@{dataCaseInsensitiveMap}}
+\index{dataCaseInsensitiveMap@{dataCaseInsensitiveMap}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[dataCaseInsensitiveMap]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ map$<$string,Data $\ast$$>$ \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_pool_e317f4950f8e4327198cd55bd49445d8}{data\-Case\-Insensitive\-Map}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_e317f4950f8e4327198cd55bd49445d8}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_659a9784d3dd8b8096d56f6e42403869}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!alloc@{alloc}}
+\index{alloc@{alloc}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[alloc]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ allocator$<$Data$>$ \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_pool_659a9784d3dd8b8096d56f6e42403869}{alloc}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_659a9784d3dd8b8096d56f6e42403869}
+
+
+\hypertarget{class_j_g_t_l_1_1_data_pool_24aa967e3f726dc688a089ac3ee2d3e5}{
+\index{JGTL::DataPool@{JGTL::Data\-Pool}!boolAlloc@{boolAlloc}}
+\index{boolAlloc@{boolAlloc}!JGTL::DataPool@{JGTL::Data\-Pool}}
+\subsubsection[boolAlloc]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data$>$ allocator$<$bool$>$ \hyperlink{class_j_g_t_l_1_1_data_pool}{JGTL::Data\-Pool}$<$ Data $>$::\hyperlink{class_j_g_t_l_1_1_data_pool_24aa967e3f726dc688a089ac3ee2d3e5}{bool\-Alloc}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_data_pool_24aa967e3f726dc688a089ac3ee2d3e5}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___data_pool__delete_8h}{JGTL\_\-Data\-Pool\_\-delete.h}\end{CompactItemize}

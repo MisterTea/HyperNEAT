@@ -1,0 +1,116 @@
+\hypertarget{class_j_g_t_l_1_1_stack_circular_buffer}{
+\section{JGTL::Stack\-Circular\-Buffer$<$ Data, MAX\_\-ELEMENTS $>$ Class Template Reference}
+\label{class_j_g_t_l_1_1_stack_circular_buffer}\index{JGTL::StackCircularBuffer@{JGTL::StackCircularBuffer}}
+}
+The \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{Stack\-Circular\-Buffer} Class handles a Circular Buffer.  
+
+
+{\tt \#include $<$JGTL\_\-Stack\-Circular\-Buffer.h$>$}
+
+Inheritance diagram for JGTL::Stack\-Circular\-Buffer$<$ Data, MAX\_\-ELEMENTS $>$::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{class_j_g_t_l_1_1_stack_circular_buffer}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_j_g_t_l_1_1_stack_circular_buffer_7c4eab48cf58e51095ae649a2ca1ac80}{Stack\-Circular\-Buffer} ()
+\item 
+\hyperlink{class_j_g_t_l_1_1_stack_circular_buffer_5446118506dc4721fcb96a6ede231c26}{Stack\-Circular\-Buffer} (const \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{Stack\-Circular\-Buffer} \&other)
+\item 
+const \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{Stack\-Circular\-Buffer} \& \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer_1a099357e861a7baa232b3ee3ecbd6f4}{operator=} (const \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{Stack\-Circular\-Buffer} \&other)
+\item 
+virtual \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer_68a5c68dcf1b7d30bfc0c5b90db6fdcd}{$\sim$Stack\-Circular\-Buffer} ()
+\item 
+virtual bool \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer_07b33fe01ef78d42d06a2cce77ffd2be}{resize} (int new\-Size)
+\end{CompactItemize}
+\subsection*{Protected Member Functions}
+\begin{CompactItemize}
+\item 
+void \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer_e5e4f039f4463be0f086d52bb262a314}{copy\-From} (const \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{Stack\-Circular\-Buffer} \&other)
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+unsigned char \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer_dd8559d1e2f47be8c10154768a997bfa}{data} \mbox{[}MAX\_\-ELEMENTS $\ast$sizeof(Data)\mbox{]}
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class Data, int MAX\_\-ELEMENTS = 32$>$ class JGTL::Stack\-Circular\-Buffer$<$ Data, MAX\_\-ELEMENTS $>$}
+
+The \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{Stack\-Circular\-Buffer} Class handles a Circular Buffer. 
+
+\begin{Desc}
+\item[Author:]Jason Gauci \end{Desc}
+\begin{Desc}
+\item[Date:]2008 \end{Desc}
+
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_j_g_t_l_1_1_stack_circular_buffer_7c4eab48cf58e51095ae649a2ca1ac80}{
+\index{JGTL::StackCircularBuffer@{JGTL::Stack\-Circular\-Buffer}!StackCircularBuffer@{StackCircularBuffer}}
+\index{StackCircularBuffer@{StackCircularBuffer}!JGTL::StackCircularBuffer@{JGTL::Stack\-Circular\-Buffer}}
+\subsubsection[StackCircularBuffer]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data, int MAX\_\-ELEMENTS = 32$>$ \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{JGTL::Stack\-Circular\-Buffer}$<$ Data, MAX\_\-ELEMENTS $>$::\hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{Stack\-Circular\-Buffer} ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_stack_circular_buffer_7c4eab48cf58e51095ae649a2ca1ac80}
+
+
+\hypertarget{class_j_g_t_l_1_1_stack_circular_buffer_5446118506dc4721fcb96a6ede231c26}{
+\index{JGTL::StackCircularBuffer@{JGTL::Stack\-Circular\-Buffer}!StackCircularBuffer@{StackCircularBuffer}}
+\index{StackCircularBuffer@{StackCircularBuffer}!JGTL::StackCircularBuffer@{JGTL::Stack\-Circular\-Buffer}}
+\subsubsection[StackCircularBuffer]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data, int MAX\_\-ELEMENTS = 32$>$ \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{JGTL::Stack\-Circular\-Buffer}$<$ Data, MAX\_\-ELEMENTS $>$::\hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{Stack\-Circular\-Buffer} (const \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{Stack\-Circular\-Buffer}$<$ Data, MAX\_\-ELEMENTS $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_stack_circular_buffer_5446118506dc4721fcb96a6ede231c26}
+
+
+\hypertarget{class_j_g_t_l_1_1_stack_circular_buffer_68a5c68dcf1b7d30bfc0c5b90db6fdcd}{
+\index{JGTL::StackCircularBuffer@{JGTL::Stack\-Circular\-Buffer}!~StackCircularBuffer@{$\sim$StackCircularBuffer}}
+\index{~StackCircularBuffer@{$\sim$StackCircularBuffer}!JGTL::StackCircularBuffer@{JGTL::Stack\-Circular\-Buffer}}
+\subsubsection[$\sim$StackCircularBuffer]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data, int MAX\_\-ELEMENTS = 32$>$ virtual \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{JGTL::Stack\-Circular\-Buffer}$<$ Data, MAX\_\-ELEMENTS $>$::$\sim$\hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{Stack\-Circular\-Buffer} ()\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_stack_circular_buffer_68a5c68dcf1b7d30bfc0c5b90db6fdcd}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_j_g_t_l_1_1_stack_circular_buffer_1a099357e861a7baa232b3ee3ecbd6f4}{
+\index{JGTL::StackCircularBuffer@{JGTL::Stack\-Circular\-Buffer}!operator=@{operator=}}
+\index{operator=@{operator=}!JGTL::StackCircularBuffer@{JGTL::Stack\-Circular\-Buffer}}
+\subsubsection[operator=]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data, int MAX\_\-ELEMENTS = 32$>$ const \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{Stack\-Circular\-Buffer}\& \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{JGTL::Stack\-Circular\-Buffer}$<$ Data, MAX\_\-ELEMENTS $>$::operator= (const \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{Stack\-Circular\-Buffer}$<$ Data, MAX\_\-ELEMENTS $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}}
+\label{class_j_g_t_l_1_1_stack_circular_buffer_1a099357e861a7baa232b3ee3ecbd6f4}
+
+
+\hypertarget{class_j_g_t_l_1_1_stack_circular_buffer_07b33fe01ef78d42d06a2cce77ffd2be}{
+\index{JGTL::StackCircularBuffer@{JGTL::Stack\-Circular\-Buffer}!resize@{resize}}
+\index{resize@{resize}!JGTL::StackCircularBuffer@{JGTL::Stack\-Circular\-Buffer}}
+\subsubsection[resize]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data, int MAX\_\-ELEMENTS = 32$>$ virtual bool \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{JGTL::Stack\-Circular\-Buffer}$<$ Data, MAX\_\-ELEMENTS $>$::resize (int {\em new\-Size})\hspace{0.3cm}{\tt  \mbox{[}inline, virtual\mbox{]}}}}
+\label{class_j_g_t_l_1_1_stack_circular_buffer_07b33fe01ef78d42d06a2cce77ffd2be}
+
+
+
+
+Implements \hyperlink{class_j_g_t_l_1_1_circular_buffer_interface_c6976a1811fdeb5b1810e379022f67ba}{JGTL::Circular\-Buffer\-Interface$<$ Data $>$}.\hypertarget{class_j_g_t_l_1_1_stack_circular_buffer_e5e4f039f4463be0f086d52bb262a314}{
+\index{JGTL::StackCircularBuffer@{JGTL::Stack\-Circular\-Buffer}!copyFrom@{copyFrom}}
+\index{copyFrom@{copyFrom}!JGTL::StackCircularBuffer@{JGTL::Stack\-Circular\-Buffer}}
+\subsubsection[copyFrom]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data, int MAX\_\-ELEMENTS = 32$>$ void \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{JGTL::Stack\-Circular\-Buffer}$<$ Data, MAX\_\-ELEMENTS $>$::copy\-From (const \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{Stack\-Circular\-Buffer}$<$ Data, MAX\_\-ELEMENTS $>$ \& {\em other})\hspace{0.3cm}{\tt  \mbox{[}inline, protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_stack_circular_buffer_e5e4f039f4463be0f086d52bb262a314}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_j_g_t_l_1_1_stack_circular_buffer_dd8559d1e2f47be8c10154768a997bfa}{
+\index{JGTL::StackCircularBuffer@{JGTL::Stack\-Circular\-Buffer}!data@{data}}
+\index{data@{data}!JGTL::StackCircularBuffer@{JGTL::Stack\-Circular\-Buffer}}
+\subsubsection[data]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Data, int MAX\_\-ELEMENTS = 32$>$ unsigned char \hyperlink{class_j_g_t_l_1_1_stack_circular_buffer}{JGTL::Stack\-Circular\-Buffer}$<$ Data, MAX\_\-ELEMENTS $>$::\hyperlink{class_j_g_t_l_1_1_stack_circular_buffer_dd8559d1e2f47be8c10154768a997bfa}{data}\mbox{[}MAX\_\-ELEMENTS $\ast$sizeof(Data)\mbox{]}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_j_g_t_l_1_1_stack_circular_buffer_dd8559d1e2f47be8c10154768a997bfa}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{_j_g_t_l___stack_circular_buffer_8h}{JGTL\_\-Stack\-Circular\-Buffer.h}\end{CompactItemize}

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NEAT" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="msvc8" />
+		<Build>
+			<Target title="Debug_MSVS">
+				<Option output="lib\NEAT_d.dll" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="lib" />
+				<Option object_output="Debug_MSVS" />
+				<Option type="3" />
+				<Option compiler="msvc8" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="/MDd" />
+					<Add option="/TP" />
+					<Add option="/Gd" />
+					<Add option="/RTC1" />
+					<Add option="/Gm" />
+					<Add option="/fp:precise" />
+					<Add option="/EHc" />
+					<Add option="/EHs" />
+					<Add option="/Od" />
+					<Add option="/Wp64" />
+					<Add option="/W3" />
+					<Add option="/ZI" />
+					<Add option="/DWIN32" />
+					<Add option="/D_DEBUG" />
+					<Add option="/D_WINDOWS" />
+					<Add option="/DBUILD_NEAT_DLL" />
+					<Add option="/DNEAT_EXPORTS" />
+					<Add option="/DTIXML_USE_STL" />
+				</Compiler>
+				<Linker>
+					<Add library="tinyxmldll_d" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="cmd /c copy /y $(TARGET_OUTPUT_DIR)lib\NEAT_d.dll $(ProjectDir)..\Hypercube_NEAT\" />
+					<Add after="cmd /c copy /y $(TARGET_OUTPUT_DIR)lib\NEAT_d.dll $(ProjectDir)..\CPPN_NEAT\" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release_MSVS">
+				<Option output="lib\NEAT.dll" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="lib" />
+				<Option object_output="Release_MSVS" />
+				<Option type="3" />
+				<Option compiler="msvc8" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="/MD" />
+					<Add option="/TP" />
+					<Add option="/Gd" />
+					<Add option="/GA" />
+					<Add option="/fp:fast" />
+					<Add option="/EHc" />
+					<Add option="/EHs" />
+					<Add option="/Ob" />
+					<Add option="/Ot" />
+					<Add option="/O2" />
+					<Add option="/W3" />
+					<Add option="/DWIN32" />
+					<Add option="/DNDEBUG" />
+					<Add option="/D_WINDOWS" />
+					<Add option="/DBUILD_NEAT_DLL" />
+					<Add option="/DNEAT_EXPORTS" />
+					<Add option="/DTIXML_USE_STL" />
+				</Compiler>
+				<Linker>
+					<Add library="tinyxmldll" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="cmd /c copy /y $(TARGET_OUTPUT_DIR)lib\NEAT.dll $(ProjectDir)..\Hypercube_NEAT\" />
+					<Add after="cmd /c copy /y $(TARGET_OUTPUT_DIR)lib\NEAT.dll $(ProjectDir)..\CPPN_NEAT\" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Debug_GCC">
+				<Option output="lib_GCC\libNEAT_gcc_d.dll" prefix_auto="0" extension_auto="1" />
+				<Option object_output="Debug_GCC" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Option projectLibDirsRelation="1" />
+				<Compiler>
+					<Add option="-march=pentium-m" />
+					<Add option="-W" />
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-D_USE_MATH_DEFINES" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DBUILD_NEAT_DLL" />
+					<Add option="-DNEAT_EXPORTS" />
+					<Add option="-DTIXML_USE_STL" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg" />
+					<Add library="tinyxmldll_gcc_d" />
+					<Add directory="..\..\..\tinyxmldll\tinyxmldll\lib_GCC" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="cp -f $(TARGET_OUTPUT_DIR)lib_GCC/libNEAT_gcc_d.* $(ProjectDir)../Hypercube_NEAT/" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release_GCC">
+				<Option output="lib_GCC\libNEAT_gcc.dll" prefix_auto="0" extension_auto="1" />
+				<Option object_output="Release_GCC" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-march=pentium-m" />
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add option="-W" />
+					<Add option="-D_USE_MATH_DEFINES" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DBUILD_NEAT_DLL" />
+					<Add option="-DNEAT_EXPORTS" />
+					<Add option="-DTIXML_USE_STL" />
+				</Compiler>
+				<Linker>
+					<Add library="tinyxmldll_gcc" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="cp -f $(TARGET_OUTPUT_DIR)lib_GCC/libNEAT_gcc.* $(ProjectDir)../Hypercube_NEAT/" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Debug_MSVS;Release_MSVS;" />
+			<Add alias="All_GCC" targets="Debug_GCC;Release_GCC;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="/D_USE_MATH_DEFINES" />
+			<Add option="/DBUILD_NEAT_DLL" />
+			<Add directory="include" />
+		</Compiler>
+		<Unit filename="include\LocatedException.h" />
+		<Unit filename="include\NEAT.h" />
+		<Unit filename="include\NEAT_CoEvoGeneticGeneration.h" />
+		<Unit filename="include\NEAT_Defines.h" />
+		<Unit filename="include\NEAT_FastBiasNetwork.h" />
+		<Unit filename="include\NEAT_FastNetwork.h" />
+		<Unit filename="include\NEAT_FractalNetwork.h" />
+		<Unit filename="include\NEAT_GeneticGene.h" />
+		<Unit filename="include\NEAT_GeneticGeneration.h" />
+		<Unit filename="include\NEAT_GeneticIndividual.h" />
+		<Unit filename="include\NEAT_GeneticLinkGene.h" />
+		<Unit filename="include\NEAT_GeneticNodeGene.h" />
+		<Unit filename="include\NEAT_GeneticPopulation.h" />
+		<Unit filename="include\NEAT_GeneticSpecies.h" />
+		<Unit filename="include\NEAT_Globals.h" />
+		<Unit filename="include\NEAT_ModularNetwork.h" />
+		<Unit filename="include\NEAT_Network.h" />
+		<Unit filename="include\NEAT_NetworkIndexedLink.h" />
+		<Unit filename="include\NEAT_NetworkLink.h" />
+		<Unit filename="include\NEAT_NetworkNode.h" />
+		<Unit filename="include\NEAT_Random.h" />
+		<Unit filename="include\NEAT_STL.h" />
+		<Unit filename="include\NEAT_VectorNetwork.h" />
+		<Unit filename="src\NEAT_CoEvoGeneticGeneration.cpp" />
+		<Unit filename="src\NEAT_FastBiasNetwork.cpp" />
+		<Unit filename="src\NEAT_FastNetwork.cpp" />
+		<Unit filename="src\NEAT_FractalNetwork.cpp" />
+		<Unit filename="src\NEAT_GeneticGene.cpp" />
+		<Unit filename="src\NEAT_GeneticGeneration.cpp" />
+		<Unit filename="src\NEAT_GeneticIndividual.cpp" />
+		<Unit filename="src\NEAT_GeneticLinkGene.cpp" />
+		<Unit filename="src\NEAT_GeneticNodeGene.cpp" />
+		<Unit filename="src\NEAT_GeneticPopulation.cpp" />
+		<Unit filename="src\NEAT_GeneticSpeces.cpp" />
+		<Unit filename="src\NEAT_Globals.cpp" />
+		<Unit filename="src\NEAT_ModularNetwork.cpp" />
+		<Unit filename="src\NEAT_Network.cpp" />
+		<Unit filename="src\NEAT_NetworkLink.cpp" />
+		<Unit filename="src\NEAT_NetworkNode.cpp" />
+		<Unit filename="src\NEAT_Random.cpp" />
+		<Unit filename="src\NEAT_VectorNetwork.cpp" />
+		<Extensions>
+			<code_completion />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

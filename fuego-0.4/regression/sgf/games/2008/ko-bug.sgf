@@ -1,0 +1,10 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1pre1]SZ[9]
+KM[7.5]TM[300]DT[2008-05-09]
+AB[af][ad][bf][be][bb][ba][ch][cf][cb][df][da][ei][eh][eg][ee][ed][ec][fg][fd][fc][fb][gc][gb][hd][hb][ic]
+AW[ab][bd][bc][cd][cc][de][dd][dc][db][ef][eb][ea][fh][ff][fe][gi][gg][ge][gd][hh][hg][he]
+C[possible followp position from game mm-fuego20080509.sgf]PL[W];W[ca]
+C[B is lost, but program does not see it.
+
+It looks like after a few seconds of simulations, B just makes his corner safe e.g. J6, and never considers White A9 in reply.
+Happens even with RAVE off.]
+WL[-396.0];B[id]BL[300.0];W[aa]WL[296.0])

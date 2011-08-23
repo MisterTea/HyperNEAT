@@ -1,0 +1,59 @@
+\hypertarget{_j_g_t_l___integral_units_8h}{
+\section{JGTL\_\-Integral\-Units.h File Reference}
+\label{_j_g_t_l___integral_units_8h}\index{JGTL_IntegralUnits.h@{JGTL\_\-IntegralUnits.h}}
+}
+{\tt \#include $<$iostream$>$}\par
+{\tt \#include $<$complex$>$}\par
+{\tt \#include $<$sstream$>$}\par
+\subsection*{Namespaces}
+\begin{CompactItemize}
+\item 
+namespace \hyperlink{namespace_j_g_t_l}{JGTL}
+\end{CompactItemize}
+\subsection*{Classes}
+\begin{CompactItemize}
+\item 
+struct \hyperlink{struct_j_g_t_l_1_1_i_f}{JGTL::IF$<$ condition, Then, Else $>$}
+\item 
+struct \hyperlink{struct_j_g_t_l_1_1_i_f_3_01false_00_01_then_00_01_else_01_4}{JGTL::IF$<$ false, Then, Else $>$}
+\item 
+struct \hyperlink{struct_j_g_t_l_1_1_s_t_a_t_i_c___m_o_d}{JGTL::STATIC\_\-MOD$<$ Type, a, b $>$}
+\item 
+struct \hyperlink{struct_j_g_t_l_1_1_t_y_p_e_i_f}{JGTL::TYPEIF$<$ Type, condition, Then, Else $>$}
+\item 
+struct \hyperlink{struct_j_g_t_l_1_1_t_y_p_e_i_f_3_01_type_00_01false_00_01_then_00_01_else_01_4}{JGTL::TYPEIF$<$ Type, false, Then, Else $>$}
+\item 
+struct \hyperlink{struct_j_g_t_l_1_1_integral_units_g_c_d}{JGTL::Integral\-Units\-GCD$<$ i, j $>$}
+\item 
+struct \hyperlink{struct_j_g_t_l_1_1_integral_units_g_c_d_3_011_00_01j_01_4}{JGTL::Integral\-Units\-GCD$<$ 1, j $>$}
+\item 
+struct \hyperlink{struct_j_g_t_l_1_1_integral_units_g_c_d_3_01i_00_011_01_4}{JGTL::Integral\-Units\-GCD$<$ i, 1 $>$}
+\item 
+struct \hyperlink{struct_j_g_t_l_1_1_integral_units_g_c_d_3_011_00_011_01_4}{JGTL::Integral\-Units\-GCD$<$ 1, 1 $>$}
+\item 
+struct \hyperlink{struct_j_g_t_l_1_1_integral_units_g_c_d_3_010_00_01j_01_4}{JGTL::Integral\-Units\-GCD$<$ 0, j $>$}
+\item 
+struct \hyperlink{struct_j_g_t_l_1_1_integral_units_g_c_d_3_01i_00_010_01_4}{JGTL::Integral\-Units\-GCD$<$ i, 0 $>$}
+\item 
+struct \hyperlink{struct_j_g_t_l_1_1_integral_units_g_c_d_3_010_00_010_01_4}{JGTL::Integral\-Units\-GCD$<$ 0, 0 $>$}
+\item 
+class \hyperlink{class_j_g_t_l_1_1_integral_units}{JGTL::Integral\-Units$<$ Value\-Type, SCALE, USEGCD $>$}
+\end{CompactItemize}
+\subsection*{Typedefs}
+\begin{CompactItemize}
+\item 
+typedef unsigned long long \hyperlink{namespace_j_g_t_l_1924d6fd42e2d9661bc0b5a5063b99b3}{JGTL::units\_\-internal\_\-ulong}
+\end{CompactItemize}
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+template$<$class T$>$ units\_\-internal\_\-ulong \hyperlink{namespace_j_g_t_l_5d540b652d4a0d15e83ae5daa5695edd}{JGTL::GCD} (T a, T b)
+\item 
+template$<$$>$ units\_\-internal\_\-ulong \hyperlink{namespace_j_g_t_l_3288a482038d7cc9db66241879178908}{JGTL::GCD} (double a, double b)
+\item 
+template$<$$>$ units\_\-internal\_\-ulong \hyperlink{namespace_j_g_t_l_25c40254ef74d292898efc841fa19182}{JGTL::GCD} (float a, float b)
+\item 
+template$<$class Value\-Type, Value\-Type SCALE, bool USEGCD$>$ std::ostream \& \hyperlink{namespace_j_g_t_l_bb4eaae6cdeb0bb91835f543745cf38e}{JGTL::operator$<$$<$} (std::ostream \&stream, const Integral\-Units$<$ Value\-Type, SCALE, USEGCD $>$ \&d)
+\item 
+template$<$class Value\-Type, Value\-Type SCALE, bool USEGCD$>$ std::istream \& \hyperlink{namespace_j_g_t_l_e2329341531898d1534dbc7ecb0b6a21}{JGTL::operator$>$$>$} (std::istream \&stream, Integral\-Units$<$ Value\-Type, SCALE, USEGCD $>$ \&d)
+\end{CompactItemize}
