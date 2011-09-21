@@ -1,0 +1,74 @@
+2010-06-23
+	* CMakeLists.txt has been a bit simplified with a FOREACH for examples.
+	* src/Shapes.cpp: Thanks to a fix provided by Freddie Exall, the
+	Ellipse::scale() method is now working properly.
+
+2009-08-22  Sebastien Fourey  <http://www.greyc.ensicaen.fr>
+
+	* All: Added a Path type
+	* All: Added clipping path to Board and Group classes.
+	* All: Fixed many bugs!
+
+2009-01-19  Sebastien Fourey  <http://www.greyc.ensicaen.fr>
+
+	* include/board/Shapes.h (struct Text): Bug fix in Text::Text()
+	contructor. Member "_angle" was not initialized.  ( Thanks Andre
+	Wehe, andre(at)wehe.us )
+
+2008-11-30  Sebastien Fourey  <http://www.greyc.ensicaen.fr>
+
+	* All: (Starting with version 0.8.4) The lib is now governed by
+	the LGPLv3 licence. The corresponding files (LGPLv3.txt and
+	GPLv3.txt) have been added to the package.  * All: IMPORTANT! The
+	namespace is no longer BoardLib, but "LibBoard" to consistent with
+	the Unix/Sourceforge/canonical name of the lib.  * Board: Units
+	are now handled. Figures may be draw with dimensions given in
+	custom units (multiples of cm, mm, in, or pt).  *
+	include/board/Color.h (BoardLib): Color::None replaces Color::none
+	for consistency.
+
+2008-11-16  Sebastien Fourey  <http://www.greyc.ensicaen.fr>
+
+	* src/Shapes.cpp: Added rotated(), scaled() and translated()
+	methods.  Thes methods return a new object to which a
+	transformation has been applied.
+
+2008-11-07  Sebastien Fourey  <http://www.greyc.ensicaen.fr>
+
+	* include/board/Shapes.h (struct Polyline): Added the operator<< to add points.
+
+2008-11-03  Sebastien Fourey  <http://www.greyc.ensicaen.fr>
+
+	* src/Shapes.cpp (Ellipse::flushPostscript):
+	Rectangles may now my scaled properly with disctint scaling factors along x and y axis.
+	Fixed a bug in the Postscript rendering of rotated ellipses.
+
+2008-11-00
+	*  Jason Gauci (University of Central Florida -
+	http://eplex.cs.ucf.edu/) provided a first CMake project
+	description file.
+
+
+
+# Version 0.8.2b Released September 19, 2007
+
+2007-09-06  Sebastien Fourey  <http://www.greyc.ensicaen.fr>
+
+	* configure: Fixed a problem with linking on 64 bit archictectures.
+
+2007-08-31  Sebastien Fourey  <http://www.greyc.ensicaen.fr>
+
+	* include/board/Shapes.h (BoardLib): Added a "Group" shape.
+
+# Version 0.8.1 Released September 19, 2007
+
+2007-09-19  Sebastien Fourey  <http://www.greyc.ensicaen.fr>
+
+	* Distribution:
+	Added the Doxyfile so that the "make install-doc" works.
+	Added the doxygen doc in /usr/share/doc/libboard/ in the Debian
+	package.
+
+# Version 0.8.0 Released August 24, 2007 (First release)
+
+

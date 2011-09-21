@@ -1,0 +1,52 @@
+**** Group clipping 
+
+* Rotated text.
+
+* Color quantization
+
+* Depth of groups in XFig files.
+
+* ShapeList::insert()
+
+* Loggable message system (MessageStream class)
+
+* The Bounding box of an empt Polyline should be a special (invalid) one.
+
+* FIG export
+   Handle figures having more than 512 color used when exporting FIG
+   files.
+* Text bounding box
+  Text bounding box is only roughly  handled yet. Take care of it!
+
+* SVG gzipped file support
+
+* Bitmap insertion
+
+* Handle arrow ends properly in SVG
+   (using markers, see http://www.w3.org/TR/SVG11/painting.html)
+
+* Operator << 
+  Board b;
+  b << Triangle( ... ).rotate( 45 ).scale( 2 );
+
+  -> Handle correctly depth in FIG export with groups.
+
+  X> Change all the struct fields to "_name" and "protected:"
+
+  -> ShapeList::penColor()
+  -> ShapeList::fillColor()
+  -> ShapeList::...
+
+ X> Ellipse::Ellipse() should be simpler (no linecap)
+
+ -> Scale 
+
+ X> Circle  inherits Ellipse.
+ 
+ -> Bounding box and scaling of ellipses.
+
+ -> Export in Ooo Drawing documents.
+
+ -> Rotation of ellipses in EPS files!
+
+* 64 Bit archs in Configure
