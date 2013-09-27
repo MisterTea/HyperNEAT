@@ -16,18 +16,18 @@
 /** Write all points in set. */
 class SgWritePointSet
 {
-public:
-    SgWritePointSet(const SgPointSet& pointSet, std::string label = "",
-                    bool writeSize = true);
+ public:
+  SgWritePointSet(const SgPointSet& pointSet, std::string label = "",
+                  bool writeSize = true);
 
-    std::ostream& Write(std::ostream& out) const;
+  std::ostream& Write(std::ostream& out) const;
 
-private:
-    bool m_writeSize;
+ private:
+  bool m_writeSize;
 
-    const SgPointSet& m_pointSet;
+  const SgPointSet& m_pointSet;
 
-    std::string m_label;
+  std::string m_label;
 };
 
 /** @relatesalso SgWritePointSet */
@@ -41,15 +41,15 @@ std::ostream& operator<<(std::ostream& out, const SgPointSet& set);
 /** Write center point and size of set */
 class SgWritePointSetID
 {
-public:
-    explicit SgWritePointSetID(const SgPointSet& p)
-        : m_p(p)
-    { }
+ public:
+  explicit SgWritePointSetID(const SgPointSet& p)
+    : m_p(p)
+  { }
 
-    const SgPointSet& Points() const { return m_p; }
-private:
+  const SgPointSet& Points() const { return m_p; }
+ private:
 
-    const SgPointSet& m_p;
+  const SgPointSet& m_p;
 };
 
 std::ostream& operator<<(std::ostream& stream, const SgWritePointSetID& w);
@@ -59,13 +59,13 @@ std::ostream& operator<<(std::ostream& stream, const SgWritePointSetID& w);
 /** Read all points in set. */
 class SgReadPointSet
 {
-public:
-    SgReadPointSet(SgPointSet& pointSet);
+ public:
+  SgReadPointSet(SgPointSet& pointSet);
 
-    std::istream& Read(std::istream& in) const;
+  std::istream& Read(std::istream& in) const;
 
-private:
-    mutable SgPointSet& m_pointSet; // allow temp objects to modify
+ private:
+  SgPointSet& m_pointSet; // allow temp objects to modify
 };
 
 /** @relatesalso SgReadPointSet */
@@ -77,8 +77,8 @@ std::istream& operator>>(std::istream& in, SgPointSet& pointSet);
 
 namespace SgPointSetUtil
 {
-    /** Rotate coordinates - see SgPointUtil::Rotate */
-    void Rotate(int rotation, SgPointSet& pointSet, int boardSize);
+  /** Rotate coordinates - see SgPointUtil::Rotate */
+  void Rotate(int rotation, SgPointSet& pointSet, int boardSize);
 }
 //----------------------------------------------------------------------------
 

@@ -59,7 +59,9 @@ path GetProgramDir(const char* programPath)
 {
     if (programPath == 0)
         return "";
-    return path(programPath, boost::filesystem::native).branch_path();
+    //return path(programPath, boost::filesystem::native).branch_path();
+    // TODO(jgauci): FIX
+    return path();
 }
 
 void MainLoop()

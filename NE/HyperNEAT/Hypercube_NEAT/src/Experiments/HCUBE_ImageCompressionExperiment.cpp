@@ -8,7 +8,7 @@
 
 #define OUTPUT_PPM "waveNM_output2.ppm"
 
-#define FITNESS_THRESHOLD (9000)
+#define FITNESS_THRESHOLD (0)
 
 namespace HCUBE
 {
@@ -142,6 +142,8 @@ namespace HCUBE
 		return population;
 	}
 
+  mutex imageMutex;
+  set<string> filesSaved;
 	void ImageCompressionExperiment::populateSubstrate(
 		shared_ptr<NEAT::GeneticIndividual> individual
 		)
@@ -211,20 +213,35 @@ namespace HCUBE
 				}
 				//tmpimage[y][x].a = 128 + int(network.getValue("Output_1A")*128);
 
-				totalFitness += 256-abs(rawimage[y][x].r-tmpimage[y][x].r);
-				totalFitness += 256-abs(rawimage[y][x].g-tmpimage[y][x].g);
-				totalFitness += 256-abs(rawimage[y][x].b-tmpimage[y][x].b);
-				//totalFitness += 256-fabs(rawimage[y][x].a-tmpimage[y][x].a);
-			}
+                                if (abs(rawimage[y][x].r-tmpimage[y][x].r) < 16) {
+                                  totalFitness += 256;
+                                }
+                                if (abs(rawimage[y][x].g-tmpimage[y][x].g) < 16) {
+                                  totalFitness += 256;
+                                }
+                                if (abs(rawimage[y][x].b-tmpimage[y][x].b) < 16) {
+                                  totalFitness += 256;
+                                }
+                                //totalFitness += 256-abs(rawimage[y][x].r-tmpimage[y][x].r);
+                                //totalFitness += 256-abs(rawimage[y][x].g-tmpimage[y][x].g);
+                                //totalFitness += 256-abs(rawimage[y][x].b-tmpimage[y][x].b);
+                        }
 		}
 
 		individual->setFitness(totalFitness/256.0/256.0/256.0/3.0*10000.0);
 
+                //cout << "FITNESS: " << individual->getFitness() << ' ' << FITNESS_THRESHOLD << endl;
 		if(individual->getFitness()>FITNESS_THRESHOLD)
 		{
-			{
+                  mutex::scoped_lock scoped_lock(imageMutex);
+                  string filename = string("TestImages/FIT") + toString((int(individual->getFitness())/50)*50) + string(OUTPUT_PPM);
+                  if (filesSaved.find(filename) == filesSaved.end())
+                    {
+                      filesSaved.insert(filename);
+
 				//Write out the PPM
-				ofstream outfile(OUTPUT_PPM);
+                          cout << "WRITING TO " << filename << endl;
+                          ofstream outfile(filename.c_str());
 
 				outfile << "P3\n# CREATOR: The GIMP's PNM Filter Version 1.0\n256 256\n255\n";
 
@@ -276,7 +293,7 @@ namespace HCUBE
 				outfile.flush();
 			}
 
-			exit(1);
+			//exit(1);
 		}
 	}
 
