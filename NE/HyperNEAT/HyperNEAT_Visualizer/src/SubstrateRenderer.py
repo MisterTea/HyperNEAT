@@ -32,7 +32,7 @@ class SubstrateRenderer(object):
                                                inputValue
                                                )
                 
-            network.updateFixedIterations(2)
+            network.update()
             self.networkDirty=False;
 
     def render(self):
