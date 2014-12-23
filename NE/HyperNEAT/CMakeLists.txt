@@ -82,7 +82,7 @@ cmake_minimum_required(VERSION 2.6)
 
 SET(
 	BUILD_PYTHON
-	ON 
+	OFF
 	CACHE 
 	BOOL
 	"Build the python extension?"
@@ -90,7 +90,7 @@ SET(
 
 SET(
 	BUILD_MPI
-	ON 
+	OFF 
 	CACHE 
 	BOOL
 	"Build the MPI extension?"
@@ -98,7 +98,7 @@ SET(
 
 SET(
 	BUILD_GPU
-	ON 
+	OFF
 	CACHE 
 	BOOL
 	"Build the GPU ANN implementation"
