@@ -218,8 +218,7 @@ To load one of these runs, select "file->load_population" from the menu bar.
 
 DEPENDENCIES
 --------------
-HyperNEAT depends on the TinyXMLDLL Library version 2.0
-(http://ucfpawn.homelinux.com/joomla/tinyxmldll/3.html),
+HyperNEAT depends on the TinyXMLDLL Library version 2.0,
 JG Template Library (http://sourceforge.net/projects/jgtl/),
 Boost c++ libraries (http://www.boost.org/) and
 WxWidgets *Only if building in GUI mode* (http://www.wxwidgets.org/).
@@ -233,14 +232,16 @@ BUILD INSTRUCTIONS:
 ---------------
 UNIX/LINUX/CYGWIN/MACOSX:
 
+Create a HyperNEAT/build directory.
+
 Inside the HyperNEAT/build directory, create two subdirectories, one for debug and one for release:
 
-mkdir build/cygwin_debug
-mkdir build/cygwin_release
+mkdir build/debug
+mkdir build/release
 
-Now, run cmake on each of those directories with the -i option, and put the appropriate configuration (debug for *_debug, release for *_release):
+Now, run ccmake on each of those directories and put the appropriate configuration (debug for *_debug, release for *_release):
 
-cmake -i ../../
+ccmake ../../
 
 The USE_GUI setting can be set to turn on/off the GUI.  If the GUI is 
 disabled, the code does not depend on WxWidgets.
@@ -249,6 +250,8 @@ Now, just run "make" on the build/*/ directories and the dlls & libraries should
 
 
 WINDOWS:
+
+Create a HyperNEAT/build directory.
 
 Inside the build directory, create a subdirectory:
 
