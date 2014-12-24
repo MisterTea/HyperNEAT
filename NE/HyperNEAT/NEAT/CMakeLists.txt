@@ -3,8 +3,9 @@ Project(NEAT)
 ADD_DEFINITIONS(
     -DBUILD_NEAT_DLL 
     -DTIXML_USE_STL
-	-DNOMINMAX
-	-DBOOST_ALL_NO_LIB
+    -DNOMINMAX
+    -DBOOST_ALL_NO_LIB
+    -DBOOST_FILESYSTEM_DEPRECATED
 )
 
 INCLUDE_REGULAR_EXPRESSION( "^.*[Nn][Ee][Aa][Tt][_].*$" )
@@ -13,7 +14,7 @@ INCLUDE_REGULAR_EXPRESSION( "^.*[Nn][Ee][Aa][Tt][_].*$" )
 
 SET(
 TINYXMLDLL_INCLUDE
-"../../../tinyxmldll/include"
+"${CMAKE_CURRENT_SOURCE_DIR}/../../../tinyxmldll/include"
 CACHE
 PATH 
 "TinyXMLDLL include directory"
@@ -21,7 +22,7 @@ PATH
 
 SET(
 BOOST_ROOT
-"../../../../Libraries/boost-trunk"
+"${CMAKE_CURRENT_SOURCE_DIR}/../../../boost_1_57_0"
 CACHE
 PATH 
 "Boost Base Directory"
@@ -29,7 +30,7 @@ PATH
 
 SET(
 JGTL_INCLUDE
-"../../../JGTL/include"
+"${CMAKE_CURRENT_SOURCE_DIR}/../../../JGTL/include"
 CACHE
 PATH 
 "JGTL include directory"
@@ -37,7 +38,7 @@ PATH
 
 SET(
 ZLIB_INCLUDE
-"../../../zlib"
+"${CMAKE_CURRENT_SOURCE_DIR}/../../../zlib"
 CACHE
 PATH 
 "Zlib include directory"
@@ -45,7 +46,7 @@ PATH
 
 SET(
 	BOARD_INCLUDE
-	"../../../../Libraries/Board/include/"
+	"${CMAKE_CURRENT_SOURCE_DIR}/../../../Board/include/"
 	CACHE
 	PATH 
 	"libboard include directory"
@@ -75,7 +76,7 @@ ENDIF(BUILD_GPU)
 
 SET(
 	BOOST_STAGE
-	"${CMAKE_CURRENT_SOURCE_DIR}/../../../../Libraries/boost-trunk/stage/lib"
+	"${CMAKE_CURRENT_SOURCE_DIR}/../../../boost_1_57_0/stage/lib"
 	CACHE
 	PATH 
 	"Boost Stage Directory"
@@ -99,7 +100,7 @@ PATH
 
 SET(
 	BOARD_LIB
-	"${CMAKE_CURRENT_SOURCE_DIR}/../../../../Libraries/Board/out/"
+	"${CMAKE_CURRENT_SOURCE_DIR}/../../../Board/out/"
 	CACHE
 	PATH 
 	"libboard library directory"

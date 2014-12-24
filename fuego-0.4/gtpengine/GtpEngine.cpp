@@ -122,9 +122,9 @@ void Trim(string& str)
 /** Utility functions for Boost.Thread. */
 namespace {
 
-void Notify(mutex& aMutex, condition& aCondition)
+void Notify(boost::mutex& aMutex, condition& aCondition)
 {
-    mutex::scoped_lock lock(aMutex);
+    boost::mutex::scoped_lock lock(aMutex);
     aCondition.notify_all();
 }
 
@@ -172,15 +172,15 @@ private:
 
     barrier m_threadReady;
 
-    mutex m_startPonderMutex;
+    boost::mutex m_startPonderMutex;
 
-    mutex m_ponderFinishedMutex;
+    boost::mutex m_ponderFinishedMutex;
 
     condition m_startPonder;
 
     condition m_ponderFinished;
 
-    mutex::scoped_lock m_ponderFinishedLock;
+    boost::mutex::scoped_lock m_ponderFinishedLock;
 
     /** The thread to run the ponder function.
         Order dependency: must be constructed as the last member, because the
@@ -196,7 +196,7 @@ PonderThread::Function::Function(PonderThread& ponderThread)
 
 void PonderThread::Function::operator()()
 {
-    mutex::scoped_lock lock(m_ponderThread.m_startPonderMutex);
+    boost::mutex::scoped_lock lock(m_ponderThread.m_startPonderMutex);
     m_ponderThread.m_threadReady.wait();
     while (true)
     {
@@ -288,15 +288,15 @@ private:
 
     barrier m_threadReady;
 
-    mutex m_waitCommandMutex;
+    boost::mutex m_waitCommandMutex;
 
     condition m_waitCommand;
 
-    mutex m_commandReceivedMutex;
+    boost::mutex m_commandReceivedMutex;
 
     condition m_commandReceived;
 
-    mutex::scoped_lock m_commandReceivedLock;
+    boost::mutex::scoped_lock m_commandReceivedLock;
 
     /** The thread to run the read command function.
         Order dependency: must be constructed as the last member, because the
@@ -312,7 +312,7 @@ ReadThread::Function::Function(ReadThread& readThread)
 
 void ReadThread::Function::operator()()
 {
-    mutex::scoped_lock lock(m_readThread.m_waitCommandMutex);
+    boost::mutex::scoped_lock lock(m_readThread.m_waitCommandMutex);
     m_readThread.m_threadReady.wait();
     GtpEngine& engine = m_readThread.m_engine;
     GtpInputStream& in = m_readThread.m_in;

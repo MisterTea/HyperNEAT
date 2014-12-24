@@ -6,6 +6,7 @@
 *		contact: checkers@fierz.ch				
 */
 
+#include <algorithm>
 
 #include "switches.h"
 #include <stdio.h>
@@ -13,7 +14,6 @@
 #include <string.h> // memset() 
 #include <time.h>
 #include <assert.h>
-#include <algorithm>
 using namespace std;
 
 //#include <conio.h>

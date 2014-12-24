@@ -21,14 +21,14 @@ add_definitions(/fp:fast)
 
 ELSE(MSVC)
 
-SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -rdynamic -g -Wall -Wno-unused-variable -fPIC")
-SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -rdynamic -g -Wall -Wno-unused-variable -fPIC")
+SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -stdlib=libstdc++ -rdynamic -g -Wall -Wno-unused-variable -fPIC")
+SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -stdlib=libstdc++ -rdynamic -g -Wall -Wno-unused-variable -fPIC")
 
-SET(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -rdynamic -g -DRELEASE_MODE -msse2 -DNDEBUG -fPIC")
-SET(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -rdynamic -g -DRELEASE_MODE -msse2 -DNDEBUG -fPIC")
+SET(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -stdlib=libstdc++ -rdynamic -g -DRELEASE_MODE -msse2 -DNDEBUG -fPIC")
+SET(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -stdlib=libstdc++ -rdynamic -g -DRELEASE_MODE -msse2 -DNDEBUG -fPIC")
 
-SET(CMAKE_CXX_FLAGS_RELWITHDEBINFO "${CMAKE_CXX_FLAGS_RELWITHDEBINFO} -rdynamic -g -msse2 -DNDEBUG -fPIC")
-SET(CMAKE_C_FLAGS_RELWITHDEBINFO "${CMAKE_C_FLAGS_RELWITHDEBINFO} -rdynamic -g -msse2 -DNDEBUG -fPIC")
+SET(CMAKE_CXX_FLAGS_RELWITHDEBINFO "${CMAKE_CXX_FLAGS_RELWITHDEBINFO} -stdlib=libstdc++ -rdynamic -g -msse2 -DNDEBUG -fPIC")
+SET(CMAKE_C_FLAGS_RELWITHDEBINFO "${CMAKE_C_FLAGS_RELWITHDEBINFO} -stdlib=libstdc++ -rdynamic -g -msse2 -DNDEBUG -fPIC")
 
 ENDIF(MSVC)
 
@@ -76,14 +76,15 @@ ENDIF(NOT MYPROJ_RAN_ONCE)
 ADD_DEFINITIONS(
     -D_USE_MATH_DEFINES
     -DNOMINMAX
-	-DBOOST_ALL_NO_LIB
-	-DBOOST_TEST_ALTERNATIVE_INIT_API
-	-DBOOST_TEST_NO_MAIN
+    -DBOOST_ALL_NO_LIB
+    -DBOOST_TEST_ALTERNATIVE_INIT_API
+    -DBOOST_TEST_NO_MAIN
+    -DBOOST_FILESYSTEM_DEPRECATED
 )
 
 SET(
 BOOST_ROOT
-"../../Libraries/boost-trunk"
+"${CMAKE_CURRENT_SOURCE_DIR}/../boost_1_57_0"
 CACHE
 PATH 
 "Boost Base Directory"
@@ -104,7 +105,7 @@ ${JGTL_INCLUDE}
 
 SET(
 	BOOST_STAGE
-	"${CMAKE_CURRENT_SOURCE_DIR}/../../Libraries/boost-trunk/stage/lib"
+	"${CMAKE_CURRENT_SOURCE_DIR}/../boost_1_57_0/stage/lib"
 	CACHE
 	PATH 
 	"Boost Stage Directory"
@@ -117,7 +118,7 @@ LINK_DIRECTORIES(
 
 SET(
 	BOOST_LIB_EXT_NAME_DEBUG
-	"mt-gd"
+	"mt-d"
 	CACHE
 	STRING 
 	"Boost debug extension"

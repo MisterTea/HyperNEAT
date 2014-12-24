@@ -7,21 +7,17 @@ using namespace JGTL;
 #include <cstdlib>
 using namespace std;
 
-#ifdef WIN32
-typedef unsigned long long ulong;
-#endif
+typedef IntegralUnits<unsigned long long,1ULL,true>				Milliseconds;
+typedef IntegralUnits<unsigned long long,1000ULL,true>			Seconds;
+typedef IntegralUnits<unsigned long long,60000ULL,true>			Minutes;
+typedef IntegralUnits<unsigned long long,3600000ULL,true>		Hours;
+typedef IntegralUnits<unsigned long long,86400000ULL,true>		Days;
+typedef IntegralUnits<unsigned long long,2592000000ULL,true>		Months;
 
-typedef IntegralUnits<ulong,1ULL,true>				Milliseconds;
-typedef IntegralUnits<ulong,1000ULL,true>			Seconds;
-typedef IntegralUnits<ulong,60000ULL,true>			Minutes;
-typedef IntegralUnits<ulong,3600000ULL,true>		Hours;
-typedef IntegralUnits<ulong,86400000ULL,true>		Days;
-typedef IntegralUnits<ulong,2592000000ULL,true>		Months;
-
-typedef IntegralUnits<ulong,1ULL,true>				Inches;
-typedef IntegralUnits<ulong,12ULL,true>			Feet;
-typedef IntegralUnits<ulong,36ULL,true>			Yards;
-typedef IntegralUnits<ulong,63360ULL,true>			Miles;
+typedef IntegralUnits<unsigned long long,1ULL,true>				Inches;
+typedef IntegralUnits<unsigned long long,12ULL,true>			Feet;
+typedef IntegralUnits<unsigned long long,36ULL,true>			Yards;
+typedef IntegralUnits<unsigned long long,63360ULL,true>			Miles;
 
 typedef FloatingUnits<double,1ULL,1ULL>			Radians;
 typedef FloatingUnits<double,174532777ULL,10000000000ULL>		Degrees;

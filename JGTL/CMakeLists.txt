@@ -21,14 +21,14 @@ add_definitions(/fp:fast)
 
 ELSE(MSVC)
 
-SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -rdynamic -g -Wall -Wno-unused-variable")
-SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -rdynamic -g -Wall -Wno-unused-variable")
+SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -stdlib=libstdc++ -rdynamic -g -Wall -Wno-unused-variable")
+SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -stdlib=libstdc++ -rdynamic -g -Wall -Wno-unused-variable")
 
-SET(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -rdynamic -g -DRELEASE_MODE -msse2 -DNDEBUG")
-SET(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -rdynamic -g -DRELEASE_MODE -msse2 -DNDEBUG")
+SET(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -stdlib=libstdc++ -rdynamic -g -DRELEASE_MODE -msse2 -DNDEBUG")
+SET(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -stdlib=libstdc++ -rdynamic -g -DRELEASE_MODE -msse2 -DNDEBUG")
 
-SET(CMAKE_CXX_FLAGS_RELWITHDEBINFO "${CMAKE_CXX_FLAGS_RELWITHDEBINFO} -rdynamic -g -msse2 -DNDEBUG")
-SET(CMAKE_C_FLAGS_RELWITHDEBINFO "${CMAKE_C_FLAGS_RELWITHDEBINFO} -rdynamic -g -msse2 -DNDEBUG")
+SET(CMAKE_CXX_FLAGS_RELWITHDEBINFO "${CMAKE_CXX_FLAGS_RELWITHDEBINFO} -stdlib=libstdc++ -rdynamic -g -msse2 -DNDEBUG")
+SET(CMAKE_C_FLAGS_RELWITHDEBINFO "${CMAKE_C_FLAGS_RELWITHDEBINFO} -stdlib=libstdc++ -rdynamic -g -msse2 -DNDEBUG")
 
 ENDIF(MSVC)
 
@@ -75,7 +75,7 @@ ENDIF(NOT MYPROJ_RAN_ONCE)
 
 SET(
 	BOOST_ROOT
-	"../../Libraries/boost-trunk"
+	"../boost_1_57_0"
 	CACHE
 	PATH 
 	"Boost Base Directory"
@@ -88,7 +88,7 @@ INCLUDE_DIRECTORIES(
 
 SET(
 	BOOST_STAGE
-	"${CMAKE_CURRENT_SOURCE_DIR}/../../../Libraries/boost-trunk/stage/lib"
+	"${CMAKE_CURRENT_SOURCE_DIR}/../boost_1_57_0/stage/lib"
 	CACHE
 	PATH 
 	"Boost Stage Directory"
@@ -169,13 +169,4 @@ ADD_EXECUTABLE(
 )
 
 SET_TARGET_PROPERTIES(ColorTests PROPERTIES DEBUG_POSTFIX _d)
-
-ADD_EXECUTABLE(
-	TreeTests
-
-	tests/TreeTests.cpp
-)
-
-SET_TARGET_PROPERTIES(TreeTests PROPERTIES DEBUG_POSTFIX _d)
-
 
