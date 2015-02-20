@@ -422,12 +422,14 @@ ADD_DEPENDENCIES(Hypercube_NEAT_Base NEATLib CakeFixedDepthLib ClicheLib)
 
 SET_TARGET_PROPERTIES(Hypercube_NEAT_Base PROPERTIES DEBUG_POSTFIX _d)
 
-ADD_EXECUTABLE(
-	Hypercube_NEAT
-	MACOSX_BUNDLE
+#ADD_EXECUTABLE(
+# Hypercube_NEAT
+# MACOSX_BUNDLE
+#
+# src/main.cpp
+# )
 
-	src/main.cpp
-	)
+ADD_EXECUTABLE( Hypercube_NEAT src/main.cpp )
 
 SET_TARGET_PROPERTIES(Hypercube_NEAT PROPERTIES DEBUG_POSTFIX _d)
 
