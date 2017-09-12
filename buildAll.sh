@@ -71,11 +71,11 @@ pushd debug
 cmake -DCMAKE_BUILD_TYPE=Debug ../../
 # The first run forces release, so run again to override
 cmake -DCMAKE_BUILD_TYPE=Debug ../../
-make -j8
+make -j8 board
 popd
 pushd release
 cmake -DCMAKE_BUILD_TYPE=Release ../../
-make -j8
+make -j8 board
 popd
 popd
 popd
